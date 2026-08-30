@@ -12,6 +12,9 @@ interface Props {
   ignored: boolean;
   onToggleHide: (internalName: string) => void;
   onInfo: (internalName: string) => void;
+  /** When on, names/art are always shown regardless of research status —
+   * see `SettingsMenu`'s "Show Item Names" switch. */
+  showItemNames: boolean;
 }
 
 function stateLabel(status: ResearchStatus, sacrificed: number, needed: number): string {
@@ -20,12 +23,21 @@ function stateLabel(status: ResearchStatus, sacrificed: number, needed: number):
   return `MISSING · ${sacrificed}/${needed}`;
 }
 
-export const ItemRow = memo(function ItemRow({ item, state, manuallyMarked, onToggleManual, ignored, onToggleHide, onInfo }: Props) {
+export const ItemRow = memo(function ItemRow({
+  item,
+  state,
+  manuallyMarked,
+  onToggleManual,
+  ignored,
+  onToggleHide,
+  onInfo,
+  showItemNames,
+}: Props) {
   const sacrificed = state?.sacrificed ?? 0;
   const needed = state?.needed ?? item.needed;
   const savedStatus: ResearchStatus = state?.status ?? "missing";
   const effectiveStatus: ResearchStatus = savedStatus === "complete" ? "complete" : manuallyMarked ? "complete" : savedStatus;
-  const revealed = effectiveStatus !== "missing";
+  const revealed = !showItemNames || effectiveStatus !== "missing";
 
   return (
     <div className="item-row" data-status={effectiveStatus} data-ignored={ignored} role="listitem">

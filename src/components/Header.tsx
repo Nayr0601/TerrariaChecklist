@@ -16,6 +16,8 @@ interface Props {
   onToggleShowUnchecked: () => void;
   onToggleShowChecked: () => void;
   onToggleShowIgnored: () => void;
+  showItemNames: boolean;
+  onToggleShowItemNames: () => void;
   theme: ThemeId;
   onChangeTheme: (t: ThemeId) => void;
   mobileExtra?: React.ReactNode;
@@ -34,6 +36,8 @@ export function Header({
   onToggleShowUnchecked,
   onToggleShowChecked,
   onToggleShowIgnored,
+  showItemNames,
+  onToggleShowItemNames,
   theme,
   onChangeTheme,
   mobileExtra,
@@ -78,6 +82,8 @@ export function Header({
           onToggleShowUnchecked={onToggleShowUnchecked}
           onToggleShowChecked={onToggleShowChecked}
           onToggleShowIgnored={onToggleShowIgnored}
+          showItemNames={showItemNames}
+          onToggleShowItemNames={onToggleShowItemNames}
           theme={theme}
           onChangeTheme={onChangeTheme}
         />

@@ -21,6 +21,9 @@ export default function App() {
   const [showUnchecked, setShowUnchecked] = useLocalStorage("journey-ledger:show-unchecked-items", true);
   const [showChecked, setShowChecked] = useLocalStorage("journey-ledger:show-checked-items", false);
   const [showIgnored, setShowIgnored] = useLocalStorage("journey-ledger:show-ignored-items", false);
+  // Off by default (matches the game's own "?????" silhouette for
+  // unresearched items); on, names are always shown regardless of status.
+  const [showItemNames, setShowItemNames] = useLocalStorage("journey-ledger:show-item-names", false);
 
   const hasSave = state.status === "ready";
   const worldLabel =
@@ -47,6 +50,8 @@ export default function App() {
         onToggleShowUnchecked={() => setShowUnchecked((v) => !v)}
         onToggleShowChecked={() => setShowChecked((v) => !v)}
         onToggleShowIgnored={() => setShowIgnored((v) => !v)}
+        showItemNames={showItemNames}
+        onToggleShowItemNames={() => setShowItemNames((v) => !v)}
         theme={theme}
         onChangeTheme={setTheme}
       />
@@ -73,6 +78,7 @@ export default function App() {
           showUnchecked={showUnchecked}
           showChecked={showChecked}
           showIgnored={showIgnored}
+          showItemNames={showItemNames}
         />
       ) : (
         <ProgressionView />

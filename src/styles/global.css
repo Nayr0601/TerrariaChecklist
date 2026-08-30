@@ -272,6 +272,13 @@ input {
   letter-spacing: 1.5px;
 }
 
+.settings-panel__hint {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  line-height: 1.5;
+  color: var(--faint);
+}
+
 .switch-row {
   display: flex;
   align-items: center;

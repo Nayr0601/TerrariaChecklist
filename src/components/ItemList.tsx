@@ -14,6 +14,7 @@ interface RowData {
   hiddenIds: Set<string>;
   onToggleHide: (internalName: string) => void;
   onInfo: (internalName: string) => void;
+  showItemNames: boolean;
 }
 
 function Row({ index, style, data }: ListChildComponentProps<RowData>) {
@@ -28,6 +29,7 @@ function Row({ index, style, data }: ListChildComponentProps<RowData>) {
         ignored={data.hiddenIds.has(item.internalName)}
         onToggleHide={data.onToggleHide}
         onInfo={data.onInfo}
+        showItemNames={data.showItemNames}
       />
     </div>
   );
@@ -41,6 +43,7 @@ interface Props {
   hiddenIds: Set<string>;
   onToggleHide: (internalName: string) => void;
   onInfo: (internalName: string) => void;
+  showItemNames: boolean;
 }
 
 /**
@@ -49,14 +52,23 @@ interface Props {
  * "All Items" view and a multi-second layout stall, especially once
  * sprite `<img>` tags are involved.
  */
-export function ItemList({ items, researchState, manualOverrides, onToggleManual, hiddenIds, onToggleHide, onInfo }: Props) {
+export function ItemList({
+  items,
+  researchState,
+  manualOverrides,
+  onToggleManual,
+  hiddenIds,
+  onToggleHide,
+  onInfo,
+  showItemNames,
+}: Props) {
   const isMobile = useMediaQuery("(max-width: 780px)");
   const rowHeight = isMobile ? 110 : 70;
   const { ref, width, height } = useElementSize<HTMLDivElement>();
 
   const itemData = useMemo<RowData>(
-    () => ({ items, researchState, manualOverrides, onToggleManual, hiddenIds, onToggleHide, onInfo }),
-    [items, researchState, manualOverrides, onToggleManual, hiddenIds, onToggleHide, onInfo],
+    () => ({ items, researchState, manualOverrides, onToggleManual, hiddenIds, onToggleHide, onInfo, showItemNames }),
+    [items, researchState, manualOverrides, onToggleManual, hiddenIds, onToggleHide, onInfo, showItemNames],
   );
 
   return (

@@ -19,9 +19,10 @@ interface Props {
   showUnchecked: boolean;
   showChecked: boolean;
   showIgnored: boolean;
+  showItemNames: boolean;
 }
 
-export function ItemsView({ plrState, onLoadFile, hidden, showUnchecked, showChecked, showIgnored }: Props) {
+export function ItemsView({ plrState, onLoadFile, hidden, showUnchecked, showChecked, showIgnored, showItemNames }: Props) {
   const [category, setCategory] = useState(ALL_ITEMS);
   const [query, setQuery] = useState("");
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -101,6 +102,7 @@ export function ItemsView({ plrState, onLoadFile, hidden, showUnchecked, showChe
               hiddenIds={hidden.ids}
               onToggleHide={hidden.toggle}
               onInfo={setInfoItem}
+              showItemNames={showItemNames}
             />
           </>
         ) : (

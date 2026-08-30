@@ -8,6 +8,8 @@ interface Props {
   onToggleShowUnchecked: () => void;
   onToggleShowChecked: () => void;
   onToggleShowIgnored: () => void;
+  showItemNames: boolean;
+  onToggleShowItemNames: () => void;
   theme: ThemeId;
   onChangeTheme: (id: ThemeId) => void;
 }
@@ -40,6 +42,8 @@ export function SettingsMenu({
   onToggleShowUnchecked,
   onToggleShowChecked,
   onToggleShowIgnored,
+  showItemNames,
+  onToggleShowItemNames,
   theme,
   onChangeTheme,
 }: Props) {
@@ -83,6 +87,12 @@ export function SettingsMenu({
             <SwitchRow label="Show Unchecked Items" checked={showUnchecked} onChange={onToggleShowUnchecked} />
             <SwitchRow label="Show Checked Items" checked={showChecked} onChange={onToggleShowChecked} />
             <SwitchRow label="Show Ignored Items" checked={showIgnored} onChange={onToggleShowIgnored} />
+            <SwitchRow label="Show Item Names" checked={showItemNames} onChange={onToggleShowItemNames} />
+            <span className="settings-panel__hint">
+              {showItemNames
+                ? "Item names are always shown, even for items you haven't found."
+                : "Unresearched items show as “?????” until you find them."}
+            </span>
           </div>
 
           <div className="settings-panel__section">
