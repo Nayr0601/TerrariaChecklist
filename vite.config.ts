@@ -15,6 +15,14 @@ export default defineConfig({
     // size rather than something to code-split away. See README
     // "Performance".
     chunkSizeWarningLimit: 1100,
+    // Most item sprites (src/assets/sprites/*.png) are well under Vite's
+    // default 4KB inline threshold, so without this they'd get base64'd
+    // straight into the JS bundle instead of emitted as separate files —
+    // `sprites.ts`'s `import.meta.glob(..., { eager: true })` only resolves
+    // cheap URL strings eagerly, not image bytes; browsers should still
+    // fetch/cache each sprite as its own file, lazily, only for rows
+    // actually scrolled into view.
+    assetsInlineLimit: 0,
   },
   test: {
     environment: "node",

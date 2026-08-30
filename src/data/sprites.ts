@@ -3,16 +3,20 @@
  *
  * Sprites live at `src/assets/sprites/<itemId>.png` (e.g. `8.png` for
  * Torch, item ID 8 — see `pre-data/Terraria Items - Sheet1.csv` for IDs).
- * None are bundled in this repo (no sprite sheet was supplied with the
- * project), so this resolves to an empty map today and every item tile
- * falls back to its pixel-art initials placeholder (see `ItemTile.tsx`) —
- * dropping PNGs into that folder with matching filenames is all that's
- * needed to light them up, no other code changes required.
+ * `.gitignore`d rather than committed — they're extracted from the game's
+ * own `Item_<id>.png` icons, © Re-Logic, so this repo doesn't redistribute
+ * them (see README "Attribution"); each dev drops in their own copies
+ * locally. Any item without a matching file here just falls back to its
+ * pixel-art initials placeholder (see `ItemTile.tsx`), so a missing sprite
+ * never breaks the row — it only loses the art. That also means a fresh
+ * `git clone` renders every tile as a placeholder until sprites are added.
  *
- * `import.meta.glob` resolves every sprite in a single build-time pass (so
- * this ships as ordinary bundled/hashed static assets, not one request per
- * item at runtime) and Vite's own asset pipeline handles caching and lazy
- * chunking of the resulting URLs.
+ * `import.meta.glob` resolves every sprite's *URL* eagerly in a single
+ * build-time pass — cheap, since it's just string glue, not image bytes —
+ * while `vite.config.ts`'s `assetsInlineLimit: 0` keeps Vite from inlining
+ * these (mostly sub-4KB) PNGs as base64 into that eager JS; each stays a
+ * separate hashed file that the browser fetches/caches individually, only
+ * for rows actually scrolled into view (`<img loading="lazy">`).
  */
 const modules = import.meta.glob<string>("../assets/sprites/*.png", {
   eager: true,

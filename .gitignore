@@ -21,3 +21,10 @@ Thumbs.db
 
 # generated test fixtures (binary, regenerate with `npm run generate:fixtures`)
 tests/fixtures/*.plr
+
+# item/boss sprites — extracted from Terraria's game files (© Re-Logic);
+# kept local-only rather than redistributed from this public repo. See
+# README "Attribution" and src/data/sprites.ts / bossSprites.ts for how to
+# add your own.
+src/assets/sprites/*.png
+src/assets/boss-sprites/*.png

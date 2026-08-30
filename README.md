@@ -168,7 +168,7 @@ The generated `items.json` (~6,133 items × id/name/needed/category) is bundled 
 
 ## Attribution
 
-Terraria, its items, bosses, and all game content referenced here are © [Re-Logic](https://re-logic.com/). This is an unofficial, fan-made tool for players to inspect their own local save data; it is not affiliated with or endorsed by Re-Logic. Item names and IDs are drawn from publicly available Terraria data (the source CSVs bundled in `pre-data/`); no game assets beyond publicly known names/IDs are redistributed, and any sprites you add locally under `src/assets/sprites/` remain your own responsibility to source appropriately.
+Terraria, its items, bosses, and all game content referenced here are © [Re-Logic](https://re-logic.com/). This is an unofficial, fan-made tool for players to inspect their own local save data; it is not affiliated with or endorsed by Re-Logic. Item names and IDs are drawn from publicly available Terraria data (the source CSVs bundled in `pre-data/`); no game assets beyond publicly known names/IDs are redistributed, and any sprites you add locally under `src/assets/sprites/` (items) or `src/assets/boss-sprites/` (bosses) remain your own responsibility to source appropriately.
 
 Fonts: [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P), [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans), and [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) via Google Fonts (Open Font License).
 
