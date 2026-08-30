@@ -1,0 +1,6147 @@
+ID,Name,Research
+1,Iron Pickaxe,1
+2,Dirt Block,100
+3,Stone Block,100
+4,Iron Broadsword,1
+5,Mushroom,30
+6,Iron Shortsword,1
+7,Iron Hammer,1
+8,Torch,100
+9,Wood,100
+10,Iron Axe,1
+11,Iron Ore,100
+12,Copper Ore,100
+13,Gold Ore,100
+14,Silver Ore,100
+15,Copper Watch,1
+16,Silver Watch,1
+17,Gold Watch,1
+18,Depth Meter,1
+19,Gold Bar,25
+20,Copper Bar,25
+21,Silver Bar,25
+22,Iron Bar,25
+23,Gel,99
+24,Wooden Sword,1
+25,Wooden Door,1
+26,Stone Wall,400
+27,Acorn,50
+28,Lesser Healing Potion,30
+29,Life Crystal,10
+30,Dirt Wall,400
+31,Bottle,25
+32,Wooden Table,1
+33,Furnace,1
+34,Wooden Chair,1
+35,Iron Anvil,1
+36,Work Bench,1
+37,Goggles,1
+38,Lens,25
+39,Wooden Bow,1
+40,Wooden Arrow,99
+41,Flaming Arrow,99
+42,Shuriken,99
+43,Suspicious Looking Eye,3
+44,Demon Bow,1
+45,War Axe of the Night,1
+46,Light's Bane,1
+47,Unholy Arrow,99
+48,Chest,1
+49,Band of Regeneration,1
+50,Magic Mirror,1
+51,Jester's Arrow,99
+52,Angel Statue,1
+53,Cloud in a Bottle,1
+54,Hermes Boots,1
+55,Enchanted Boomerang,1
+56,Demonite Ore,100
+57,Demonite Bar,25
+59,Corrupt Seeds,25
+60,Vile Mushroom,25
+61,Ebonstone Block,100
+62,Grass Seeds,25
+63,Sunflower,5
+64,Vilethorn,1
+65,Starfury,1
+66,Purification Powder,99
+67,Vile Powder,99
+68,Rotten Chunk,25
+69,Worm Tooth,25
+70,Worm Food,3
+71,Copper Coin,100
+72,Silver Coin,100
+73,Gold Coin,100
+74,Platinum Coin,100
+75,Fallen Star,50
+76,Copper Greaves,1
+77,Iron Greaves,1
+78,Silver Greaves,1
+79,Gold Greaves,1
+80,Copper Chainmail,1
+81,Iron Chainmail,1
+82,Silver Chainmail,1
+83,Gold Chainmail,1
+84,Grappling Hook,1
+85,Chain,100
+86,Shadow Scale,25
+87,Piggy Bank,1
+88,Mining Helmet,1
+89,Copper Helmet,1
+90,Iron Helmet,1
+91,Silver Helmet,1
+92,Gold Helmet,1
+93,Wood Wall,400
+94,Wood Platform,200
+95,Flintlock Pistol,1
+96,Musket,1
+97,Musket Ball,99
+98,Minishark,1
+99,Iron Bow,1
+100,Shadow Greaves,1
+101,Shadow Scalemail,1
+102,Shadow Helmet,1
+103,Nightmare Pickaxe,1
+104,The Breaker,1
+105,Candle,1
+106,Copper Chandelier,1
+107,Silver Chandelier,1
+108,Gold Chandelier,1
+109,Mana Crystal,10
+110,Lesser Mana Potion,30
+111,Band of Starpower,1
+112,Flower of Fire,1
+113,Magic Missile,1
+114,Dirt Rod,1
+115,Shadow Orb,1
+116,Meteorite,100
+117,Meteorite Bar,25
+118,Hook,1
+119,Flamarang,1
+120,Molten Fury,1
+121,Volcano,1
+122,Molten Pickaxe,1
+123,Meteor Helmet,1
+124,Meteor Suit,1
+125,Meteor Leggings,1
+126,Bottled Water,30
+127,Space Gun,1
+128,Rocket Boots,1
+129,Gray Brick,100
+130,Gray Brick Wall,400
+131,Red Brick,100
+132,Red Brick Wall,400
+133,Clay Block,100
+134,Blue Brick,100
+135,Blue Brick Wall,400
+136,Chain Lantern,1
+137,Green Brick,100
+138,Green Brick Wall,400
+139,Pink Brick,100
+140,Pink Brick Wall,400
+141,Gold Brick,100
+142,Gold Brick Wall,400
+143,Silver Brick,100
+144,Silver Brick Wall,400
+145,Copper Brick,100
+146,Copper Brick Wall,400
+147,Spike,100
+148,Water Candle,1
+149,Book,25
+150,Cobweb,50
+151,Necro Helmet,1
+152,Necro Breastplate,1
+153,Necro Greaves,1
+154,Bone,99
+155,Muramasa,1
+156,Cobalt Shield,1
+157,Aqua Scepter,1
+158,Lucky Horseshoe,1
+159,Shiny Red Balloon,1
+160,Harpoon,1
+161,Spiky Ball,99
+162,Ball O' Hurt,1
+163,Blue Moon,1
+164,Handgun,1
+165,Water Bolt,1
+166,Bomb,99
+167,Dynamite,99
+168,Grenade,99
+169,Sand Block,100
+170,Glass,100
+171,Sign,1
+172,Ash Block,100
+173,Obsidian,100
+174,Hellstone,100
+175,Hellstone Bar,25
+176,Mud Block,100
+177,Sapphire,15
+178,Ruby,15
+179,Emerald,15
+180,Topaz,15
+181,Amethyst,15
+182,Diamond,15
+183,Glowing Mushroom,100
+185,Ivy Whip,1
+186,Breathing Reed,1
+187,Flipper,1
+188,Healing Potion,30
+189,Mana Potion,30
+190,Blade of Grass,1
+191,Thorn Chakram,1
+192,Obsidian Brick,100
+193,Obsidian Skull,1
+194,Mushroom Grass Seeds,25
+195,Jungle Grass Seeds,25
+196,Wooden Hammer,1
+197,Star Cannon,1
+198,Blue Phaseblade,1
+199,Red Phaseblade,1
+200,Green Phaseblade,1
+201,Purple Phaseblade,1
+202,White Phaseblade,1
+203,Yellow Phaseblade,1
+204,Meteor Hamaxe,1
+205,Empty Bucket,1
+206,Water Bucket,1
+207,Lava Bucket,1
+208,Jungle Rose,1
+209,Stinger,25
+210,Vine,5
+211,Feral Claws,1
+212,Anklet of the Wind,1
+213,Staff of Regrowth,1
+214,Hellstone Brick,100
+215,Whoopie Cushion,1
+216,Shackle,1
+217,Molten Hamaxe,1
+218,Flamelash,1
+219,Phoenix Blaster,1
+220,Sunfury,1
+221,Hellforge,1
+222,Clay Pot,1
+223,Nature's Gift,1
+224,Bed,1
+225,Silk,25
+227,Restoration Potion,30
+228,Jungle Hat,1
+229,Jungle Shirt,1
+230,Jungle Pants,1
+231,Molten Helmet,1
+232,Molten Breastplate,1
+233,Molten Greaves,1
+234,Meteor Shot,99
+235,Sticky Bomb,99
+236,Black Lens,1
+237,Sunglasses,1
+238,Wizard Hat,1
+239,Top Hat,1
+240,Tuxedo Shirt,1
+241,Tuxedo Pants,1
+242,Summer Hat,1
+243,Bunny Hood,1
+244,Plumber's Hat,1
+245,Plumber's Shirt,1
+246,Plumber's Pants,1
+247,Hero's Hat,1
+248,Hero's Shirt,1
+249,Hero's Pants,1
+250,Fish Bowl,1
+251,Archaeologist's Hat,1
+252,Archaeologist's Jacket,1
+253,Archaeologist's Pants,1
+254,Black Thread,5
+255,Green Thread,5
+256,Ninja Hood,1
+257,Ninja Shirt,1
+258,Ninja Pants,1
+259,Leather,5
+260,Red Hat,1
+261,Goldfish,5
+262,Robe,1
+263,Robot Hat,1
+264,Gold Crown,1
+265,Hellfire Arrow,99
+266,Sandgun,1
+267,Guide Voodoo Doll,1
+268,Diving Helmet,1
+269,Familiar Shirt,1
+270,Familiar Pants,1
+271,Familiar Wig,1
+272,Demon Scythe,1
+273,Night's Edge,1
+274,Dark Lance,1
+275,Coral,25
+276,Cactus,100
+277,Trident,1
+278,Silver Bullet,99
+279,Throwing Knife,99
+280,Spear,1
+281,Blowpipe,1
+282,Glowstick,100
+283,Seed,99
+284,Wooden Boomerang,1
+285,Aglet,1
+286,Sticky Glowstick,100
+287,Poisoned Knife,99
+288,Obsidian Skin Potion,20
+289,Regeneration Potion,20
+290,Swiftness Potion,20
+291,Gills Potion,20
+292,Ironskin Potion,20
+293,Mana Regeneration Potion,20
+294,Magic Power Potion,20
+295,Featherfall Potion,20
+296,Spelunker Potion,20
+297,Invisibility Potion,20
+298,Shine Potion,20
+299,Night Owl Potion,20
+300,Battle Potion,20
+301,Thorns Potion,20
+302,Water Walking Potion,20
+303,Archery Potion,20
+304,Hunter Potion,20
+305,Gravitation Potion,20
+306,Gold Chest,1
+307,Daybloom Seeds,25
+308,Moonglow Seeds,25
+309,Blinkroot Seeds,25
+310,Deathweed Seeds,25
+311,Waterleaf Seeds,25
+312,Fireblossom Seeds,25
+313,Daybloom,25
+314,Moonglow,25
+315,Blinkroot,25
+316,Deathweed,25
+317,Waterleaf,25
+318,Fireblossom,25
+319,Shark Fin,25
+320,Feather,25
+321,Tombstone,2
+322,Mime Mask,1
+323,Antlion Mandible,5
+324,Illegal Gun Parts,1
+325,The Doctor's Shirt,1
+326,The Doctor's Pants,1
+327,Golden Key,3
+328,Shadow Chest,1
+329,Shadow Key,1
+330,Obsidian Brick Wall,400
+331,Jungle Spores,25
+332,Loom,1
+333,Piano,1
+334,Dresser,1
+335,Bench,1
+336,Bathtub,1
+337,Red Banner,1
+338,Green Banner,1
+339,Blue Banner,1
+340,Yellow Banner,1
+341,Lamp Post,1
+342,Tiki Torch,1
+343,Barrel,1
+344,Chinese Lantern,1
+345,Cooking Pot,1
+346,Safe,1
+347,Skull Lantern,1
+348,Trash Can,1
+349,Candelabra,1
+350,Pink Vase,1
+351,Mug,1
+352,Keg,1
+353,Ale,20
+354,Bookcase,1
+355,Throne,1
+356,Bowl,1
+357,Bowl of Soup,5
+358,Toilet,1
+359,Grandfather Clock,1
+360,Armor Statue,1
+361,Goblin Battle Standard,3
+362,Tattered Cloth,25
+363,Sawmill,1
+364,Cobalt Ore,100
+365,Mythril Ore,100
+366,Adamantite Ore,100
+367,Pwnhammer,1
+368,Excalibur,1
+369,Hallowed Seeds,25
+370,Ebonsand Block,100
+371,Cobalt Hat,1
+372,Cobalt Helmet,1
+373,Cobalt Mask,1
+374,Cobalt Breastplate,1
+375,Cobalt Leggings,1
+376,Mythril Hood,1
+377,Mythril Helmet,1
+378,Mythril Hat,1
+379,Mythril Chainmail,1
+380,Mythril Greaves,1
+381,Cobalt Bar,25
+382,Mythril Bar,25
+383,Cobalt Chainsaw,1
+384,Mythril Chainsaw,1
+385,Cobalt Drill,1
+386,Mythril Drill,1
+387,Adamantite Chainsaw,1
+388,Adamantite Drill,1
+389,Dao of Pow,1
+390,Mythril Halberd,1
+391,Adamantite Bar,25
+392,Glass Wall,400
+393,Compass,1
+394,Diving Gear,1
+395,GPS,1
+396,Obsidian Horseshoe,1
+397,Obsidian Shield,1
+398,Tinkerer's Workshop,1
+399,Cloud in a Balloon,1
+400,Adamantite Headgear,1
+401,Adamantite Helmet,1
+402,Adamantite Mask,1
+403,Adamantite Breastplate,1
+404,Adamantite Leggings,1
+405,Spectre Boots,1
+406,Adamantite Glaive,1
+407,Toolbelt,1
+408,Pearlsand Block,100
+409,Pearlstone Block,100
+410,Mining Shirt,1
+411,Mining Pants,1
+412,Pearlstone Brick,100
+413,Iridescent Brick,100
+414,Mudstone Brick,100
+415,Cobalt Brick,100
+416,Mythril Brick,100
+417,Pearlstone Brick Wall,400
+418,Iridescent Brick Wall,400
+419,Mudstone Brick Wall,400
+420,Cobalt Brick Wall,400
+421,Mythril Brick Wall,400
+422,Holy Water,99
+423,Unholy Water,99
+424,Silt Block,200
+425,Fairy Bell,1
+426,Breaker Blade,1
+427,Blue Torch,100
+428,Red Torch,100
+429,Green Torch,100
+430,Purple Torch,100
+431,White Torch,100
+432,Yellow Torch,100
+433,Demon Torch,100
+434,Clockwork Assault Rifle,1
+435,Cobalt Repeater,1
+436,Mythril Repeater,1
+437,Dual Hook,1
+438,Star Statue,1
+439,Sword Statue,1
+440,Slime Statue,1
+441,Goblin Statue,1
+442,Shield Statue,1
+443,Bat Statue,1
+444,Fish Statue,1
+445,Bunny Statue,1
+446,Skeleton Statue,1
+447,Reaper Statue,1
+448,Woman Statue,1
+449,Imp Statue,1
+450,Gargoyle Statue,1
+451,Gloom Statue,1
+452,Hornet Statue,1
+453,Bomb Statue,1
+454,Crab Statue,1
+455,Hammer Statue,1
+456,Potion Statue,1
+457,Spear Statue,1
+458,Cross Statue,1
+459,Jellyfish Statue,1
+460,Bow Statue,1
+461,Boomerang Statue,1
+462,Boot Statue,1
+463,Chest Statue,1
+464,Bird Statue,1
+465,Axe Statue,1
+466,Corrupt Statue,1
+467,Tree Statue,1
+468,Anvil Statue,1
+469,Pickaxe Statue,1
+470,Mushroom Statue,1
+471,Eyeball Statue,1
+472,Pillar Statue,1
+473,Heart Statue,1
+474,Pot Statue,1
+475,Sunflower Statue,1
+476,King Statue,1
+477,Queen Statue,1
+478,Piranha Statue,1
+479,Planked Wall,400
+480,Wooden Beam,50
+481,Adamantite Repeater,1
+482,Adamantite Sword,1
+483,Cobalt Sword,1
+484,Mythril Sword,1
+485,Moon Charm,1
+486,Ruler,1
+487,Crystal Ball,1
+488,Disco Ball,1
+489,Sorcerer Emblem,1
+490,Warrior Emblem,1
+491,Ranger Emblem,1
+492,Demon Wings,1
+493,Angel Wings,1
+494,Magical Harp,1
+495,Rainbow Rod,1
+496,Ice Rod,1
+497,Neptune's Shell,1
+498,Mannequin,1
+499,Greater Healing Potion,30
+500,Greater Mana Potion,30
+501,Pixie Dust,25
+502,Crystal Shard,25
+503,Clown Hat,1
+504,Clown Shirt,1
+505,Clown Pants,1
+506,Flamethrower,1
+507,Bell,1
+508,Harp,1
+509,Red Wrench,1
+510,Wire Cutter,1
+511,Active Stone Block,100
+512,Inactive Stone Block,100
+513,Lever,5
+514,Laser Rifle,1
+515,Crystal Bullet,99
+516,Holy Arrow,99
+517,Magic Dagger,1
+518,Crystal Storm,1
+519,Cursed Flames,1
+520,Soul of Light,25
+521,Soul of Night,25
+522,Cursed Flame,25
+523,Cursed Torch,100
+524,Adamantite Forge,1
+525,Mythril Anvil,1
+526,Unicorn Horn,5
+527,Dark Shard,1
+528,Light Shard,1
+529,Red Pressure Plate,5
+530,Wire,100
+531,Spell Tome,1
+532,Star Cloak,1
+533,Megashark,1
+534,Shotgun,1
+535,Philosopher's Stone,1
+536,Titan Glove,1
+537,Cobalt Naginata,1
+538,Switch,5
+539,Dart Trap,5
+540,Boulder,5
+541,Green Pressure Plate,5
+542,Gray Pressure Plate,5
+543,Brown Pressure Plate,5
+544,Mechanical Eye,3
+545,Cursed Arrow,99
+546,Cursed Bullet,99
+547,Soul of Fright,25
+548,Soul of Might,25
+549,Soul of Sight,25
+550,Gungnir,1
+551,Hallowed Plate Mail,1
+552,Hallowed Greaves,1
+553,Hallowed Helmet,1
+554,Cross Necklace,1
+555,Mana Flower,1
+556,Mechanical Worm,3
+557,Mechanical Skull,3
+558,Hallowed Headgear,1
+559,Hallowed Mask,1
+560,Slime Crown,3
+561,Light Disc,1
+562,Music Box (Overworld Day),1
+563,Music Box (Eerie),1
+564,Music Box (Night),1
+565,Music Box (Title),1
+566,Music Box (Underground),1
+567,Music Box (Boss 1),1
+568,Music Box (Jungle),1
+569,Music Box (Corruption),1
+570,Music Box (Underground Corruption),1
+571,Music Box (The Hallow),1
+572,Music Box (Boss 2),1
+573,Music Box (Underground Hallow),1
+574,Music Box (Boss 3),1
+575,Soul of Flight,25
+576,Music Box,1
+577,Demonite Brick,100
+578,Hallowed Repeater,1
+579,Drax,1
+580,Explosives,5
+581,Inlet Pump,1
+582,Outlet Pump,1
+583,1 Second Timer,1
+584,3 Second Timer,1
+585,5 Second Timer,1
+586,Candy Cane Block,100
+587,Candy Cane Wall,400
+588,Santa Hat,1
+589,Santa Shirt,1
+590,Santa Pants,1
+591,Green Candy Cane Block,100
+592,Green Candy Cane Wall,400
+593,Snow Block,100
+594,Snow Brick,100
+595,Snow Brick Wall,400
+596,Blue Light,25
+597,Red Light,25
+598,Green Light,25
+602,Snow Globe,3
+603,Carrot,1
+604,Adamantite Beam,100
+605,Adamantite Beam Wall,400
+606,Demonite Brick Wall,400
+607,Sandstone Brick,100
+608,Sandstone Brick Wall,400
+609,Ebonstone Brick,100
+610,Ebonstone Brick Wall,400
+611,Red Stucco,100
+612,Yellow Stucco,100
+613,Green Stucco,100
+614,Gray Stucco,100
+615,Red Stucco Wall,400
+616,Yellow Stucco Wall,400
+617,Green Stucco Wall,400
+618,Gray Stucco Wall,400
+619,Ebonwood,100
+620,Rich Mahogany,100
+621,Pearlwood,100
+622,Ebonwood Wall,400
+623,Rich Mahogany Wall,400
+624,Pearlwood Wall,400
+625,Ebonwood Chest,1
+626,Rich Mahogany Chest,1
+627,Pearlwood Chest,1
+628,Ebonwood Chair,1
+629,Rich Mahogany Chair,1
+630,Pearlwood Chair,1
+631,Ebonwood Platform,200
+632,Rich Mahogany Platform,200
+633,Pearlwood Platform,200
+634,Bone Platform,200
+635,Ebonwood Work Bench,1
+636,Rich Mahogany Work Bench,1
+637,Pearlwood Work Bench,1
+638,Ebonwood Table,1
+639,Rich Mahogany Table,1
+640,Pearlwood Table,1
+641,Ebonwood Piano,1
+642,Rich Mahogany Piano,1
+643,Pearlwood Piano,1
+644,Ebonwood Bed,1
+645,Rich Mahogany Bed,1
+646,Pearlwood Bed,1
+647,Ebonwood Dresser,1
+648,Rich Mahogany Dresser,1
+649,Pearlwood Dresser,1
+650,Ebonwood Door,1
+651,Rich Mahogany Door,1
+652,Pearlwood Door,1
+653,Ebonwood Sword,1
+654,Ebonwood Hammer,1
+655,Ebonwood Bow,1
+656,Rich Mahogany Sword,1
+657,Rich Mahogany Hammer,1
+658,Rich Mahogany Bow,1
+659,Pearlwood Sword,1
+660,Pearlwood Hammer,1
+661,Pearlwood Bow,1
+662,Rainbow Brick,100
+663,Rainbow Brick Wall,400
+664,Ice Block,100
+665,Red's Wings,1
+666,Red's Helmet,1
+667,Red's Breastplate,1
+668,Red's Leggings,1
+669,Fish,1
+670,Ice Boomerang,1
+671,Keybrand,1
+672,Cutlass,1
+673,Boreal Wood Work Bench,1
+674,True Excalibur,1
+675,True Night's Edge,1
+676,Frostbrand,1
+677,Boreal Wood Table,1
+678,Red Potion,3
+679,Tactical Shotgun,1
+680,Ivy Chest,1
+681,Frozen Chest,1
+682,Marrow,1
+683,Unholy Trident,1
+684,Frost Helmet,1
+685,Frost Breastplate,1
+686,Frost Leggings,1
+687,Tin Helmet,1
+688,Tin Chainmail,1
+689,Tin Greaves,1
+690,Lead Helmet,1
+691,Lead Chainmail,1
+692,Lead Greaves,1
+693,Tungsten Helmet,1
+694,Tungsten Chainmail,1
+695,Tungsten Greaves,1
+696,Platinum Helmet,1
+697,Platinum Chainmail,1
+698,Platinum Greaves,1
+699,Tin Ore,100
+700,Lead Ore,100
+701,Tungsten Ore,100
+702,Platinum Ore,100
+703,Tin Bar,25
+704,Lead Bar,25
+705,Tungsten Bar,25
+706,Platinum Bar,25
+707,Tin Watch,1
+708,Tungsten Watch,1
+709,Platinum Watch,1
+710,Tin Chandelier,1
+711,Tungsten Chandelier,1
+712,Platinum Chandelier,1
+713,Platinum Candle,1
+714,Platinum Candelabra,1
+715,Platinum Crown,1
+716,Lead Anvil,1
+717,Tin Brick,100
+718,Tungsten Brick,100
+719,Platinum Brick,100
+720,Tin Brick Wall,400
+721,Tungsten Brick Wall,400
+722,Platinum Brick Wall,400
+723,Beam Sword,1
+724,Ice Blade,1
+725,Ice Bow,1
+726,Frost Staff,1
+727,Wood Helmet,1
+728,Wood Breastplate,1
+729,Wood Greaves,1
+730,Ebonwood Helmet,1
+731,Ebonwood Breastplate,1
+732,Ebonwood Greaves,1
+733,Rich Mahogany Helmet,1
+734,Rich Mahogany Breastplate,1
+735,Rich Mahogany Greaves,1
+736,Pearlwood Helmet,1
+737,Pearlwood Breastplate,1
+738,Pearlwood Greaves,1
+739,Amethyst Staff,1
+740,Topaz Staff,1
+741,Sapphire Staff,1
+742,Emerald Staff,1
+743,Ruby Staff,1
+744,Diamond Staff,1
+745,Grass Wall,400
+746,Jungle Wall,400
+747,Flower Wall,400
+748,Jetpack,1
+749,Butterfly Wings,1
+750,Cactus Wall,400
+751,Cloud,100
+752,Cloud Wall,400
+753,Seaweed,1
+754,Rune Hat,1
+755,Rune Robe,1
+756,Mushroom Spear,1
+757,Terra Blade,1
+758,Grenade Launcher,1
+759,Rocket Launcher,1
+760,Proximity Mine Launcher,1
+761,Fairy Wings,1
+762,Slime Block,100
+763,Flesh Block,100
+764,Mushroom Wall,400
+765,Rain Cloud,100
+766,Bone Block,100
+767,Frozen Slime Block,100
+768,Bone Block Wall,400
+769,Slime Block Wall,400
+770,Flesh Block Wall,400
+771,Rocket I,99
+772,Rocket II,99
+773,Rocket III,99
+774,Rocket IV,99
+775,Asphalt Block,100
+776,Cobalt Pickaxe,1
+777,Mythril Pickaxe,1
+778,Adamantite Pickaxe,1
+779,Clentaminator,1
+780,Green Solution,99
+781,Blue Solution,99
+782,Purple Solution,99
+783,Dark Blue Solution,99
+784,Red Solution,99
+785,Harpy Wings,1
+786,Bone Wings,1
+787,Hammush,1
+788,Nettle Burst,1
+789,Ankh Banner,1
+790,Snake Banner,1
+791,Omega Banner,1
+792,Crimson Helmet,1
+793,Crimson Scalemail,1
+794,Crimson Greaves,1
+795,Blood Butcherer,1
+796,Tendon Bow,1
+797,Flesh Grinder,1
+798,Deathbringer Pickaxe,1
+799,Blood Lust Cluster,1
+800,The Undertaker,1
+801,The Meatball,1
+802,The Rotted Fork,1
+803,Snow Hood,1
+804,Snow Coat,1
+805,Snow Pants,1
+806,Living Wood Chair,1
+807,Cactus Chair,1
+808,Bone Chair,1
+809,Flesh Chair,1
+810,Mushroom Chair,1
+811,Bone Work Bench,1
+812,Cactus Work Bench,1
+813,Flesh Work Bench,1
+814,Mushroom Work Bench,1
+815,Slime Work Bench,1
+816,Cactus Door,1
+817,Flesh Door,1
+818,Mushroom Door,1
+819,Living Wood Door,1
+820,Bone Door,1
+821,Flame Wings,1
+822,Frozen Wings,1
+823,Spectre Wings,1
+824,Sunplate Block,100
+825,Disc Wall,400
+826,Skyware Chair,1
+827,Bone Table,1
+828,Flesh Table,1
+829,Living Wood Table,1
+830,Skyware Table,1
+831,Living Wood Chest,1
+832,Living Wood Wand,1
+833,Purple Ice Block,100
+834,Pink Ice Block,100
+835,Red Ice Block,100
+836,Crimstone Block,100
+837,Skyware Door,1
+838,Skyware Chest,1
+839,Steampunk Hat,1
+840,Steampunk Shirt,1
+841,Steampunk Pants,1
+842,Bee Hat,1
+843,Bee Shirt,1
+844,Bee Pants,1
+845,World Banner,1
+846,Sun Banner,1
+847,Gravity Banner,1
+848,Pharaoh's Mask,1
+849,Actuator,50
+850,Blue Wrench,1
+851,Green Wrench,1
+852,Blue Pressure Plate,5
+853,Yellow Pressure Plate,5
+854,Discount Card,1
+855,Lucky Coin,1
+856,Unicorn on a Stick,1
+857,Sandstorm in a Bottle,1
+858,Boreal Wood Sofa,1
+859,Beach Ball,1
+860,Charm of Myths,1
+861,Moon Shell,1
+862,Star Veil,1
+863,Water Walking Boots,1
+864,Tiara,1
+865,Princess Dress,1
+866,Pharaoh's Robe,1
+867,Green Cap,1
+868,Mushroom Cap,1
+869,Tam O' Shanter,1
+870,Mummy Mask,1
+871,Mummy Shirt,1
+872,Mummy Pants,1
+873,Cowboy Hat,1
+874,Cowboy Jacket,1
+875,Cowboy Pants,1
+876,Pirate Hat,1
+877,Pirate Shirt,1
+878,Pirate Pants,1
+879,Viking Helmet,1
+880,Crimtane Ore,100
+881,Cactus Sword,1
+882,Cactus Pickaxe,1
+883,Ice Brick,100
+884,Ice Brick Wall,400
+885,Adhesive Bandage,1
+886,Armor Polish,1
+887,Bezoar,1
+888,Blindfold,1
+889,Fast Clock,1
+890,Megaphone,1
+891,Nazar,1
+892,Vitamins,1
+893,Trifold Map,1
+894,Cactus Helmet,1
+895,Cactus Breastplate,1
+896,Cactus Leggings,1
+897,Power Glove,1
+898,Lightning Boots,1
+899,Sun Stone,1
+900,Moon Stone,1
+901,Armor Bracing,1
+902,Medicated Bandage,1
+903,The Plan,1
+904,Countercurse Mantra,1
+905,Coin Gun,1
+906,Lava Charm,1
+907,Obsidian Water Walking Boots,1
+908,Lava Waders,1
+909,Pure Water Fountain,1
+910,Desert Water Fountain,1
+911,Shadewood,100
+912,Shadewood Door,1
+913,Shadewood Platform,200
+914,Shadewood Chest,1
+915,Shadewood Chair,1
+916,Shadewood Work Bench,1
+917,Shadewood Table,1
+918,Shadewood Dresser,1
+919,Shadewood Piano,1
+920,Shadewood Bed,1
+921,Shadewood Sword,1
+922,Shadewood Hammer,1
+923,Shadewood Bow,1
+924,Shadewood Helmet,1
+925,Shadewood Breastplate,1
+926,Shadewood Greaves,1
+927,Shadewood Wall,400
+928,Cannon,1
+929,Cannonball,25
+930,Flare Gun,1
+931,Flare,99
+932,Bone Wand,1
+933,Leaf Wand,1
+934,Flying Carpet,1
+935,Avenger Emblem,1
+936,Mechanical Glove,1
+937,Land Mine,5
+938,Paladin's Shield,1
+939,Web Slinger,1
+940,Jungle Water Fountain,1
+941,Icy Water Fountain,1
+942,Corrupt Water Fountain,1
+943,Crimson Water Fountain,1
+944,Hallowed Water Fountain,1
+945,Blood Water Fountain,1
+946,Umbrella,1
+947,Chlorophyte Ore,100
+948,Steampunk Wings,1
+949,Snowball,99
+950,Ice Skates,1
+951,Snowball Launcher,1
+952,Web Covered Chest,1
+953,Climbing Claws,1
+954,Ancient Iron Helmet,1
+955,Ancient Gold Helmet,1
+956,Ancient Shadow Helmet,1
+957,Ancient Shadow Scalemail,1
+958,Ancient Shadow Greaves,1
+959,Ancient Necro Helmet,1
+960,Ancient Cobalt Helmet,1
+961,Ancient Cobalt Breastplate,1
+962,Ancient Cobalt Leggings,1
+963,Black Belt,1
+964,Boomstick,1
+965,Rope,100
+966,Campfire,1
+967,Marshmallow,5
+968,Marshmallow on a Stick,5
+969,Cooked Marshmallow,5
+970,Red Rocket,5
+971,Green Rocket,5
+972,Blue Rocket,5
+973,Yellow Rocket,5
+974,Ice Torch,100
+975,Shoe Spikes,1
+976,Tiger Climbing Gear,1
+977,Tabi,1
+978,Pink Snow Hood,1
+979,Pink Snow Coat,1
+980,Pink Snow Pants,1
+981,Pink Thread,5
+982,Mana Regeneration Band,1
+983,Sandstorm in a Balloon,1
+984,Master Ninja Gear,1
+985,Rope Coil,10
+986,Blowgun,1
+987,Blizzard in a Bottle,1
+988,Frostburn Arrow,99
+989,Enchanted Sword,1
+990,Pickaxe Axe,1
+991,Cobalt Waraxe,1
+992,Mythril Waraxe,1
+993,Adamantite Waraxe,1
+994,Eater's Bone,1
+995,Blend-O-Matic,1
+996,Meat Grinder,1
+997,Extractinator,1
+998,Solidifier,1
+999,Amber,15
+1000,Confetti Gun,5
+1001,Chlorophyte Mask,1
+1002,Chlorophyte Helmet,1
+1003,Chlorophyte Headgear,1
+1004,Chlorophyte Plate Mail,1
+1005,Chlorophyte Greaves,1
+1006,Chlorophyte Bar,25
+1007,Red Dye,3
+1008,Orange Dye,3
+1009,Yellow Dye,3
+1010,Lime Dye,3
+1011,Green Dye,3
+1012,Teal Dye,3
+1013,Cyan Dye,3
+1014,Sky Blue Dye,3
+1015,Blue Dye,3
+1016,Purple Dye,3
+1017,Violet Dye,3
+1018,Pink Dye,3
+1019,Red and Black Dye,3
+1020,Orange and Black Dye,3
+1021,Yellow and Black Dye,3
+1022,Lime and Black Dye,3
+1023,Green and Black Dye,3
+1024,Teal and Black Dye,3
+1025,Cyan and Black Dye,3
+1026,Sky Blue and Black Dye,3
+1027,Blue and Black Dye,3
+1028,Purple and Black Dye,3
+1029,Violet and Black Dye,3
+1030,Pink and Black Dye,3
+1031,Flame Dye,3
+1032,Flame and Black Dye,3
+1033,Green Flame Dye,3
+1034,Green Flame and Black Dye,3
+1035,Blue Flame Dye,3
+1036,Blue Flame and Black Dye,3
+1037,Silver Dye,3
+1038,Bright Red Dye,3
+1039,Bright Orange Dye,3
+1040,Bright Yellow Dye,3
+1041,Bright Lime Dye,3
+1042,Bright Green Dye,3
+1043,Bright Teal Dye,3
+1044,Bright Cyan Dye,3
+1045,Bright Sky Blue Dye,3
+1046,Bright Blue Dye,3
+1047,Bright Purple Dye,3
+1048,Bright Violet Dye,3
+1049,Bright Pink Dye,3
+1050,Black Dye,3
+1051,Red and Silver Dye,3
+1052,Orange and Silver Dye,3
+1053,Yellow and Silver Dye,3
+1054,Lime and Silver Dye,3
+1055,Green and Silver Dye,3
+1056,Teal and Silver Dye,3
+1057,Cyan and Silver Dye,3
+1058,Sky Blue and Silver Dye,3
+1059,Blue and Silver Dye,3
+1060,Purple and Silver Dye,3
+1061,Violet and Silver Dye,3
+1062,Pink and Silver Dye,3
+1063,Intense Flame Dye,3
+1064,Intense Green Flame Dye,3
+1065,Intense Blue Flame Dye,3
+1066,Rainbow Dye,3
+1067,Intense Rainbow Dye,3
+1068,Yellow Gradient Dye,3
+1069,Cyan Gradient Dye,3
+1070,Violet Gradient Dye,3
+1071,Paintbrush,1
+1072,Paint Roller,1
+1073,Red Paint,100
+1074,Orange Paint,100
+1075,Yellow Paint,100
+1076,Lime Paint,100
+1077,Green Paint,100
+1078,Teal Paint,100
+1079,Cyan Paint,100
+1080,Sky Blue Paint,100
+1081,Blue Paint,100
+1082,Purple Paint,100
+1083,Violet Paint,100
+1084,Pink Paint,100
+1085,Deep Red Paint,100
+1086,Deep Orange Paint,100
+1087,Deep Yellow Paint,100
+1088,Deep Lime Paint,100
+1089,Deep Green Paint,100
+1090,Deep Teal Paint,100
+1091,Deep Cyan Paint,100
+1092,Deep Sky Blue Paint,100
+1093,Deep Blue Paint,100
+1094,Deep Purple Paint,100
+1095,Deep Violet Paint,100
+1096,Deep Pink Paint,100
+1097,Black Paint,100
+1098,White Paint,100
+1099,Gray Paint,100
+1100,Paint Scraper,1
+1101,Lihzahrd Brick,100
+1102,Lihzahrd Brick Wall,400
+1103,Slush Block,200
+1104,Palladium Ore,100
+1105,Orichalcum Ore,100
+1106,Titanium Ore,100
+1107,Teal Mushroom,3
+1108,Green Mushroom,3
+1109,Sky Blue Flower,3
+1110,Yellow Marigold,3
+1111,Blue Berries,3
+1112,Lime Kelp,3
+1113,Pink Prickly Pear,3
+1114,Orange Bloodroot,3
+1115,Red Husk,3
+1116,Cyan Husk,3
+1117,Violet Husk,3
+1118,Purple Mucus,3
+1119,Black Ink,3
+1120,Dye Vat,1
+1121,Bee Gun,1
+1122,Possessed Hatchet,1
+1123,Bee Keeper,1
+1124,Hive,100
+1125,Honey Block,100
+1126,Hive Wall,400
+1127,Crispy Honey Block,100
+1128,Honey Bucket,1
+1129,Hive Wand,1
+1130,Beenade,99
+1131,Gravity Globe,1
+1132,Honey Comb,1
+1133,Abeemination,3
+1134,Bottled Honey,30
+1135,Rain Hat,1
+1136,Rain Coat,1
+1137,Lihzahrd Door,1
+1138,Dungeon Door,1
+1139,Lead Door,1
+1140,Iron Door,1
+1141,Temple Key,1
+1142,Lihzahrd Chest,1
+1143,Lihzahrd Chair,1
+1144,Lihzahrd Table,1
+1145,Lihzahrd Work Bench,1
+1146,Super Dart Trap,5
+1147,Flame Trap,5
+1148,Spiky Ball Trap,5
+1149,Spear Trap,5
+1150,Wooden Spike,100
+1151,Lihzahrd Pressure Plate,5
+1152,Lihzahrd Statue,1
+1153,Lihzahrd Watcher Statue,1
+1154,Lihzahrd Guardian Statue,1
+1155,Wasp Gun,1
+1156,Piranha Gun,1
+1157,Pygmy Staff,1
+1158,Pygmy Necklace,1
+1159,Tiki Mask,1
+1160,Tiki Shirt,1
+1161,Tiki Pants,1
+1162,Leaf Wings,1
+1163,Blizzard in a Balloon,1
+1164,Bundle of Balloons,1
+1165,Bat Wings,1
+1166,Bone Sword,1
+1167,Hercules Beetle,1
+1168,Smoke Bomb,25
+1169,Bone Key,1
+1170,Nectar,1
+1171,Tiki Totem,1
+1172,Lizard Egg,1
+1173,Grave Marker,2
+1174,Cross Grave Marker,2
+1175,Headstone,2
+1176,Gravestone,2
+1177,Obelisk,2
+1178,Leaf Blower,1
+1179,Chlorophyte Bullet,99
+1180,Parrot Cracker,1
+1181,Strange Glowing Mushroom,1
+1182,Seedling,1
+1183,Wisp in a Bottle,1
+1184,Palladium Bar,25
+1185,Palladium Sword,1
+1186,Palladium Pike,1
+1187,Palladium Repeater,1
+1188,Palladium Pickaxe,1
+1189,Palladium Drill,1
+1190,Palladium Chainsaw,1
+1191,Orichalcum Bar,25
+1192,Orichalcum Sword,1
+1193,Orichalcum Halberd,1
+1194,Orichalcum Repeater,1
+1195,Orichalcum Pickaxe,1
+1196,Orichalcum Drill,1
+1197,Orichalcum Chainsaw,1
+1198,Titanium Bar,25
+1199,Titanium Sword,1
+1200,Titanium Trident,1
+1201,Titanium Repeater,1
+1202,Titanium Pickaxe,1
+1203,Titanium Drill,1
+1204,Titanium Chainsaw,1
+1205,Palladium Mask,1
+1206,Palladium Helmet,1
+1207,Palladium Headgear,1
+1208,Palladium Breastplate,1
+1209,Palladium Leggings,1
+1210,Orichalcum Mask,1
+1211,Orichalcum Helmet,1
+1212,Orichalcum Headgear,1
+1213,Orichalcum Breastplate,1
+1214,Orichalcum Leggings,1
+1215,Titanium Mask,1
+1216,Titanium Helmet,1
+1217,Titanium Headgear,1
+1218,Titanium Breastplate,1
+1219,Titanium Leggings,1
+1220,Orichalcum Anvil,1
+1221,Titanium Forge,1
+1222,Palladium Waraxe,1
+1223,Orichalcum Waraxe,1
+1224,Titanium Waraxe,1
+1225,Hallowed Bar,25
+1226,Chlorophyte Claymore,1
+1227,Chlorophyte Saber,1
+1228,Chlorophyte Partisan,1
+1229,Chlorophyte Shotbow,1
+1230,Chlorophyte Pickaxe,1
+1231,Chlorophyte Drill,1
+1232,Chlorophyte Chainsaw,1
+1233,Chlorophyte Greataxe,1
+1234,Chlorophyte Warhammer,1
+1235,Chlorophyte Arrow,99
+1236,Amethyst Hook,1
+1237,Topaz Hook,1
+1238,Sapphire Hook,1
+1239,Emerald Hook,1
+1240,Ruby Hook,1
+1241,Diamond Hook,1
+1242,Amber Mosquito,1
+1243,Umbrella Hat,1
+1244,Nimbus Rod,1
+1245,Orange Torch,100
+1246,Crimsand Block,100
+1247,Bee Cloak,1
+1248,Eye of the Golem,1
+1249,Honey Balloon,1
+1250,Blue Horseshoe Balloon,1
+1251,White Horseshoe Balloon,1
+1252,Yellow Horseshoe Balloon,1
+1253,Frozen Turtle Shell,1
+1254,Sniper Rifle,1
+1255,Venus Magnum,1
+1256,Crimson Rod,1
+1257,Crimtane Bar,25
+1258,Stynger,1
+1259,Flower Pow,1
+1260,Rainbow Gun,1
+1261,Stynger Bolt,99
+1262,Chlorophyte Jackhammer,1
+1263,Teleporter,1
+1264,Flower of Frost,1
+1265,Uzi,1
+1266,Magnet Sphere,1
+1267,Purple Stained Glass,400
+1268,Yellow Stained Glass,400
+1269,Blue Stained Glass,400
+1270,Green Stained Glass,400
+1271,Red Stained Glass,400
+1272,Multicolored Stained Glass,400
+1273,Skeletron Hand,1
+1274,Skull,1
+1275,Balla Hat,1
+1276,Gangsta Hat,1
+1277,Sailor Hat,1
+1278,Eye Patch,1
+1279,Sailor Shirt,1
+1280,Sailor Pants,1
+1281,Skeletron Mask,1
+1282,Amethyst Robe,1
+1283,Topaz Robe,1
+1284,Sapphire Robe,1
+1285,Emerald Robe,1
+1286,Ruby Robe,1
+1287,Diamond Robe,1
+1288,White Tuxedo Shirt,1
+1289,White Tuxedo Pants,1
+1290,Panic Necklace,1
+1291,Life Fruit,10
+1292,Lihzahrd Altar,1
+1293,Lihzahrd Power Cell,3
+1294,Picksaw,1
+1295,Heat Ray,1
+1296,Staff of Earth,1
+1297,Golem Fist,1
+1298,Water Chest,1
+1299,Binoculars,1
+1300,Rifle Scope,1
+1301,Destroyer Emblem,1
+1302,High Velocity Bullet,99
+1303,Jellyfish Necklace,1
+1304,Zombie Arm,1
+1305,The Axe,1
+1306,Ice Sickle,1
+1307,Clothier Voodoo Doll,1
+1308,Poison Staff,1
+1309,Slime Staff,1
+1310,Poison Dart,99
+1311,Eye Spring,1
+1312,Toy Sled,1
+1313,Book of Skulls,1
+1314,KO Cannon,1
+1315,Pirate Map,3
+1316,Turtle Helmet,1
+1317,Turtle Scale Mail,1
+1318,Turtle Leggings,1
+1319,Snowball Cannon,1
+1320,Bone Pickaxe,1
+1321,Magic Quiver,1
+1322,Magma Stone,1
+1323,Obsidian Rose,1
+1324,Bananarang,1
+1325,Chain Knife,1
+1326,Rod of Discord,1
+1327,Death Sickle,1
+1328,Turtle Shell,3
+1329,Tissue Sample,25
+1330,Vertebra,25
+1331,Bloody Spine,3
+1332,Ichor,25
+1333,Ichor Torch,100
+1334,Ichor Arrow,99
+1335,Ichor Bullet,99
+1336,Golden Shower,1
+1337,Bunny Cannon,1
+1338,Explosive Bunny,25
+1339,Vial of Venom,25
+1340,Flask of Venom,20
+1341,Venom Arrow,99
+1342,Venom Bullet,99
+1343,Fire Gauntlet,1
+1344,Cog,100
+1345,Confetti,25
+1346,Nanites,25
+1347,Explosive Powder,25
+1348,Gold Dust,25
+1349,Party Bullet,99
+1350,Nano Bullet,99
+1351,Exploding Bullet,99
+1352,Golden Bullet,99
+1353,Flask of Cursed Flames,20
+1354,Flask of Fire,20
+1355,Flask of Gold,20
+1356,Flask of Ichor,20
+1357,Flask of Nanites,20
+1358,Flask of Party,20
+1359,Flask of Poison,20
+1360,Eye of Cthulhu Trophy,1
+1361,Eater of Worlds Trophy,1
+1362,Brain of Cthulhu Trophy,1
+1363,Skeletron Trophy,1
+1364,Queen Bee Trophy,1
+1365,Wall of Flesh Trophy,1
+1366,Destroyer Trophy,1
+1367,Skeletron Prime Trophy,1
+1368,Retinazer Trophy,1
+1369,Spazmatism Trophy,1
+1370,Plantera Trophy,1
+1371,Golem Trophy,1
+1372,Blood Moon Rising,1
+1373,The Hanged Man,1
+1374,Glory of the Fire,1
+1375,Bone Warp,1
+1376,Wall Skeleton,1
+1377,Hanging Skeleton,1
+1378,Blue Slab Wall,400
+1379,Blue Tiled Wall,400
+1380,Pink Slab Wall,400
+1381,Pink Tiled Wall,400
+1382,Green Slab Wall,400
+1383,Green Tiled Wall,400
+1384,Blue Brick Platform,25
+1385,Pink Brick Platform,25
+1386,Green Brick Platform,25
+1387,Metal Shelf,25
+1388,Brass Shelf,25
+1389,Wood Shelf,25
+1390,Brass Lantern,1
+1391,Caged Lantern,1
+1392,Carriage Lantern,1
+1393,Alchemy Lantern,1
+1394,Diabolist Lamp,1
+1395,Oil Rag Sconce,1
+1396,Blue Dungeon Chair,1
+1397,Blue Dungeon Table,1
+1398,Blue Dungeon Work Bench,1
+1399,Green Dungeon Chair,1
+1400,Green Dungeon Table,1
+1401,Green Dungeon Work Bench,1
+1402,Pink Dungeon Chair,1
+1403,Pink Dungeon Table,1
+1404,Pink Dungeon Work Bench,1
+1405,Blue Dungeon Candle,1
+1406,Green Dungeon Candle,1
+1407,Pink Dungeon Candle,1
+1408,Blue Dungeon Vase,1
+1409,Green Dungeon Vase,1
+1410,Pink Dungeon Vase,1
+1411,Blue Dungeon Door,1
+1412,Green Dungeon Door,1
+1413,Pink Dungeon Door,1
+1414,Blue Dungeon Bookcase,1
+1415,Green Dungeon Bookcase,1
+1416,Pink Dungeon Bookcase,1
+1417,Catacomb,1
+1418,Dungeon Shelf,25
+1419,Skellington J Skellingsworth,1
+1420,The Cursed Man,1
+1421,The Eye Sees the End,1
+1422,Something Evil is Watching You,1
+1423,The Twins Have Awoken,1
+1424,The Screamer,1
+1425,Goblins Playing Poker,1
+1426,Dryadisque,1
+1427,Sunflowers,1
+1428,Terrarian Gothic,1
+1429,Beanie,1
+1430,Imbuing Station,1
+1431,Star in a Bottle,1
+1432,Empty Bullet,100
+1433,Impact,1
+1434,Powered by Birds,1
+1435,The Destroyer,1
+1436,The Persistency of Eyes,1
+1437,Unicorn Crossing the Hallows,1
+1438,Great Wave,1
+1439,Starry Night,1
+1440,Guide Picasso,1
+1441,The Guardian's Gaze,1
+1442,Father of Someone,1
+1443,Nurse Lisa,1
+1444,Shadowbeam Staff,1
+1445,Inferno Fork,1
+1446,Spectre Staff,1
+1447,Wooden Fence,400
+1448,Lead Fence,400
+1449,Bubble Machine,1
+1450,Bubble Wand,1
+1451,Marching Bones Banner,1
+1452,Necromantic Sign,1
+1453,Rusted Company Standard,1
+1454,Ragged Brotherhood Sigil,1
+1455,Molten Legion Flag,1
+1456,Diabolic Sigil,1
+1457,Obsidian Platform,200
+1458,Obsidian Door,1
+1459,Obsidian Chair,1
+1460,Obsidian Table,1
+1461,Obsidian Work Bench,1
+1462,Obsidian Vase,1
+1463,Obsidian Bookcase,1
+1464,Hellbound Banner,1
+1465,Hell Hammer Banner,1
+1466,Helltower Banner,1
+1467,Lost Hopes of Man Banner,1
+1468,Obsidian Watcher Banner,1
+1469,Lava Erupts Banner,1
+1470,Blue Dungeon Bed,1
+1471,Green Dungeon Bed,1
+1472,Pink Dungeon Bed,1
+1473,Obsidian Bed,1
+1474,Waldo,1
+1475,Darkness,1
+1476,Dark Soul Reaper,1
+1477,Land,1
+1478,Trapped Ghost,1
+1479,Demon's Eye,1
+1480,Finding Gold,1
+1481,First Encounter,1
+1482,Good Morning,1
+1483,Underground Reward,1
+1484,Through the Window,1
+1485,Place Above the Clouds,1
+1486,Do Not Step on the Grass,1
+1487,Cold Waters in the White Land,1
+1488,Lightless Chasms,1
+1489,The Land of Deceiving Looks,1
+1490,Daylight,1
+1491,Secret of the Sands,1
+1492,Deadland Comes Alive,1
+1493,Evil Presence,1
+1494,Sky Guardian,1
+1495,American Explosive,1
+1496,Discover,1
+1497,Hand Earth,1
+1498,Old Miner,1
+1499,Skelehead,1
+1500,Facing the Cerebral Mastermind,1
+1501,Lake of Fire,1
+1502,Trio Super Heroes,1
+1503,Spectre Hood,1
+1504,Spectre Robe,1
+1505,Spectre Pants,1
+1506,Spectre Pickaxe,1
+1507,Spectre Hamaxe,1
+1508,Ectoplasm,25
+1509,Gothic Chair,1
+1510,Gothic Table,1
+1511,Gothic Work Bench,1
+1512,Gothic Bookcase,1
+1513,Paladin's Hammer,1
+1514,SWAT Helmet,1
+1515,Bee Wings,1
+1516,Giant Harpy Feather,1
+1517,Bone Feather,1
+1518,Fire Feather,1
+1519,Ice Feather,1
+1520,Broken Bat Wing,1
+1521,Tattered Bee Wing,1
+1522,Large Amethyst,1
+1523,Large Topaz,1
+1524,Large Sapphire,1
+1525,Large Emerald,1
+1526,Large Ruby,1
+1527,Large Diamond,1
+1528,Jungle Chest,1
+1529,Corruption Chest,1
+1530,Crimson Chest,1
+1531,Hallowed Chest,1
+1532,Ice Chest,1
+1533,Jungle Key,1
+1534,Corruption Key,1
+1535,Crimson Key,1
+1536,Hallowed Key,1
+1537,Frozen Key,1
+1538,Imp Face,1
+1539,Ominous Presence,1
+1540,Shining Moon,1
+1541,Living Gore,1
+1542,Flowing Magma,1
+1543,Spectre Paintbrush,1
+1544,Spectre Paint Roller,1
+1545,Spectre Paint Scraper,1
+1546,Shroomite Headgear,1
+1547,Shroomite Mask,1
+1548,Shroomite Helmet,1
+1549,Shroomite Breastplate,1
+1550,Shroomite Leggings,1
+1551,Autohammer,1
+1552,Shroomite Bar,25
+1553,S.D.M.G.,1
+1554,Cenx's Tiara,1
+1555,Cenx's Breastplate,1
+1556,Cenx's Leggings,1
+1557,Crowno's Mask,1
+1558,Crowno's Breastplate,1
+1559,Crowno's Leggings,1
+1560,Will's Helmet,1
+1561,Will's Breastplate,1
+1562,Will's Leggings,1
+1563,Jim's Helmet,1
+1564,Jim's Breastplate,1
+1565,Jim's Leggings,1
+1566,Aaron's Helmet,1
+1567,Aaron's Breastplate,1
+1568,Aaron's Leggings,1
+1569,Vampire Knives,1
+1570,Broken Hero Sword,1
+1571,Scourge of the Corruptor,1
+1572,Staff of the Frost Hydra,1
+1573,The Creation of the Guide,1
+1574,The Merchant,1
+1575,Crowno Devours His Lunch,1
+1576,Rare Enchantment,1
+1577,Glorious Night,1
+1578,Sweetheart Necklace,1
+1579,Flurry Boots,1
+1580,D-Town's Helmet,1
+1581,D-Town's Breastplate,1
+1582,D-Town's Leggings,1
+1583,D-Town's Wings,1
+1584,Will's Wings,1
+1585,Crowno's Wings,1
+1586,Cenx's Wings,1
+1587,Cenx's Dress,1
+1588,Cenx's Dress Pants,1
+1589,Palladium Column,100
+1590,Palladium Column Wall,400
+1591,Bubblegum Block,100
+1592,Bubblegum Block Wall,400
+1593,Titanstone Block,100
+1594,Titanstone Block Wall,400
+1595,Magic Cuffs,1
+1596,Music Box (Snow),1
+1597,Music Box (Space Night),1
+1598,Music Box (Crimson),1
+1599,Music Box (Boss 4),1
+1600,Music Box (Alt Overworld Day),1
+1601,Music Box (Rain),1
+1602,Music Box (Ice),1
+1603,Music Box (Desert),1
+1604,Music Box (Ocean Day),1
+1605,Music Box (Dungeon),1
+1606,Music Box (Plantera),1
+1607,Music Box (Boss 5),1
+1608,Music Box (Temple),1
+1609,Music Box (Eclipse),1
+1610,Music Box (Mushrooms),1
+1611,Butterfly Dust,1
+1612,Ankh Charm,1
+1613,Ankh Shield,1
+1614,Blue Flare,99
+1615,Angler Fish Banner,1
+1616,Angry Nimbus Banner,1
+1617,Anomura Fungus Banner,1
+1618,Antlion Banner,1
+1619,Arapaima Banner,1
+1620,Armored Skeleton Banner,1
+1621,Cave Bat Banner,1
+1622,Bird Banner,1
+1623,Black Recluse Banner,1
+1624,Blood Feeder Banner,1
+1625,Blood Jelly Banner,1
+1626,Blood Crawler Banner,1
+1627,Bone Serpent Banner,1
+1628,Bunny Banner,1
+1629,Chaos Elemental Banner,1
+1630,Mimic Banner,1
+1631,Clown Banner,1
+1632,Corrupt Bunny Banner,1
+1633,Corrupt Goldfish Banner,1
+1634,Crab Banner,1
+1635,Crimera Banner,1
+1636,Crimson Axe Banner,1
+1637,Cursed Hammer Banner,1
+1638,Demon Banner,1
+1639,Demon Eye Banner,1
+1640,Derpling Banner,1
+1641,Eater of Souls Banner,1
+1642,Enchanted Sword Banner,1
+1643,Frozen Zombie Banner,1
+1644,Face Monster Banner,1
+1645,Floaty Gross Banner,1
+1646,Flying Fish Banner,1
+1647,Flying Snake Banner,1
+1648,Frankenstein Banner,1
+1649,Fungi Bulb Banner,1
+1650,Fungo Fish Banner,1
+1651,Gastropod Banner,1
+1652,Goblin Thief Banner,1
+1653,Goblin Sorcerer Banner,1
+1654,Goblin Peon Banner,1
+1655,Goblin Scout Banner,1
+1656,Goblin Warrior Banner,1
+1657,Goldfish Banner,1
+1658,Harpy Banner,1
+1659,Hellbat Banner,1
+1660,Herpling Banner,1
+1661,Hornet Banner,1
+1662,Ice Elemental Banner,1
+1663,Icy Merman Banner,1
+1664,Fire Imp Banner,1
+1665,Blue Jellyfish Banner,1
+1666,Jungle Creeper Banner,1
+1667,Lihzahrd Banner,1
+1668,Man Eater Banner,1
+1669,Meteor Head Banner,1
+1670,Moth Banner,1
+1671,Mummy Banner,1
+1672,Mushi Ladybug Banner,1
+1673,Parrot Banner,1
+1674,Pigron Banner,1
+1675,Piranha Banner,1
+1676,Pirate Deckhand Banner,1
+1677,Pixie Banner,1
+1678,Raincoat Zombie Banner,1
+1679,Reaper Banner,1
+1680,Shark Banner,1
+1681,Skeleton Banner,1
+1682,Dark Caster Banner,1
+1683,Blue Slime Banner,1
+1684,Snow Flinx Banner,1
+1685,Wall Creeper Banner,1
+1686,Spore Zombie Banner,1
+1687,Swamp Thing Banner,1
+1688,Giant Tortoise Banner,1
+1689,Toxic Sludge Banner,1
+1690,Umbrella Slime Banner,1
+1691,Unicorn Banner,1
+1692,Vampire Banner,1
+1693,Vulture Banner,1
+1694,Nymph Banner,1
+1695,Werewolf Banner,1
+1696,Wolf Banner,1
+1697,World Feeder Banner,1
+1698,Worm Banner,1
+1699,Wraith Banner,1
+1700,Wyvern Banner,1
+1701,Zombie Banner,1
+1702,Glass Platform,200
+1703,Glass Chair,1
+1704,Golden Chair,1
+1705,Golden Toilet,1
+1706,Bar Stool,1
+1707,Honey Chair,1
+1708,Steampunk Chair,1
+1709,Glass Door,1
+1710,Golden Door,1
+1711,Honey Door,1
+1712,Steampunk Door,1
+1713,Glass Table,1
+1714,Banquet Table,1
+1715,Bar,1
+1716,Golden Table,1
+1717,Honey Table,1
+1718,Steampunk Table,1
+1719,Glass Bed,1
+1720,Golden Bed,1
+1721,Honey Bed,1
+1722,Steampunk Bed,1
+1723,Living Wood Wall,400
+1724,Fart in a Jar,1
+1725,Pumpkin,100
+1726,Pumpkin Wall,400
+1727,Hay,100
+1728,Hay Wall,400
+1729,Spooky Wood,100
+1730,Spooky Wood Wall,400
+1731,Pumpkin Helmet,1
+1732,Pumpkin Breastplate,1
+1733,Pumpkin Leggings,1
+1736,Nurse Hat,1
+1737,Nurse Shirt,1
+1738,Nurse Pants,1
+1739,Wizard's Hat,1
+1740,Guy Fawkes Mask,1
+1741,Dye Trader Robe,1
+1742,Steampunk Goggles,1
+1743,Cyborg Helmet,1
+1744,Cyborg Shirt,1
+1745,Cyborg Pants,1
+1746,Creeper Mask,1
+1747,Creeper Shirt,1
+1748,Creeper Pants,1
+1749,Cat Mask,1
+1750,Cat Shirt,1
+1751,Cat Pants,1
+1752,Ghost Mask,1
+1753,Ghost Shirt,1
+1754,Pumpkin Mask,1
+1755,Pumpkin Shirt,1
+1756,Pumpkin Pants,1
+1757,Robot Mask,1
+1758,Robot Shirt,1
+1759,Robot Pants,1
+1760,Unicorn Mask,1
+1761,Unicorn Shirt,1
+1762,Unicorn Pants,1
+1763,Vampire Mask,1
+1764,Vampire Shirt,1
+1765,Vampire Pants,1
+1766,Witch Hat,1
+1767,Leprechaun Hat,1
+1768,Leprechaun Shirt,1
+1769,Leprechaun Pants,1
+1770,Pixie Shirt,1
+1771,Pixie Pants,1
+1772,Princess Hat,1
+1773,Princess Dress,1
+1774,Goodie Bag,10
+1775,Witch Dress,1
+1776,Witch Boots,1
+1777,Bride of Frankenstein Mask,1
+1778,Bride of Frankenstein Dress,1
+1779,Karate Tortoise Mask,1
+1780,Karate Tortoise Shirt,1
+1781,Karate Tortoise Pants,1
+1782,Candy Corn Rifle,1
+1783,Candy Corn,99
+1784,Jack 'O Lantern Launcher,1
+1785,Explosive Jack 'O Lantern,99
+1786,Sickle,1
+1787,Pumpkin Pie,5
+1788,Scarecrow Hat,1
+1789,Scarecrow Shirt,1
+1790,Scarecrow Pants,1
+1791,Cauldron,1
+1792,Pumpkin Chair,1
+1793,Pumpkin Door,1
+1794,Pumpkin Table,1
+1795,Pumpkin Work Bench,1
+1796,Pumpkin Platform,200
+1797,Tattered Fairy Wings,1
+1798,Spider Egg,1
+1799,Magical Pumpkin Seed,1
+1800,Bat Hook,1
+1801,Bat Scepter,1
+1802,Raven Staff,1
+1803,Jungle Key Mold,n/a
+1804,Corruption Key Mold,n/a
+1805,Crimson Key Mold,n/a
+1806,Hallowed Key Mold,n/a
+1807,Frozen Key Mold,n/a
+1808,Hanging Jack 'O Lantern,1
+1809,Rotten Egg,99
+1810,Unlucky Yarn,1
+1811,Black Fairy Dust,1
+1812,Jackelier,1
+1813,Jack 'O Lantern,1
+1814,Spooky Chair,1
+1815,Spooky Door,1
+1816,Spooky Table,1
+1817,Spooky Work Bench,1
+1818,Spooky Wood Platform,200
+1819,Reaper Hood,1
+1820,Reaper Robe,1
+1821,Fox Mask,1
+1822,Fox Shirt,1
+1823,Fox Pants,1
+1824,Cat Ears,1
+1825,Bloody Machete,1
+1826,The Horseman's Blade,1
+1827,Bladed Glove,1
+1828,Pumpkin Seed,25
+1829,Spooky Hook,1
+1830,Spooky Wings,1
+1831,Spooky Twig,1
+1832,Spooky Helmet,1
+1833,Spooky Breastplate,1
+1834,Spooky Leggings,1
+1835,Stake Launcher,1
+1836,Stake,99
+1837,Cursed Sapling,1
+1838,Space Creature Mask,1
+1839,Space Creature Shirt,1
+1840,Space Creature Pants,1
+1841,Wolf Mask,1
+1842,Wolf Shirt,1
+1843,Wolf Pants,1
+1844,Pumpkin Moon Medallion,3
+1845,Necromantic Scroll,1
+1846,Jacking Skeletron,1
+1847,Bitter Harvest,1
+1848,Blood Moon Countess,1
+1849,Hallow's Eve,1
+1850,Morbid Curiosity,1
+1851,Treasure Hunter Shirt,1
+1852,Treasure Hunter Pants,1
+1853,Dryad Coverings,1
+1854,Dryad Loincloth,1
+1855,Mourning Wood Trophy,1
+1856,Pumpking Trophy,1
+1857,Jack 'O Lantern Mask,1
+1858,Sniper Scope,1
+1859,Heart Lantern,1
+1860,Jellyfish Diving Gear,1
+1861,Arctic Diving Gear,1
+1862,Frostspark Boots,1
+1863,Fart in a Balloon,1
+1864,Papyrus Scarab,1
+1865,Celestial Stone,1
+1866,Hoverboard,1
+1869,Present,10
+1870,Red Ryder,1
+1871,Festive Wings,1
+1872,Pine Tree Block,100
+1873,Christmas Tree,1
+1874,Star Topper 1,1
+1875,Star Topper 2,1
+1876,Star Topper 3,1
+1877,Bow Topper,1
+1878,White Garland,1
+1879,White and Red Garland,1
+1880,Red Garland,1
+1881,Red and Green Garland,1
+1882,Green Garland,1
+1883,Green and White Garland,1
+1884,Multicolored Bulb,1
+1885,Red Bulb,1
+1886,Yellow Bulb,1
+1887,Green Bulb,1
+1888,Red and Green Bulb,1
+1889,Yellow and Green Bulb,1
+1890,Red and Yellow Bulb,1
+1891,White Bulb,1
+1892,White and Red Bulb,1
+1893,White and Yellow Bulb,1
+1894,White and Green Bulb,1
+1895,Multicolored Lights,1
+1896,Red Lights,1
+1897,Green Lights,1
+1898,Blue Lights,1
+1899,Yellow Lights,1
+1900,Red and Yellow Lights,1
+1901,Red and Green Lights,1
+1902,Yellow and Green Lights,1
+1903,Blue and Green Lights,1
+1904,Red and Blue Lights,1
+1905,Blue and Yellow Lights,1
+1906,Giant Bow,1
+1907,Reindeer Antlers,1
+1908,Holly,1
+1909,Candy Cane Sword,1
+1910,Elf Melter,1
+1911,Christmas Pudding,5
+1912,Eggnog,30
+1913,Star Anise,99
+1914,Reindeer Bells,1
+1915,Candy Cane Hook,1
+1916,Christmas Hook,1
+1917,Candy Cane Pickaxe,1
+1918,Fruitcake Chakram,1
+1919,Sugar Cookie,5
+1920,Gingerbread Cookie,5
+1921,Hand Warmer,1
+1922,Coal,1
+1923,Toolbox,1
+1924,Pine Door,1
+1925,Pine Chair,1
+1926,Pine Table,1
+1927,Dog Whistle,1
+1928,Christmas Tree Sword,1
+1929,Chain Gun,1
+1930,Razorpine,1
+1931,Blizzard Staff,1
+1932,Mrs. Claus Hat,1
+1933,Mrs. Claus Shirt,1
+1934,Mrs. Claus Heels,1
+1935,Parka Hood,1
+1936,Parka Coat,1
+1937,Parka Pants,1
+1938,Snow Hat,1
+1939,Ugly Sweater,1
+1940,Tree Mask,1
+1941,Tree Shirt,1
+1942,Tree Trunks,1
+1943,Elf Hat,1
+1944,Elf Shirt,1
+1945,Elf Pants,1
+1946,Snowman Cannon,1
+1947,North Pole,1
+1948,Christmas Tree Wallpaper,400
+1949,Ornament Wallpaper,400
+1950,Candy Cane Wallpaper,400
+1951,Festive Wallpaper,400
+1952,Stars Wallpaper,400
+1953,Squiggles Wallpaper,400
+1954,Snowflake Wallpaper,400
+1955,Krampus Horn Wallpaper,400
+1956,Bluegreen Wallpaper,400
+1957,Grinch Finger Wallpaper,400
+1958,Naughty Present,3
+1959,Baby Grinch's Mischief Whistle,1
+1960,Ice Queen Trophy,1
+1961,Santa-NK1 Trophy,1
+1962,Everscream Trophy,1
+1963,Music Box (Pumpkin Moon),1
+1964,Music Box (Alt Underground),1
+1965,Music Box (Frost Moon),1
+1966,Brown Paint,100
+1967,Shadow Paint,100
+1968,Negative Paint,100
+1969,Team Dye,3
+1970,Amethyst Gemspark Block,100
+1971,Topaz Gemspark Block,100
+1972,Sapphire Gemspark Block,100
+1973,Emerald Gemspark Block,100
+1974,Ruby Gemspark Block,100
+1975,Diamond Gemspark Block,100
+1976,Amber Gemspark Block,100
+1977,Life Hair Dye,1
+1978,Mana Hair Dye,1
+1979,Depth Hair Dye,1
+1980,Money Hair Dye,1
+1981,Time Hair Dye,1
+1982,Team Hair Dye,1
+1983,Biome Hair Dye,1
+1984,Party Hair Dye,1
+1985,Rainbow Hair Dye,1
+1986,Speed Hair Dye,1
+1987,Angel Halo,1
+1988,Fez,1
+1989,Womannequin,1
+1990,Hair Dye Remover,1
+1991,Bug Net,1
+1992,Firefly,5
+1993,Firefly in a Bottle,1
+1994,Monarch Butterfly,5
+1995,Purple Emperor Butterfly,5
+1996,Red Admiral Butterfly,5
+1997,Ulysses Butterfly,5
+1998,Sulphur Butterfly,5
+1999,Tree Nymph Butterfly,5
+2000,Zebra Swallowtail Butterfly,5
+2001,Julia Butterfly,5
+2002,Worm,5
+2003,Mouse,5
+2004,Lightning Bug,5
+2005,Lightning Bug in a Bottle,1
+2006,Snail,5
+2007,Glowing Snail,5
+2008,Fancy Gray Wallpaper,400
+2009,Ice Floe Wallpaper,400
+2010,Music Wallpaper,400
+2011,Purple Rain Wallpaper,400
+2012,Rainbow Wallpaper,400
+2013,Sparkle Stone Wallpaper,400
+2014,Starlit Heaven Wallpaper,400
+2015,Bird,5
+2016,Blue Jay,5
+2017,Cardinal,5
+2018,Squirrel,5
+2019,Bunny,5
+2020,Cactus Bookcase,1
+2021,Ebonwood Bookcase,1
+2022,Flesh Bookcase,1
+2023,Honey Bookcase,1
+2024,Steampunk Bookcase,1
+2025,Glass Bookcase,1
+2026,Rich Mahogany Bookcase,1
+2027,Pearlwood Bookcase,1
+2028,Spooky Bookcase,1
+2029,Skyware Bookcase,1
+2030,Lihzahrd Bookcase,1
+2031,Frozen Bookcase,1
+2032,Cactus Lantern,1
+2033,Ebonwood Lantern,1
+2034,Flesh Lantern,1
+2035,Honey Lantern,1
+2036,Steampunk Lantern,1
+2037,Glass Lantern,1
+2038,Rich Mahogany Lantern,1
+2039,Pearlwood Lantern,1
+2040,Frozen Lantern,1
+2041,Lihzahrd Lantern,1
+2042,Skyware Lantern,1
+2043,Spooky Lantern,1
+2044,Frozen Door,1
+2045,Cactus Candle,1
+2046,Ebonwood Candle,1
+2047,Flesh Candle,1
+2048,Glass Candle,1
+2049,Frozen Candle,1
+2050,Rich Mahogany Candle,1
+2051,Pearlwood Candle,1
+2052,Lihzahrd Candle,1
+2053,Skyware Candle,1
+2054,Pumpkin Candle,1
+2055,Cactus Chandelier,1
+2056,Ebonwood Chandelier,1
+2057,Flesh Chandelier,1
+2058,Honey Chandelier,1
+2059,Frozen Chandelier,1
+2060,Rich Mahogany Chandelier,1
+2061,Pearlwood Chandelier,1
+2062,Lihzahrd Chandelier,1
+2063,Skyware Chandelier,1
+2064,Spooky Chandelier,1
+2065,Glass Chandelier,1
+2066,Cactus Bed,1
+2067,Flesh Bed,1
+2068,Frozen Bed,1
+2069,Lihzahrd Bed,1
+2070,Skyware Bed,1
+2071,Spooky Bed,1
+2072,Cactus Bathtub,1
+2073,Ebonwood Bathtub,1
+2074,Flesh Bathtub,1
+2075,Glass Bathtub,1
+2076,Frozen Bathtub,1
+2077,Rich Mahogany Bathtub,1
+2078,Pearlwood Bathtub,1
+2079,Lihzahrd Bathtub,1
+2080,Skyware Bathtub,1
+2081,Spooky Bathtub,1
+2082,Cactus Lamp,1
+2083,Ebonwood Lamp,1
+2084,Flesh Lamp,1
+2085,Glass Lamp,1
+2086,Frozen Lamp,1
+2087,Rich Mahogany Lamp,1
+2088,Pearlwood Lamp,1
+2089,Lihzahrd Lamp,1
+2090,Skyware Lamp,1
+2091,Spooky Lamp,1
+2092,Cactus Candelabra,1
+2093,Ebonwood Candelabra,1
+2094,Flesh Candelabra,1
+2095,Honey Candelabra,1
+2096,Steampunk Candelabra,1
+2097,Glass Candelabra,1
+2098,Rich Mahogany Candelabra,1
+2099,Pearlwood Candelabra,1
+2100,Frozen Candelabra,1
+2101,Lihzahrd Candelabra,1
+2102,Skyware Candelabra,1
+2103,Spooky Candelabra,1
+2104,Brain of Cthulhu Mask,1
+2105,Wall of Flesh Mask,1
+2106,Twins Mask,1
+2107,Skeletron Prime Mask,1
+2108,Queen Bee Mask,1
+2109,Plantera Mask,1
+2110,Golem Mask,1
+2111,Eater of Worlds Mask,1
+2112,Eye of Cthulhu Mask,1
+2113,Destroyer Mask,1
+2114,Blacksmith Rack,1
+2115,Carpentry Rack,1
+2116,Helmet Rack,1
+2117,Spear Rack,1
+2118,Sword Rack,1
+2119,Stone Slab,100
+2120,Sandstone Slab,100
+2121,Frog,5
+2122,Mallard Duck,5
+2123,Duck,5
+2124,Honey Bathtub,1
+2125,Steampunk Bathtub,1
+2126,Living Wood Bathtub,1
+2127,Shadewood Bathtub,1
+2128,Bone Bathtub,1
+2129,Honey Lamp,1
+2130,Steampunk Lamp,1
+2131,Living Wood Lamp,1
+2132,Shadewood Lamp,1
+2133,Golden Lamp,1
+2134,Bone Lamp,1
+2135,Living Wood Bookcase,1
+2136,Shadewood Bookcase,1
+2137,Golden Bookcase,1
+2138,Bone Bookcase,1
+2139,Living Wood Bed,1
+2140,Bone Bed,1
+2141,Living Wood Chandelier,1
+2142,Shadewood Chandelier,1
+2143,Golden Chandelier,1
+2144,Bone Chandelier,1
+2145,Living Wood Lantern,1
+2146,Shadewood Lantern,1
+2147,Golden Lantern,1
+2148,Bone Lantern,1
+2149,Living Wood Candelabra,1
+2150,Shadewood Candelabra,1
+2151,Golden Candelabra,1
+2152,Bone Candelabra,1
+2153,Living Wood Candle,1
+2154,Shadewood Candle,1
+2155,Golden Candle,1
+2156,Black Scorpion,5
+2157,Scorpion,5
+2158,Bubble Wallpaper,400
+2159,Copper Pipe Wallpaper,400
+2160,Ducky Wallpaper,400
+2161,Frost Core,3
+2162,Bunny Cage,1
+2163,Squirrel Cage,1
+2164,Mallard Duck Cage,1
+2165,Duck Cage,1
+2166,Bird Cage,1
+2167,Blue Jay Cage,1
+2168,Cardinal Cage,1
+2169,Waterfall Wall,400
+2170,Lavafall Wall,400
+2171,Crimson Seeds,25
+2172,Heavy Assembler,1
+2173,Copper Plating,100
+2174,Snail Cage,1
+2175,Glowing Snail Cage,1
+2176,Shroomite Digging Claw,1
+2177,Ammo Box,1
+2178,Monarch Butterfly Jar,1
+2179,Purple Emperor Butterfly Jar,1
+2180,Red Admiral Butterfly Jar,1
+2181,Ulysses Butterfly Jar,1
+2182,Sulphur Butterfly Jar,1
+2183,Tree Nymph Butterfly Jar,1
+2184,Zebra Swallowtail Butterfly Jar,1
+2185,Julia Butterfly Jar,1
+2186,Scorpion Cage,1
+2187,Black Scorpion Cage,1
+2188,Venom Staff,1
+2189,Spectre Mask,1
+2190,Frog Cage,1
+2191,Mouse Cage,1
+2192,Bone Welder,1
+2193,Flesh Cloning Vat,1
+2194,Glass Kiln,1
+2195,Lihzahrd Furnace,1
+2196,Living Loom,1
+2197,Sky Mill,1
+2198,Ice Machine,1
+2199,Beetle Helmet,1
+2200,Beetle Scale Mail,1
+2201,Beetle Shell,1
+2202,Beetle Leggings,1
+2203,Steampunk Boiler,1
+2204,Honey Dispenser,1
+2205,Penguin,5
+2206,Penguin Cage,1
+2207,Worm Cage,1
+2208,Terrarium,1
+2209,Super Mana Potion,30
+2210,Ebonwood Fence,400
+2211,Rich Mahogany Fence,400
+2212,Pearlwood Fence,400
+2213,Shadewood Fence,400
+2214,Brick Layer,1
+2215,Extendo Grip,1
+2216,Paint Sprayer,1
+2217,Portable Cement Mixer,1
+2218,Beetle Husk,25
+2219,Celestial Magnet,1
+2220,Celestial Emblem,1
+2221,Celestial Cuffs,1
+2222,Peddler's Hat,1
+2223,Pulse Bow,1
+2224,Large Dynasty Lantern,1
+2225,Dynasty Lamp,1
+2226,Dynasty Lantern,1
+2227,Large Dynasty Candle,1
+2228,Dynasty Chair,1
+2229,Dynasty Work Bench,1
+2230,Dynasty Chest,1
+2231,Dynasty Bed,1
+2232,Dynasty Bathtub,1
+2233,Dynasty Bookcase,1
+2234,Dynasty Cup,1
+2235,Dynasty Bowl,1
+2236,Dynasty Candle,1
+2237,Dynasty Clock,1
+2238,Golden Clock,1
+2239,Glass Clock,1
+2240,Honey Clock,1
+2241,Steampunk Clock,1
+2242,Fancy Dishes,1
+2243,Glass Bowl,1
+2244,Wine Glass,1
+2245,Living Wood Piano,1
+2246,Flesh Piano,1
+2247,Frozen Piano,1
+2248,Frozen Table,1
+2249,Honey Chest,1
+2250,Steampunk Chest,1
+2251,Honey Work Bench,1
+2252,Frozen Work Bench,1
+2253,Steampunk Work Bench,1
+2254,Glass Piano,1
+2255,Honey Piano,1
+2256,Steampunk Piano,1
+2257,Honey Cup,1
+2258,Chalice,1
+2259,Dynasty Table,1
+2260,Dynasty Wood,100
+2261,Red Dynasty Shingles,100
+2262,Blue Dynasty Shingles,100
+2263,White Dynasty Wall,400
+2264,Blue Dynasty Wall,400
+2265,Dynasty Door,1
+2266,Sake,20
+2267,Pad Thai,5
+2268,Pho,5
+2269,Revolver,1
+2270,Gatligator,1
+2271,Arcane Rune Wall,400
+2272,Water Gun,1
+2273,Katana,1
+2274,Ultrabright Torch,100
+2275,Magic Hat,1
+2276,Diamond Ring,1
+2277,Gi,1
+2278,Kimono,1
+2279,Mystic Robe,1
+2280,Beetle Wings,1
+2281,Tiger Skin,1
+2282,Leopard Skin,1
+2283,Zebra Skin,1
+2284,Crimson Cloak,1
+2285,Mysterious Cape,1
+2286,Red Cape,1
+2287,Winter Cape,1
+2288,Frozen Chair,1
+2289,Wood Fishing Pole,1
+2290,Bass,3
+2291,Reinforced Fishing Pole,1
+2292,Fiberglass Fishing Pole,1
+2293,Fisher of Souls,1
+2294,Golden Fishing Rod,1
+2295,Mechanic's Rod,1
+2296,Sitting Duck's Fishing Pole,1
+2297,Trout,3
+2298,Salmon,3
+2299,Atlantic Cod,3
+2300,Tuna,3
+2301,Red Snapper,3
+2302,Neon Tetra,3
+2303,Armored Cavefish,3
+2304,Damselfish,3
+2305,Crimson Tigerfish,3
+2306,Frost Minnow,3
+2307,Princess Fish,3
+2308,Golden Carp,3
+2309,Specular Fish,3
+2310,Prismite,3
+2311,Variegated Lardfish,3
+2312,Flarefin Koi,3
+2313,Double Cod,3
+2314,Honeyfin,30
+2315,Obsidifish,3
+2316,Shrimp,3
+2317,Chaos Fish,3
+2318,Ebonkoi,3
+2319,Hemopiranha,3
+2320,Rockfish,1
+2321,Stinkfish,3
+2322,Mining Potion,20
+2323,Heartreach Potion,20
+2324,Calming Potion,20
+2325,Builder Potion,20
+2326,Titan Potion,20
+2327,Flipper Potion,20
+2328,Summoning Potion,20
+2329,Dangersense Potion,20
+2330,Purple Clubberfish,1
+2331,Obsidian Swordfish,1
+2332,Swordfish,1
+2333,Iron Fence,400
+2334,Wooden Crate,10
+2335,Iron Crate,10
+2336,Golden Crate,10
+2337,Old Shoe,1
+2338,Seaweed,1
+2339,Tin Can,1
+2340,Minecart Track,100
+2341,Reaver Shark,1
+2342,Sawtooth Shark,1
+2343,Minecart,1
+2344,Ammo Reservation Potion,20
+2345,Lifeforce Potion,20
+2346,Endurance Potion,20
+2347,Rage Potion,20
+2348,Inferno Potion,20
+2349,Wrath Potion,20
+2350,Recall Potion,20
+2351,Teleportation Potion,20
+2352,Love Potion,20
+2353,Stink Potion,20
+2354,Fishing Potion,20
+2355,Sonar Potion,20
+2356,Crate Potion,20
+2357,Shiverthorn Seeds,25
+2358,Shiverthorn,25
+2359,Warmth Potion,20
+2360,Fish Hook,1
+2361,Bee Headgear,1
+2362,Bee Breastplate,1
+2363,Bee Greaves,1
+2364,Hornet Staff,1
+2365,Imp Staff,1
+2366,Queen Spider Staff,1
+2367,Angler Hat,1
+2368,Angler Vest,1
+2369,Angler Pants,1
+2370,Spider Mask,1
+2371,Spider Breastplate,1
+2372,Spider Greaves,1
+2373,High Test Fishing Line,1
+2374,Angler Earring,1
+2375,Tackle Box,1
+2376,Blue Dungeon Piano,1
+2377,Green Dungeon Piano,1
+2378,Pink Dungeon Piano,1
+2379,Golden Piano,1
+2380,Obsidian Piano,1
+2381,Bone Piano,1
+2382,Cactus Piano,1
+2383,Spooky Piano,1
+2384,Skyware Piano,1
+2385,Lihzahrd Piano,1
+2386,Blue Dungeon Dresser,1
+2387,Green Dungeon Dresser,1
+2388,Pink Dungeon Dresser,1
+2389,Golden Dresser,1
+2390,Obsidian Dresser,1
+2391,Bone Dresser,1
+2392,Cactus Dresser,1
+2393,Spooky Dresser,1
+2394,Skyware Dresser,1
+2395,Honey Dresser,1
+2396,Lihzahrd Dresser,1
+2397,Sofa,1
+2398,Ebonwood Sofa,1
+2399,Rich Mahogany Sofa,1
+2400,Pearlwood Sofa,1
+2401,Shadewood Sofa,1
+2402,Blue Dungeon Sofa,1
+2403,Green Dungeon Sofa,1
+2404,Pink Dungeon Sofa,1
+2405,Golden Sofa,1
+2406,Obsidian Sofa,1
+2407,Bone Sofa,1
+2408,Cactus Sofa,1
+2409,Spooky Sofa,1
+2410,Skyware Sofa,1
+2411,Honey Sofa,1
+2412,Steampunk Sofa,1
+2413,Mushroom Sofa,1
+2414,Glass Sofa,1
+2415,Pumpkin Sofa,1
+2416,Lihzahrd Sofa,1
+2417,Seashell Hairpin,1
+2418,Mermaid Adornment,1
+2419,Mermaid Tail,1
+2420,Zephyr Fish,1
+2421,Fleshcatcher,1
+2422,Hotline Fishing Hook,1
+2423,Frog Leg,1
+2424,Anchor,1
+2425,Cooked Fish,5
+2426,Cooked Shrimp,5
+2427,Sashimi,5
+2428,Fuzzy Carrot,1
+2429,Scaly Truffle,1
+2430,Slimy Saddle,1
+2431,Bee Wax,25
+2432,Copper Plating Wall,400
+2433,Stone Slab Wall,400
+2434,Sail,400
+2435,Coralstone Block,100
+2436,Blue Jellyfish,3
+2437,Green Jellyfish,3
+2438,Pink Jellyfish,3
+2439,Blue Jellyfish Jar,1
+2440,Green Jellyfish Jar,1
+2441,Pink Jellyfish Jar,1
+2442,Life Preserver,1
+2443,Ship's Wheel,1
+2444,Compass Rose,1
+2445,Wall Anchor,1
+2446,Goldfish Trophy,1
+2447,Bunnyfish Trophy,1
+2448,Swordfish Trophy,1
+2449,Sharkteeth Trophy,1
+2450,Batfish,2
+2451,Bumblebee Tuna,2
+2452,Catfish,2
+2453,Cloudfish,2
+2454,Cursedfish,2
+2455,Dirtfish,2
+2456,Dynamite Fish,2
+2457,Eater of Plankton,2
+2458,Fallen Starfish,2
+2459,The Fish of Cthulhu,2
+2460,Fishotron,2
+2461,Harpyfish,2
+2462,Hungerfish,2
+2463,Ichorfish,2
+2464,Jewelfish,2
+2465,Mirage Fish,2
+2466,Mutant Flinxfin,2
+2467,Pengfish,2
+2468,Pixiefish,2
+2469,Spiderfish,2
+2470,Tundra Trout,2
+2471,Unicorn Fish,2
+2472,Guide Voodoo Fish,2
+2473,Wyverntail,2
+2474,Zombie Fish,2
+2475,Amanita Fungifin,2
+2476,Angelfish,2
+2477,Bloody Manowar,2
+2478,Bonefish,2
+2479,Bunnyfish,2
+2480,Cap'n Tunabeard,2
+2481,Clownfish,2
+2482,Demonic Hellfish,2
+2483,Derpfish,2
+2484,Fishron,2
+2485,Infected Scabbardfish,2
+2486,Mudfish,2
+2487,Slimefish,2
+2488,Tropical Barracuda,2
+2489,King Slime Trophy,1
+2490,Ship in a Bottle,1
+2491,Hardy Saddle,1
+2492,Pressure Plate Track,5
+2493,King Slime Mask,1
+2494,Fin Wings,1
+2495,Treasure Map,1
+2496,Seaweed Planter,1
+2497,Pillagin' Me Pixels,1
+2498,Fish Costume Mask,1
+2499,Fish Costume Shirt,1
+2500,Fish Costume Finskirt,1
+2501,Ginger Beard,1
+2502,Honeyed Goggles,1
+2503,Boreal Wood,100
+2504,Palm Wood,100
+2505,Boreal Wood Wall,400
+2506,Palm Wood Wall,400
+2507,Boreal Wood Fence,400
+2508,Palm Wood Fence,400
+2509,Boreal Wood Helmet,1
+2510,Boreal Wood Breastplate,1
+2511,Boreal Wood Greaves,1
+2512,Palm Wood Helmet,1
+2513,Palm Wood Breastplate,1
+2514,Palm Wood Greaves,1
+2515,Palm Wood Bow,1
+2516,Palm Wood Hammer,1
+2517,Palm Wood Sword,1
+2518,Palm Wood Platform,200
+2519,Palm Wood Bathtub,1
+2520,Palm Wood Bed,1
+2521,Palm Wood Bench,1
+2522,Palm Wood Candelabra,1
+2523,Palm Wood Candle,1
+2524,Palm Wood Chair,1
+2525,Palm Wood Chandelier,1
+2526,Palm Wood Chest,1
+2527,Palm Wood Sofa,1
+2528,Palm Wood Door,1
+2529,Palm Wood Dresser,1
+2530,Palm Wood Lantern,1
+2531,Palm Wood Piano,1
+2532,Palm Wood Table,1
+2533,Palm Wood Lamp,1
+2534,Palm Wood Work Bench,1
+2535,Optic Staff,1
+2536,Palm Wood Bookcase,1
+2537,Mushroom Bathtub,1
+2538,Mushroom Bed,1
+2539,Mushroom Bench,1
+2540,Mushroom Bookcase,1
+2541,Mushroom Candelabra,1
+2542,Mushroom Candle,1
+2543,Mushroom Chandelier,1
+2544,Mushroom Chest,1
+2545,Mushroom Dresser,1
+2546,Mushroom Lantern,1
+2547,Mushroom Lamp,1
+2548,Mushroom Piano,1
+2549,Mushroom Platform,200
+2550,Mushroom Table,1
+2551,Spider Staff,1
+2552,Boreal Wood Bathtub,1
+2553,Boreal Wood Bed,1
+2554,Boreal Wood Bookcase,1
+2555,Boreal Wood Candelabra,1
+2556,Boreal Wood Candle,1
+2557,Boreal Wood Chair,1
+2558,Boreal Wood Chandelier,1
+2559,Boreal Wood Chest,1
+2560,Boreal Wood Clock,1
+2561,Boreal Wood Door,1
+2562,Boreal Wood Dresser,1
+2563,Boreal Wood Lamp,1
+2564,Boreal Wood Lantern,1
+2565,Boreal Wood Piano,1
+2566,Boreal Wood Platform,200
+2567,Slime Bathtub,1
+2568,Slime Bed,1
+2569,Slime Bookcase,1
+2570,Slime Candelabra,1
+2571,Slime Candle,1
+2572,Slime Chair,1
+2573,Slime Chandelier,1
+2574,Slime Chest,1
+2575,Slime Clock,1
+2576,Slime Door,1
+2577,Slime Dresser,1
+2578,Slime Lamp,1
+2579,Slime Lantern,1
+2580,Slime Piano,1
+2581,Slime Platform,200
+2582,Slime Sofa,1
+2583,Slime Table,1
+2584,Pirate Staff,1
+2585,Slime Hook,1
+2586,Sticky Grenade,99
+2587,Beguiling Lyre,1
+2588,Duke Fishron Mask,1
+2589,Duke Fishron Trophy,1
+2590,Molotov Cocktail,99
+2591,Bone Clock,1
+2592,Cactus Clock,1
+2593,Ebonwood Clock,1
+2594,Frozen Clock,1
+2595,Lihzahrd Clock,1
+2596,Living Wood Clock,1
+2597,Rich Mahogany Clock,1
+2598,Flesh Clock,1
+2599,Mushroom Clock,1
+2600,Obsidian Clock,1
+2601,Palm Wood Clock,1
+2602,Pearlwood Clock,1
+2603,Pumpkin Clock,1
+2604,Shadewood Clock,1
+2605,Spooky Clock,1
+2606,Skyware Clock,1
+2607,Spider Fang,25
+2608,Falcon Blade,1
+2609,Fishron Wings,1
+2610,Slime Gun,1
+2611,Flairoon,1
+2612,Green Dungeon Chest,1
+2613,Pink Dungeon Chest,1
+2614,Blue Dungeon Chest,1
+2615,Bone Chest,1
+2616,Cactus Chest,1
+2617,Flesh Chest,1
+2618,Obsidian Chest,1
+2619,Pumpkin Chest,1
+2620,Spooky Chest,1
+2621,Tempest Staff,1
+2622,Razorblade Typhoon,1
+2623,Bubble Gun,1
+2624,Tsunami,1
+2625,Seashell,5
+2626,Starfish,5
+2627,Steampunk Platform,200
+2628,Skyware Platform,200
+2629,Living Wood Platform,200
+2630,Honey Platform,200
+2631,Skyware Work Bench,1
+2632,Glass Work Bench,1
+2633,Living Wood Work Bench,1
+2634,Flesh Sofa,1
+2635,Frozen Sofa,1
+2636,Living Wood Sofa,1
+2637,Pumpkin Dresser,1
+2638,Steampunk Dresser,1
+2639,Glass Dresser,1
+2640,Flesh Dresser,1
+2641,Pumpkin Lantern,1
+2642,Obsidian Lantern,1
+2643,Pumpkin Lamp,1
+2644,Obsidian Lamp,1
+2645,Blue Dungeon Lamp,1
+2646,Green Dungeon Lamp,1
+2647,Pink Dungeon Lamp,1
+2648,Honey Candle,1
+2649,Steampunk Candle,1
+2650,Spooky Candle,1
+2651,Obsidian Candle,1
+2652,Blue Dungeon Chandelier,1
+2653,Green Dungeon Chandelier,1
+2654,Pink Dungeon Chandelier,1
+2655,Steampunk Chandelier,1
+2656,Pumpkin Chandelier,1
+2657,Obsidian Chandelier,1
+2658,Blue Dungeon Bathtub,1
+2659,Green Dungeon Bathtub,1
+2660,Pink Dungeon Bathtub,1
+2661,Pumpkin Bathtub,1
+2662,Obsidian Bathtub,1
+2663,Golden Bathtub,1
+2664,Blue Dungeon Candelabra,1
+2665,Green Dungeon Candelabra,1
+2666,Pink Dungeon Candelabra,1
+2667,Obsidian Candelabra,1
+2668,Pumpkin Candelabra,1
+2669,Pumpkin Bed,1
+2670,Pumpkin Bookcase,1
+2671,Pumpkin Piano,1
+2672,Shark Statue,1
+2673,Truffle Worm,3
+2674,Apprentice Bait,5
+2675,Journeyman Bait,5
+2676,Master Bait,5
+2677,Amber Gemspark Wall,400
+2678,Offline Amber Gemspark Wall,400
+2679,Amethyst Gemspark Wall,400
+2680,Offline Amethyst Gemspark Wall,400
+2681,Diamond Gemspark Wall,400
+2682,Offline Diamond Gemspark Wall,400
+2683,Emerald Gemspark Wall,400
+2684,Offline Emerald Gemspark Wall,400
+2685,Ruby Gemspark Wall,400
+2686,Offline Ruby Gemspark Wall,400
+2687,Sapphire Gemspark Wall,400
+2688,Offline Sapphire Gemspark Wall,400
+2689,Topaz Gemspark Wall,400
+2690,Offline Topaz Gemspark Wall,400
+2691,Tin Plating Wall,400
+2692,Tin Plating,100
+2693,Waterfall Block,100
+2694,Lavafall Block,100
+2695,Confetti Block,100
+2696,Confetti Wall,400
+2697,Midnight Confetti Block,100
+2698,Midnight Confetti Wall,400
+2699,Weapon Rack,1
+2700,Fireworks Box,1
+2701,Living Fire Block,100
+2702,0' Statue,1
+2703,1' Statue,1
+2704,2' Statue,1
+2705,3' Statue,1
+2706,4' Statue,1
+2707,5' Statue,1
+2708,6' Statue,1
+2709,7' Statue,1
+2710,8' Statue,1
+2711,9' Statue,1
+2712,A' Statue,1
+2713,B' Statue,1
+2714,C' Statue,1
+2715,D' Statue,1
+2716,E' Statue,1
+2717,F' Statue,1
+2718,G' Statue,1
+2719,H' Statue,1
+2720,I' Statue,1
+2721,J' Statue,1
+2722,K' Statue,1
+2723,L' Statue,1
+2724,M' Statue,1
+2725,N' Statue,1
+2726,O' Statue,1
+2727,P' Statue,1
+2728,Q' Statue,1
+2729,R' Statue,1
+2730,S' Statue,1
+2731,T' Statue,1
+2732,U' Statue,1
+2733,V' Statue,1
+2734,W' Statue,1
+2735,X' Statue,1
+2736,Y' Statue,1
+2737,Z' Statue,1
+2738,Firework Fountain,1
+2739,Booster Track,5
+2740,Grasshopper,5
+2741,Grasshopper Cage,1
+2742,Music Box (Underground Crimson),1
+2743,Cactus Table,1
+2744,Cactus Platform,200
+2745,Boreal Wood Sword,1
+2746,Boreal Wood Hammer,1
+2747,Boreal Wood Bow,1
+2748,Glass Chest,1
+2749,Xeno Staff,1
+2750,Meteor Staff,1
+2751,Living Cursed Fire Block,100
+2752,Living Demon Fire Block,100
+2753,Living Frost Fire Block,100
+2754,Living Ichor Block,100
+2755,Living Ultrabright Fire Block,100
+2756,Gender Change Potion,20
+2757,Vortex Helmet,1
+2758,Vortex Breastplate,1
+2759,Vortex Leggings,1
+2760,Nebula Helmet,1
+2761,Nebula Breastplate,1
+2762,Nebula Leggings,1
+2763,Solar Flare Helmet,1
+2764,Solar Flare Breastplate,1
+2765,Solar Flare Leggings,1
+2766,Solar Tablet Fragment,10
+2767,Solar Tablet,3
+2768,Drill Containment Unit,1
+2769,Cosmic Car Key,1
+2770,Mothron Wings,1
+2771,Brain Scrambler,1
+2774,Vortex Drill,1
+2776,Vortex Pickaxe,1
+2779,Nebula Drill,1
+2781,Nebula Pickaxe,1
+2784,Solar Flare Drill,1
+2786,Solar Flare Pickaxe,1
+2787,Honeyfall Block,100
+2788,Honeyfall Wall,400
+2789,Chlorophyte Brick Wall,400
+2790,Crimtane Brick Wall,400
+2791,Shroomite Plating Wall,400
+2792,Chlorophyte Brick,100
+2793,Crimtane Brick,100
+2794,Shroomite Plating,100
+2795,Laser Machinegun,1
+2796,Electrosphere Launcher,1
+2797,Xenopopper,1
+2798,Laser Drill,1
+2799,Mechanical Ruler,1
+2800,Anti-Gravity Hook,1
+2801,Moon Mask,1
+2802,Sun Mask,1
+2803,Martian Costume Mask,1
+2804,Martian Costume Shirt,1
+2805,Martian Costume Pants,1
+2806,Martian Uniform Helmet,1
+2807,Martian Uniform Torso,1
+2808,Martian Uniform Pants,1
+2809,Martian Astro Clock,1
+2810,Martian Bathtub,1
+2811,Martian Bed,1
+2812,Martian Hover Chair,1
+2813,Martian Chandelier,1
+2814,Martian Chest,1
+2815,Martian Door,1
+2816,Martian Dresser,1
+2817,Martian Holobookcase,1
+2818,Martian Hover Candle,1
+2819,Martian Lamppost,1
+2820,Martian Lantern,1
+2821,Martian Piano,1
+2822,Martian Platform,200
+2823,Martian Sofa,1
+2824,Martian Table,1
+2825,Martian Table Lamp,1
+2826,Martian Work Bench,1
+2827,Wooden Sink,1
+2828,Ebonwood Sink,1
+2829,Rich Mahogany Sink,1
+2830,Pearlwood Sink,1
+2831,Bone Sink,1
+2832,Flesh Sink,1
+2833,Living Wood Sink,1
+2834,Skyware Sink,1
+2835,Shadewood Sink,1
+2836,Lihzahrd Sink,1
+2837,Blue Dungeon Sink,1
+2838,Green Dungeon Sink,1
+2839,Pink Dungeon Sink,1
+2840,Obsidian Sink,1
+2841,Metal Sink,1
+2842,Glass Sink,1
+2843,Golden Sink,1
+2844,Honey Sink,1
+2845,Steampunk Sink,1
+2846,Pumpkin Sink,1
+2847,Spooky Sink,1
+2848,Frozen Sink,1
+2849,Dynasty Sink,1
+2850,Palm Wood Sink,1
+2851,Mushroom Sink,1
+2852,Boreal Wood Sink,1
+2853,Slime Sink,1
+2854,Cactus Sink,1
+2855,Martian Sink,1
+2856,Solar Cultist Hood,1
+2857,Lunar Cultist Hood,1
+2858,Solar Cultist Robe,1
+2859,Lunar Cultist Robe,1
+2860,Martian Conduit Plating,100
+2861,Martian Conduit Wall,400
+2862,HiTek Sunglasses,1
+2863,Martian Hair Dye,1
+2864,Martian Dye,3
+2865,Castle Marsberg,1
+2866,Martia Lisa,1
+2867,The Truth Is Up There,1
+2868,Smoke Block,100
+2869,Living Flame Dye,3
+2870,Living Rainbow Dye,3
+2871,Shadow Dye,3
+2872,Negative Dye,3
+2873,Living Ocean Dye,3
+2874,Brown Dye,3
+2875,Brown and Black Dye,3
+2876,Bright Brown Dye,3
+2877,Brown and Silver Dye,3
+2878,Wisp Dye,3
+2879,Pixie Dye,3
+2880,Influx Waver,1
+2882,Charged Blaster Cannon,1
+2883,Chlorophyte Dye,3
+2884,Unicorn Wisp Dye,3
+2885,Infernal Wisp Dye,3
+2886,Vicious Powder,99
+2887,Vicious Mushroom,25
+2888,The Bee's Knees,1
+2889,Gold Bird,3
+2890,Gold Bunny,3
+2891,Gold Butterfly,3
+2892,Gold Frog,3
+2893,Gold Grasshopper,3
+2894,Gold Mouse,3
+2895,Gold Worm,3
+2896,Sticky Dynamite,99
+2897,Angry Trapper Banner,1
+2898,Armored Viking Banner,1
+2899,Black Slime Banner,1
+2900,Blue Armored Bones Banner,1
+2901,Blue Cultist Archer Banner,1
+2902,Lunatic Devotee Banner,1
+2903,Blue Cultist Fighter Banner,n/a
+2904,Bone Lee Banner,1
+2905,Clinger Banner,1
+2906,Cochineal Beetle Banner,1
+2907,Corrupt Penguin Banner,1
+2908,Corrupt Slime Banner,1
+2909,Corruptor Banner,1
+2910,Crimslime Banner,1
+2911,Cursed Skull Banner,1
+2912,Cyan Beetle Banner,1
+2913,Devourer Banner,1
+2914,Diabolist Banner,1
+2915,Doctor Bones Banner,1
+2916,Dungeon Slime Banner,1
+2917,Dungeon Spirit Banner,1
+2918,Elf Archer Banner,1
+2919,Elf Copter Banner,1
+2920,Eyezor Banner,1
+2921,Flocko Banner,1
+2922,Ghost Banner,1
+2923,Giant Bat Banner,1
+2924,Giant Cursed Skull Banner,1
+2925,Giant Flying Fox Banner,1
+2926,Gingerbread Man Banner,1
+2927,Goblin Archer Banner,1
+2928,Green Slime Banner,1
+2929,Headless Horseman Banner,1
+2930,Hell Armored Bones Banner,1
+2931,Hellhound Banner,1
+2932,Hoppin' Jack Banner,1
+2933,Ice Bat Banner,1
+2934,Ice Golem Banner,1
+2935,Ice Slime Banner,1
+2936,Ichor Sticker Banner,1
+2937,Illuminant Bat Banner,1
+2938,Illuminant Slime Banner,1
+2939,Jungle Bat Banner,1
+2940,Jungle Slime Banner,1
+2941,Krampus Banner,1
+2942,Lac Beetle Banner,1
+2943,Lava Bat Banner,1
+2944,Lava Slime Banner,1
+2945,Martian Brain Scrambler Banner,1
+2946,Martian Drone Banner,1
+2947,Martian Engineer Banner,1
+2948,Martian Gigazapper Banner,1
+2949,Martian Gray Grunt Banner,1
+2950,Martian Officer Banner,1
+2951,Martian Ray Gunner Banner,1
+2952,Martian Scutlix Gunner Banner,1
+2953,Martian Tesla Turret Banner,1
+2954,Mister Stabby Banner,1
+2955,Mother Slime Banner,1
+2956,Necromancer Banner,1
+2957,Nutcracker Banner,1
+2958,Paladin Banner,1
+2959,Penguin Banner,1
+2960,Pinky Banner,1
+2961,Poltergeist Banner,1
+2962,Possessed Armor Banner,1
+2963,Present Mimic Banner,1
+2964,Purple Slime Banner,1
+2965,Ragged Caster Banner,1
+2966,Rainbow Slime Banner,1
+2967,Raven Banner,1
+2968,Red Slime Banner,1
+2969,Rune Wizard Banner,1
+2970,Rusty Armored Bones Banner,1
+2971,Scarecrow Banner,1
+2972,Scutlix Banner,1
+2973,Skeleton Archer Banner,1
+2974,Skeleton Commando Banner,1
+2975,Skeleton Sniper Banner,1
+2976,Slimer Banner,1
+2977,Snatcher Banner,1
+2978,Snow Balla Banner,1
+2979,Snowman Gangsta Banner,1
+2980,Spiked Ice Slime Banner,1
+2981,Spiked Jungle Slime Banner,1
+2982,Splinterling Banner,1
+2983,Squid Banner,1
+2984,Tactical Skeleton Banner,1
+2985,The Groom Banner,1
+2986,Tim Banner,1
+2987,Undead Miner Banner,1
+2988,Undead Viking Banner,1
+2989,White Cultist Archer Banner,n/a
+2990,White Cultist Caster Banner,n/a
+2991,White Cultist Fighter Banner,n/a
+2992,Yellow Slime Banner,1
+2993,Yeti Banner,1
+2994,Zombie Elf Banner,1
+2995,Sparky,1
+2996,Vine Rope,100
+2997,Wormhole Potion,20
+2998,Summoner Emblem,1
+2999,Bewitching Table,1
+3000,Alchemy Table,1
+3001,Strange Brew,30
+3002,Spelunker Glowstick,100
+3003,Bone Arrow,99
+3004,Bone Torch,100
+3005,Vine Rope Coil,10
+3006,Life Drain,1
+3007,Dart Pistol,1
+3008,Dart Rifle,1
+3009,Crystal Dart,99
+3010,Cursed Dart,99
+3011,Ichor Dart,99
+3012,Chain Guillotines,1
+3013,Fetid Baghnakhs,1
+3014,Clinger Staff,1
+3015,Putrid Scent,1
+3016,Flesh Knuckles,1
+3017,Flower Boots,1
+3018,Seedler,1
+3019,Hellwing Bow,1
+3020,Tendon Hook,1
+3021,Thorn Hook,1
+3022,Illuminant Hook,1
+3023,Worm Hook,1
+3024,Skiphs' Blood,3
+3025,Purple Ooze Dye,3
+3026,Reflective Silver Dye,3
+3027,Reflective Gold Dye,3
+3028,Blue Acid Dye,3
+3029,Daedalus Stormbow,1
+3030,Flying Knife,1
+3031,Bottomless Water Bucket,1
+3032,Super Absorbant Sponge,1
+3033,Gold Ring,1
+3034,Coin Ring,1
+3035,Greedy Ring,1
+3036,Fish Finder,1
+3037,Weather Radio,1
+3038,Hades Dye,3
+3039,Twilight Dye,3
+3040,Acid Dye,3
+3041,Glowing Mushroom Dye,3
+3042,Phase Dye,3
+3043,Magic Lantern,1
+3044,Music Box (Lunar Boss),1
+3045,Rainbow Torch,100
+3046,Cursed Campfire,1
+3047,Demon Campfire,1
+3048,Frozen Campfire,1
+3049,Ichor Campfire,1
+3050,Rainbow Campfire,1
+3051,Crystal Vile Shard,1
+3052,Shadowflame Bow,1
+3053,Shadowflame Hex Doll,1
+3054,Shadowflame Knife,1
+3055,Acorns,1
+3056,Cold Snap,1
+3057,Cursed Saint,1
+3058,Snowfellas,1
+3059,The Season,1
+3060,Bone Rattle,1
+3061,Architect Gizmo Pack,1
+3062,Crimson Heart,1
+3063,Meowmere,1
+3064,Enchanted Sundial,1
+3065,Star Wrath,1
+3066,Smooth Marble Block,100
+3067,Hellstone Brick Wall,400
+3068,Guide to Plant Fiber Cordage,1
+3069,Wand of Sparking,1
+3070,Gold Bird Cage,1
+3071,Gold Bunny Cage,1
+3072,Gold Butterfly Jar,1
+3073,Gold Frog Cage,1
+3074,Gold Grasshopper Cage,1
+3075,Gold Mouse Cage,1
+3076,Gold Worm Cage,1
+3077,Silk Rope,100
+3078,Web Rope,100
+3079,Silk Rope Coil,10
+3080,Web Rope Coil,10
+3081,Marble Block,100
+3082,Marble Wall,400
+3083,Smooth Marble Wall,400
+3084,Radar,1
+3085,Golden Lock Box,5
+3086,Granite Block,100
+3087,Smooth Granite Block,100
+3088,Granite Wall,400
+3089,Smooth Granite Wall,400
+3090,Royal Gel,1
+3091,Key of Night,1
+3092,Key of Light,1
+3093,Herb Bag,2
+3094,Javelin,99
+3095,Tally Counter,1
+3096,Sextant,1
+3097,Shield of Cthulhu,1
+3098,Butcher's Chainsaw,1
+3099,Stopwatch,1
+3100,Meteorite Brick,100
+3101,Meteorite Brick Wall,400
+3102,Metal Detector,1
+3103,Endless Quiver,1
+3104,Endless Musket Pouch,1
+3105,Toxic Flask,1
+3106,Psycho Knife,1
+3107,Nail Gun,1
+3108,Nail,99
+3109,Night Vision Helmet,1
+3110,Celestial Shell,1
+3111,Pink Gel,5
+3112,Bouncy Glowstick,100
+3113,Pink Slime Block,100
+3114,Pink Torch,100
+3115,Bouncy Bomb,99
+3116,Bouncy Grenade,99
+3117,Peace Candle,1
+3118,Lifeform Analyzer,1
+3119,DPS Meter,1
+3120,Fisherman's Pocket Guide,1
+3121,Goblin Tech,1
+3122,R.E.K. 3000,1
+3123,PDA,1
+3124,Cell Phone,1
+3125,Granite Chest,1
+3126,Meteorite Clock,1
+3127,Marble Clock,1
+3128,Granite Clock,1
+3129,Meteorite Door,1
+3130,Marble Door,1
+3131,Granite Door,1
+3132,Meteorite Dresser,1
+3133,Marble Dresser,1
+3134,Granite Dresser,1
+3135,Meteorite Lamp,1
+3136,Marble Lamp,1
+3137,Granite Lamp,1
+3138,Meteorite Lantern,1
+3139,Marble Lantern,1
+3140,Granite Lantern,1
+3141,Meteorite Piano,1
+3142,Marble Piano,1
+3143,Granite Piano,1
+3144,Meteorite Platform,200
+3145,Marble Platform,200
+3146,Granite Platform,200
+3147,Meteorite Sink,1
+3148,Marble Sink,1
+3149,Granite Sink,1
+3150,Meteorite Sofa,1
+3151,Marble Sofa,1
+3152,Granite Sofa,1
+3153,Meteorite Table,1
+3154,Marble Table,1
+3155,Granite Table,1
+3156,Meteorite Work Bench,1
+3157,Marble Work Bench,1
+3158,Granite Work Bench,1
+3159,Meteorite Bathtub,1
+3160,Marble Bathtub,1
+3161,Granite Bathtub,1
+3162,Meteorite Bed,1
+3163,Marble Bed,1
+3164,Granite Bed,1
+3165,Meteorite Bookcase,1
+3166,Marble Bookcase,1
+3167,Granite Bookcase,1
+3168,Meteorite Candelabra,1
+3169,Marble Candelabra,1
+3170,Granite Candelabra,1
+3171,Meteorite Candle,1
+3172,Marble Candle,1
+3173,Granite Candle,1
+3174,Meteorite Chair,1
+3175,Marble Chair,1
+3176,Granite Chair,1
+3177,Meteorite Chandelier,1
+3178,Marble Chandelier,1
+3179,Granite Chandelier,1
+3180,Meteorite Chest,1
+3181,Marble Chest,1
+3182,Magic Water Dropper,1
+3183,Golden Bug Net,1
+3184,Magic Lava Dropper,1
+3185,Magic Honey Dropper,1
+3186,Empty Dropper,1
+3187,Gladiator Helmet,1
+3188,Gladiator Breastplate,1
+3189,Gladiator Leggings,1
+3190,Reflective Dye,3
+3191,Enchanted Nightcrawler,5
+3192,Grubby,5
+3193,Sluggy,5
+3194,Buggy,5
+3195,Grub Soup,5
+3196,Bomb Fish,99
+3197,Frost Daggerfish,99
+3198,Sharpening Station,1
+3199,Ice Mirror,1
+3200,Sailfish Boots,1
+3201,Tsunami in a Bottle,1
+3202,Target Dummy,1
+3203,Corrupt Crate,5
+3204,Crimson Crate,5
+3205,Dungeon Crate,5
+3206,Sky Crate,5
+3207,Hallowed Crate,5
+3208,Jungle Crate,5
+3209,Crystal Serpent,1
+3210,Toxikarp,1
+3211,Bladetongue,1
+3212,Shark Tooth Necklace,1
+3213,Money Trough,1
+3214,Bubble,100
+3215,Daybloom Planter Box,25
+3216,Moonglow Planter Box,25
+3217,Deathweed Planter Box,25
+3218,Deathweed Planter Box,25
+3219,Blinkroot Planter Box,25
+3220,Waterleaf Planter Box,25
+3221,Shiverthorn Planter Box,25
+3222,Fireblossom Planter Box,25
+3223,Brain of Confusion,1
+3224,Worm Scarf,1
+3225,Balloon Pufferfish,1
+3226,Lazure's Valkyrie Circlet,1
+3227,Lazure's Valkyrie Cloak,1
+3228,Lazure's Barrier Platform,1
+3229,Golden Cross Grave Marker,2
+3230,Golden Tombstone,2
+3231,Golden Grave Marker,2
+3232,Golden Gravestone,2
+3233,Golden Headstone,2
+3234,Crystal Block,100
+3235,Music Box (Martian Madness),1
+3236,Music Box (Pirate Invasion),1
+3237,Music Box (Hell),1
+3238,Crystal Block Wall,400
+3239,Trap Door,1
+3240,Tall Gate,1
+3241,Sharkron Balloon,1
+3242,Tax Collector's Hat,1
+3243,Tax Collector's Suit,1
+3244,Tax Collector's Pants,1
+3245,Bone Glove,1
+3246,Clothier's Jacket,1
+3247,Clothier's Pants,1
+3248,Dye Trader's Turban,1
+3249,Deadly Sphere Staff,1
+3250,Green Horseshoe Balloon,1
+3251,Amber Horseshoe Balloon,1
+3252,Pink Horseshoe Balloon,1
+3253,Lava Lamp,1
+3254,Enchanted Nightcrawler Cage,1
+3255,Buggy Cage,1
+3256,Grubby Cage,1
+3257,Sluggy Cage,1
+3258,Slap Hand,1
+3259,Twilight Hair Dye,1
+3260,Blessed Apple,1
+3261,Spectre Bar,25
+3262,Code 1,1
+3263,Buccaneer Bandana,1
+3264,Buccaneer Tunic,1
+3265,Buccaneer Pantaloons,1
+3266,Obsidian Outlaw Hat,1
+3267,Obsidian Longcoat,1
+3268,Obsidian Pants,1
+3269,Medusa Head,1
+3270,Item Frame,1
+3271,Sandstone Block,100
+3272,Hardened Sand Block,100
+3273,Sandstone Wall,400
+3274,Hardened Ebonsand Block,100
+3275,Hardened Crimsand Block,100
+3276,Ebonsandstone Block,100
+3277,Crimsandstone Block,100
+3278,Wooden Yoyo,1
+3279,Malaise,1
+3280,Artery,1
+3281,Amazon,1
+3282,Cascade,1
+3283,Chik,1
+3284,Code 2,1
+3285,Rally,1
+3286,Yelets,1
+3287,Red's Throw,1
+3288,Valkyrie Yoyo,1
+3289,Amarok,1
+3290,Hel-Fire,1
+3291,Kraken,1
+3292,The Eye of Cthulhu,1
+3293,Red String,1
+3294,Orange String,1
+3295,Yellow String,1
+3296,Lime String,1
+3297,Green String,1
+3298,Teal String,1
+3299,Cyan String,1
+3300,Sky Blue String,1
+3301,Blue String,1
+3302,Purple String,1
+3303,Violet String,1
+3304,Pink String,1
+3305,Brown String,1
+3306,White String,1
+3307,Rainbow String,1
+3308,Black String,1
+3309,Black Counterweight,1
+3310,Blue Counterweight,1
+3311,Green Counterweight,1
+3312,Purple Counterweight,1
+3313,Red Counterweight,1
+3314,Yellow Counterweight,1
+3315,Format:C,1
+3316,Gradient,1
+3317,Valor,1
+3318,Treasure Bag (King Slime),3
+3319,Treasure Bag (Eye of Cthulhu),3
+3320,Treasure Bag (Eater of Worlds),3
+3321,Treasure Bag (Brain of Cthulhu),3
+3322,Treasure Bag (Queen Bee),3
+3323,Treasure Bag (Skeletron),3
+3324,Treasure Bag (Wall of Flesh),3
+3325,Treasure Bag (The Destroyer),3
+3326,Treasure Bag (The Twins),3
+3327,Treasure Bag (Skeletron Prime),3
+3328,Treasure Bag (Plantera),3
+3329,Treasure Bag (Golem),3
+3330,Treasure Bag (Duke Fishron),3
+3331,Treasure Bag (Lunatic Cultist),n/a
+3332,Treasure Bag (Moon Lord),3
+3333,Hive Pack,1
+3334,Yoyo Glove,1
+3335,Demon Heart,1
+3336,Spore Sac,1
+3337,Shiny Stone,1
+3338,Hardened Pearlsand Block,100
+3339,Pearlsandstone Block,100
+3340,Hardened Sand Wall,400
+3341,Hardened Ebonsand Wall,400
+3342,Hardened Crimsand Wall,400
+3343,Hardened Pearlsand Wall,400
+3344,Ebonsandstone Wall,400
+3345,Crimsandstone Wall,400
+3346,Pearlsandstone Wall,400
+3347,Desert Fossil,200
+3348,Desert Fossil Wall,400
+3349,Exotic Scimitar,1
+3350,Paintball Gun,1
+3351,Classy Cane,1
+3352,Stylish Scissors,1
+3353,Mechanical Cart,1
+3354,Mechanical Wheel Piece,1
+3355,Mechanical Wagon Piece,1
+3356,Mechanical Battery Piece,1
+3357,Lunatic Cultist Trophy,1
+3358,Martian Saucer Trophy,1
+3359,Flying Dutchman Trophy,1
+3360,Living Mahogany Wand,1
+3361,Rich Mahogany Leaf Wand,1
+3362,Fallen Tuxedo Shirt,1
+3363,Fallen Tuxedo Pants,1
+3364,Fireplace,1
+3365,Chimney,1
+3366,Yoyo Bag,1
+3367,Shrimpy Truffle,1
+3368,Arkhalis,1
+3369,Confetti Cannon,1
+3370,Music Box (The Towers),1
+3371,Music Box (Goblin Invasion),1
+3372,Lunatic Cultist Mask,1
+3373,Moon Lord Mask,1
+3374,Fossil Helmet,1
+3375,Fossil Plate,1
+3376,Fossil Greaves,1
+3377,Amber Staff,1
+3378,Bone Javelin,99
+3379,Bone Throwing Knife,99
+3380,Sturdy Fossil,100
+3381,Stardust Helmet,1
+3382,Stardust Plate,1
+3383,Stardust Leggings,1
+3384,Portal Gun,1
+3385,Strange Plant,3
+3386,Strange Plant,3
+3387,Strange Plant,3
+3388,Strange Plant,3
+3389,Terrarian,1
+3390,Goblin Warlock Banner,1
+3391,Salamander Banner,1
+3392,Giant Shelly Banner,1
+3393,Crawdad Banner,1
+3394,Fritz Banner,1
+3395,Creature From The Deep Banner,1
+3396,Dr. Man Fly Banner,1
+3397,Mothron Banner,1
+3398,Severed Hand Banner,n/a
+3399,The Possessed Banner,1
+3400,Butcher Banner,1
+3401,Psycho Banner,1
+3402,Deadly Sphere Banner,1
+3403,Nailhead Banner,1
+3404,Poisonous Spore Banner,n/a
+3405,Medusa Banner,1
+3406,Hoplite Banner,1
+3407,Granite Elemental Banner,1
+3408,Granite Golem Banner,1
+3409,Blood Zombie Banner,1
+3410,Drippler Banner,1
+3411,Tomb Crawler Banner,1
+3412,Dune Splicer Banner,1
+3413,Antlion Swarmer Banner,1
+3414,Antlion Charger Banner,1
+3415,Ghoul Banner,1
+3416,Lamia Banner,1
+3417,Desert Spirit Banner,1
+3418,Basilisk Banner,1
+3419,Sand Poacher Banner,1
+3420,Stargazer Banner,1
+3421,Milkyway Weaver Banner,1
+3422,Flow Invader Banner,1
+3423,Twinkle Popper Banner,1
+3424,Mini Star Cell Banner,1
+3425,Star Cell Banner,1
+3426,Corite Banner,1
+3427,Sroller Banner,1
+3428,Crawltipede Banner,1
+3429,Drakomire Rider Banner,1
+3430,Drakomire Banner,1
+3431,Selenian Banner,1
+3432,Predictor Banner,1
+3433,Brain Suckler Banner,1
+3434,Nebula Floater Banner,1
+3435,Evolution Beast Banner,1
+3436,Alien Larva Banner,1
+3437,Alien Queen Banner,1
+3438,Alien Hornet Banner,1
+3439,Vortexian Banner,1
+3440,Storm Diver Banner,1
+3441,Pirate Captain Banner,1
+3442,Pirate Deadeye Banner,1
+3443,Pirate Corsair Banner,1
+3444,Pirate Crossbower Banner,1
+3445,Martian Walker Banner,1
+3446,Red Devil Banner,1
+3447,Pink Jellyfish Banner,1
+3448,Green Jellyfish Banner,1
+3449,Dark Mummy Banner,1
+3450,Light Mummy Banner,1
+3451,Angry Bones Banner,1
+3452,Ice Tortoise Banner,1
+3456,Vortex Fragment,25
+3457,Nebula Fragment,25
+3458,Solar Fragment,25
+3459,Stardust Fragment,25
+3460,Luminite,100
+3461,Luminite Brick,100
+3464,Stardust Drill,1
+3466,Stardust Pickaxe,1
+3467,Luminite Bar,25
+3468,Solar Wings,1
+3469,Vortex Booster,1
+3470,Nebula Mantle,1
+3471,Stardust Wings,1
+3472,Luminite Brick Wall,400
+3473,Solar Eruption,1
+3474,Stardust Cell Staff,1
+3475,Vortex Beater,1
+3476,Nebula Arcanum,1
+3477,Blood Water,99
+3478,Wedding Veil,1
+3479,Wedding Dress,1
+3480,Platinum Bow,1
+3481,Platinum Hammer,1
+3482,Platinum Axe,1
+3483,Platinum Shortsword,1
+3484,Platinum Broadsword,1
+3485,Platinum Pickaxe,1
+3486,Tungsten Bow,1
+3487,Tungsten Hammer,1
+3488,Tungsten Axe,1
+3489,Tungsten Shortsword,1
+3490,Tungsten Broadsword,1
+3491,Tungsten Pickaxe,1
+3492,Lead Bow,1
+3493,Lead Hammer,1
+3494,Lead Axe,1
+3495,Lead Shortsword,1
+3496,Lead Broadsword,1
+3497,Lead Pickaxe,1
+3498,Tin Bow,1
+3499,Tin Hammer,1
+3500,Tin Axe,1
+3501,Tin Shortsword,1
+3502,Tin Broadsword,1
+3503,Tin Pickaxe,1
+3504,Copper Bow,1
+3505,Copper Hammer,1
+3506,Copper Axe,1
+3507,Copper Shortsword,1
+3508,Copper Broadsword,1
+3509,Copper Pickaxe,1
+3510,Silver Bow,1
+3511,Silver Hammer,1
+3512,Silver Axe,1
+3513,Silver Shortsword,1
+3514,Silver Broadsword,1
+3515,Silver Pickaxe,1
+3516,Gold Bow,1
+3517,Gold Hammer,1
+3518,Gold Axe,1
+3519,Gold Shortsword,1
+3520,Gold Broadsword,1
+3521,Gold Pickaxe,1
+3522,Solar Flare Hamaxe,1
+3523,Vortex Hamaxe,1
+3524,Nebula Hamaxe,1
+3525,Stardust Hamaxe,1
+3526,Solar Dye,3
+3527,Nebula Dye,3
+3528,Vortex Dye,3
+3529,Stardust Dye,3
+3530,Void Dye,3
+3531,Stardust Dragon Staff,1
+3532,Bacon,5
+3533,Shifting Sands Dye,3
+3534,Mirage Dye,3
+3535,Shifting Pearlsands Dye,3
+3536,Vortex Monolith,1
+3537,Nebula Monolith,1
+3538,Stardust Monolith,1
+3539,Solar Monolith,1
+3540,Phantasm,1
+3541,Last Prism,1
+3542,Nebula Blaze,1
+3543,Daybreak,1
+3544,Super Healing Potion,30
+3545,Detonator,1
+3546,Celebration,1
+3547,Bouncy Dynamite,99
+3548,Happy Grenade,99
+3549,Ancient Manipulator,1
+3550,Flame and Silver Dye,3
+3551,Green Flame and Silver Dye,3
+3552,Blue Flame and Silver Dye,3
+3553,Reflective Copper Dye,3
+3554,Reflective Obsidian Dye,3
+3555,Reflective Metal Dye,3
+3556,Midnight Rainbow Dye,3
+3557,Black and White Dye,3
+3558,Bright Silver Dye,3
+3559,Silver and Black Dye,3
+3560,Red Acid Dye,3
+3561,Gel Dye,3
+3562,Pink Gel Dye,3
+3563,Red Squirrel,5
+3564,Gold Squirrel,3
+3565,Red Squirrel Cage,1
+3566,Gold Squirrel Cage,1
+3567,Luminite Bullet,99
+3568,Luminite Arrow,99
+3569,Lunar Portal Staff,1
+3570,Lunar Flare,1
+3571,Rainbow Crystal Staff,1
+3572,Lunar Hook,1
+3573,Solar Fragment Block,100
+3574,Vortex Fragment Block,100
+3575,Nebula Fragment Block,100
+3576,Stardust Fragment Block,100
+3577,Suspicious Looking Tentacle,1
+3578,Yoraiz0r's Uniform,1
+3579,Yoraiz0r's Skirt,1
+3580,Yoraiz0r's Spell,1
+3581,Yoraiz0r's Scowl,1
+3582,Jim's Wings,1
+3583,Yoraiz0r's Recolored Goggles,1
+3584,Living Leaf Wall,400
+3585,Skiphs' Mask,1
+3586,Skiphs' Skin,1
+3587,Skiphs' Bear Butt,1
+3588,Skiphs' Paws,1
+3589,Loki's Helmet,1
+3590,Loki's Breastplate,1
+3591,Loki's Greaves,1
+3592,Loki's Wings,1
+3593,Sand Slime Banner,1
+3594,Sea Snail Banner,1
+3595,Moon Lord Trophy,1
+3596,"Not a Kid, nor a Squid",1
+3597,Burning Hades Dye,3
+3598,Grim Dye,3
+3599,Loki's Dye,3
+3600,Shadowflame Hades Dye,3
+3601,Celestial Sigil,3
+3602,Logic Gate Lamp (Off),5
+3603,Logic Gate (AND),5
+3604,Logic Gate (OR),5
+3605,Logic Gate (NAND),5
+3606,Logic Gate (NOR),5
+3607,Logic Gate (XOR),5
+3608,Logic Gate (XNOR),5
+3609,Conveyor Belt (Clockwise),100
+3610,Conveyor Belt (Counter Clockwise),100
+3611,The Grand Design,1
+3612,Yellow Wrench,1
+3613,Logic Sensor (Day),5
+3614,Logic Sensor (Night),5
+3615,Logic Sensor (Player Above),5
+3616,Junction Box,25
+3617,Announcement Box,1
+3618,Logic Gate Lamp (On),5
+3619,Mechanical Lens,1
+3620,Actuation Rod,1
+3621,Red Team Block,100
+3622,Red Team Platform,200
+3623,Static Hook,1
+3624,Presserator,1
+3625,Multicolor Wrench,1
+3626,Pink Weighted Pressure Plate,5
+3627,Engineering Helmet,1
+3628,Companion Cube,1
+3629,Wire Bulb,5
+3630,Orange Weighted Pressure Plate,5
+3631,Purple Weighted Pressure Plate,5
+3632,Cyan Weighted Pressure Plate,5
+3633,Green Team Block,100
+3634,Blue Team Block,100
+3635,Yellow Team Block,100
+3636,Pink Team Block,100
+3637,White Team Block,100
+3638,Green Team Platform,200
+3639,Blue Team Platform,200
+3640,Yellow Team Platform,200
+3641,Pink Team Platform,200
+3642,White Team Platform,200
+3643,Large Amber,1
+3644,Ruby Gem Lock,1
+3645,Sapphire Gem Lock,1
+3646,Emerald Gem Lock,1
+3647,Topaz Gem Lock,1
+3648,Amethyst Gem Lock,1
+3649,Diamond Gem Lock,1
+3650,Amber Gem Lock,1
+3651,Squirrel Statue,1
+3652,Butterfly Statue,1
+3653,Worm Statue,1
+3654,Firefly Statue,1
+3655,Scorpion Statue,1
+3656,Snail Statue,1
+3657,Grasshopper Statue,1
+3658,Mouse Statue,1
+3659,Duck Statue,1
+3660,Penguin Statue,1
+3661,Frog Statue,1
+3662,Buggy Statue,1
+3663,Logic Gate Lamp (Faulty),5
+3664,Portal Gun Station,1
+3665,Trapped Chest,1
+3666,Trapped Gold Chest,1
+3667,Trapped Shadow Chest,1
+3668,Trapped Ebonwood Chest,1
+3669,Trapped Rich Mahogany Chest,1
+3670,Trapped Pearlwood Chest,1
+3671,Trapped Ivy Chest,1
+3672,Trapped Frozen Chest,1
+3673,Trapped Living Wood Chest,1
+3674,Trapped Skyware Chest,1
+3675,Trapped Shadewood Chest,1
+3676,Trapped Web Covered Chest,1
+3677,Trapped Lihzahrd Chest,1
+3678,Trapped Water Chest,1
+3679,Trapped Jungle Chest,1
+3680,Trapped Corruption Chest,1
+3681,Trapped Crimson Chest,1
+3682,Trapped Hallowed Chest,1
+3683,Trapped Ice Chest,1
+3684,Trapped Dynasty Chest,1
+3685,Trapped Honey Chest,1
+3686,Trapped Steampunk Chest,1
+3687,Trapped Palm Wood Chest,1
+3688,Trapped Mushroom Chest,1
+3689,Trapped Boreal Wood Chest,1
+3690,Trapped Slime Chest,1
+3691,Trapped Green Dungeon Chest,1
+3692,Trapped Pink Dungeon Chest,1
+3693,Trapped Blue Dungeon Chest,1
+3694,Trapped Bone Chest,1
+3695,Trapped Cactus Chest,1
+3696,Trapped Flesh Chest,1
+3697,Trapped Obsidian Chest,1
+3698,Trapped Pumpkin Chest,1
+3699,Trapped Spooky Chest,1
+3700,Trapped Glass Chest,1
+3701,Trapped Martian Chest,1
+3702,Trapped Meteorite Chest,1
+3703,Trapped Granite Chest,1
+3704,Trapped Marble Chest,1
+3707,Teal Pressure Pad,5
+3708,Wall Creeper Statue,1
+3709,Unicorn Statue,1
+3710,Drippler Statue,1
+3711,Wraith Statue,1
+3712,Bone Skeleton Statue,1
+3713,Undead Viking Statue,1
+3714,Medusa Statue,1
+3715,Harpy Statue,1
+3716,Pigron Statue,1
+3717,Hoplite Statue,1
+3718,Granite Golem Statue,1
+3719,Armed Zombie Statue,1
+3720,Blood Zombie Statue,1
+3721,Angler Tackle Bag,1
+3722,Geyser,5
+3723,Ultrabright Campfire,1
+3724,Bone Campfire,1
+3725,Pixel Box,25
+3726,Liquid Sensor (Water),5
+3727,Liquid Sensor (Lava),5
+3728,Liquid Sensor (Honey),5
+3729,Liquid Sensor (Any),5
+3730,Bundled Party Balloons,1
+3731,Balloon Animal,1
+3732,Party Hat,1
+3733,Silly Sunflower Petals,1
+3734,Silly Sunflower Tops,1
+3735,Silly Sunflower Bottoms,1
+3736,Silly Pink Balloon,100
+3737,Silly Purple Balloon,100
+3738,Silly Green Balloon,100
+3739,Blue Streamer,100
+3740,Green Streamer,100
+3741,Pink Streamer,100
+3742,Silly Balloon Machine,1
+3743,Silly Tied Balloon (Pink),1
+3744,Silly Tied Balloon (Purple),1
+3745,Silly Tied Balloon (Green),1
+3746,Pigronata,1
+3747,Party Center,1
+3748,Silly Tied Bundle of Balloons,1
+3749,Party Present,1
+3750,Slice of Cake,3
+3751,Cog Wall,400
+3752,Sandfall Wall,400
+3753,Snowfall Wall,400
+3754,Sandfall Block,100
+3755,Snowfall Block,100
+3756,Snow Cloud,100
+3757,Pedguin's Hood,1
+3758,Pedguin's Jacket,1
+3759,Pedguin's Trousers,1
+3760,Silly Pink Balloon Wall,400
+3761,Silly Purple Balloon Wall,400
+3762,Silly Green Balloon Wall,400
+3763,0x33's Aviators,1
+3764,Blue Phasesaber,1
+3765,Red Phasesaber,1
+3766,Green Phasesaber,1
+3767,Purple Phasesaber,1
+3768,White Phasesaber,1
+3769,Yellow Phasesaber,1
+3770,Djinn's Curse,1
+3771,Ancient Horn,1
+3772,Mandible Blade,1
+3773,Ancient Headdress,1
+3774,Ancient Garments,1
+3775,Ancient Slacks,1
+3776,Forbidden Mask,1
+3777,Forbidden Robes,1
+3778,Forbidden Treads,1
+3779,Spirit Flame,1
+3780,Sand Elemental Banner,1
+3781,Pocket Mirror,1
+3782,Magic Sand Dropper,1
+3783,Forbidden Fragment,3
+3784,Lamia Tail,1
+3785,Lamia Wraps,1
+3786,Lamia Mask,1
+3787,Sky Fracture,1
+3788,Onyx Blaster,1
+3789,Sand Shark Banner,1
+3790,Bone Biter Banner,1
+3791,Flesh Reaver Banner,1
+3792,Crystal Thresher Banner,1
+3793,Angry Tumbler Banner,1
+3794,Ancient Cloth,5
+3795,Desert Spirit Lamp,1
+3796,Music Box (Sandstorm),1
+3797,Apprentice's Hat,1
+3798,Apprentice's Robe,1
+3799,Apprentice's Trousers,1
+3800,Squire's Great Helm,1
+3801,Squire's Plating,1
+3802,Squire's Greaves,1
+3803,Huntress's Wig,1
+3804,Huntress's Jerkin,1
+3805,Huntress's Pants,1
+3806,Monk's Bushy Brow Bald Cap,1
+3807,Monk's Shirt,1
+3808,Monk's Pants,1
+3809,Apprentice's Scarf,1
+3810,Squire's Shield,1
+3811,Huntress's Buckler,1
+3812,Monk's Belt,1
+3813,Defender's Forge,1
+3814,War Table,1
+3815,War Table Banner,1
+3816,Eternia Crystal Stand,1
+3817,Defender Medal,50
+3818,Flameburst Rod,1
+3819,Flameburst Cane,1
+3820,Flameburst Staff,1
+3821,Ale Tosser,1
+3822,Etherian Mana,n/a
+3823,Brand of the Inferno,1
+3824,Ballista Rod,1
+3825,Ballista Cane,1
+3826,Ballista Staff,1
+3827,Flying Dragon,1
+3828,Eternia Crystal,3
+3829,Lightning Aura Rod,1
+3830,Lightning Aura Cane,1
+3831,Lightning Aura Staff,1
+3832,Explosive Trap Rod,1
+3833,Explosive Trap Cane,1
+3834,Explosive Trap Staff,1
+3835,Sleepy Octopod,1
+3836,Ghastly Glaive,1
+3837,Etherian Goblin Bomber Banner,1
+3838,Etherian Goblin Banner,1
+3839,Old One's Skeleton Banner,1
+3840,Drakin Banner,1
+3841,Kobold Glider Banner,1
+3842,Kobold Banner,1
+3843,Wither Beast Banner,1
+3844,Etherian Wyvern Banner,1
+3845,Etherian Javelin Thrower Banner,1
+3846,Etherian Lightning Bug Banner,1
+3852,Tome of Infinite Wisdom,1
+3854,Phantom Phoenix,1
+3855,Gato Egg,1
+3856,Creeper Egg,1
+3857,Dragon Egg,1
+3858,Sky Dragon's Fury,1
+3859,Aerial Bane,1
+3860,Treasure Bag (Betsy),3
+3863,Betsy Mask,1
+3864,Dark Mage Mask,1
+3865,Ogre Mask,1
+3866,Betsy Trophy,1
+3867,Dark Mage Trophy,1
+3868,Ogre Trophy,1
+3869,Music Box (Old One's Army),1
+3870,Betsy's Wrath,1
+3871,Valhalla Knight's Helm,1
+3872,Valhalla Knight's Breastplate,1
+3873,Valhalla Knight's Greaves,1
+3874,Dark Artist's Hat,1
+3875,Dark Artist's Robes,1
+3876,Dark Artist's Leggings,1
+3877,Red Riding Hood,1
+3878,Red Riding Dress,1
+3879,Red Riding Leggings,1
+3880,Shinobi Infiltrator's Helmet,1
+3881,Shinobi Infiltrator's Torso,1
+3882,Shinobi Infiltrator's Pants,1
+3883,Betsy's Wings,1
+3884,Crystal Chest,1
+3885,Golden Chest,1
+3886,Trapped Crystal Chest,1
+3887,Trapped Golden Chest,1
+3888,Crystal Door,1
+3889,Crystal Chair,1
+3890,Crystal Candle,1
+3891,Crystal Lantern,1
+3892,Crystal Lamp,1
+3893,Crystal Candelabra,1
+3894,Crystal Chandelier,1
+3895,Crystal Bathtub,1
+3896,Crystal Sink,1
+3897,Crystal Bed,1
+3898,Crystal Clock,1
+3899,Sunplate Clock,1
+3900,Blue Dungeon Clock,1
+3901,Green Dungeon Clock,1
+3902,Pink Dungeon Clock,1
+3903,Crystal Platform,200
+3904,Golden Platform,200
+3905,Dynasty Wood Platform,200
+3906,Lihzahrd Platform,200
+3907,Flesh Platform,200
+3908,Frozen Platform,200
+3909,Crystal Work Bench,1
+3910,Golden Work Bench,1
+3911,Crystal Dresser,1
+3912,Dynasty Dresser,1
+3913,Frozen Dresser,1
+3914,Living Wood Dresser,1
+3915,Crystal Piano,1
+3916,Dynasty Piano,1
+3917,Crystal Bookcase,1
+3918,Crystal Sofa,1
+3919,Dynasty Sofa,1
+3920,Crystal Table,1
+3921,Arkhalis' Hood,1
+3922,Arkhalis' Bodice,1
+3923,Arkhalis' Tights,1
+3924,Arkhalis' Lightwings,1
+3925,Leinfors' Hair Protector,1
+3926,Leinfors' Excessive Style,1
+3927,Leinfors' Fancypants,1
+3928,Leinfors' Prehensile Cloak,1
+3929,Leinfors' Luxury Shampoo,1
+3930,Celebration Mk2,1
+3931,Spider Bathtub,1
+3932,Spider Bed,1
+3933,Spider Bookcase,1
+3934,Spider Dresser,1
+3935,Spider Candelabra,1
+3936,Spider Candle,1
+3937,Spider Chair,1
+3938,Spider Chandelier,1
+3939,Spider Chest,1
+3940,Spider Clock,1
+3941,Spider Door,1
+3942,Spider Lamp,1
+3943,Spider Lantern,1
+3944,Spider Piano,1
+3945,Spider Platform,200
+3946,Spider Sink,1
+3947,Spider Sofa,1
+3948,Spider Table,1
+3949,Spider Work Bench,1
+3950,Trapped Spider Chest,1
+3951,Iron Brick,100
+3952,Iron Brick Wall,400
+3953,Lead Brick,100
+3954,Lead Brick Wall,400
+3955,Lesion Block,100
+3956,Lesion Block Wall,400
+3957,Lesion Platform,200
+3958,Lesion Bathtub,1
+3959,Lesion Bed,1
+3960,Lesion Bookcase,1
+3961,Lesion Candelabra,1
+3962,Lesion Candle,1
+3963,Lesion Chair,1
+3964,Lesion Chandelier,1
+3965,Lesion Chest,1
+3966,Lesion Clock,1
+3967,Lesion Door,1
+3968,Lesion Dresser,1
+3969,Lesion Lamp,1
+3970,Lesion Lantern,1
+3971,Lesion Piano,1
+3972,Lesion Sink,1
+3973,Lesion Sofa,1
+3974,Lesion Table,1
+3975,Lesion Work Bench,1
+3976,Trapped Lesion Chest,1
+3977,Hat Rack,1
+3979,Pearlwood Crate,10
+3980,Mythril Crate,10
+3981,Titanium Crate,10
+3982,Defiled Crate,5
+3983,Hematic Crate,5
+3984,Stockade Crate,5
+3985,Azure Crate,5
+3986,Divine Crate,5
+3987,Bramble Crate,5
+3988,Dead Man's Chest,1
+3989,Golf Ball,1
+3990,Amphibian Boots,1
+3991,Arcane Flower,1
+3992,Berserker's Glove,1
+3993,Fairy Boots,1
+3994,Frog Flipper,1
+3995,Frog Gear,1
+3996,Frog Webbing,1
+3997,Frozen Shield,1
+3998,Hero Shield,1
+3999,Magma Skull,1
+4000,Magnet Flower,1
+4001,Mana Cloak,1
+4002,Molten Quiver,1
+4003,Molten Skull Rose,1
+4004,Obsidian Skull Rose,1
+4005,Recon Scope,1
+4006,Stalker's Quiver,1
+4007,Stinger Necklace,1
+4008,Ultrabright Helmet,1
+4009,Apple,5
+4011,Apple Pie,5
+4012,Banana Split,5
+4013,BBQ Ribs,5
+4014,Bunny Stew,5
+4015,Burger,5
+4016,Chicken Nugget,5
+4017,Chocolate Chip Cookie,5
+4018,Cream Soda,5
+4019,Escargot,5
+4020,Fried Egg,5
+4021,Fries,5
+4022,Golden Delight,5
+4023,Grapes,5
+4024,Grilled Squirrel,5
+4025,Hotdog,5
+4026,Ice Cream,5
+4027,Milkshake,5
+4028,Nachos,5
+4029,Pizza,5
+4030,Potato Chips,5
+4031,Roasted Bird,5
+4032,Roasted Duck,5
+4033,Sauteed Frog Legs,5
+4034,Seafood Dinner,5
+4035,Shrimp Po' Boy,5
+4036,Spaghetti,5
+4037,Steak,5
+4038,Molten Charm,1
+4039,Golf Club (Iron),1
+4040,Golf Cup,1
+4041,Blue Flower Seeds,25
+4042,Magenta Flower Seeds,25
+4043,Pink Flower Seeds,25
+4044,Red Flower Seeds,25
+4045,Yellow Flower Seeds,25
+4046,Violet Flower Seeds,25
+4047,White Flower Seeds,25
+4048,Tall Grass Seeds,25
+4049,Lawn Mower,1
+4050,Crimstone Brick,100
+4051,Smooth Sandstone,100
+4052,Crimstone Brick Wall,400
+4053,Smooth Sandstone Wall,400
+4054,Blood Moon Monolith,1
+4055,Dunerider Boots,1
+4056,Ancient Chisel,1
+4057,Rain Song,1
+4059,Fossil Pickaxe,1
+4060,Super Star Shooter,1
+4061,Storm Spear,1
+4062,Thunder Zapper,1
+4063,Drum Set,1
+4064,Picnic Table,1
+4065,Fancy Picnic Table,1
+4066,Desert Minecart,1
+4067,Minecarp,1
+4068,Pink Fairy,3
+4069,Green Fairy,3
+4070,Blue Fairy,3
+4071,Junonia Shell,1
+4072,Lightning Whelk Shell,1
+4073,Tulip Shell,1
+4074,Pin Wheel,1
+4075,Weather Vane,1
+4076,Void Vault,1
+4077,Music Box (Ocean Night),1
+4078,Music Box (Slime Rain),1
+4079,Music Box (Space Day),1
+4080,Music Box (Town Day),1
+4081,Music Box (Town Night),1
+4082,Music Box (Windy Day),1
+4083,White Pin Flag,1
+4084,Red Pin Flag,1
+4085,Green Pin Flag,1
+4086,Blue Pin Flag,1
+4087,Yellow Pin Flag,1
+4088,Purple Pin Flag,1
+4089,Golf Tee,1
+4090,Shell Pile,100
+4091,Anti-Portal Block,100
+4092,Golf Club (Putter),1
+4093,Golf Club (Wedge),1
+4094,Golf Club (Driver),1
+4095,Golf Whistle,1
+4096,Ebonwood Toilet,1
+4097,Rich Mahogany Toilet,1
+4098,Pearlwood Toilet,1
+4099,Living Wood Toilet,1
+4100,Cactus Toilet,1
+4101,Bone Toilet,1
+4102,Flesh Toilet,1
+4103,Mushroom Toilet,1
+4104,Skyware Toilet,1
+4105,Shadewood Toilet,1
+4106,Lihzahrd Toilet,1
+4107,Blue Dungeon Toilet,1
+4108,Green Dungeon Toilet,1
+4109,Pink Dungeon Toilet,1
+4110,Obsidian Toilet,1
+4111,Frozen Toilet,1
+4112,Glass Toilet,1
+4113,Honey Toilet,1
+4114,Steampunk Toilet,1
+4115,Pumpkin Toilet,1
+4116,Spooky Toilet,1
+4117,Dynasty Toilet,1
+4118,Palm Wood Toilet,1
+4119,Boreal Wood Toilet,1
+4120,Slime Toilet,1
+4121,Martian Toilet,1
+4122,Granite Toilet,1
+4123,Marble Toilet,1
+4124,Crystal Toilet,1
+4125,Spider Toilet,1
+4126,Lesion Toilet,1
+4127,Diamond Toilet,1
+4128,Maid Bonnet,1
+4129,Maid Dress,1
+4130,Maid Shoes,1
+4131,Void Bag,1
+4132,Pink Maid Bonnet,1
+4133,Pink Maid Dress,1
+4134,Pink Maid Shoes,1
+4135,Country Club Cap,1
+4136,Country Club Vest,1
+4137,Country Club Trousers,1
+4138,Country Club Visor,1
+4139,Spider Nest Block,100
+4140,Spider Nest Wall,400
+4141,Meteorite Toilet,1
+4142,Decay Chamber,1
+4144,Terragrim,1
+4145,Solar Bathtub,1
+4146,Solar Bed,1
+4147,Solar Bookcase,1
+4148,Solar Dresser,1
+4149,Solar Candelabra,1
+4150,Solar Candle,1
+4151,Solar Chair,1
+4152,Solar Chandelier,1
+4153,Solar Chest,1
+4154,Solar Clock,1
+4155,Solar Door,1
+4156,Solar Lamp,1
+4157,Solar Lantern,1
+4158,Solar Piano,1
+4159,Solar Platform,200
+4160,Solar Sink,1
+4161,Solar Sofa,1
+4162,Solar Table,1
+4163,Solar Work Bench,1
+4164,Trapped Solar Chest,1
+4165,Solar Toilet,1
+4166,Vortex Bathtub,1
+4167,Vortex Bed,1
+4168,Vortex Bookcase,1
+4169,Vortex Dresser,1
+4170,Vortex Candelabra,1
+4171,Vortex Candle,1
+4172,Vortex Chair,1
+4173,Vortex Chandelier,1
+4174,Vortex Chest,1
+4175,Vortex Clock,1
+4176,Vortex Door,1
+4177,Vortex Lamp,1
+4178,Vortex Lantern,1
+4179,Vortex Piano,1
+4180,Vortex Platform,200
+4181,Vortex Sink,1
+4182,Vortex Sofa,1
+4183,Vortex Table,1
+4184,Vortex Work Bench,1
+4185,Trapped Vortex Chest,1
+4186,Vortex Toilet,1
+4187,Nebula Bathtub,1
+4188,Nebula Bed,1
+4189,Nebula Bookcase,1
+4190,Nebula Dresser,1
+4191,Nebula Candelabra,1
+4192,Nebula Candle,1
+4193,Nebula Chair,1
+4194,Nebula Chandelier,1
+4195,Nebula Chest,1
+4196,Nebula Clock,1
+4197,Nebula Door,1
+4198,Nebula Lamp,1
+4199,Nebula Lantern,1
+4200,Nebula Piano,1
+4201,Nebula Platform,200
+4202,Nebula Sink,1
+4203,Nebula Sofa,1
+4204,Nebula Table,1
+4205,Nebula Work Bench,1
+4206,Trapped Nebula Chest,1
+4207,Nebula Toilet,1
+4208,Stardust Bathtub,1
+4209,Stardust Bed,1
+4210,Stardust Bookcase,1
+4211,Stardust Dresser,1
+4212,Stardust Candelabra,1
+4213,Stardust Candle,1
+4214,Stardust Chair,1
+4215,Stardust Chandelier,1
+4216,Stardust Chest,1
+4217,Stardust Clock,1
+4218,Stardust Door,1
+4219,Stardust Lamp,1
+4220,Stardust Lantern,1
+4221,Stardust Piano,1
+4222,Stardust Platform,200
+4223,Stardust Sink,1
+4224,Stardust Sofa,1
+4225,Stardust Table,1
+4226,Stardust Work Bench,1
+4227,Trapped Stardust Chest,1
+4228,Stardust Toilet,1
+4229,Solar Brick,100
+4230,Vortex Brick,100
+4231,Nebula Brick,100
+4232,Stardust Brick,100
+4233,Solar Brick Wall,400
+4234,Vortex Brick Wall,400
+4235,Nebula Brick Wall,400
+4236,Stardust Brick Wall,400
+4237,Music Box (Day Remix),1
+4238,Cracked Blue Brick,100
+4239,Cracked Green Brick,100
+4240,Cracked Pink Brick,100
+4241,Wild Flower Seeds,25
+4242,Black Golf Ball,1
+4243,Blue Golf Ball,1
+4244,Brown Golf Ball,1
+4245,Cyan Golf Ball,1
+4246,Green Golf Ball,1
+4247,Lime Golf Ball,1
+4248,Orange Golf Ball,1
+4249,Pink Golf Ball,1
+4250,Purple Golf Ball,1
+4251,Red Golf Ball,1
+4252,Sky Blue Golf Ball,1
+4253,Teal Golf Ball,1
+4254,Violet Golf Ball,1
+4255,Yellow Golf Ball,1
+4256,Amber Robe,1
+4257,Amber Hook,1
+4258,Orange Phaseblade,1
+4259,Orange Phasesaber,1
+4260,Orange Stained Glass,400
+4261,Orange Pressure Plate,5
+4262,Snake Charmer's Flute,1
+4263,Magic Conch,1
+4264,Golf Cart Keys,1
+4265,Golf Chest,1
+4266,Trapped Golf Chest,1
+4267,Sandstone Chest,1
+4268,Trapped Sandstone Chest,1
+4269,Sanguine Staff,1
+4270,Blood Thorn,1
+4271,Bloody Tear,3
+4272,Drippler Crippler,1
+4273,Vampire Frog Staff,1
+4274,Gold Goldfish,3
+4275,Gold Fish Bowl,1
+4276,Bast Statue,1
+4277,Gold Starry Block,100
+4278,Blue Starry Block,100
+4279,Gold Starry Wall,400
+4280,Blue Starry Wall,400
+4281,Finch Staff,1
+4282,Apricot,5
+4283,Banana,5
+4284,Blackcurrant,5
+4285,Blood Orange,5
+4286,Cherry,5
+4287,Coconut,5
+4288,Dragon Fruit,5
+4289,Elderberry,5
+4290,Grapefruit,5
+4291,Lemon,5
+4292,Mango,5
+4293,Peach,5
+4294,Pineapple,5
+4295,Plum,5
+4296,Rambutan,5
+4297,Star Fruit,5
+4298,Sandstone Bathtub,1
+4299,Sandstone Bed,1
+4300,Sandstone Bookcase,1
+4301,Sandstone Dresser,1
+4302,Sandstone Candelabra,1
+4303,Sandstone Candle,1
+4304,Sandstone Chair,1
+4305,Sandstone Chandelier,1
+4306,Sandstone Clock,1
+4307,Sandstone Door,1
+4308,Sandstone Lamp,1
+4309,Sandstone Lantern,1
+4310,Sandstone Piano,1
+4311,Sandstone Platform,200
+4312,Sandstone Sink,1
+4313,Sandstone Sofa,1
+4314,Sandstone Table,1
+4315,Sandstone Work Bench,1
+4316,Sandstone Toilet,1
+4317,Haemorrhaxe,1
+4318,Void Monolith,1
+4319,Arrow Sign,1
+4320,Painted Arrow Sign,1
+4321,Master Gamer's Jacket,1
+4322,Master Gamer's Pants,1
+4323,Star Princess Crown,1
+4324,Star Princess Dress,1
+4325,Chum Caster,1
+4326,Plate,1
+4327,Black Dragonfly Jar,1
+4328,Blue Dragonfly Jar,1
+4329,Green Dragonfly Jar,1
+4330,Orange Dragonfly Jar,1
+4331,Red Dragonfly Jar,1
+4332,Yellow Dragonfly Jar,1
+4333,Gold Dragonfly Jar,1
+4334,Black Dragonfly,5
+4335,Blue Dragonfly,5
+4336,Green Dragonfly,5
+4337,Orange Dragonfly,5
+4338,Red Dragonfly,5
+4339,Yellow Dragonfly,5
+4340,Gold Dragonfly,3
+4341,Step Stool,1
+4342,Dragonfly Statue,1
+4343,Paper Airplane,1
+4344,White Paper Airplane,1
+4345,Can Of Worms,2
+4346,Encumbering Stone,1
+4347,Gray Zapinator,1
+4348,Orange Zapinator,1
+4349,Green Moss,25
+4350,Brown Moss,25
+4351,Red Moss,25
+4352,Blue Moss,25
+4353,Purple Moss,25
+4354,Lava Moss,25
+4355,Boulder Statue,1
+4356,Music Box (Journey's Beginning),1
+4357,Music Box (Storm),1
+4358,Music Box (Graveyard),1
+4359,Seagull,5
+4360,Seagull Statue,1
+4361,Ladybug,5
+4362,Gold Ladybug,3
+4363,Maggot,5
+4364,Maggot Cage,1
+4365,Celestial Wand,1
+4366,Eucalyptus Sap,1
+4367,Blue Kite,1
+4368,Blue and Yellow Kite,1
+4369,Red Kite,1
+4370,Red and Yellow Kite,1
+4371,Yellow Kite,1
+4372,Ivy,1
+4373,Pupfish,5
+4374,Grebe,5
+4375,Rat,5
+4376,Rat Cage,1
+4377,Krypton Moss,25
+4378,Xenon Moss,25
+4379,Wyvern Kite,1
+4380,Ladybug Cage,1
+4381,Blood Rain Bow,1
+4382,Advanced Combat Techniques,1
+4383,Desert Torch,100
+4384,Coral Torch,100
+4385,Corrupt Torch,100
+4386,Crimson Torch,100
+4387,Hallowed Torch,100
+4388,Jungle Torch,100
+4389,Argon Moss,25
+4390,Rolling Cactus,5
+4391,Thin Ice,100
+4392,Echo Block,100
+4393,Scarab Fish,2
+4394,Scorpio Fish,2
+4395,Owl,5
+4396,Owl Cage,1
+4397,Owl Statue,1
+4398,Pupfish Bowl,1
+4399,Gold Ladybug Cage,1
+4400,Geode,5
+4401,Flounder,3
+4402,Rock Lobster,3
+4403,Lobster Tail,5
+4404,Inner Tube,1
+4405,Frozen Crate,5
+4406,Boreal Crate,5
+4407,Oasis Crate,5
+4408,Mirage Crate,5
+4409,Spectre Goggles,1
+4410,Oyster,5
+4411,Shucked Oyster,5
+4412,White Pearl,5
+4413,Black Pearl,5
+4414,Pink Pearl,5
+4415,Stone Door,1
+4416,Stone Platform,200
+4417,Oasis Water Fountain,1
+4418,Water Strider,5
+4419,Gold Water Strider,3
+4420,Lawn Flamingo,1
+4421,Music Box (Underground Jungle),1
+4422,Grate,100
+4423,Scarab Bomb,99
+4424,Wrought Iron Fence,400
+4425,Shark Bait,1
+4426,Bee Minecart,1
+4427,Ladybug Minecart,1
+4428,Pigron Minecart,1
+4429,Sunflower Minecart,1
+4430,Potted Forest Cedar,1
+4431,Potted Jungle Cedar,1
+4432,Potted Hallow Cedar,1
+4433,Potted Forest Tree,1
+4434,Potted Jungle Tree,1
+4435,Potted Hallow Tree,1
+4436,Potted Forest Palm,1
+4437,Potted Jungle Palm,1
+4438,Potted Hallow Palm,1
+4439,Potted Forest Bamboo,1
+4440,Potted Jungle Bamboo,1
+4441,Potted Hallow Bamboo,1
+4442,Scarab Fishing Rod,1
+4443,Demonic Hellcart,1
+4444,Witch's Broom,1
+4445,Cluster Rocket I,99
+4446,Cluster Rocket II,99
+4447,Wet Rocket,99
+4448,Lava Rocket,99
+4449,Honey Rocket,99
+4450,Shroom Minecart,1
+4451,Amethyst Minecart,1
+4452,Topaz Minecart,1
+4453,Sapphire Minecart,1
+4454,Emerald Minecart,1
+4455,Ruby Minecart,1
+4456,Diamond Minecart,1
+4457,Mini Nuke I,99
+4458,Mini Nuke II,99
+4459,Dry Rocket,99
+4460,Sandcastle Bucket,1
+4461,Turtle Cage,1
+4462,Jungle Turtle Cage,1
+4463,Gladius,1
+4464,Turtle,5
+4465,Jungle Turtle,5
+4466,Turtle Statue,1
+4467,Amber Minecart,1
+4468,Beetle Minecart,1
+4469,Meowmere Minecart,1
+4470,Party Wagon,1
+4471,The Dutchman,1
+4472,Steampunk Minecart,1
+4473,Grebe Cage,1
+4474,Seagull Cage,1
+4475,Water Strider Cage,1
+4476,Gold Water Strider Cage,1
+4477,Lesser Luck Potion,20
+4478,Luck Potion,20
+4479,Greater Luck Potion,20
+4480,Seahorse,5
+4481,Seahorse Cage,1
+4482,Gold Seahorse,3
+4483,Gold Seahorse Cage,1
+4484,1/2 Second Timer,1
+4485,1/4 Second Timer,1
+4486,Ebonstone Wall,400
+4487,Mud Wall,400
+4488,Pearlstone Wall,400
+4489,Snow Wall,400
+4490,Amethyst Stone Wall,400
+4491,Topaz Stone Wall,400
+4492,Sapphire Stone Wall,400
+4493,Emerald Stone Wall,400
+4494,Ruby Stone Wall,400
+4495,Diamond Stone Wall,400
+4496,Green Mossy Wall,400
+4497,Brown Mossy Wall,400
+4498,Red Mossy Wall,400
+4499,Blue Mossy Wall,400
+4500,Purple Mossy Wall,400
+4501,Rocky Dirt Wall,400
+4502,Old Stone Wall,400
+4503,Spider Wall,400
+4504,Corrupt Grass Wall,400
+4505,Hallowed Grass Wall,400
+4506,Ice Wall,400
+4507,Obsidian Wall,400
+4508,Crimson Grass Wall,400
+4509,Crimstone Wall,400
+4510,Cave Dirt Wall,400
+4511,Rough Dirt Wall,400
+4512,Craggy Stone Wall,400
+4513,Corrupt Growth Wall,400
+4514,Corrupt Mass Wall,400
+4515,Corrupt Pustule Wall,400
+4516,Corrupt Tendril Wall,400
+4517,Crimson Crust Wall,400
+4518,Crimson Scab Wall,400
+4519,Crimson Teeth Wall,400
+4520,Crimson Blister Wall,400
+4521,Layered Dirt Wall,400
+4522,Crumbling Dirt Wall,400
+4523,Cracked Dirt Wall,400
+4524,Wavy Dirt Wall,400
+4525,Hallowed Prism Wall,400
+4526,Hallowed Cavern Wall,400
+4527,Hallowed Shard Wall,400
+4528,Hallowed Crystalline Wall,400
+4529,Lichen Stone Wall,400
+4530,Leafy Jungle Wall,400
+4531,Ivy Stone Wall,400
+4532,Jungle Vine Wall,400
+4533,Ember Wall,400
+4534,Cinder Wall,400
+4535,Magma Wall,400
+4536,Smouldering Stone Wall,400
+4537,Worn Stone Wall,400
+4538,Stalactite Stone Wall,400
+4539,Mottled Stone Wall,400
+4540,Fractured Stone Wall,400
+4541,The Bride Banner,1
+4542,Zombie Merman Banner,1
+4543,Wandering Eye Fish Banner,1
+4544,Blood Squid Banner,1
+4545,Blood Eel Banner,1
+4546,Hemogoblin Shark Banner,1
+4547,Large Bamboo,100
+4548,Large Bamboo Wall,400
+4549,Demon Horns,1
+4550,Bamboo Leaf,1
+4551,Slice of Hell Cake,1
+4552,Fog Machine,1
+4553,Plasma Lamp,1
+4554,Marble Column,50
+4555,Chef Hat,1
+4556,Chef Uniform,1
+4557,Chef Pants,1
+4558,Star Hairpin,1
+4559,Heart Hairpin,1
+4560,Bunny Ears,1
+4561,Devil Horns,1
+4562,Fedora,1
+4563,Fake Unicorn Horn,1
+4564,Bamboo,100
+4565,Bamboo Wall,400
+4566,Bamboo Bathtub,1
+4567,Bamboo Bed,1
+4568,Bamboo Bookcase,1
+4569,Bamboo Dresser,1
+4570,Bamboo Candelabra,1
+4571,Bamboo Candle,1
+4572,Bamboo Chair,1
+4573,Bamboo Chandelier,1
+4574,Bamboo Chest,1
+4575,Bamboo Clock,1
+4576,Bamboo Door,1
+4577,Bamboo Lamp,1
+4578,Bamboo Lantern,1
+4579,Bamboo Piano,1
+4580,Bamboo Platform,200
+4581,Bamboo Sink,1
+4582,Bamboo Sofa,1
+4583,Bamboo Table,1
+4584,Bamboo Work Bench,1
+4585,Trapped Bamboo Chest,1
+4586,Bamboo Toilet,1
+4587,Worn Golf Club (Iron),1
+4588,Worn Golf Club (Putter),1
+4589,Worn Golf Club (Wedge),1
+4590,Worn Golf Club (Driver),1
+4591,Fancy Golf Club (Iron),1
+4592,Fancy Golf Club (Putter),1
+4593,Fancy Golf Club (Wedge),1
+4594,Fancy Golf Club (Driver),1
+4595,Premium Golf Club (Iron),1
+4596,Premium Golf Club (Putter),1
+4597,Premium Golf Club (Wedge),1
+4598,Premium Golf Club (Driver),1
+4599,Bronze Golf Trophy,1
+4600,Silver Golf Trophy,1
+4601,Gold Golf Trophy,1
+4602,Dreadnautilus Banner,1
+4603,Birdie Rattle,1
+4604,Exotic Chew Toy,1
+4605,Bedazzled Nectar,1
+4606,Music Box (Jungle Night),1
+4607,Desert Tiger Staff,1
+4608,Chum Bucket,25
+4609,Garden Gnome,1
+4610,Bone Serpent Kite,1
+4611,World Feeder Kite,1
+4612,Bunny Kite,1
+4613,Pigron Kite,1
+4614,Apple Juice,5
+4615,Grape Juice,5
+4616,Lemonade,5
+4617,Frozen Banana Daiquiri,5
+4618,Peach Sangria,5
+4619,Piña Colada,5
+4620,Tropical Smoothie,5
+4621,Bloody Moscato,5
+4622,Smoothie of Darkness,5
+4623,Prismatic Punch,5
+4624,Fruit Juice,5
+4625,Fruit Salad,5
+4626,Andrew Sphinx,1
+4627,Watchful Antlion,1
+4628,Burning Spirit,1
+4629,Jaws of Death,1
+4630,The Sands of Slime,1
+4631,"Snakes, I Hate Snakes",1
+4632,Life Above the Sand,1
+4633,Oasis,1
+4634,Prehistory Preserved,1
+4635,Ancient Tablet,1
+4636,Uluru,1
+4637,Visiting the Pyramids,1
+4638,Bandage Boy,1
+4639,Divine Eye,1
+4640,Amethyst Stone Block,100
+4641,Topaz Stone Block,100
+4642,Sapphire Stone Block,100
+4643,Emerald Stone Block,100
+4644,Ruby Stone Block,100
+4645,Diamond Stone Block,100
+4646,Amber Stone Block,100
+4647,Amber Stone Wall,400
+4648,Man Eater Kite,1
+4649,Blue Jellyfish Kite,1
+4650,Pink Jellyfish Kite,1
+4651,Shark Kite,1
+4652,Superhero Mask,1
+4653,Superhero Costume,1
+4654,Superhero Tights,1
+4655,Pink Fairy Jar,1
+4656,Green Fairy Jar,1
+4657,Blue Fairy Jar,1
+4658,The Rolling Greens,1
+4659,Study of a Ball at Rest,1
+4660,Fore!,1
+4661,The Duplicity of Reflections,1
+4662,Fogbound Dye,3
+4663,Bloodbath Dye,3
+4664,Pretty Pink Dress,1
+4665,Pretty Pink Stockings,1
+4666,Pretty Pink Ribbon,1
+4667,Bamboo Fence,400
+4668,Illuminant Coating,100
+4669,Sand Shark Kite,1
+4670,Corrupt Bunny Kite,1
+4671,Vicious Bunny Kite,1
+4672,Leather Whip,1
+4673,Drumstick,1
+4674,Goldfish Kite,1
+4675,Angry Trapper Kite,1
+4676,Koi Kite,1
+4677,Crawltipede Kite,1
+4678,Durendal,1
+4679,Morning Star,1
+4680,Dark Harvest,1
+4681,Spectrum Kite,1
+4682,Release Doves,5
+4683,Wandering Eye Kite,1
+4684,Unicorn Kite,1
+4685,Gravedigger Hat,1
+4686,Gravedigger Coat,1
+4687,Angry Dandelion Banner,1
+4688,Gnome Banner,1
+4689,Desert Campfire,1
+4690,Coral Campfire,1
+4691,Corrupt Campfire,1
+4692,Crimson Campfire,1
+4693,Hallowed Campfire,1
+4694,Jungle Campfire,1
+4695,Soul of Light in a Bottle,1
+4696,Soul of Night in a Bottle,1
+4697,Soul of Flight in a Bottle,1
+4698,Soul of Sight in a Bottle,1
+4699,Soul of Might in a Bottle,1
+4700,Soul of Fright in a Bottle,1
+4701,Mud Bud,1
+4702,Release Lantern,5
+4703,Quad-Barrel Shotgun,1
+4704,Funeral Hat,1
+4705,Funeral Coat,1
+4706,Funeral Pants,1
+4707,Tragic Umbrella,1
+4708,Victorian Goth Hat,1
+4709,Victorian Goth Dress,1
+4710,Tattered Wood Sign,1
+4711,Gravedigger's Shovel,1
+4712,Desert Chest,1
+4713,Trapped Desert Chest,1
+4714,Desert Key,1
+4715,Stellar Tune,1
+4716,Mollusk Whistle,1
+4717,Boreal Beam,50
+4718,Rich Mahogany Beam,50
+4719,Granite Column,50
+4720,Sandstone Column,50
+4721,Mushroom Beam,50
+4723,Nevermore,1
+4724,Reborn,1
+4725,Graveyard,1
+4726,Ghost Manifestation,1
+4727,Wicked Undead,1
+4728,Bloody Goblet,1
+4729,Still Life,1
+4730,Ghostar's Infinity Eight,1
+4731,Terra Toilet,1
+4732,Ghostar's Soul Jar,1
+4733,Ghostar's Garb,1
+4734,Ghostar's Tights,1
+4735,Ball O' Fuse Wire,1
+4736,Full Moon Squeaky Toy,1
+4737,Ornate Shadow Key,1
+4738,Dr. Man Fly Mask,1
+4739,Dr. Man Fly's Lab Coat,1
+4740,Butcher Mask,1
+4741,Butcher's Bloodstained Apron,1
+4742,Butcher's Bloodstained Pants,1
+4743,Football,1
+4744,Hunter Cloak,1
+4745,Coffin Minecart,1
+4746,Safeman's Blanket Cape,1
+4747,Safeman's Sunny Day,1
+4748,Safeman's Sun Dress,1
+4749,Safeman's Pink Leggings,1
+4750,FoodBarbarian's Tattered Dragon Wings,1
+4751,FoodBarbarian's Horned Helm,1
+4752,FoodBarbarian's Wild Wolf Spaulders,1
+4753,FoodBarbarian's Savage Greaves,1
+4754,Grox The Great's Wings,1
+4755,Grox The Great's Horned Cowl,1
+4756,Grox The Great's Chestplate,1
+4757,Grox The Great's Greaves,1
+4758,Blade Staff,1
+4759,Squirrel Hook,1
+4760,Sergeant United Shield,1
+4761,Rock Golem Head,1
+4762,Critter Shampoo,1
+4763,Digging Molecart,1
+4764,Shroomerang,1
+4765,Tree Globe,1
+4766,World Globe,1
+4767,Guide to Critter Companionship,1
+4768,Dog Ears,1
+4769,Dog Tail,1
+4770,Fox Ears,1
+4771,Fox Tail,1
+4772,Lizard Ears,1
+4773,Lizard Tail,1
+4774,Panda Ears,1
+4775,Bunny Tail,1
+4776,Fairy Glowstick,100
+4777,Lightning Carrot,1
+4778,Prismatic Dye,3
+4779,Mushroom Hat,1
+4780,Mushroom Vest,1
+4781,Mushroom Pants,1
+4782,Treasure Bag (Empress of Light),3
+4783,Empress of Light Trophy,1
+4784,Empress of Light Mask,1
+4785,Dusty Rawhide Saddle,1
+4786,Royal Gilded Saddle,1
+4787,Black Studded Saddle,1
+4788,Jousting Lance,1
+4789,Shadow Jousting Lance,1
+4790,Hallowed Jousting Lance,1
+4791,Pogo Stick,1
+4792,The Black Spot,1
+4793,Hexxed Branch,1
+4794,Toy Tank,1
+4795,Goat Skull,1
+4796,Dark Mage's Tome,1
+4797,Royal Delight,1
+4798,Suspicious Grinning Eye,1
+4799,Writhing Remains,1
+4800,Brain in a Jar,1
+4801,Possessed Skull,1
+4802,Sparkling Honey,1
+4803,Deactivated Probe,1
+4804,Pair of Eyeballs,1
+4805,Robotic Skull,1
+4806,Plantera Seedling,1
+4807,Guardian Golem,1
+4808,Pork of the Sea,1
+4809,Tablet Fragment,1
+4810,Piece of Moon Squid,1
+4811,Jewel of Light,1
+4812,Pumpkin Scented Candle,1
+4813,Shrub Star,1
+4814,Frozen Crown,1
+4815,Cosmic Skateboard,1
+4816,Ogre's Club,1
+4817,Betsy's Egg,1
+4818,Combat Wrench,1
+4819,Demon Conch,1
+4820,Bottomless Lava Bucket,1
+4821,Lavaproof Bug Net,1
+4822,Flame Waker Boots,1
+4823,Empress Wings,1
+4824,Wet Bomb,99
+4825,Lava Bomb,99
+4826,Honey Bomb,99
+4827,Dry Bomb,99
+4828,Superheated Blood,1
+4829,Cat License,5
+4830,Dog License,5
+4831,Amethyst Squirrel,5
+4832,Topaz Squirrel,5
+4833,Sapphire Squirrel,5
+4834,Emerald Squirrel,5
+4835,Ruby Squirrel,5
+4836,Diamond Squirrel,5
+4837,Amber Squirrel,5
+4838,Amethyst Bunny,5
+4839,Topaz Bunny,5
+4840,Sapphire Bunny,5
+4841,Emerald Bunny,5
+4842,Ruby Bunny,5
+4843,Diamond Bunny,5
+4844,Amber Bunny,5
+4845,Hell Butterfly,5
+4846,Hell Butterfly Jar,1
+4847,Lavafly,5
+4848,Lavafly in a Bottle,1
+4849,Magma Snail,5
+4850,Magma Snail Cage,1
+4851,Topaz Gemcorn,5
+4852,Amethyst Gemcorn,5
+4853,Sapphire Gemcorn,5
+4854,Emerald Gemcorn,5
+4855,Ruby Gemcorn,5
+4856,Diamond Gemcorn,5
+4857,Amber Gemcorn,5
+4858,Hanging Pot,1
+4859,Hanging Daybloom,1
+4860,Hanging Moonglow,1
+4861,Hanging Waterleaf,1
+4862,Hanging Shiverthorn,1
+4863,Hanging Blinkroot,1
+4864,Hanging Corrupt Deathweed,1
+4865,Hanging Crimson Deathweed,1
+4866,Hanging Fireblossom,1
+4867,Hanging Brazier,1
+4868,Mini Volcano,1
+4869,Large Volcano,1
+4870,Potion of Return,20
+4871,Sakura Sapling,25
+4872,Lava Absorbant Sponge,1
+4873,Hallowed Hood,1
+4874,Hellfire Treads,1
+4875,Jungle Pylon,1
+4876,Forest Pylon,1
+4877,Obsidian Crate,5
+4878,Hellstone Crate,5
+4879,Obsidian Lock Box,5
+4880,Lava Serpent Bowl,1
+4881,Lavaproof Fishing Hook,1
+4882,Amethyst Bunny Cage,1
+4883,Topaz Bunny Cage,1
+4884,Sapphire Bunny Cage,1
+4885,Emerald Bunny Cage,1
+4886,Ruby Bunny Cage,1
+4887,Diamond Bunny Cage,1
+4888,Amber Bunny Cage,1
+4889,Amethyst Squirrel Cage,1
+4890,Topaz Squirrel Cage,1
+4891,Sapphire Squirrel Cage,1
+4892,Emerald Squirrel Cage,1
+4893,Ruby Squirrel Cage,1
+4894,Diamond Squirrel Cage,1
+4895,Amber Squirrel Cage,1
+4896,Ancient Hallowed Mask,1
+4897,Ancient Hallowed Helmet,1
+4898,Ancient Hallowed Headgear,1
+4899,Ancient Hallowed Hood,1
+4900,Ancient Hallowed Plate Mail,1
+4901,Ancient Hallowed Greaves,1
+4902,Potted Magma Palm,1
+4903,Potted Brimstone Bush,1
+4904,Potted Fire Brambles,1
+4905,Potted Lava Bulb,1
+4906,Potted Ember Tendrils,1
+4907,Yellow Willow Sapling,25
+4908,Dirt Bomb,99
+4909,Sticky Dirt Bomb,99
+4910,Bunny License,5
+4911,Cool Whip,1
+4912,Firecracker,1
+4913,Snapthorn,1
+4914,Kaleidoscope,1
+4915,Tungsten Bullet,99
+4916,Hallow Pylon,1
+4917,Cavern Pylon,1
+4918,Ocean Pylon,1
+4919,Desert Pylon,1
+4920,Snow Pylon,1
+4921,Mushroom Pylon,1
+4922,Cavern Water Fountain,1
+4923,Starlight,1
+4924,Eye of Cthulhu Relic,1
+4925,Eater of Worlds Relic,1
+4926,Brain of Cthulhu Relic,1
+4927,Skeletron Relic,1
+4928,Queen Bee Relic,1
+4929,King Slime Relic,1
+4930,Wall of Flesh Relic,1
+4931,Twins Relic,1
+4932,Destroyer Relic,1
+4933,Skeletron Prime Relic,1
+4934,Plantera Relic,1
+4935,Golem Relic,1
+4936,Duke Fishron Relic,1
+4937,Lunatic Cultist Relic,1
+4938,Moon Lord Relic,1
+4939,Martian Saucer Relic,1
+4940,Flying Dutchman Relic,1
+4941,Mourning Wood Relic,1
+4942,Pumpking Relic,1
+4943,Ice Queen Relic,1
+4944,Everscream Relic,1
+4945,Santa-NK1 Relic,1
+4946,Dark Mage Relic,1
+4947,Ogre Relic,1
+4948,Betsy Relic,1
+4949,Empress of Light Relic,1
+4950,Queen Slime Relic,1
+4951,Universal Pylon,1
+4952,Nightglow,1
+4953,Eventide,1
+4954,Celestial Starboard,1
+4955,Rabbit Perch,1
+4956,Zenith,1
+4957,Treasure Bag (Queen Slime),3
+4958,Queen Slime Trophy,1
+4959,Queen Slime Mask,1
+4960,Regal Delicacy,1
+4961,Prismatic Lacewing,3
+4962,Stone Accent Slab,100
+4963,Truffle Worm Cage,1
+4964,Prismatic Lacewing Jar,1
+4965,Rock Golem Banner,1
+4966,Blood Mummy Banner,1
+4967,Spore Skeleton Banner,1
+4968,Spore Bat Banner,1
+4969,Antlion Larva Banner,1
+4970,Vicious Bunny Banner,1
+4971,Vicious Goldfish Banner,1
+4972,Vicious Penguin Banner,1
+4973,Corrupt Mimic Banner,1
+4974,Crimson Mimic Banner,1
+4975,Hallowed Mimic Banner,1
+4976,Moss Hornet Banner,1
+4977,Wandering Eye Banner,1
+4978,Fledgling Wings,1
+4979,Music Box (Queen Slime),1
+4980,Hook of Dissonance,1
+4981,Gelatinous Pillion,1
+4982,Crystal Assassin Hood,1
+4983,Crystal Assassin Shirt,1
+4984,Crystal Assassin Pants,1
+4985,Music Box (Empress Of Light),1
+4986,Sparkle Slime Balloon,50
+4987,Volatile Gelatin,1
+4988,Gelatin Crystal,3
+4989,Soaring Insignia,1
+4990,Music Box (Duke Fishron),1
+4991,Music Box (Morning Rain),1
+4992,Music Box (Alt Title),1
+4993,Chippy's Couch,1
+4994,Blue Graduation Cap,1
+4995,Maroon Graduation Cap,1
+4996,Black Graduation Cap,1
+4997,Blue Graduation Gown,1
+4998,Maroon Graduation Gown,1
+4999,Black Graduation Gown,1
+5000,Terraspark Boots,1
+5001,Moon Lord Legs,1
+5002,Ocean Crate,5
+5003,Seaside Crate,5
+5004,Badger's Hat,1
+5005,Terraprisma,1
+5006,Music Box (Underground Desert),1
+5007,Dead Man's Sweater,1
+5008,Teapot,1
+5009,Teacup,5
+5010,Treasure Magnet,1
+5011,Mace,1
+5012,Flaming Mace,1
+5014,Otherworldly Music Box (Rain),1
+5015,Otherworldly Music Box (Overworld Day),1
+5016,Otherworldly Music Box (Night),1
+5017,Otherworldly Music Box (Underground),1
+5018,Otherworldly Music Box (Desert),1
+5019,Otherworldly Music Box (Ocean),1
+5020,Otherworldly Music Box (Mushrooms),1
+5021,Otherworldly Music Box (Dungeon),1
+5022,Otherworldly Music Box (Space),1
+5023,Otherworldly Music Box (Underworld),1
+5024,Otherworldly Music Box (Snow),1
+5025,Otherworldly Music Box (Corruption),1
+5026,Otherworldly Music Box (Underground Corruption),1
+5027,Otherworldly Music Box (Crimson),1
+5028,Otherworldly Music Box (Underground Crimson),1
+5029,Otherworldly Music Box (Ice),1
+5030,Otherworldly Music Box (Underground Hallow),1
+5031,Otherworldly Music Box (Eerie),1
+5032,Otherworldly Music Box (Boss 2),1
+5033,Otherworldly Music Box (Boss 1),1
+5034,Otherworldly Music Box (Invasion),1
+5035,Otherworldly Music Box (The Towers),1
+5036,Otherworldly Music Box (Lunar Boss),1
+5037,Otherworldly Music Box (Plantera),1
+5038,Otherworldly Music Box (Jungle),1
+5039,Otherworldly Music Box (Wall of Flesh),1
+5040,Otherworldly Music Box (Hallow),1
+5041,Carton of Milk,5
+5042,Coffee,5
+5043,Torch God's Favor,1
+5044,Music Box (Journey's End),1
+5045,Plaguebringer's Skull,1
+5046,Plaguebringer's Cloak,1
+5047,Plaguebringer's Treads,1
+5048,Wandering Jingasa,1
+5049,Wandering Yukata,1
+5050,Wandering Geta,1
+5051,Timeless Traveler's Hood,1
+5052,Timeless Traveler's Cloak,1
+5053,Timeless Traveler's Footwear,1
+5054,Floret Protector Helmet,1
+5055,Floret Protector Shirt,1
+5056,Floret Protector Pants,1
+5057,Capricorn Helmet,1
+5058,Capricorn Chestplate,1
+5059,Capricorn Hooves,1
+5060,Capricorn Tail,1
+5061,Video Visage,1
+5062,Lazer Blazer,1
+5063,Pinstripe Pants,1
+5064,Lavaproof Tackle Bag,1
+5065,Resonance Scepter,1
+5066,Bee Hive,5
+5067,Antlion Eggs,5
+5068,Flinx Fur Coat,1
+5069,Flinx Staff,1
+5070,Flinx Fur,15
+5071,Royal Tiara,1
+5072,Royal Blouse,1
+5073,Royal Dress,1
+5074,Spinal Tap,1
+5075,Rainbow Cursor,1
+5076,Royal Scepter,1
+5077,Glass Slipper,1
+5078,Prince Uniform,1
+5079,Prince Pants,1
+5080,Prince Cape,1
+5081,Potted Crystal Fern,1
+5082,Potted Crystal Spiral,1
+5083,Potted Crystal Teardrop,1
+5084,Potted Crystal Tree,1
+5085,Princess 64,1
+5086,Painting of a Lass,1
+5087,Dark Side of the Hallow,1
+5088,Bernie's Button,1
+5089,Glommer's Flower,1
+5090,Deerclops Eyeball,1
+5091,Monster Meat,1
+5092,Monster Lasagna,5
+5093,Froggle Bunwich,5
+5094,Tentacle Spike,1
+5095,Lucy the Axe,1
+5096,Ham Bat,1
+5097,Bat Bat,1
+5098,Eye Bone,1
+5099,Garland,1
+5100,Bone Helm,1
+5101,Eyebrella,1
+5102,Gentleman's Vest,1
+5103,Gentleman's Trousers,1
+5104,Gentleman's Beard,1
+5105,Gentleman's Long Beard,1
+5106,Gentleman's Magnificent Beard,1
+5107,Magiluminescence,1
+5108,Deerclops Trophy,1
+5109,Deerclops Mask,1
+5110,Deerclops Relic,1
+5111,Treasure Bag (Deerclops),3
+5112,Music Box (Deerclops),1
+5113,Radio Thing,1
+5114,Abigail's Flower,1
+5115,Firestarter's Sweater,1
+5116,Firestarter's Skirt,1
+5117,Pew-matic Horn,1
+5118,Weather Pain,1
+5119,Houndius Shootius,1
+5120,Deer Thing,3
+5121,The Gentleman Scientist,1
+5122,The Firestarter,1
+5123,The Bereaved,1
+5124,The Strongman,1
+5125,Fart Kart,1
+5126,Hand Of Creation,1
+5127,Neon Moss,25
+5128,Helium Moss,25
+5129,Flymeal,1
+5130,Lilith's Necklace,1
+5131,Resplendent Dessert,1
+5132,Stinkbug,5
+5133,Stinkbug Cage,1
+5134,Terraformer,1
+5135,Venom Dart Trap,5
+5136,Vulkelf Ears,1
+5137,Stinkbug Blocker,1
+5138,Ghostly Stinkbug Blocker,1
+5139,Fishing Bobber,1
+5140,Glowing Fishing Bobber,1
+5141,Lava Moss Fishing Bobber,1
+5142,Krypton Moss Fishing Bobber,1
+5143,Xenon Moss Fishing Bobber,1
+5144,Argon Moss Fishing Bobber,1
+5145,Neon Moss Fishing Bobber,1
+5146,Helium Moss Fishing Bobber,1
+5147,Wand of Frosting,1
+5148,Reef Bathtub,1
+5149,Reef Bed,1
+5150,Reef Bookcase,1
+5151,Reef Dresser,1
+5152,Reef Candelabra,1
+5153,Reef Candle,1
+5154,Reef Chair,1
+5155,Reef Chandelier,1
+5156,Reef Chest,1
+5157,Reef Clock,1
+5158,Reef Door,1
+5159,Reef Lamp,1
+5160,Reef Lantern,1
+5161,Reef Piano,1
+5162,Reef Platform,200
+5163,Reef Sink,1
+5164,Reef Sofa,1
+5165,Reef Table,1
+5166,Reef Work Bench,1
+5167,Trapped Reef Chest,1
+5168,Reef Toilet,1
+5169,Balloon Bathtub,1
+5170,Balloon Bed,1
+5171,Balloon Bookcase,1
+5172,Balloon Dresser,1
+5173,Balloon Candelabra,1
+5174,Balloon Candle,1
+5175,Balloon Chair,1
+5176,Balloon Chandelier,1
+5177,Balloon Chest,1
+5178,Balloon Clock,1
+5179,Balloon Door,1
+5180,Balloon Lamp,1
+5181,Balloon Lantern,1
+5182,Balloon Piano,1
+5183,Balloon Platform,200
+5184,Balloon Sink,1
+5185,Balloon Sofa,1
+5186,Balloon Table,1
+5187,Balloon Work Bench,1
+5188,Trapped Balloon Chest,1
+5189,Balloon Toilet,1
+5190,Ash Wood Bathtub,1
+5191,Ash Wood Bed,1
+5192,Ash Wood Bookcase,1
+5193,Ash Wood Dresser,1
+5194,Ash Wood Candelabra,1
+5195,Ash Wood Candle,1
+5196,Ash Wood Chair,1
+5197,Ash Wood Chandelier,1
+5198,Ash Wood Chest,1
+5199,Ash Wood Clock,1
+5200,Ash Wood Door,1
+5201,Ash Wood Lamp,1
+5202,Ash Wood Lantern,1
+5203,Ash Wood Piano,1
+5204,Ash Wood Platform,200
+5205,Ash Wood Sink,1
+5206,Ash Wood Sofa,1
+5207,Ash Wood Table,1
+5208,Ash Wood Work Bench,1
+5209,Trapped Ash Wood Chest,1
+5210,Ash Wood Toilet,1
+5211,Biome Sight Potion,20
+5212,Scarlet Macaw,5
+5213,Scarlet Macaw Cage,1
+5214,Ash Grass Seeds,25
+5215,Ash Wood,100
+5216,Ash Wood Wall,400
+5217,Ash Wood Fence,400
+5218,Outcast,1
+5219,Fairy Guides,1
+5220,A Horrible Night for Alchemy,1
+5221,Morning Hunt,1
+5222,Suspiciously Sparkly,1
+5223,Requiem,1
+5224,Cat Sword,1
+5225,Kargoh's Summon,1
+5226,High Pitch,1
+5227,A Machine for Terrarians,1
+5228,Terra Blade Chronicles,1
+5229,Benny Warhol,1
+5230,Lizard King,1
+5231,My Son,1
+5232,Duality,1
+5233,Parsec Pals,1
+5234,Remnants of Devotion,1
+5235,Not So Lost In Paradise,1
+5236,Ocular Resonance,1
+5237,Wings of Evil,1
+5238,Constellation,1
+5239,Eyezorhead,1
+5240,Dread of the Red Sea,1
+5241,Do Not Eat the Vile Mushroom!,1
+5242,"Yuuma, The Blue Tiger",1
+5243,Moonman & Company,1
+5244,Sunshine of Israpony,1
+5245,Purity,1
+5246,Sufficiently Advanced,1
+5247,Strange Growth,1
+5248,Happy Little Tree,1
+5249,Strange Dead Fellows,1
+5250,Secrets,1
+5251,Thunderbolt,1
+5252,Crustography,1
+5253,The Werewolf,1
+5254,Blessing from the Heavens,1
+5255,Love is in the Trash Slot,1
+5256,Fangs,1
+5257,Hail to the King,1
+5258,See The World For What It Is,1
+5259,What Lurks Below,1
+5260,This Is Getting Out Of Hand,1
+5261,Buddies,1
+5262,Midnight Sun,1
+5263,Couch Gag,1
+5264,Silent Fish,1
+5265,The Duke,1
+5266,Royal Romance,1
+5267,Bioluminescence,1
+5268,Wildflowers,1
+5269,Viking Voyage,1
+5270,Bifrost,1
+5271,Heartlands,1
+5272,Forest Troll,1
+5273,Aurora Borealis,1
+5274,Lady Of The Lake,1
+5275,Joja Cola,5
+5276,Stardrop,1
+5277,Spicy Pepper,5
+5278,Pomegranate,5
+5279,Ash Wood Helmet,1
+5280,Ash Wood Breastplate,1
+5281,Ash Wood Greaves,1
+5282,Ash Wood Bow,1
+5283,Ash Wood Hammer,1
+5284,Ash Wood Sword,1
+5285,Moon Globe,1
+5286,Repaired Life Crystal,10
+5287,Repaired Mana Crystal,10
+5288,Terra Fart Kart,1
+5289,Minecart Upgrade Kit,1
+5290,Jim's Cap,1
+5291,Echo Wall,400
+5292,Echo Platform,200
+5293,Mushroom Torch,100
+5294,Hive-Five,1
+5295,Axe of Regrowth,1
+5296,Chlorophyte Extractinator,1
+5297,Blue Chicken Egg,1
+5298,Trimarang,1
+5299,Mushroom Campfire,1
+5300,Blue Macaw,5
+5301,Blue Macaw Cage,1
+5302,Bottomless Honey Bucket,1
+5303,Honey Absorbant Sponge,1
+5304,Ultra Absorbant Sponge,1
+5305,Goblorc Ears,1
+5306,Reef Block,100
+5307,Reef Wall,400
+5308,r/Terraria,1
+5309,Guide to Environmental Preservation,1
+5310,Princess Style,1
+5311,Toucan,5
+5312,Yellow Cockatiel,5
+5313,Gray Cockatiel,5
+5314,Toucan Cage,1
+5315,Yellow Cockatiel Cage,1
+5316,Gray Cockatiel Cage,1
+5317,Macaw Statue,1
+5318,Toucan Statue,1
+5319,Cockatiel Statue,1
+5320,Decorative Healing Potion,30
+5321,Decorative Mana Potion,30
+5322,Shadow Candle,1
+5323,Guide to Peaceful Coexistence,1
+5324,Rubblemaker (Small),1
+5325,Closed Void Bag,1
+5326,Artisan Loaf,1
+5327,TNT Barrel,5
+5328,Chest Lock,5
+5329,Rubblemaker (Medium),1
+5330,Rubblemaker (Large),1
+5331,Bundle of Horseshoe Balloons,1
+5332,Spiffo Plush,1
+5333,Glow Tulip,1
+5334,Ocram's Razor,3
+5335,Rod of Harmony,1
+5336,Advanced Combat Techniques: Volume Two,1
+5337,Vital Crystal,1
+5338,Aegis Fruit,1
+5339,Arcane Crystal,1
+5340,Galaxy Pearl,1
+5341,Gummy Worm,1
+5342,Ambrosia,1
+5343,Peddler's Satchel,1
+5344,Echo Coating,100
+5345,Echo Chamber,1
+5346,Gas Trap,1
+5347,Aether Monolith,1
+5348,Shimmer Arrow,99
+5349,Aetherium Block,50
+5350,Faeling,5
+5351,Faeling in a Bottle,1
+5352,Shimmer Slime Banner,1
+5353,Aether Torch,100
+5354,Reflective Shades,1
+5355,Chromatic Cloak,1
+5356,Used Gas Trap,1
+5357,Aether Campfire,1
+5358,Shellphone (Home),1
+5359,Shellphone (Spawn),1
+5360,Shellphone (Ocean),1
+5361,Shellphone (Underworld),1
+5362,Music Box (Aether),1
+5363,Infested Spider Wall,400
+5364,Bottomless Shimmer Bucket,1
+5365,Cursed Blue Brick Wall,400
+5366,Cursed Blue Slab Wall,400
+5367,Cursed Blue Tiled Wall,400
+5368,Cursed Pink Brick Wall,400
+5369,Cursed Pink Slab Wall,400
+5370,Cursed Pink Tiled Wall,400
+5371,Cursed Green Brick Wall,400
+5372,Cursed Green Slab Wall,400
+5373,Cursed Green Tiled Wall,400
+5374,Treacherous Sandstone Wall,400
+5375,Treacherous Hardened Sand Wall,400
+5376,Forbidden Lihzahrd Brick Wall,400
+5377,Spelunker Flare,99
+5378,Cursed Flare,99
+5379,Rainbow Flare,99
+5380,Shimmer Flare,99
+5381,Enchanted Moondial,1
+5382,Waffle's Iron,1
+5383,Bouncy Boulder,5
+5384,Life Crystal Boulder,5
+5385,Dizzy's Rare Gecko Chester,1
+5386,Raynbro's Hoodie,1
+5387,Raynbro's Pants,1
+5388,Eye of the Sun,1
+5389,Cheesy Pizza Poster,1
+5390,Raynbro's Hood,1
+5391,Uncumbering Stone,1
+5392,Yellow Solution,99
+5393,White Solution,99
+5394,Brown Solution,99
+5395,Poo,100
+5396,Poo Wall,400
+5397,Aetherium Wall,200
+5398,Aetherium Brick,50
+5399,Aetherium Brick Wall,200
+5400,The Dirtiest Block,1
+5401,Lunar Rust Brick,100
+5402,Dark Celestial Brick,100
+5403,Astra Brick,100
+5404,Cosmic Ember Brick,100
+5405,Cryocore Brick,100
+5406,Mercury Brick,100
+5407,Star Royale Brick,100
+5408,Heavenforge Brick,100
+5409,Lunar Rust Brick Wall,400
+5410,Dark Celestial Brick Wall,400
+5411,Astra Brick Wall,400
+5412,Cosmic Ember Brick Wall,400
+5413,Cryocore Brick Wall,400
+5414,Mercury Brick Wall,400
+5415,Star Royale Brick Wall,400
+5416,Heavenforge Brick Wall,400
+5417,Ancient Blue Brick,100
+5418,Ancient Blue Brick Wall,400
+5419,Ancient Green Brick,100
+5420,Ancient Green Brick Wall,400
+5421,Ancient Pink Brick,100
+5422,Ancient Pink Brick Wall,400
+5423,Ancient Gold Brick,100
+5424,Ancient Gold Brick Wall,400
+5425,Ancient Silver Brick,100
+5426,Ancient Silver Brick Wall,400
+5427,Ancient Copper Brick,100
+5428,Ancient Copper Brick Wall,400
+5429,Ancient Cobalt Brick,100
+5430,Ancient Cobalt Brick Wall,400
+5431,Ancient Mythril Brick,100
+5432,Ancient Mythril Brick Wall,400
+5433,Ancient Obsidian Brick,100
+5434,Ancient Obsidian Brick Wall,400
+5435,Ancient Hellstone Brick,100
+5436,Ancient Hellstone Brick Wall,400
+5437,Shellphone,1
+5438,Fertilizer,30
+5439,Lava Moss Brick,100
+5440,Argon Moss Brick,100
+5441,Krypton Moss Brick,100
+5442,Xenon Moss Brick,100
+5443,Neon Moss Brick,100
+5444,Helium Moss Brick,100
+5445,Lava Moss Brick Wall,400
+5446,Argon Moss Brick Wall,400
+5447,Krypton Moss Brick Wall,400
+5448,Xenon Moss Brick Wall,400
+5449,Neon Moss Brick Wall,400
+5450,Helium Moss Brick Wall,400
+5451,Kwad Racer Drone,1
+5452,FPV Goggles,1
+5453,Guide to Critter Companionship (Inactive),1
+5454,Guide to Environmental Preservation (Inactive),1
+5455,Guide to Peaceful Coexistence (Inactive),1
+5456,Mushroom Staff,1
+5457,The Beheaded's Head,1
+5458,The Beheaded's Cuirass,1
+5459,The Beheaded's Trousers,1
+5460,Barrel Launcher,1
+5461,Killing Deck,1
+5462,Flint,1
+5463,Barnacle Staff,1
+5464,Mitey-Titey,1
+5465,Ram Rune,1
+5466,Swarm Grenade,1
+5467,Replica Demon Altar,1
+5468,Replica Crimson Altar,1
+5469,Replica Shadow Orb,1
+5470,Replica Crimson Heart,1
+5471,Decorative Cobweb,50
+5472,Item Flask,1
+5473,Cobwhip,1
+5474,Soulscourge,1
+5475,Vasculash,1
+5476,Starcrash,1
+5477,Vulgar Display of Flower,1
+5478,Electric Eel,1
+5479,Constellation,1
+5480,Possession,1
+5481,Portable Kiln,1
+5482,Alchemy Flask,1
+5483,Queen of Bees,1
+5484,Cow Bell,1
+5485,Chicken Charm,1
+5486,The Sea of Silence,1
+5487,Heroes From Another World,1
+5488,Crystallize,1
+5489,Eater Of Life,1
+5490,Brasilian Skies,1
+5491,Winter At Varingskollen,1
+5492,Magic Shimmer Dropper,1
+5493,Shimmerfall Block,100
+5494,Shimmerfall Wall,400
+5495,Shimmer Gun,1
+5496,Jungle Juice,30
+5497,Pink Banner,1
+5498,White Banner,1
+5499,Froggy Neckband,1
+5500,Goat's Tuft,1
+5501,Old Companion Locket,1
+5502,Cat Chime,1
+5503,Dog Collar,1
+5504,Turkey Wattle Necklace,1
+5505,Mean Goblin's Spikes,1
+5506,Crow's Beak,1
+5507,Balloony Beads,1
+5508,Grim Old Barb,1
+5509,Vampire Pendant,1
+5510,Slasher's Mysterious Skull,1
+5511,Pufferfish,5
+5512,Pufferfish Cage,1
+5513,Puffer Shrimp,1
+5514,Rainbow Boulder,5
+5515,Moon Lord Torso,1
+5516,Poo Boulder,5
+5517,Faecorn,1
+5518,Infused Fertilizer,30
+5519,Axearang,1
+5520,Lava Boulder,5
+5521,Spider Boulder,5
+5522,Ghoulder,5
+5523,Friendly Boulder,1
+5524,Chlorophyte Visor,1
+5525,Cursed Piper Flute,1
+5526,Flairon,1
+5527,Of Sea and Dreams,1
+5528,The Runic Pixie,1
+5529,Banner of the Beast,1
+5530,Stickman vs Terr Terr,1
+5531,Cozy Window,1
+5532,Demon Altar,1
+5533,Crimson Altar,1
+5534,Fairy Choker,1
+5535,Pink Phaseblade,1
+5536,Pink Phasesaber,1
+5537,Blackened Fish,5
+5538,Music Box (Queen Bee),1
+5539,Music Box (The Twins),1
+5540,Magic String,1
+5541,Magic Yoyo Bag,1
+5542,Freeze Bomb,99
+5543,Stress Ball,1
+5544,Cloud Platform,200
+5545,Overgrown Living Wood Wall,400
+5546,Natural Dirt Wall,400
+5547,Strung Counterweight,1
+5548,Aetherium Bathtub,1
+5549,Aetherium Bed,1
+5550,Aetherium Bookcase,1
+5551,Aetherium Dresser,1
+5552,Aetherium Candelabra,1
+5553,Aetherium Candle,1
+5554,Aetherium Chair,1
+5555,Aetherium Chandelier,1
+5556,Aetherium Chest,1
+5557,Aetherium Clock,1
+5558,Aetherium Door,1
+5559,Aetherium Lamp,1
+5560,Aetherium Lantern,1
+5561,Aetherium Piano,1
+5562,Aetherium Platform,200
+5563,Aetherium Sink,1
+5564,Aetherium Sofa,1
+5565,Aetherium Table,1
+5566,Aetherium Work Bench,1
+5567,Trapped Aetherium Chest,1
+5568,Aetherium Toilet,1
+5569,Lava Cloud,100
+5570,Star Cloud,100
+5571,Rainbow Cloud,100
+5572,Mud Ball,100
+5573,Torch God's Flavor,20
+5574,Lucky Clover,1
+5575,Wilted Clover,1
+5576,Raven Feather,1
+5577,Pretty Mirror,99
+5578,Music Box (King Slime),1
+5579,Music Box (Alt Queen Bee),1
+5580,Music Box (Lunatic Cultist),1
+5581,Music Box (Skeletron Prime),1
+5582,Music Box (The Destroyer),1
+5583,Chicken Bones' Visor,1
+5584,Chicken Bones' Vest,1
+5585,Chicken Bones' Pants,1
+5586,Chicken Bones' Wings,1
+5587,Chicken Bones' Robe,1
+5588,Prospector Helmet,1
+5589,Prospector Shirt,1
+5590,Prospector Pants,1
+5591,Captain Hat,1
+5592,Captain Vest,1
+5593,Captain Pants,1
+5594,Power Bomb,99
+5595,Sticky Power Bomb,99
+5596,Welding Mask,1
+5597,Amulet of the Night,1
+5598,CRT Monolith,1
+5599,Retro Monolith,1
+5600,Blue Roller Skates,1
+5601,Fallen Star Bathtub,1
+5602,Fallen Star Bed,1
+5603,Fallen Star Bookcase,1
+5604,Fallen Star Dresser,1
+5605,Fallen Star Candelabra,1
+5606,Fallen Star Candle,1
+5607,Fallen Star Chair,1
+5608,Fallen Star Chandelier,1
+5609,Fallen Star Chest,1
+5610,Fallen Star Clock,1
+5611,Fallen Star Door,1
+5612,Fallen Star Lamp,1
+5613,Fallen Star Lantern,1
+5614,Fallen Star Piano,1
+5615,Fallen Star Platform,200
+5616,Fallen Star Sink,1
+5617,Fallen Star Sofa,1
+5618,Fallen Star Table,1
+5619,Fallen Star Work Bench,1
+5620,Trapped Fallen Star Chest,1
+5621,Fallen Star Toilet,1
+5622,Fallen Star Block,100
+5623,Fallen Star Wall,400
+5624,Chippy's Helmet,1
+5625,Chippy's Chestplate,1
+5626,Chippy's Greaves,1
+5627,Chippy's Cloak,1
+5628,Chippy's Headband,1
+5629,Acorn Slingshot,1
+5630,r/Terraria 2023,1
+5631,Bould and Bash,1
+5632,Dark Forebodings,1
+5633,Oktober,1
+5634,It's Scragglin' Time,1
+5635,Kaguya,1
+5636,Prost,1
+5637,Music Box (Eater of Worlds),1
+5638,Music Box (Torch God),1
+5639,Music Box (Alt Torch God),1
+5640,Green Roller Skates,1
+5641,Classic Roller Skates,1
+5642,Party Roller Skates,1
+5643,Rainbow Glowstick,100
+5644,Scrying Orb,1
+5645,Rock Candy,5
+5646,Blue Bikini Top,1
+5647,Blue Bikini Bottom,1
+5648,Red Swimsuit,1
+5649,Green Swimshorts,1
+5650,Gray Swimshorts,1
+5651,Orca Banner,1
+5652,Underworld Pylon,1
+5653,Aether Pylon,1
+5654,Friendly Rainbow Boulder,1
+5655,Film Projector,1
+5656,Heroicis' Hat,1
+5657,Heroicis' Coat,1
+5658,Heroicis' Pants,1
+5659,Heroicis' Wings,1
+5660,Hallowed Crown,1
+5661,Heroicis' Wings (Inactive),1
+5662,Enchanted Pixie Dust,1
+5663,Cattiva,1
+5664,Foxparks,1
+5665,Chillet,1
+5666,Chillet Ignis,1
+5667,Digtoise,1
+5669,True Copper Shortsword,1
+5670,Rainbow Phaseblade,1
+5671,Rainbow Phasesaber,1
+5672,Librarian Skeleton Banner,1
+5673,Water Bolt Mimic Banner,1
+5674,Dull Red Team Block,100
+5675,Dull Green Team Block,100
+5676,Dull Blue Team Block,100
+5677,Dull Yellow Team Block,100
+5678,Dull Pink Team Block,100
+5679,Dull White Team Block,100
+5680,Lilac Dusk Hairclip,1
+5681,Lilac Dusk Dress,1
+5682,Lilac Dusk Skirt,1
+5683,Kazzymodus' Hood,1
+5684,Kazzymodus' Chestpiece,1
+5685,Kazzymodus' Leggings,1
+5686,Kazzymodus' Wings,1
+5687,Slime Spear,1
+5688,Slime Whip,1
+5689,Feywood Bathtub,1
+5690,Feywood Bed,1
+5691,Feywood Bookcase,1
+5692,Feywood Dresser,1
+5693,Feywood Candelabra,1
+5694,Feywood Candle,1
+5695,Feywood Chair,1
+5696,Feywood Chandelier,1
+5697,Feywood Chest,1
+5698,Feywood Clock,1
+5699,Feywood Door,1
+5700,Feywood Lamp,1
+5701,Feywood Lantern,1
+5702,Feywood Piano,1
+5703,Feywood Platform,200
+5704,Feywood Sink,1
+5705,Feywood Sofa,1
+5706,Feywood Table,1
+5707,Feywood Work Bench,1
+5708,Trapped Feywood Chest,1
+5709,Feywood Toilet,1
+5710,Feywood,100
+5711,Feywood Wall,400
+5712,Hallowed Bathtub,1
+5713,Hallowed Bed,1
+5714,Hallowed Bookcase,1
+5715,Hallowed Dresser,1
+5716,Hallowed Candelabra,1
+5717,Hallowed Candle,1
+5718,Hallowed Chair,1
+5719,Hallowed Chandelier,1
+5720,Fancy Hallowed Chest,1
+5721,Hallowed Clock,1
+5722,Hallowed Door,1
+5723,Hallowed Lamp,1
+5724,Hallowed Lantern,1
+5725,Hallowed Piano,1
+5726,Hallowed Platform,200
+5727,Hallowed Sink,1
+5728,Hallowed Sofa,1
+5729,Hallowed Table,1
+5730,Hallowed Work Bench,1
+5731,Trapped Fancy Hallowed Chest,1
+5732,Hallowed Toilet,1
+5733,Hallowed Brick,100
+5734,Hallowed Brick Wall,400
+5735,Pal Metal Chestplate,1
+5736,Pal Metal Leggings,1
+5737,Chippy's Cloak (Inactive),1
+5738,Wall Racer Car,1
+5739,Gothic Bathtub,1
+5740,Gothic Bed,1
+5741,Gothic Dresser,1
+5742,Gothic Candelabra,1
+5743,Gothic Candle,1
+5744,Gothic Chandelier,1
+5745,Gothic Chest,1
+5746,Gothic Clock,1
+5747,Gothic Door,1
+5748,Gothic Lamp,1
+5749,Gothic Lantern,1
+5750,Gothic Piano,1
+5751,Gothic Platform,200
+5752,Gothic Sink,1
+5753,Gothic Sofa,1
+5754,Trapped Gothic Chest,1
+5755,Gothic Toilet,1
+5756,Demonite Bathtub,1
+5757,Demonite Bed,1
+5758,Demonite Bookcase,1
+5759,Demonite Candelabra,1
+5760,Demonite Candle,1
+5761,Demonite Chair,1
+5762,Demonite Chandelier,1
+5763,Demonite Chest,1
+5764,Demonite Clock,1
+5765,Demonite Door,1
+5766,Demonite Dresser,1
+5767,Demonite Lamp,1
+5768,Demonite Lantern,1
+5769,Demonite Piano,1
+5770,Demonite Platform,200
+5771,Demonite Sink,1
+5772,Demonite Sofa,1
+5773,Demonite Table,1
+5774,Demonite Toilet,1
+5775,Demonite Work Bench,1
+5776,Trapped Demonite Chest,1
+5777,Crimtane Bathtub,1
+5778,Crimtane Bed,1
+5779,Crimtane Bookcase,1
+5780,Crimtane Candelabra,1
+5781,Crimtane Candle,1
+5782,Crimtane Chair,1
+5783,Crimtane Chandelier,1
+5784,Crimtane Chest,1
+5785,Crimtane Clock,1
+5786,Crimtane Door,1
+5787,Crimtane Dresser,1
+5788,Crimtane Lamp,1
+5789,Crimtane Lantern,1
+5790,Crimtane Piano,1
+5791,Crimtane Platform,200
+5792,Crimtane Sink,1
+5793,Crimtane Sofa,1
+5794,Crimtane Table,1
+5795,Crimtane Toilet,1
+5796,Crimtane Work Bench,1
+5797,Trapped Crimtane Chest,1
+5798,Snow Bathtub,1
+5799,Snow Bed,1
+5800,Snow Bookcase,1
+5801,Snow Candelabra,1
+5802,Snow Candle,1
+5803,Snow Chair,1
+5804,Snow Chandelier,1
+5805,Snow Chest,1
+5806,Snow Clock,1
+5807,Snow Door,1
+5808,Snow Dresser,1
+5809,Snow Lamp,1
+5810,Snow Lantern,1
+5811,Snow Piano,1
+5812,Snow Platform,200
+5813,Snow Sink,1
+5814,Snow Sofa,1
+5815,Snow Table,1
+5816,Snow Toilet,1
+5817,Snow Work Bench,1
+5818,Trapped Snow Chest,1
+5819,Flinx Fur Bathtub,1
+5820,Flinx Fur Bed,1
+5821,Flinx Fur Bookcase,1
+5822,Flinx Fur Candelabra,1
+5823,Flinx Fur Candle,1
+5824,Flinx Fur Chair,1
+5825,Flinx Fur Chandelier,1
+5826,Flinx Fur Chest,1
+5827,Flinx Fur Clock,1
+5828,Flinx Fur Door,1
+5829,Flinx Fur Dresser,1
+5830,Flinx Fur Lamp,1
+5831,Flinx Fur Lantern,1
+5832,Flinx Fur Piano,1
+5833,Flinx Fur Platform,200
+5834,Flinx Fur Sink,1
+5835,Flinx Fur Sofa,1
+5836,Flinx Fur Table,1
+5837,Flinx Fur Toilet,1
+5838,Flinx Fur Work Bench,1
+5839,Trapped Flinx Fur Chest,1
+5840,Pine Bathtub,1
+5841,Pine Bed,1
+5842,Pine Bookcase,1
+5843,Pine Candelabra,1
+5844,Pine Candle,1
+5845,Pine Chandelier,1
+5846,Pine Chest,1
+5847,Pine Clock,1
+5848,Pine Dresser,1
+5849,Pine Lamp,1
+5850,Pine Lantern,1
+5851,Pine Piano,1
+5852,Pine Platform,200
+5853,Pine Sink,1
+5854,Pine Sofa,1
+5855,Pine Toilet,1
+5856,Pine Work Bench,1
+5857,Trapped Pine Chest,1
+5858,Easter Bathtub,1
+5859,Easter Bed,1
+5860,Easter Bookcase,1
+5861,Easter Candelabra,1
+5862,Easter Candle,1
+5863,Easter Chair,1
+5864,Easter Chandelier,1
+5865,Easter Chest,1
+5866,Easter Clock,1
+5867,Easter Door,1
+5868,Easter Dresser,1
+5869,Easter Lamp,1
+5870,Easter Lantern,1
+5871,Easter Piano,1
+5872,Easter Platform,200
+5873,Easter Sink,1
+5874,Easter Sofa,1
+5875,Easter Table,1
+5876,Easter Toilet,1
+5877,Easter Work Bench,1
+5878,Trapped Easter Chest,1
+5879,Stone Bathtub,1
+5880,Stone Bed,1
+5881,Stone Bookcase,1
+5882,Stone Candelabra,1
+5883,Stone Candle,1
+5884,Stone Chair,1
+5885,Stone Chandelier,1
+5886,Stone Chest,1
+5887,Stone Clock,1
+5888,Stone Dresser,1
+5889,Stone Lamp,1
+5890,Stone Lantern,1
+5891,Stone Piano,1
+5892,Stone Sink,1
+5893,Stone Sofa,1
+5894,Stone Table,1
+5895,Stone Toilet,1
+5896,Stone Work Bench,1
+5897,Trapped Stone Chest,1
+5898,Jellyfish Bathtub,1
+5899,Jellyfish Bed,1
+5900,Jellyfish Bookcase,1
+5901,Jellyfish Candelabra,1
+5902,Jellyfish Candle,1
+5903,Jellyfish Chair,1
+5904,Jellyfish Chandelier,1
+5905,Jellyfish Chest,1
+5906,Jellyfish Clock,1
+5907,Jellyfish Door,1
+5908,Jellyfish Dresser,1
+5909,Jellyfish Lamp,1
+5910,Jellyfish Lantern,1
+5911,Jellyfish Piano,1
+5912,Jellyfish Platform,200
+5913,Jellyfish Sink,1
+5914,Jellyfish Sofa,1
+5915,Jellyfish Table,1
+5916,Jellyfish Toilet,1
+5917,Jellyfish Work Bench,1
+5918,Trapped Jellyfish Chest,1
+5919,Pine Tree Wall,400
+5920,Easter Block,100
+5921,Easter Wall,400
+5922,Gothic Brick,100
+5923,Gothic Brick Wall,400
+5924,Flinx Fur Block,100
+5925,Flinx Fur Wall,400
+5926,Jellyfish Block,100
+5927,Jellyfish Wall,400
+5928,Toybreaker Brick,100
+5929,Remix,1
+5930,Pine Wood,100
+5931,Pine Wood Wall,400
+5932,Harpy Bathtub,1
+5933,Harpy Bed,1
+5934,Harpy Bookcase,1
+5935,Harpy Candelabra,1
+5936,Harpy Candle,1
+5937,Harpy Chair,1
+5938,Harpy Chandelier,1
+5939,Harpy Chest,1
+5940,Harpy Clock,1
+5941,Harpy Door,1
+5942,Harpy Dresser,1
+5943,Harpy Lamp,1
+5944,Harpy Lantern,1
+5945,Harpy Piano,1
+5946,Harpy Platform,200
+5947,Harpy Sink,1
+5948,Harpy Sofa,1
+5949,Harpy Table,1
+5950,Harpy Toilet,1
+5951,Harpy Work Bench,1
+5952,Trapped Harpy Chest,1
+5953,Harpy Block,100
+5954,Harpy Wall,400
+5955,Cloud Bathtub,1
+5956,Cloud Bed,1
+5957,Cloud Bookcase,1
+5958,Cloud Candelabra,1
+5959,Cloud Candle,1
+5960,Cloud Chair,1
+5961,Cloud Chandelier,1
+5962,Cloud Chest,1
+5963,Cloud Clock,1
+5964,Cloud Door,1
+5965,Cloud Dresser,1
+5966,Cloud Lamp,1
+5967,Cloud Lantern,1
+5968,Cloud Piano,1
+5969,Cloud Sink,1
+5970,Cloud Sofa,1
+5971,Cloud Table,1
+5972,Cloud Toilet,1
+5973,Cloud Work Bench,1
+5974,Trapped Cloud Chest,1
+5975,Duskware Bathtub,1
+5976,Duskware Bed,1
+5977,Duskware Bookcase,1
+5978,Duskware Candelabra,1
+5979,Duskware Candle,1
+5980,Duskware Chair,1
+5981,Duskware Chandelier,1
+5982,Duskware Chest,1
+5983,Duskware Clock,1
+5984,Duskware Door,1
+5985,Duskware Dresser,1
+5986,Duskware Lamp,1
+5987,Duskware Lantern,1
+5988,Duskware Piano,1
+5989,Duskware Platform,200
+5990,Duskware Sink,1
+5991,Duskware Sofa,1
+5992,Duskware Table,1
+5993,Duskware Toilet,1
+5994,Duskware Work Bench,1
+5995,Trapped Duskware Chest,1
+5996,Moonplate Block,100
+5997,Crescent Wall,400
+5998,Librarian Bathtub,1
+5999,Librarian Bed,1
+6000,Librarian Bookcase,1
+6001,Librarian Candelabra,1
+6002,Librarian Candle,1
+6003,Librarian Chair,1
+6004,Librarian Chandelier,1
+6005,Librarian Chest,1
+6006,Librarian Clock,1
+6007,Librarian Door,1
+6008,Librarian Dresser,1
+6009,Librarian Lamp,1
+6010,Librarian Lantern,1
+6011,Librarian Piano,1
+6012,Librarian Platform,200
+6013,Librarian Sink,1
+6014,Librarian Sofa,1
+6015,Librarian Table,1
+6016,Librarian Toilet,1
+6017,Librarian Work Bench,1
+6018,Trapped Librarian Chest,1
+6019,Librarian Block,100
+6020,Librarian Wall,400
+6021,Spike Bathtub,1
+6022,Spike Bed,1
+6023,Spike Bookcase,1
+6024,Spike Candelabra,1
+6025,Spike Candle,1
+6026,Spike Chair,1
+6027,Spike Chandelier,1
+6028,Spike Chest,1
+6029,Spike Clock,1
+6030,Spike Door,1
+6031,Spike Dresser,1
+6032,Spike Lamp,1
+6033,Spike Lantern,1
+6034,Spike Piano,1
+6035,Spike Platform,200
+6036,Spike Sink,1
+6037,Spike Sofa,1
+6038,Spike Table,1
+6039,Spike Toilet,1
+6040,Spike Work Bench,1
+6041,Trapped Spike Chest,1
+6042,Spike Block,100
+6043,Spike Wall,400
+6044,Office Bathtub,1
+6045,Office Bed,1
+6046,Office Bookcase,1
+6047,Office Candelabra,1
+6048,Office Candle,1
+6049,Office Chair,1
+6050,Office Chandelier,1
+6051,Office Chest,1
+6052,Office Clock,1
+6053,Office Door,1
+6054,Office Dresser,1
+6055,Office Lamp,1
+6056,Office Lantern,1
+6057,Office Piano,1
+6058,Office Platform,200
+6059,Office Sink,1
+6060,Office Sofa,1
+6061,Office Table,1
+6062,Office Toilet,1
+6063,Office Work Bench,1
+6064,Trapped Office Chest,1
+6065,Office Block,100
+6066,Office Wall,400
+6067,Forbidden Bathtub,1
+6068,Forbidden Bed,1
+6069,Forbidden Bookcase,1
+6070,Forbidden Candelabra,1
+6071,Forbidden Candle,1
+6072,Forbidden Chair,1
+6073,Forbidden Chandelier,1
+6074,Forbidden Chest,1
+6075,Forbidden Clock,1
+6076,Forbidden Door,1
+6077,Forbidden Dresser,1
+6078,Forbidden Lamp,1
+6079,Forbidden Lantern,1
+6080,Forbidden Piano,1
+6081,Forbidden Platform,200
+6082,Forbidden Sink,1
+6083,Forbidden Sofa,1
+6084,Forbidden Table,1
+6085,Forbidden Toilet,1
+6086,Forbidden Work Bench,1
+6087,Trapped Forbidden Chest,1
+6088,Forbidden Block,100
+6089,Forbidden Wall,400
+6090,Aquarium Bathtub,1
+6091,Aquarium Bed,1
+6092,Aquarium Bookcase,1
+6093,Aquarium Candelabra,1
+6094,Aquarium Candle,1
+6095,Aquarium Chair,1
+6096,Aquarium Chandelier,1
+6097,Aquarium Clock,1
+6098,Aquarium Door,1
+6099,Aquarium Dresser,1
+6100,Aquarium Lamp,1
+6101,Aquarium Lantern,1
+6102,Aquarium Piano,1
+6103,Aquarium Platform,200
+6104,Aquarium Sink,1
+6105,Aquarium Sofa,1
+6106,Aquarium Table,1
+6107,Aquarium Toilet,1
+6108,Aquarium Work Bench,1
+6109,Aquarium Block,100
+6110,Aquarium Wall,400
+6111,Boulder Bathtub,1
+6112,Boulder Bed,1
+6113,Boulder Bookcase,1
+6114,Boulder Candelabra,1
+6115,Boulder Candle,1
+6116,Boulder Chair,1
+6117,Boulder Chandelier,1
+6118,Boulder Chest,1
+6119,Boulder Clock,1
+6120,Boulder Door,1
+6121,Boulder Dresser,1
+6122,Boulder Lamp,1
+6123,Boulder Lantern,1
+6124,Boulder Piano,1
+6125,Boulder Platform,200
+6126,Boulder Sink,1
+6127,Boulder Sofa,1
+6128,Boulder Table,1
+6129,Boulder Toilet,1
+6130,Boulder Work Bench,1
+6131,Trapped Boulder Chest,1
+6132,Boulder Block,100
+6133,Boulder Wall,400
+6134,Sharp Spike Block,100
+6137,Luna's Runic Pixie Hood,1
+6138,Luna's Runic Pixie Shirt,1
+6139,Luna's Runic Pixie Pants,1
+6140,Luna's Runic Pixie Wings,1
+6141,Luna's Runic Pixie Cloak,1
+6142,Huge Dragon Egg,1
+6144,Music Box (Skeletron),1
+6145,Music Box (Rainbow Boulder),1
+6146,Music Box (Silence),1
+6147,Giant Tiki,1
+6148,Trusty Cattiva,1
+6149,Trusty Foxparks,1
+6150,Trusty Chillet,1
+6151,Trusty Chillet Ignis,1
+6152,Daybloom Staff,1
+6153,Glacier Fang,1
+6154,Mystic Bloom,1
+6155,Lightning Strike,1
+6156,Silver Bracer,1
+6157,Snake Band,1
+6158,Mobius Strip,1
+6159,Wicked Armlet,1
+6161,Clay Bud Staff,1
+6162,Ouroboros Ring,1
+6163,Twilight Grasp,1
+6164,Ruinous Staff,1
+6165,Poison Barb,1
+6166,Harpy Charm,1
+6167,Snapping Stone,1
+6168,Chaos Cylinder,1
+6169,Chaos Cylinder (Full),1
+6172,Heavy Sling,1
+6173,Arc Surge,1
+6174,Trusty Digtoise,1
+6175,Scout's Sling,1
+6176,Templar's Sling,1
+6177,Royal Guard's Harness,1
+6178,Pyroclastic Stone,1
+6179,Armlet Of Ruin,1
+6180,Seraph Necklace,1
+6181,Phoenix Quiver,1
+6182,Wicked Claws,1
+6183,Silver Shield,1
+6184,Sweet Barb,1
+6185,Catalyst Band,1
+6186,Druidic Serpent Cloak,1
+6187,Crossed Heart Necklace,1
+6188,Restoration Shield,1
+6189,Mystic Arts Sash,1
+6190,Guide to Old World Parkour,1
+6191,Little Kinship Peach,10
+6192,Kinship Peach,10
+6193,Chaos Cylinder (Random),1
+6194,Chaos Cylinder (Simple),1
+6195,Guide to Old World Parkour (Inactive),1

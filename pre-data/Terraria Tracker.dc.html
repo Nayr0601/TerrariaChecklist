@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; }
+  * { box-sizing: border-box; }
+  a { color: #9a4b16; text-decoration: none; }
+  a:hover { opacity: .75; }
+  input { font-family: inherit; }
+  button { font-family: inherit; cursor: pointer; }
+  @keyframes torch { 0%, 100% { opacity: .9 } 38% { opacity: .58 } 62% { opacity: 1 } 80% { opacity: .72 } }
+  ::-webkit-scrollbar { width: 10px }
+  ::-webkit-scrollbar-track { background: rgba(0,0,0,.12) }
+  ::-webkit-scrollbar-thumb { background: rgba(0,0,0,.28) }
+</style>
+</helmet>
+
+<section style="{{ s.page }}">
+  <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
+    <span style="{{ s.badge }}">1a</span>
+    <span style="{{ s.caption }}">Desktop · one app, two views · theme switcher in the header</span>
+    <span style="flex: 1"></span>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <span style="{{ s.caption }}">THEME</span>
+      <sc-for list="{{ themes }}" as="t" hint-placeholder-count="5">
+        <button onClick="{{ t.pick }}" title="{{ t.name }}" style="{{ t.chipStyle }}" style-hover="filter: brightness(1.12)">
+          <span style="{{ t.dotStyle }}"></span>
+          <span style="{{ t.labelStyle }}">{{ t.name }}</span>
+        </button>
+      </sc-for>
+    </div>
+  </div>
+
+  <div style="{{ s.frame }}">
+    <!-- header -->
+    <div style="{{ s.header }}">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <div style="{{ s.diamond }}"></div>
+        <div style="display: flex; flex-direction: column; gap: 5px;">
+          <span style="{{ s.logo }}">JOURNEY LEDGER</span>
+          <span style="{{ s.logoSub }}">TERRARIA COMPLETION TRACKER</span>
+        </div>
+      </div>
+
+      <div style="display: flex; align-self: stretch; align-items: flex-end; gap: 4px;">
+        <button onClick="{{ showItems }}" style="{{ tabItems }}" style-hover="filter: brightness(1.12)">ITEMS</button>
+        <button onClick="{{ showProg }}" style="{{ tabProg }}" style-hover="filter: brightness(1.12)">PROGRESSION</button>
+      </div>
+
+      <span style="flex: 1"></span>
+
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <span style="{{ s.worldLabel }}">{{ worldLabel }}</span>
+        <button onClick="{{ toggleUpload }}" style="{{ s.primaryBtn }}" style-hover="filter: brightness(1.12)">{{ uploadBtn }}</button>
+      </div>
+    </div>
+
+    <!-- ITEMS VIEW -->
+    <sc-if value="{{ isItems }}" hint-placeholder-val="{{ true }}">
+      <div style="{{ s.viewBody }}">
+        <div style="{{ s.sidebar }}">
+          <div style="{{ s.sidebarTitle }}">CATEGORIES</div>
+          <div style="display: flex; flex-direction: column; gap: 3px;">
+            <sc-for list="{{ cats }}" as="c" hint-placeholder-count="8">
+              <button onClick="{{ c.pick }}" style="{{ c.rowStyle }}" style-hover="filter: brightness(1.08)">
+                <span style="{{ c.fillStyle }}"></span>
+                <span style="position: relative; font-size: 13px; font-weight: 500;">{{ c.name }}</span>
+                <span style="flex: 1"></span>
+                <span style="{{ c.pctStyle }}">{{ c.pctLabel }}</span>
+              </button>
+            </sc-for>
+          </div>
+          <div style="{{ s.hiddenPanel }}">
+            <span style="{{ s.hiddenLabel }}">HIDDEN ITEMS</span>
+            <span style="{{ s.hiddenCount }}">{{ hiddenCount }}</span>
+            <button onClick="{{ clearHidden }}" style="{{ s.linkBtn }}" style-hover="opacity: .7">restore all</button>
+          </div>
+        </div>
+
+        <div style="flex: 1; min-width: 0; display: flex; flex-direction: column;">
+          <sc-if value="{{ uploaded }}" hint-placeholder-val="{{ true }}">
+            <div style="{{ s.subheader }}">
+              <div style="{{ s.searchWrap }}">
+                <span style="{{ s.searchSlash }}">/</span>
+                <input value="{{ query }}" onChange="{{ onQuery }}" placeholder="Search 5,412 items…" style="{{ s.searchInput }}">
+              </div>
+              <button onClick="{{ toggleMissingOnly }}" style="{{ missingBtn }}" style-hover="filter: brightness(1.12)">MISSING ONLY</button>
+              <span style="{{ s.shownLabel }}">{{ shownLabel }}</span>
+              <span style="flex: 1"></span>
+              <div style="display: flex; align-items: center; gap: 14px;">
+                <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 6px;">
+                  <span style="{{ s.bigPct }}">{{ overallPct }}</span>
+                  <span style="{{ s.smallLabel }}">{{ overallLabel }}</span>
+                </div>
+                <div style="{{ s.barTrack }}"><div style="{{ overallFill }}"></div></div>
+              </div>
+            </div>
+
+            <div style="{{ s.listScroll }}">
+              <sc-for list="{{ items }}" as="it" hint-placeholder-count="10">
+                <div style="{{ it.rowStyle }}" style-hover="filter: brightness(1.07)">
+                  <div style="{{ it.tileStyle }}"><span style="{{ it.tagStyle }}">{{ it.tag }}</span></div>
+                  <div style="min-width: 0; display: flex; flex-direction: column; gap: 5px;">
+                    <span style="{{ it.nameStyle }}">{{ it.name }}</span>
+                    <span style="{{ it.metaStyle }}">{{ it.meta }}</span>
+                  </div>
+                  <div style="{{ it.stateStyle }}">{{ it.stateLabel }}</div>
+                  <div style="display: flex; align-items: center; gap: 6px;">
+                    <button onClick="{{ it.toggle }}" title="Mark researched" style="{{ it.checkStyle }}" style-hover="filter: brightness(1.15)">✓</button>
+                    <button onClick="{{ it.hide }}" title="Hide item" style="{{ s.iconBtn }}" style-hover="filter: brightness(1.15)">⊘</button>
+                    <button title="Item info" style="{{ s.iconBtnMono }}" style-hover="filter: brightness(1.15)">i</button>
+                    <a href="#1a" title="Open wiki" style="{{ s.iconLink }}" style-hover="filter: brightness(1.15)">↗</a>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ notUploaded }}" hint-placeholder-val="{{ false }}">
+            <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 26px; padding: 80px 40px; text-align: center;">
+              <div style="{{ s.dropZone }}">
+                <div style="{{ s.dropTile }}"><span style="{{ s.dropTileText }}">.PLR</span></div>
+                <div style="display: flex; flex-direction: column; gap: 14px; align-items: center;">
+                  <span style="{{ s.dropTitle }}">Drop your player.plr</span>
+                  <span style="{{ s.dropBody }}">…to see what's left to research. Nothing leaves this page — the file is read locally and never uploaded.</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 14px;">
+                  <button onClick="{{ toggleUpload }}" style="{{ s.primaryBtnLg }}" style-hover="filter: brightness(1.12)">CHOOSE FILE</button>
+                  <span style="{{ s.dropHint }}">or try the demo character</span>
+                </div>
+              </div>
+              <span style="{{ s.pathHint }}">%USERPROFILE%\Documents\My Games\Terraria\Players</span>
+            </div>
+          </sc-if>
+        </div>
+      </div>
+    </sc-if>
+
+    <!-- PROGRESSION VIEW -->
+    <sc-if value="{{ isProg }}" hint-placeholder-val="{{ false }}">
+      <div style="{{ s.progBody }}">
+        <sc-for list="{{ sections }}" as="sec" hint-placeholder-count="4">
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div style="{{ s.secHead }}">
+              <span style="{{ s.secTitle }}">{{ sec.title }}</span>
+              <div style="{{ s.secBarTrack }}"><div style="{{ sec.fillStyle }}"></div></div>
+              <span style="{{ s.secCount }}">{{ sec.count }}</span>
+              <span style="{{ s.secPct }}">{{ sec.pctLabel }}</span>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(184px, 1fr)); gap: 10px;">
+              <sc-for list="{{ sec.tiles }}" as="t" hint-placeholder-count="8">
+                <button onClick="{{ t.toggle }}" style="{{ t.cardStyle }}" style-hover="filter: brightness(1.1)">
+                  <div style="{{ t.slotStyle }}"><span style="{{ t.tagStyle }}">{{ t.tag }}</span></div>
+                  <div style="min-width: 0; display: flex; flex-direction: column; gap: 6px; text-align: left;">
+                    <span style="{{ t.nameStyle }}">{{ t.name }}</span>
+                    <span style="{{ t.stampStyle }}">{{ t.stamp }}</span>
+                  </div>
+                </button>
+              </sc-for>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+    </sc-if>
+
+    <div style="{{ s.footer }}">
+      <span style="{{ s.footerText }}">JOURNEY MODE · RESEARCH LEDGER</span>
+      <span style="flex: 1"></span>
+      <span style="{{ s.footerText }}">{{ footerHint }}</span>
+    </div>
+  </div>
+</section>
+
+<section style="{{ s.page2 }}">
+  <div style="display: flex; align-items: baseline; gap: 14px;">
+    <span style="{{ s.badge }}">1b</span>
+    <span style="{{ s.caption }}">Item row — missing / hover / researched · and the rarity ladder</span>
+  </div>
+
+  <div style="display: flex; gap: 24px; align-items: flex-start; flex-wrap: wrap;">
+    <div style="{{ s.statesCard }}">
+      <sc-for list="{{ demoRows }}" as="d" hint-placeholder-count="3">
+        <div style="{{ d.rowStyle }}">
+          <div style="{{ d.tileStyle }}"><span style="{{ d.tagStyle }}">{{ d.tag }}</span></div>
+          <div style="min-width: 0; display: flex; flex-direction: column; gap: 5px;">
+            <span style="{{ d.nameStyle }}">{{ d.name }}</span>
+            <span style="{{ d.metaStyle }}">{{ d.meta }}</span>
+          </div>
+          <div style="{{ d.stateStyle }}">{{ d.stateLabel }}</div>
+          <div style="{{ d.actionsStyle }}">
+            <span style="{{ d.checkStyle }}">✓</span>
+            <span style="{{ s.iconBtn }}">⊘</span>
+            <span style="{{ s.iconBtnMono }}">i</span>
+            <span style="{{ s.iconLink }}">↗</span>
+          </div>
+          <span style="{{ d.tagLabelStyle }}">{{ d.stateName }}</span>
+        </div>
+      </sc-for>
+    </div>
+
+    <div style="{{ s.ladderCard }}">
+      <span style="{{ s.ladderTitle }}">RARITY LADDER</span>
+      <div style="display: flex; flex-direction: column; gap: 9px;">
+        <sc-for list="{{ ladder }}" as="r" hint-placeholder-count="7">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <span style="{{ r.swatch }}"></span>
+            <span style="{{ r.label }}">{{ r.name }}</span>
+            <span style="flex: 1"></span>
+            <span style="{{ r.tierStyle }}">{{ r.tier }}</span>
+          </div>
+        </sc-for>
+      </div>
+      <span style="{{ s.ladderNote }}">Item and boss names carry the game's own rarity color. Unresearched names desaturate toward stone — the hue only returns when you own it.</span>
+    </div>
+  </div>
+</section>
+
+<section style="{{ s.page3 }}">
+  <div style="display: flex; align-items: baseline; gap: 14px;">
+    <span style="{{ s.badge }}">1c</span>
+    <span style="{{ s.caption }}">Mobile 390 — sidebar becomes a slot drawer (tap FILTER)</span>
+  </div>
+
+  <div style="display: flex; gap: 28px; flex-wrap: wrap;">
+    <div style="{{ s.phone }}">
+      <div style="{{ s.mHeader }}">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <div style="{{ s.mDiamond }}"></div>
+          <span style="{{ s.mLogo }}">JOURNEY LEDGER</span>
+          <span style="flex: 1"></span>
+          <span style="{{ s.mPct }}">{{ overallPct }}</span>
+        </div>
+        <div style="display: flex; gap: 4px;">
+          <button onClick="{{ showItems }}" style="{{ mTabItems }}" style-hover="filter: brightness(1.12)">ITEMS</button>
+          <button onClick="{{ showProg }}" style="{{ mTabProg }}" style-hover="filter: brightness(1.12)">PROGRESSION</button>
+        </div>
+      </div>
+
+      <div style="{{ s.mFilterBar }}">
+        <button onClick="{{ toggleDrawer }}" style="{{ s.mFilterBtn }}" style-hover="filter: brightness(1.12)">☰ {{ mobileCat }}</button>
+        <div style="{{ s.mSearchWrap }}">
+          <span style="{{ s.searchSlash }}">/</span>
+          <input value="{{ query }}" onChange="{{ onQuery }}" placeholder="Search items…" style="{{ s.mSearchInput }}">
+        </div>
+      </div>
+
+      <div style="{{ s.mList }}">
+        <sc-for list="{{ mobileItems }}" as="it" hint-placeholder-count="8">
+          <div style="{{ it.mRowStyle }}">
+            <div style="{{ it.tileStyle }}"><span style="{{ it.tagStyle }}">{{ it.tag }}</span></div>
+            <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px;">
+              <span style="{{ it.nameStyle }}">{{ it.name }}</span>
+              <span style="{{ it.metaStyle }}">{{ it.meta }}</span>
+            </div>
+            <button onClick="{{ it.toggle }}" style="{{ it.mCheckStyle }}">✓</button>
+          </div>
+        </sc-for>
+      </div>
+
+      <sc-if value="{{ drawerOpen }}" hint-placeholder-val="{{ false }}">
+        <div style="{{ s.mScrim }}">
+          <div style="{{ s.mDrawer }}">
+            <div style="display: flex; align-items: center;">
+              <span style="{{ s.mDrawerTitle }}">CATEGORIES</span>
+              <span style="flex: 1"></span>
+              <button onClick="{{ toggleDrawer }}" style="{{ s.mClose }}">×</button>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 7px;">
+              <sc-for list="{{ cats }}" as="c" hint-placeholder-count="8">
+                <button onClick="{{ c.pickMobile }}" style="{{ c.slotStyle }}" style-hover="filter: brightness(1.1)">
+                  <span style="position: relative; font-size: 13px; font-weight: 500;">{{ c.name }}</span>
+                  <span style="{{ c.pctStyle }}">{{ c.pctLabel }}</span>
+                  <span style="{{ c.fillStyle }}"></span>
+                </button>
+              </sc-for>
+            </div>
+          </div>
+        </div>
+      </sc-if>
+    </div>
+
+    <div style="{{ s.phoneEmpty }}">
+      <div style="{{ s.mHeaderSimple }}">
+        <div style="{{ s.mDiamond }}"></div>
+        <span style="{{ s.mLogo }}">JOURNEY LEDGER</span>
+      </div>
+      <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; padding: 28px 22px; text-align: center;">
+        <div style="{{ s.mDropZone }}">
+          <div style="{{ s.mDropTile }}"><span style="{{ s.dropTileText }}">.PLR</span></div>
+          <span style="{{ s.mDropTitle }}">Drop your<br>player.plr</span>
+          <span style="{{ s.mDropBody }}">to see what's left to research. Read locally, never uploaded.</span>
+          <button onClick="{{ toggleUpload }}" style="{{ s.mDropBtn }}">CHOOSE FILE</button>
+        </div>
+        <span style="{{ s.pathHint }}">MOBILE EMPTY STATE</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1540,&quot;height&quot;:1000},&quot;theme&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;parchment&quot;,&quot;torch&quot;,&quot;corruption&quot;,&quot;jungle&quot;,&quot;frost&quot;],&quot;default&quot;:&quot;parchment&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Theme&quot;}}">
+const THEMES = {
+  torch: {
+    name: "Cavern Torch", light: false,
+    canvas: "#0d0a08", page: "radial-gradient(120% 90% at 12% 0%, #221a14 0%, #14100d 55%, #0f0b09 100%)",
+    panel: "#171210", sidebar: "linear-gradient(#1c1611, #171210)", frame: "#3a2c22",
+    header: "linear-gradient(#4a3524, #34241a 60%, #2a1c14)", headerEdge: "#6b4c33",
+    rowBg: "#1a1410", rowDone: "linear-gradient(90deg, #241a12, #1c1611 60%)",
+    border: "#2c211a", borderDone: "#3f3324", tileBorder: "#3a2c22", tileBorderDone: "#6b5334",
+    text: "#f2e3cf", body: "#e8ddcf", muted: "#a4917c", dim: "#7d6b58", faint: "#5f5142",
+    slot: "#0b0806", input: "#100c0a", subheader: "#1a1410", footer: "linear-gradient(#241b15, #1a1410)",
+    accent: "#ffb156", accentDeep: "#8a4a1c", accentText: "#ffe6cd", accentBorder: "#b3702f",
+    glow: "rgba(179, 82, 26, .55)", nameDim: "#6a5f6f", rarWhite: "#e9e3da"
+  },
+  corruption: {
+    name: "Corruption Shale", light: false,
+    canvas: "#0e0b14", page: "radial-gradient(120% 90% at 12% 0%, #241d33 0%, #17131f 55%, #120f19 100%)",
+    panel: "#1b1726", sidebar: "linear-gradient(#221c31, #1b1726)", frame: "#3a3352",
+    header: "linear-gradient(#3d3358, #2a2340 60%, #211b31)", headerEdge: "#5b4f80",
+    rowBg: "#201b2c", rowDone: "linear-gradient(90deg, #2b2340, #201b2c 60%)",
+    border: "#2c2740", borderDone: "#4a3f68", tileBorder: "#332c4a", tileBorderDone: "#6a5a94",
+    text: "#efe9f7", body: "#e2dbf0", muted: "#a79bc1", dim: "#7d739a", faint: "#5f5779",
+    slot: "#0d0b12", input: "#120f1a", subheader: "#1e1929", footer: "linear-gradient(#272037, #1b1726)",
+    accent: "#e8c46a", accentDeep: "#7a5c19", accentText: "#fff5da", accentBorder: "#b9994a",
+    glow: "rgba(232, 196, 106, .45)", nameDim: "#6b6382", rarWhite: "#efe9f7"
+  },
+  jungle: {
+    name: "Jungle Depths", light: false,
+    canvas: "#0a0e0b", page: "radial-gradient(120% 90% at 12% 0%, #1c2a1c 0%, #121a13 55%, #0e140f 100%)",
+    panel: "#141b16", sidebar: "linear-gradient(#1a231b, #141b16)", frame: "#2c3a2e",
+    header: "linear-gradient(#33452f, #223021 60%, #1a2419)", headerEdge: "#4d6b44",
+    rowBg: "#18211a", rowDone: "linear-gradient(90deg, #23301f, #18211a 60%)",
+    border: "#243024", borderDone: "#456039", tileBorder: "#2b382b", tileBorderDone: "#5e7f4a",
+    text: "#eaf3e4", body: "#dfe9d8", muted: "#9aae91", dim: "#748367", faint: "#5b6852",
+    slot: "#080b08", input: "#0e130f", subheader: "#18211a", footer: "linear-gradient(#1e291e, #141b16)",
+    accent: "#d3e05a", accentDeep: "#5e7414", accentText: "#f7ffd9", accentBorder: "#9cb03c",
+    glow: "rgba(211, 224, 90, .42)", nameDim: "#61705c", rarWhite: "#eaf3e4"
+  },
+  frost: {
+    name: "Hallowed Frost", light: false,
+    canvas: "#0a0e12", page: "radial-gradient(120% 90% at 12% 0%, #1d2b34 0%, #131b21 55%, #0f151a 100%)",
+    panel: "#151c22", sidebar: "linear-gradient(#1b242b, #151c22)", frame: "#2b3a45",
+    header: "linear-gradient(#2c4250, #1e2f39 60%, #17242c)", headerEdge: "#42606f",
+    rowBg: "#18222a", rowDone: "linear-gradient(90deg, #1d3040, #18222a 60%)",
+    border: "#233039", borderDone: "#3c5c70", tileBorder: "#2a3a45", tileBorderDone: "#4f7b90",
+    text: "#eaf4f8", body: "#dbe8ef", muted: "#93a9b8", dim: "#6d8291", faint: "#586b78",
+    slot: "#080c0f", input: "#0d1418", subheader: "#18222a", footer: "linear-gradient(#1d2a32, #151c22)",
+    accent: "#6fd8e8", accentDeep: "#186273", accentText: "#e2fbff", accentBorder: "#4d9fb2",
+    glow: "rgba(111, 216, 232, .40)", nameDim: "#5f7280", rarWhite: "#eaf4f8"
+  },
+  parchment: {
+    name: "Guide's Parchment", light: true,
+    canvas: "#ded2b8", page: "radial-gradient(120% 90% at 12% 0%, #f4ecd9 0%, #e9dfc6 60%, #e2d6bb 100%)",
+    panel: "#f2ead8", sidebar: "linear-gradient(#eee3cb, #e8dcc2)", frame: "#b9a781",
+    header: "linear-gradient(#c9b58c, #b7a175 60%, #ab9568)", headerEdge: "#e0d1ab",
+    rowBg: "#efe6d1", rowDone: "linear-gradient(90deg, #fbf0cf, #f3e9d4 60%)",
+    border: "#d3c4a3", borderDone: "#c1a066", tileBorder: "#cbbb98", tileBorderDone: "#a8813f",
+    text: "#2c2317", body: "#33291b", muted: "#5e5343", dim: "#6f6350", faint: "#877a63",
+    slot: "#ded2b6", input: "#f8f2e2", subheader: "#ece1c8", footer: "linear-gradient(#e6dabe, #ded2b6)",
+    accent: "#9a4b16", accentDeep: "#7a3a10", accentText: "#fdf3e4", accentBorder: "#8a4413",
+    glow: "rgba(154, 75, 22, .30)", nameDim: "#a09madd", rarWhite: "#5a5044"
+  }
+};
+THEMES.parchment.nameDim = "#75634b";
+
+const RAR_DARK = { white: null, blue: "#8b9dff", green: "#4de04d", orange: "#ffb64d", pink: "#ff5cd6", lime: "#b6ff3d", red: "#ff4d4d" };
+const RAR_LIGHT = { white: null, blue: "#3b4fd0", green: "#1f8a25", orange: "#b06a00", pink: "#b81b93", lime: "#4f8a06", red: "#c02020" };
+
+const ITEMS = [
+  { id: 4, name: "Copper Shortsword", cat: "Weapons", r: "white", need: 1, done: true },
+  { id: 99, name: "Wooden Bow", cat: "Weapons", r: "white", need: 1, done: true },
+  { id: 155, name: "Muramasa", cat: "Weapons", r: "blue", need: 1, done: true },
+  { id: 96, name: "Space Gun", cat: "Weapons", r: "green", need: 1, done: false },
+  { id: 273, name: "Night's Edge", cat: "Weapons", r: "orange", need: 1, done: false },
+  { id: 757, name: "Terra Blade", cat: "Weapons", r: "lime", need: 1, done: false },
+  { id: 4956, name: "Zenith", cat: "Weapons", r: "red", need: 1, done: false },
+  { id: 100, name: "Molten Helmet", cat: "Armor", r: "orange", need: 1, done: true },
+  { id: 551, name: "Adamantite Breastplate", cat: "Armor", r: "green", need: 1, done: false },
+  { id: 1281, name: "Spectre Robe", cat: "Armor", r: "pink", need: 1, done: false },
+  { id: 11, name: "Iron Ore", cat: "Ores", r: "white", need: 25, have: 25, done: true },
+  { id: 12, name: "Silver Ore", cat: "Ores", r: "white", need: 25, have: 25, done: true },
+  { id: 56, name: "Demonite Ore", cat: "Ores", r: "blue", need: 25, have: 8, done: false },
+  { id: 175, name: "Hellstone", cat: "Ores", r: "orange", need: 25, have: 0, done: false },
+  { id: 52, name: "Shackle", cat: "Accessories", r: "white", need: 1, done: true },
+  { id: 54, name: "Hermes Boots", cat: "Accessories", r: "blue", need: 1, done: true },
+  { id: 53, name: "Cloud in a Bottle", cat: "Accessories", r: "blue", need: 1, done: false },
+  { id: 492, name: "Angel Wings", cat: "Accessories", r: "pink", need: 1, done: false },
+  { id: 36, name: "Iron Anvil", cat: "Crafting", r: "white", need: 1, done: true },
+  { id: 525, name: "Hellforge", cat: "Crafting", r: "green", need: 1, done: false },
+  { id: 1220, name: "Mythril Anvil", cat: "Crafting", r: "green", need: 1, done: false },
+  { id: 106, name: "Sawmill", cat: "Furniture", r: "white", need: 1, done: true },
+  { id: 8, name: "Torch", cat: "Furniture", r: "white", need: 100, have: 100, done: true },
+  { id: 1418, name: "Crystal Chandelier", cat: "Furniture", r: "blue", need: 1, done: false },
+  { id: 2, name: "Dirt Block", cat: "Misc", r: "white", need: 100, have: 100, done: true },
+  { id: 109, name: "Mana Crystal", cat: "Misc", r: "blue", need: 25, have: 11, done: false },
+  { id: 3093, name: "Cell Phone", cat: "Misc", r: "red", need: 1, done: false }
+];
+
+const CATS = ["All Items", "Weapons", "Armor", "Ores", "Accessories", "Crafting", "Furniture", "Misc"];
+
+const SECTIONS = [
+  { title: "PRE-HARDMODE BOSSES", verb: "DEFEATED", stampKey: "accent", tiles: [
+    { name: "King Slime", r: "blue", done: true }, { name: "Eye of Cthulhu", r: "blue", done: true },
+    { name: "Eater of Worlds", r: "blue", done: true }, { name: "Queen Bee", r: "green", done: true },
+    { name: "Skeletron", r: "green", done: true }, { name: "Deerclops", r: "green", done: false },
+    { name: "Wall of Flesh", r: "orange", done: false }
+  ]},
+  { title: "HARDMODE BOSSES", verb: "DEFEATED", stampKey: "accent", tiles: [
+    { name: "Queen Slime", r: "orange", done: true }, { name: "The Twins", r: "orange", done: true },
+    { name: "The Destroyer", r: "orange", done: false }, { name: "Skeletron Prime", r: "orange", done: false },
+    { name: "Plantera", r: "pink", done: false }, { name: "Golem", r: "pink", done: false },
+    { name: "Duke Fishron", r: "lime", done: false }, { name: "Empress of Light", r: "lime", done: false },
+    { name: "Lunatic Cultist", r: "lime", done: false }, { name: "Moon Lord", r: "red", done: false }
+  ]},
+  { title: "EVENTS", verb: "CLEARED", stampKey: "lime", tiles: [
+    { name: "Goblin Army", r: "blue", done: true }, { name: "Blood Moon", r: "blue", done: true },
+    { name: "Old One's Army", r: "green", done: false }, { name: "Pirate Invasion", r: "orange", done: false },
+    { name: "Frost Legion", r: "orange", done: false }, { name: "Solar Eclipse", r: "pink", done: false },
+    { name: "Pumpkin Moon", r: "lime", done: false }
+  ]},
+  { title: "TOWN NPCS", verb: "MOVED IN", stampKey: "blue", tiles: [
+    { name: "Guide", r: "white", done: true }, { name: "Merchant", r: "white", done: true },
+    { name: "Nurse", r: "white", done: true }, { name: "Demolitionist", r: "white", done: true },
+    { name: "Dryad", r: "blue", done: true }, { name: "Arms Dealer", r: "blue", done: true },
+    { name: "Goblin Tinkerer", r: "green", done: false }, { name: "Wizard", r: "green", done: false },
+    { name: "Steampunker", r: "orange", done: false }, { name: "Truffle", r: "pink", done: false }
+  ]}
+];
+
+const PIX = "font-family: 'Press Start 2P', monospace;";
+const MONO = "font-family: 'IBM Plex Mono', monospace;";
+
+class Component extends DCLogic {
+  state = {
+    theme: null, view: "items", cat: "All Items", query: "", uploaded: true,
+    missingOnly: false, drawerOpen: false, done: {}, hidden: {}, bosses: {}
+  };
+
+  t() { return THEMES[this.state.theme || this.props.theme || "parchment"] || THEMES.parchment; }
+  rar(k) { const t = this.t(); const m = t.light ? RAR_LIGHT : RAR_DARK; return k === "white" ? t.rarWhite : m[k]; }
+  isDone(it) { if (!this.state.uploaded) return false; const o = this.state.done[it.id]; return o === undefined ? it.done : o; }
+  bossDone(k, d) { if (!this.state.uploaded) return false; const o = this.state.bosses[k]; return o === undefined ? d : o; }
+  tag(n) { return n.replace(/[^A-Za-z]/g, "").slice(0, 2).toUpperCase(); }
+
+  tile(done, size) {
+    const t = this.t();
+    return "width: " + size + "px; height: " + size + "px; flex: none; display: flex; align-items: center; justify-content: center; background: " +
+      (done ? "repeating-linear-gradient(45deg, " + t.rowBg + " 0 4px, " + t.slot + " 4px 8px)" : t.slot) +
+      "; border-top: 2px solid " + (done ? t.tileBorderDone : t.tileBorder) +
+      "; border-left: 2px solid " + (done ? t.tileBorderDone : t.tileBorder) +
+      "; border-right: 2px solid rgba(0,0,0,.42); border-bottom: 2px solid rgba(0,0,0,.42); box-shadow: " +
+      (done ? "0 0 22px -4px " + t.glow : "inset 0 2px 6px rgba(0,0,0,.35)") + ";";
+  }
+
+  itemRow(it, mobile) {
+    const t = this.t(), done = this.isDone(it), col = this.rar(it.r);
+    const have = done ? it.need : (it.have || 0);
+    return {
+      name: it.name, tag: done ? this.tag(it.name) : "??", meta: "#" + it.id + " · " + it.cat,
+      tileStyle: this.tile(done, mobile ? 38 : 42),
+      tagStyle: PIX + " font-size: 8px; color: " + (done ? col : t.nameDim) + ";",
+      metaStyle: MONO + " font-size: " + (mobile ? "10px" : "11px") + "; color: " + t.dim + ";",
+      nameStyle: "font-size: " + (mobile ? "14px" : "15px") + "; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: " + (done ? col : t.nameDim) + ";",
+      rowStyle: "display: grid; grid-template-columns: 42px minmax(0, 1fr) 132px auto; align-items: center; gap: 14px; height: 62px; padding: 0 12px; margin-bottom: 6px; border: 1px solid " + (done ? t.borderDone : t.border) + "; border-radius: 3px; background: " + (done ? t.rowDone : t.rowBg) + "; transition: filter .12s;",
+      mRowStyle: "display: flex; align-items: center; gap: 11px; padding: 9px 10px; border: 1px solid " + (done ? t.borderDone : t.border) + "; border-radius: 3px; background: " + (done ? t.rowDone : t.rowBg) + ";",
+      stateStyle: done
+        ? "justify-self: start; " + PIX + " font-size: 8px; color: " + t.panel + "; background: " + col + "; padding: 6px 8px; border-radius: 2px; letter-spacing: .5px;"
+        : "justify-self: start; " + MONO + " font-size: 11px; color: " + t.dim + "; letter-spacing: .1em;",
+      stateLabel: done ? "RESEARCHED" : "MISSING · " + have + "/" + it.need,
+      checkStyle: "width: 30px; height: 30px; border-radius: 2px; font-size: 13px; line-height: 1; " + (done
+        ? "background: " + t.accentDeep + "; border: 1px solid " + t.accentBorder + "; color: " + t.accentText + ";"
+        : "background: " + t.rowBg + "; border: 1px solid " + t.border + "; color: " + t.dim + ";"),
+      mCheckStyle: "flex: none; width: 44px; height: 44px; border-radius: 2px; font-size: 15px; " + (done
+        ? "background: " + t.accentDeep + "; border: 1px solid " + t.accentBorder + "; color: " + t.accentText + ";"
+        : "background: " + t.rowBg + "; border: 1px solid " + t.border + "; color: " + t.dim + ";"),
+      toggle: () => this.setState(s => ({ done: Object.assign({}, s.done, { [it.id]: !done }) })),
+      hide: () => this.setState(s => ({ hidden: Object.assign({}, s.hidden, { [it.id]: true }) }))
+    };
+  }
+
+  tabStyle(active) {
+    const t = this.t();
+    return "padding: 13px 20px 12px 20px; border: 1px solid " + (active ? t.accentBorder : "transparent") + "; border-bottom: none; border-radius: 3px 3px 0 0; margin-bottom: -2px; background: " + (active ? t.panel : "rgba(0,0,0,.16)") + "; color: " + (active ? t.accent : t.muted) + "; " + PIX + " font-size: 9px; letter-spacing: .5px; box-shadow: " + (active ? "0 -2px 22px -4px " + t.glow + ", inset 0 2px 0 " + t.accent : "none") + "; animation: " + (active ? "torch 4.2s ease-in-out infinite" : "none") + ";";
+  }
+
+  mTabStyle(active) {
+    const t = this.t();
+    return "flex: 1; padding: 10px 8px; border: 1px solid " + (active ? t.accentBorder : "transparent") + "; border-radius: 3px; background: " + (active ? t.panel : "rgba(0,0,0,.18)") + "; color: " + (active ? t.accent : t.muted) + "; " + PIX + " font-size: 8px;";
+  }
+
+  visible() {
+    const q = this.state.query.trim().toLowerCase();
+    return ITEMS.filter(it => !this.state.hidden[it.id])
+      .filter(it => this.state.cat === "All Items" || it.cat === this.state.cat)
+      .filter(it => !q || it.name.toLowerCase().includes(q) || String(it.id) === q)
+      .filter(it => !this.state.missingOnly || !this.isDone(it));
+  }
+
+  renderVals() {
+    const st = this.state, t = this.t(), up = st.uploaded;
+    const total = ITEMS.length;
+    const doneCount = ITEMS.filter(it => this.isDone(it)).length;
+    const pct = up ? Math.round((doneCount / total) * 100) : 0;
+    const vis = this.visible();
+    const sectionPad = "padding: 44px 48px; display: flex; flex-direction: column; gap: 22px; font-family: 'IBM Plex Sans', Helvetica, sans-serif; background: " + t.canvas + ";";
+
+    const s = {
+      page: sectionPad,
+      page2: "padding: 8px 48px 24px 48px; display: flex; flex-direction: column; gap: 20px; font-family: 'IBM Plex Sans', Helvetica, sans-serif; background: " + t.canvas + ";",
+      page3: "padding: 8px 48px 64px 48px; display: flex; flex-direction: column; gap: 20px; font-family: 'IBM Plex Sans', Helvetica, sans-serif; background: " + t.canvas + ";",
+      badge: PIX + " font-size: 11px; color: " + t.accent + "; letter-spacing: 1px;",
+      caption: MONO + " font-size: 11px; color: " + t.dim + "; text-transform: uppercase; letter-spacing: .16em;",
+      frame: "width: 1440px; border: 1px solid " + t.frame + "; border-radius: 4px; overflow: hidden; background: " + t.panel + "; box-shadow: 0 40px 80px -30px rgba(0,0,0,.7);",
+      header: "position: relative; height: 66px; display: flex; align-items: center; gap: 28px; padding: 0 18px; background: " + t.header + "; border-bottom: 2px solid rgba(0,0,0,.5); box-shadow: inset 0 1px 0 " + t.headerEdge + ";",
+      diamond: "width: 22px; height: 22px; background: " + t.accent + "; transform: rotate(45deg); box-shadow: 0 0 18px " + t.glow + ";",
+      logo: PIX + " font-size: 12px; color: " + (t.light ? "#2c2317" : t.text) + "; letter-spacing: .5px;",
+      logoSub: MONO + " font-size: 9px; color: " + (t.light ? "#5b4f3c" : t.muted) + "; letter-spacing: .18em;",
+      worldLabel: MONO + " font-size: 10px; color: " + (t.light ? "#4f4433" : t.muted) + "; letter-spacing: .14em;",
+      primaryBtn: "padding: 9px 14px; background: " + t.accentDeep + "; color: " + t.accentText + "; border: 1px solid " + t.accentBorder + "; border-radius: 3px; " + PIX + " font-size: 8px; letter-spacing: .5px; box-shadow: 0 0 20px -6px " + t.glow + ";",
+      primaryBtnLg: "padding: 13px 20px; background: " + t.accentDeep + "; color: " + t.accentText + "; border: 1px solid " + t.accentBorder + "; border-radius: 3px; " + PIX + " font-size: 9px;",
+      viewBody: "display: flex; min-height: 760px; background: " + t.page + ";",
+      sidebar: "width: 244px; flex: none; border-right: 1px solid " + t.border + "; background: " + t.sidebar + "; padding: 16px 12px; display: flex; flex-direction: column; gap: 14px;",
+      sidebarTitle: PIX + " font-size: 8px; color: " + t.dim + "; letter-spacing: 1px; padding: 0 6px;",
+      hiddenPanel: "margin-top: auto; padding: 12px; border: 1px solid " + t.border + "; border-radius: 3px; background: " + t.rowBg + "; display: flex; flex-direction: column; gap: 8px; opacity: " + (up ? "1" : ".35") + "; pointer-events: " + (up ? "auto" : "none") + ";",
+      hiddenLabel: MONO + " font-size: 10px; color: " + t.dim + "; letter-spacing: .12em;",
+      hiddenCount: PIX + " font-size: 11px; color: " + t.body + ";",
+      linkBtn: "align-self: flex-start; background: none; border: none; padding: 0; color: " + t.accent + "; " + MONO + " font-size: 11px;",
+      subheader: "display: flex; align-items: center; gap: 14px; padding: 16px 22px; border-bottom: 1px solid " + t.border + "; background: " + t.subheader + ";",
+      searchWrap: "display: flex; align-items: center; gap: 10px; flex: 1; max-width: 400px; padding: 10px 12px; background: " + t.input + "; border: 1px solid " + t.border + "; border-radius: 3px; box-shadow: inset 0 2px 6px rgba(0,0,0,.25);",
+      searchSlash: MONO + " font-size: 13px; color: " + t.dim + ";",
+      searchInput: "flex: 1; min-width: 0; background: none; border: none; outline: none; color: " + t.body + "; font-size: 14px;",
+      shownLabel: MONO + " font-size: 12px; color: " + t.dim + ";",
+      bigPct: PIX + " font-size: 20px; color: " + t.accent + "; text-shadow: 0 0 22px " + t.glow + ";",
+      smallLabel: MONO + " font-size: 10px; color: " + t.dim + "; letter-spacing: .14em;",
+      barTrack: "position: relative; width: 150px; height: 12px; overflow: hidden; background: " + t.input + "; border: 1px solid " + t.border + "; box-shadow: inset 0 2px 5px rgba(0,0,0,.3);",
+      listScroll: "flex: 1; overflow: auto; max-height: 694px; padding: 8px 14px 20px 14px;",
+      iconBtn: "width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; background: " + t.rowBg + "; border: 1px solid " + t.border + "; border-radius: 2px; color: " + t.dim + "; font-size: 13px; line-height: 1;",
+      iconBtnMono: "width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; background: " + t.rowBg + "; border: 1px solid " + t.border + "; border-radius: 2px; color: " + t.dim + "; " + MONO + " font-size: 13px; line-height: 1;",
+      iconLink: "width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; background: " + t.rowBg + "; border: 1px solid " + t.border + "; border-radius: 2px; color: " + t.dim + "; font-size: 13px;",
+      dropZone: "width: 560px; padding: 54px 40px; border: 2px dashed " + t.accentBorder + "; border-radius: 4px; background: " + t.rowBg + "; display: flex; flex-direction: column; align-items: center; gap: 22px; box-shadow: inset 0 0 60px -20px " + t.glow + ";",
+      dropTile: "position: relative; width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; background: repeating-linear-gradient(45deg, " + t.rowBg + " 0 4px, " + t.slot + " 4px 8px); border-top: 2px solid " + t.tileBorderDone + "; border-left: 2px solid " + t.tileBorderDone + "; border-right: 2px solid rgba(0,0,0,.4); border-bottom: 2px solid rgba(0,0,0,.4);",
+      dropTileText: PIX + " font-size: 9px; color: " + t.accent + "; animation: torch 3.4s ease-in-out infinite;",
+      dropTitle: PIX + " font-size: 15px; color: " + t.text + "; line-height: 1.7;",
+      dropBody: "font-size: 15px; color: " + t.muted + "; max-width: 380px; line-height: 1.6; text-wrap: pretty;",
+      dropHint: MONO + " font-size: 11px; color: " + t.dim + ";",
+      pathHint: MONO + " font-size: 11px; color: " + t.faint + "; letter-spacing: .1em;",
+      progBody: "min-height: 760px; padding: 24px 28px 40px 28px; display: flex; flex-direction: column; gap: 30px; background: " + t.page + ";",
+      secHead: "display: flex; align-items: center; gap: 18px; padding-bottom: 12px; border-bottom: 1px solid " + t.border + ";",
+      secTitle: PIX + " font-size: 12px; color: " + t.text + "; letter-spacing: .5px;",
+      secBarTrack: "position: relative; flex: 1; max-width: 420px; height: 14px; overflow: hidden; background: " + t.input + "; border: 1px solid " + t.border + "; box-shadow: inset 0 2px 5px rgba(0,0,0,.3);",
+      secCount: MONO + " font-size: 12px; color: " + t.muted + ";",
+      secPct: PIX + " font-size: 11px; color: " + t.accent + ";",
+      footer: "height: 38px; display: flex; align-items: center; gap: 20px; padding: 0 18px; background: " + t.footer + "; border-top: 2px solid rgba(0,0,0,.45);",
+      footerText: MONO + " font-size: 10px; color: " + t.dim + "; letter-spacing: .14em;",
+      statesCard: "width: 900px; padding: 20px; background: " + t.panel + "; border: 1px solid " + t.frame + "; border-radius: 4px; display: flex; flex-direction: column; gap: 10px;",
+      ladderCard: "width: 260px; padding: 20px; background: " + t.panel + "; border: 1px solid " + t.frame + "; border-radius: 4px; display: flex; flex-direction: column; gap: 14px;",
+      ladderTitle: PIX + " font-size: 8px; color: " + t.dim + "; letter-spacing: 1px;",
+      ladderNote: "font-size: 12px; color: " + t.dim + "; line-height: 1.6; text-wrap: pretty;",
+      phone: "width: 390px; height: 800px; position: relative; overflow: hidden; border: 1px solid " + t.frame + "; border-radius: 22px; background: " + t.page + "; display: flex; flex-direction: column; box-shadow: 0 40px 80px -30px rgba(0,0,0,.7);",
+      phoneEmpty: "width: 390px; height: 800px; overflow: hidden; border: 1px solid " + t.frame + "; border-radius: 22px; background: " + t.page + "; display: flex; flex-direction: column; box-shadow: 0 40px 80px -30px rgba(0,0,0,.7);",
+      mHeader: "padding: 14px 16px 12px 16px; background: " + t.header + "; border-bottom: 2px solid rgba(0,0,0,.5); display: flex; flex-direction: column; gap: 12px;",
+      mHeaderSimple: "padding: 14px 16px; background: " + t.header + "; border-bottom: 2px solid rgba(0,0,0,.5); display: flex; align-items: center; gap: 10px;",
+      mDiamond: "width: 16px; height: 16px; background: " + t.accent + "; transform: rotate(45deg); box-shadow: 0 0 14px " + t.glow + ";",
+      mLogo: PIX + " font-size: 10px; color: " + (t.light ? "#2c2317" : t.text) + ";",
+      mPct: PIX + " font-size: 12px; color: " + t.accent + ";",
+      mFilterBar: "padding: 10px 14px; display: flex; gap: 8px; align-items: center; border-bottom: 1px solid " + t.border + "; background: " + t.subheader + ";",
+      mFilterBtn: "display: flex; align-items: center; gap: 7px; padding: 9px 11px; background: " + t.rowDone + "; border: 1px solid " + t.borderDone + "; border-radius: 3px; color: " + t.accent + "; " + PIX + " font-size: 7px;",
+      mSearchWrap: "flex: 1; display: flex; align-items: center; gap: 8px; padding: 9px 10px; background: " + t.input + "; border: 1px solid " + t.border + "; border-radius: 3px;",
+      mSearchInput: "flex: 1; min-width: 0; background: none; border: none; outline: none; color: " + t.body + "; font-size: 13px;",
+      mList: "flex: 1; overflow: auto; padding: 8px 12px 24px 12px; display: flex; flex-direction: column; gap: 7px;",
+      mScrim: "position: absolute; inset: 0; background: rgba(0,0,0,.55); display: flex; flex-direction: column; justify-content: flex-end;",
+      mDrawer: "background: " + t.sidebar + "; border-top: 2px solid " + t.accentBorder + "; border-radius: 14px 14px 0 0; padding: 16px 14px 22px 14px; display: flex; flex-direction: column; gap: 12px;",
+      mDrawerTitle: PIX + " font-size: 9px; color: " + t.text + ";",
+      mClose: "background: none; border: none; color: " + t.muted + "; font-size: 18px; line-height: 1;",
+      mDropZone: "width: 100%; padding: 34px 20px; border: 2px dashed " + t.accentBorder + "; border-radius: 4px; background: " + t.rowBg + "; display: flex; flex-direction: column; align-items: center; gap: 18px; box-shadow: inset 0 0 50px -18px " + t.glow + ";",
+      mDropTile: "position: relative; width: 52px; height: 52px; display: flex; align-items: center; justify-content: center; background: repeating-linear-gradient(45deg, " + t.rowBg + " 0 4px, " + t.slot + " 4px 8px); border-top: 2px solid " + t.tileBorderDone + "; border-left: 2px solid " + t.tileBorderDone + "; border-right: 2px solid rgba(0,0,0,.4); border-bottom: 2px solid rgba(0,0,0,.4);",
+      mDropTitle: PIX + " font-size: 11px; color: " + t.text + "; line-height: 1.8;",
+      mDropBody: "font-size: 13px; color: " + t.muted + "; line-height: 1.6; text-wrap: pretty;",
+      mDropBtn: "width: 100%; padding: 13px 16px; background: " + t.accentDeep + "; color: " + t.accentText + "; border: 1px solid " + t.accentBorder + "; border-radius: 3px; " + PIX + " font-size: 8px;"
+    };
+
+    const themes = Object.keys(THEMES).map(key => {
+      const th = THEMES[key], active = th === t;
+      return {
+        name: th.name,
+        chipStyle: "display: flex; align-items: center; gap: 7px; padding: 6px 10px 6px 8px; border-radius: 3px; border: 1px solid " + (active ? t.accentBorder : t.border) + "; background: " + (active ? t.rowDone : t.rowBg) + ";",
+        dotStyle: "width: 11px; height: 11px; transform: rotate(45deg); background: " + th.accent + "; box-shadow: 0 0 10px -1px " + th.accent + ";",
+        labelStyle: MONO + " font-size: 10px; letter-spacing: .06em; color: " + (active ? t.accent : t.dim) + ";",
+        pick: () => this.setState({ theme: key })
+      };
+    });
+
+    const cats = CATS.map(name => {
+      const pool = name === "All Items" ? ITEMS : ITEMS.filter(i => i.cat === name);
+      const d = pool.filter(i => this.isDone(i)).length;
+      const p = up && pool.length ? Math.round((d / pool.length) * 100) : 0;
+      const active = st.cat === name;
+      return {
+        name, pctLabel: up ? p + "%" : "—",
+        pctStyle: "position: relative; " + MONO + " font-size: 11px; color: " + (active ? t.accent : t.dim) + ";",
+        rowStyle: "position: relative; overflow: hidden; display: flex; align-items: center; gap: 8px; text-align: left; padding: 11px 10px; border: 1px solid " + (active ? t.borderDone : "transparent") + "; border-radius: 3px; background: " + (active ? t.rowDone : "transparent") + "; color: " + (active ? t.text : t.muted) + ";",
+        slotStyle: "position: relative; overflow: hidden; display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 13px 11px; border-top: 2px solid " + (active ? t.tileBorderDone : t.tileBorder) + "; border-left: 2px solid " + (active ? t.tileBorderDone : t.tileBorder) + "; border-right: 2px solid rgba(0,0,0,.4); border-bottom: 2px solid rgba(0,0,0,.4); background: " + (active ? t.rowDone : t.rowBg) + "; color: " + (active ? t.text : t.muted) + ";",
+        fillStyle: "position: absolute; left: 0; top: 0; bottom: 0; width: " + p + "%; background: linear-gradient(90deg, " + t.glow + ", rgba(0,0,0,0)); pointer-events: none;",
+        pick: () => this.setState({ cat: name }),
+        pickMobile: () => this.setState({ cat: name, drawerOpen: false })
+      };
+    });
+
+    const stampCol = key => (key === "accent" ? t.accent : this.rar(key));
+
+    const sections = SECTIONS.map((sec, si) => {
+      const tiles = sec.tiles.map((tl, ti) => {
+        const key = si + ":" + ti, done = this.bossDone(key, tl.done), col = this.rar(tl.r);
+        return {
+          name: tl.name, tag: done ? this.tag(tl.name) : "??", stamp: done ? sec.verb : "NOT YET",
+          cardStyle: "display: flex; align-items: center; gap: 12px; padding: 10px; text-align: left; border-top: 2px solid " + (done ? t.tileBorderDone : t.tileBorder) + "; border-left: 2px solid " + (done ? t.tileBorderDone : t.tileBorder) + "; border-right: 2px solid rgba(0,0,0,.45); border-bottom: 2px solid rgba(0,0,0,.45); background: " + (done ? t.rowDone : t.rowBg) + ";",
+          slotStyle: this.tile(done, 46),
+          tagStyle: PIX + " font-size: 8px; color: " + (done ? col : t.nameDim) + ";",
+          nameStyle: "font-size: 14px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: " + (done ? col : t.nameDim) + ";",
+          stampStyle: done
+            ? "align-self: flex-start; transform: rotate(-4deg); " + PIX + " font-size: 7px; letter-spacing: .5px; padding: 4px 6px; color: " + stampCol(sec.stampKey) + "; border: 2px solid " + stampCol(sec.stampKey) + "; opacity: .92;"
+            : MONO + " font-size: 10px; letter-spacing: .12em; color: " + t.faint + ";",
+          toggle: () => this.setState(p => ({ bosses: Object.assign({}, p.bosses, { [key]: !done }) }))
+        };
+      });
+      const d = sec.tiles.filter((tl, ti) => this.bossDone(si + ":" + ti, tl.done)).length;
+      const p = Math.round((d / sec.tiles.length) * 100);
+      return {
+        title: sec.title, tiles, count: d + " / " + sec.tiles.length, pctLabel: p + "%",
+        fillStyle: "position: absolute; left: 0; top: 0; bottom: 0; width: " + p + "%; background: linear-gradient(90deg, " + t.accentDeep + ", " + t.accent + ");"
+      };
+    });
+
+    const demo = { id: 757, name: "Terra Blade", cat: "Weapons", r: "lime", need: 1 };
+    const demoRows = [["MISSING", false, false], ["HOVER", false, true], ["RESEARCHED", true, false]].map(([label, done, hover]) => {
+      const col = this.rar(demo.r);
+      return {
+        name: demo.name, meta: "#757 · Weapons", stateName: label,
+        tag: done ? "TE" : "??",
+        tileStyle: this.tile(done, 42),
+        tagStyle: PIX + " font-size: 8px; color: " + (done ? col : t.nameDim) + ";",
+        metaStyle: MONO + " font-size: 11px; color: " + (hover || done ? t.dim : t.faint) + ";",
+        nameStyle: "font-size: 15px; font-weight: 500; color: " + (done ? col : t.nameDim) + "; opacity: " + (hover ? "1" : done ? "1" : ".82") + ";",
+        rowStyle: "display: grid; grid-template-columns: 42px minmax(0,1fr) 132px auto 92px; align-items: center; gap: 14px; height: 62px; padding: 0 12px; border: 1px solid " + (done ? t.borderDone : hover ? t.tileBorderDone : t.border) + "; border-radius: 3px; background: " + (done ? t.rowDone : hover ? t.rowDone : t.rowBg) + "; filter: " + (hover ? "brightness(1.07)" : "none") + ";",
+        stateStyle: done
+          ? "justify-self: start; " + PIX + " font-size: 8px; color: " + t.panel + "; background: " + col + "; padding: 6px 8px; border-radius: 2px;"
+          : "justify-self: start; " + MONO + " font-size: 11px; color: " + t.dim + "; letter-spacing: .1em;",
+        stateLabel: done ? "RESEARCHED" : "MISSING · 0/1",
+        actionsStyle: "display: flex; gap: 6px; opacity: " + (hover || done ? "1" : ".55") + ";",
+        checkStyle: "width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; border-radius: 2px; font-size: 13px; " + (done
+          ? "background: " + t.accentDeep + "; border: 1px solid " + t.accentBorder + "; color: " + t.accentText + ";"
+          : "background: " + t.rowBg + "; border: 1px solid " + (hover ? t.accentBorder : t.border) + "; color: " + (hover ? t.accent : t.dim) + ";"),
+        tagLabelStyle: MONO + " font-size: 10px; letter-spacing: .14em; color: " + t.faint + ";"
+      };
+    });
+
+    return {
+      s, themes, cats, sections, demoRows,
+      isItems: st.view === "items",
+      isProg: st.view === "progression",
+      uploaded: up && st.view === "items",
+      notUploaded: !up,
+      drawerOpen: st.drawerOpen,
+      query: st.query,
+      showItems: () => this.setState({ view: "items" }),
+      showProg: () => this.setState({ view: "progression" }),
+      tabItems: this.tabStyle(st.view === "items"),
+      tabProg: this.tabStyle(st.view === "progression"),
+      mTabItems: this.mTabStyle(st.view === "items"),
+      mTabProg: this.mTabStyle(st.view === "progression"),
+      onQuery: e => this.setState({ query: e.target.value }),
+      toggleUpload: () => this.setState(x => ({ uploaded: !x.uploaded })),
+      uploadBtn: up ? "EJECT .PLR" : "UPLOAD .PLR",
+      worldLabel: up ? "Sylvi.plr · 24d 06h" : "NO CHARACTER LOADED",
+      overallPct: up ? pct + "%" : "—",
+      overallLabel: up ? doneCount + " / " + total + " RESEARCHED" : "AWAITING .PLR",
+      overallFill: "position: absolute; left: 0; top: 0; bottom: 0; width: " + pct + "%; background: linear-gradient(90deg, " + t.accentDeep + ", " + t.accent + ");",
+      toggleMissingOnly: () => this.setState(x => ({ missingOnly: !x.missingOnly })),
+      missingBtn: "padding: 8px 10px; border-radius: 2px; " + PIX + " font-size: 7px; letter-spacing: .5px; " + (st.missingOnly
+        ? "background: " + t.accentDeep + "; border: 1px solid " + t.accentBorder + "; color: " + t.accentText + ";"
+        : "background: " + t.rowBg + "; border: 1px solid " + t.border + "; color: " + t.dim + ";"),
+      shownLabel: vis.length + " shown",
+      items: vis.map(it => this.itemRow(it, false)),
+      mobileItems: vis.map(it => this.itemRow(it, true)),
+      mobileCat: st.cat === "All Items" ? "FILTER" : st.cat.toUpperCase(),
+      hiddenCount: Object.keys(st.hidden).length + " hidden",
+      clearHidden: () => this.setState({ hidden: {} }),
+      toggleDrawer: () => this.setState(x => ({ drawerOpen: !x.drawerOpen })),
+      footerHint: st.view === "items" ? "CLICK ✓ TO MARK RESEARCHED · ⊘ HIDES A ROW" : "CLICK A SLOT TO STAMP IT",
+      ladder: [["White", "common"], ["Blue", "tier 1"], ["Green", "tier 2"], ["Orange", "tier 3"], ["Pink", "tier 4"], ["Lime", "tier 5"], ["Red", "tier 6"]].map(([name, tier]) => {
+        const c = this.rar(name.toLowerCase());
+        return {
+          name, tier,
+          swatch: "width: 14px; height: 14px; flex: none; background: " + c + "; box-shadow: 0 0 12px -2px " + c + ";",
+          label: "font-size: 13px; font-weight: 500; color: " + c + ";",
+          tierStyle: MONO + " font-size: 10px; color: " + t.faint + ";"
+        };
+      })
+    };
+  }
+}
+
+</script>
+</body>
+</html>
