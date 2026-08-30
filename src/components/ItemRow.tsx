@@ -9,7 +9,8 @@ interface Props {
   state: ItemResearchState | undefined;
   manuallyMarked: boolean;
   onToggleManual: (internalName: string) => void;
-  onHide: (internalName: string) => void;
+  ignored: boolean;
+  onToggleHide: (internalName: string) => void;
   onInfo: (internalName: string) => void;
 }
 
@@ -19,7 +20,7 @@ function stateLabel(status: ResearchStatus, sacrificed: number, needed: number):
   return `MISSING · ${sacrificed}/${needed}`;
 }
 
-export const ItemRow = memo(function ItemRow({ item, state, manuallyMarked, onToggleManual, onHide, onInfo }: Props) {
+export const ItemRow = memo(function ItemRow({ item, state, manuallyMarked, onToggleManual, ignored, onToggleHide, onInfo }: Props) {
   const sacrificed = state?.sacrificed ?? 0;
   const needed = state?.needed ?? item.needed;
   const savedStatus: ResearchStatus = state?.status ?? "missing";
@@ -27,13 +28,14 @@ export const ItemRow = memo(function ItemRow({ item, state, manuallyMarked, onTo
   const revealed = effectiveStatus !== "missing";
 
   return (
-    <div className="item-row" data-status={effectiveStatus} role="listitem">
+    <div className="item-row" data-status={effectiveStatus} data-ignored={ignored} role="listitem">
       <ItemTile itemId={item.id} displayName={item.displayName} revealed={revealed} />
 
       <div className="item-info">
         <span className="item-name">{revealed ? item.displayName : "?????"}</span>
         <span className="item-meta">
           #{item.id} · {item.category}
+          {ignored && <span className="item-ignored-flag"> · IGNORED</span>}
         </span>
       </div>
 
@@ -60,11 +62,12 @@ export const ItemRow = memo(function ItemRow({ item, state, manuallyMarked, onTo
         <button
           type="button"
           className="icon-btn"
-          title="Hide item"
-          aria-label={`Hide ${item.displayName} from the list`}
-          onClick={() => onHide(item.internalName)}
+          aria-pressed={ignored}
+          title={ignored ? "Restore item" : "Hide item"}
+          aria-label={ignored ? `Restore ${item.displayName} to the list` : `Hide ${item.displayName} from the list`}
+          onClick={() => onToggleHide(item.internalName)}
         >
-          ⊘
+          {ignored ? "↺" : "⊘"}
         </button>
         <button
           type="button"

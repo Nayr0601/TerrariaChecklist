@@ -4,6 +4,8 @@ import { ItemsView } from "./views/ItemsView";
 import { ProgressionView } from "./views/ProgressionView";
 import { usePlrFile } from "./hooks/usePlrFile";
 import { useTheme } from "./hooks/useTheme";
+import { usePersistentSet } from "./hooks/usePersistentSet";
+import { useLocalStorage } from "./hooks/useLocalStorage";
 
 type View = "items" | "progression";
 
@@ -12,6 +14,13 @@ export default function App() {
   const { state, loadFile, reset } = usePlrFile();
   const [theme, setTheme] = useTheme();
   const fileInputRef = useRef<HTMLInputElement>(null);
+
+  // Item-list display filters — live here (not in ItemsView) so the header's
+  // settings dropdown, a sibling of ItemsView, can control them too.
+  const hidden = usePersistentSet("journey-ledger:hidden-items");
+  const [showUnchecked, setShowUnchecked] = useLocalStorage("journey-ledger:show-unchecked-items", true);
+  const [showChecked, setShowChecked] = useLocalStorage("journey-ledger:show-checked-items", false);
+  const [showIgnored, setShowIgnored] = useLocalStorage("journey-ledger:show-ignored-items", false);
 
   const hasSave = state.status === "ready";
   const worldLabel =
@@ -32,6 +41,12 @@ export default function App() {
         hasSave={hasSave}
         onEject={reset}
         onChooseFile={() => fileInputRef.current?.click()}
+        showUnchecked={showUnchecked}
+        showChecked={showChecked}
+        showIgnored={showIgnored}
+        onToggleShowUnchecked={() => setShowUnchecked((v) => !v)}
+        onToggleShowChecked={() => setShowChecked((v) => !v)}
+        onToggleShowIgnored={() => setShowIgnored((v) => !v)}
         theme={theme}
         onChangeTheme={setTheme}
       />
@@ -50,7 +65,18 @@ export default function App() {
         }}
       />
 
-      {view === "items" ? <ItemsView plrState={state} onLoadFile={loadFile} /> : <ProgressionView />}
+      {view === "items" ? (
+        <ItemsView
+          plrState={state}
+          onLoadFile={loadFile}
+          hidden={hidden}
+          showUnchecked={showUnchecked}
+          showChecked={showChecked}
+          showIgnored={showIgnored}
+        />
+      ) : (
+        <ProgressionView />
+      )}
 
       <footer className="app-footer">
         <span className="app-footer__text">JOURNEY MODE · RESEARCH LEDGER</span>

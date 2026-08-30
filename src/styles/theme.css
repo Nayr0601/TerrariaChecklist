@@ -9,7 +9,7 @@
  * Rarity accents differ between the dark palettes and the light
  * "Guide's Parchment" one — the dark-theme hues read as washed out on a
  * light background, so parchment gets its own darker, more saturated set
- * (mirrors `RAR_DARK` / `RAR_LIGHT` in the prototype above).
+ * (mirrors `RAR_DARK` / `RAR_LIGHT` in that prototype).
  */
 :root {
   --font-pixel: "Press Start 2P", monospace;

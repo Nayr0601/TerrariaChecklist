@@ -1,7 +1,6 @@
 import { useState } from "react";
 import type { PlrLoadState } from "../hooks/usePlrFile";
-import { usePersistentSet } from "../hooks/usePersistentSet";
-import { useLocalStorage } from "../hooks/useLocalStorage";
+import { usePersistentSet, type PersistentSet } from "../hooks/usePersistentSet";
 import { useCategoryStats } from "../hooks/useCategoryStats";
 import { useFilteredItems, ALL_ITEMS } from "../hooks/useFilteredItems";
 import { itemCatalog, TOTAL_RESEARCHABLE_ITEMS } from "../data/itemCatalog";
@@ -16,16 +15,18 @@ import { ItemInfoModal } from "../components/ItemInfoModal";
 interface Props {
   plrState: PlrLoadState;
   onLoadFile: (file: File) => void;
+  hidden: PersistentSet;
+  showUnchecked: boolean;
+  showChecked: boolean;
+  showIgnored: boolean;
 }
 
-export function ItemsView({ plrState, onLoadFile }: Props) {
+export function ItemsView({ plrState, onLoadFile, hidden, showUnchecked, showChecked, showIgnored }: Props) {
   const [category, setCategory] = useState(ALL_ITEMS);
   const [query, setQuery] = useState("");
-  const [missingOnly, setMissingOnly] = useLocalStorage("journey-ledger:missing-only", true);
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [infoItem, setInfoItem] = useState<string | null>(null);
 
-  const hidden = usePersistentSet("journey-ledger:hidden-items");
   const manual = usePersistentSet("journey-ledger:manual-researched");
 
   const researchState = plrState.status === "ready" ? plrState.research : null;
@@ -35,7 +36,9 @@ export function ItemsView({ plrState, onLoadFile }: Props) {
   const items = useFilteredItems({
     category,
     query,
-    missingOnly,
+    showUnchecked,
+    showChecked,
+    showIgnored,
     hidden: hidden.ids,
     researchState,
     manualOverrides: manual.ids,
@@ -75,14 +78,6 @@ export function ItemsView({ plrState, onLoadFile }: Props) {
                   aria-label="Search items"
                 />
               </div>
-              <button
-                type="button"
-                className="filter-toggle-btn"
-                aria-pressed={missingOnly}
-                onClick={() => setMissingOnly((v) => !v)}
-              >
-                MISSING ONLY
-              </button>
               <span className="shown-label">{items.length.toLocaleString()} shown</span>
 
               <div className="overall-progress">
@@ -103,7 +98,8 @@ export function ItemsView({ plrState, onLoadFile }: Props) {
               researchState={researchState}
               manualOverrides={manual.ids}
               onToggleManual={manual.toggle}
-              onHide={hidden.add}
+              hiddenIds={hidden.ids}
+              onToggleHide={hidden.toggle}
               onInfo={setInfoItem}
             />
           </>

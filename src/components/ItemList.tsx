@@ -11,7 +11,8 @@ interface RowData {
   researchState: Record<string, ItemResearchState> | null;
   manualOverrides: Set<string>;
   onToggleManual: (internalName: string) => void;
-  onHide: (internalName: string) => void;
+  hiddenIds: Set<string>;
+  onToggleHide: (internalName: string) => void;
   onInfo: (internalName: string) => void;
 }
 
@@ -24,7 +25,8 @@ function Row({ index, style, data }: ListChildComponentProps<RowData>) {
         state={data.researchState?.[item.internalName]}
         manuallyMarked={data.manualOverrides.has(item.internalName)}
         onToggleManual={data.onToggleManual}
-        onHide={data.onHide}
+        ignored={data.hiddenIds.has(item.internalName)}
+        onToggleHide={data.onToggleHide}
         onInfo={data.onInfo}
       />
     </div>
@@ -36,7 +38,8 @@ interface Props {
   researchState: Record<string, ItemResearchState> | null;
   manualOverrides: Set<string>;
   onToggleManual: (internalName: string) => void;
-  onHide: (internalName: string) => void;
+  hiddenIds: Set<string>;
+  onToggleHide: (internalName: string) => void;
   onInfo: (internalName: string) => void;
 }
 
@@ -46,14 +49,14 @@ interface Props {
  * "All Items" view and a multi-second layout stall, especially once
  * sprite `<img>` tags are involved.
  */
-export function ItemList({ items, researchState, manualOverrides, onToggleManual, onHide, onInfo }: Props) {
+export function ItemList({ items, researchState, manualOverrides, onToggleManual, hiddenIds, onToggleHide, onInfo }: Props) {
   const isMobile = useMediaQuery("(max-width: 780px)");
   const rowHeight = isMobile ? 110 : 70;
   const { ref, width, height } = useElementSize<HTMLDivElement>();
 
   const itemData = useMemo<RowData>(
-    () => ({ items, researchState, manualOverrides, onToggleManual, onHide, onInfo }),
-    [items, researchState, manualOverrides, onToggleManual, onHide, onInfo],
+    () => ({ items, researchState, manualOverrides, onToggleManual, hiddenIds, onToggleHide, onInfo }),
+    [items, researchState, manualOverrides, onToggleManual, hiddenIds, onToggleHide, onInfo],
   );
 
   return (

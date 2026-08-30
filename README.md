@@ -121,9 +121,9 @@ to the relevant section's `entries` array (or add a whole new `ProgressionSectio
 Stored in `localStorage`, all under a `journey-ledger:` prefix:
 
 - Progression checklist state (independent of any `.plr` upload — see below)
-- Hidden items
+- Hidden (ignored) items
 - Manually-marked-researched overrides (see "Mark researched", below)
-- The "missing only" filter preference
+- The item-list display preferences (show unchecked/checked/ignored) and chosen theme
 
 **Not** persisted: the raw `.plr` file or its decrypted contents, or anything else derived from your save — reloading the page clears the loaded character and you re-select the file.
 
