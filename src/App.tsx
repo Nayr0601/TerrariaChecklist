@@ -3,12 +3,14 @@ import { Header } from "./components/Header";
 import { ItemsView } from "./views/ItemsView";
 import { ProgressionView } from "./views/ProgressionView";
 import { usePlrFile } from "./hooks/usePlrFile";
+import { useTheme } from "./hooks/useTheme";
 
 type View = "items" | "progression";
 
 export default function App() {
   const [view, setView] = useState<View>("items");
   const { state, loadFile, reset } = usePlrFile();
+  const [theme, setTheme] = useTheme();
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const hasSave = state.status === "ready";
@@ -30,6 +32,8 @@ export default function App() {
         hasSave={hasSave}
         onEject={reset}
         onChooseFile={() => fileInputRef.current?.click()}
+        theme={theme}
+        onChangeTheme={setTheme}
       />
 
       <input

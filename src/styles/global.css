@@ -223,6 +223,20 @@ input {
   filter: brightness(1.2);
 }
 
+.theme-select {
+  padding: 8px 10px;
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--body-text);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+}
+.theme-select:hover {
+  filter: brightness(1.15);
+}
+
 /* ---------- Body layout ---------- */
 
 .view-body {

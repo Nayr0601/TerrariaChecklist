@@ -1,3 +1,5 @@
+import { THEME_IDS, THEME_META, type ThemeId } from "../data/themes";
+
 type View = "items" | "progression";
 
 interface Props {
@@ -7,10 +9,22 @@ interface Props {
   hasSave: boolean;
   onEject: () => void;
   onChooseFile: () => void;
+  theme: ThemeId;
+  onChangeTheme: (t: ThemeId) => void;
   mobileExtra?: React.ReactNode;
 }
 
-export function Header({ view, onChangeView, worldLabel, hasSave, onEject, onChooseFile, mobileExtra }: Props) {
+export function Header({
+  view,
+  onChangeView,
+  worldLabel,
+  hasSave,
+  onEject,
+  onChooseFile,
+  theme,
+  onChangeTheme,
+  mobileExtra,
+}: Props) {
   return (
     <header className="app-header">
       <div className="app-header__brand">
@@ -44,6 +58,18 @@ export function Header({ view, onChangeView, worldLabel, hasSave, onEject, onCho
 
       <div className="app-header__meta">
         <span className="world-label">{worldLabel}</span>
+        <select
+          className="theme-select"
+          aria-label="Theme"
+          value={theme}
+          onChange={(e) => onChangeTheme(e.target.value as ThemeId)}
+        >
+          {THEME_IDS.map((id) => (
+            <option key={id} value={id}>
+              {THEME_META[id].label}
+            </option>
+          ))}
+        </select>
         <button type="button" className="btn-primary" onClick={hasSave ? onEject : onChooseFile}>
           {hasSave ? "EJECT .PLR" : "UPLOAD .PLR"}
         </button>

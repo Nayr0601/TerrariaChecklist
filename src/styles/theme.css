@@ -1,13 +1,26 @@
 /**
- * Journey Ledger — "Cavern Torch" theme tokens.
+ * Journey Ledger theme tokens — five palettes, matching the runtime
+ * switcher explored in `pre-data/Terraria Tracker.dc.html` before this app
+ * originally committed to a single look. `--canvas`/`--rar-*`/etc. are set
+ * per palette below; `useTheme` (see `src/hooks/useTheme.ts`) stamps the
+ * chosen id onto `<html data-theme>`, and `:root` (no attribute) carries
+ * "Cavern Torch" as the pre-JS/first-paint default.
  *
- * Derived from the `torch` palette in `pre-data/Terraria Tracker.dc.html`
- * (the Claude Design reference explored five palette options with a
- * runtime switcher; this app commits to the single cavern/torch look
- * described in the brief's "Established Terraria visual language" section
- * rather than shipping a theme picker).
+ * Rarity accents differ between the dark palettes and the light
+ * "Guide's Parchment" one — the dark-theme hues read as washed out on a
+ * light background, so parchment gets its own darker, more saturated set
+ * (mirrors `RAR_DARK` / `RAR_LIGHT` in the prototype above).
  */
 :root {
+  --font-pixel: "Press Start 2P", monospace;
+  --font-body: "IBM Plex Sans", Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --radius: 3px;
+  --header-height: 64px;
+  --sidebar-width: 248px;
+
+  /* Cavern Torch — default/fallback palette. */
   --canvas: #0d0a08;
   --page-bg: radial-gradient(120% 90% at 12% 0%, #221a14 0%, #14100d 55%, #0f0b09 100%);
   --panel: #171210;
@@ -52,13 +65,189 @@
 
   --danger: #ff6b6b;
 
-  --font-pixel: "Press Start 2P", monospace;
-  --font-body: "IBM Plex Sans", Helvetica, Arial, sans-serif;
-  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  color-scheme: dark;
+}
 
-  --radius: 3px;
-  --header-height: 64px;
-  --sidebar-width: 248px;
+:root[data-theme="corruption"] {
+  --canvas: #0e0b14;
+  --page-bg: radial-gradient(120% 90% at 12% 0%, #241d33 0%, #17131f 55%, #120f19 100%);
+  --panel: #1b1726;
+  --sidebar-bg: linear-gradient(#221c31, #1b1726);
+  --frame: #3a3352;
+
+  --header-bg: linear-gradient(#3d3358, #2a2340 60%, #211b31);
+  --header-edge: #5b4f80;
+
+  --row-bg: #201b2c;
+  --row-done: linear-gradient(90deg, #2b2340, #201b2c 60%);
+  --border: #2c2740;
+  --border-done: #4a3f68;
+  --tile-border: #332c4a;
+  --tile-border-done: #6a5a94;
+
+  --text: #efe9f7;
+  --body-text: #e2dbf0;
+  --muted: #a79bc1;
+  --dim: #7d739a;
+  --faint: #5f5779;
+  --name-dim: #6b6382;
+
+  --slot: #0d0b12;
+  --input-bg: #120f1a;
+  --subheader-bg: #1e1929;
+  --footer-bg: linear-gradient(#272037, #1b1726);
+
+  --accent: #e8c46a;
+  --accent-deep: #7a5c19;
+  --accent-text: #fff5da;
+  --accent-border: #b9994a;
+  --glow: rgba(232, 196, 106, 0.45);
+
+  --rar-white: #efe9f7;
+  --rar-blue: #8b9dff;
+  --rar-green: #4de04d;
+  --rar-orange: #ffb64d;
+  --rar-pink: #ff5cd6;
+  --rar-lime: #b6ff3d;
+  --rar-red: #ff4d4d;
 
   color-scheme: dark;
+}
+
+:root[data-theme="jungle"] {
+  --canvas: #0a0e0b;
+  --page-bg: radial-gradient(120% 90% at 12% 0%, #1c2a1c 0%, #121a13 55%, #0e140f 100%);
+  --panel: #141b16;
+  --sidebar-bg: linear-gradient(#1a231b, #141b16);
+  --frame: #2c3a2e;
+
+  --header-bg: linear-gradient(#33452f, #223021 60%, #1a2419);
+  --header-edge: #4d6b44;
+
+  --row-bg: #18211a;
+  --row-done: linear-gradient(90deg, #23301f, #18211a 60%);
+  --border: #243024;
+  --border-done: #456039;
+  --tile-border: #2b382b;
+  --tile-border-done: #5e7f4a;
+
+  --text: #eaf3e4;
+  --body-text: #dfe9d8;
+  --muted: #9aae91;
+  --dim: #748367;
+  --faint: #5b6852;
+  --name-dim: #61705c;
+
+  --slot: #080b08;
+  --input-bg: #0e130f;
+  --subheader-bg: #18211a;
+  --footer-bg: linear-gradient(#1e291e, #141b16);
+
+  --accent: #d3e05a;
+  --accent-deep: #5e7414;
+  --accent-text: #f7ffd9;
+  --accent-border: #9cb03c;
+  --glow: rgba(211, 224, 90, 0.42);
+
+  --rar-white: #eaf3e4;
+  --rar-blue: #8b9dff;
+  --rar-green: #4de04d;
+  --rar-orange: #ffb64d;
+  --rar-pink: #ff5cd6;
+  --rar-lime: #b6ff3d;
+  --rar-red: #ff4d4d;
+
+  color-scheme: dark;
+}
+
+:root[data-theme="frost"] {
+  --canvas: #0a0e12;
+  --page-bg: radial-gradient(120% 90% at 12% 0%, #1d2b34 0%, #131b21 55%, #0f151a 100%);
+  --panel: #151c22;
+  --sidebar-bg: linear-gradient(#1b242b, #151c22);
+  --frame: #2b3a45;
+
+  --header-bg: linear-gradient(#2c4250, #1e2f39 60%, #17242c);
+  --header-edge: #42606f;
+
+  --row-bg: #18222a;
+  --row-done: linear-gradient(90deg, #1d3040, #18222a 60%);
+  --border: #233039;
+  --border-done: #3c5c70;
+  --tile-border: #2a3a45;
+  --tile-border-done: #4f7b90;
+
+  --text: #eaf4f8;
+  --body-text: #dbe8ef;
+  --muted: #93a9b8;
+  --dim: #6d8291;
+  --faint: #586b78;
+  --name-dim: #5f7280;
+
+  --slot: #080c0f;
+  --input-bg: #0d1418;
+  --subheader-bg: #18222a;
+  --footer-bg: linear-gradient(#1d2a32, #151c22);
+
+  --accent: #6fd8e8;
+  --accent-deep: #186273;
+  --accent-text: #e2fbff;
+  --accent-border: #4d9fb2;
+  --glow: rgba(111, 216, 232, 0.4);
+
+  --rar-white: #eaf4f8;
+  --rar-blue: #8b9dff;
+  --rar-green: #4de04d;
+  --rar-orange: #ffb64d;
+  --rar-pink: #ff5cd6;
+  --rar-lime: #b6ff3d;
+  --rar-red: #ff4d4d;
+
+  color-scheme: dark;
+}
+
+:root[data-theme="parchment"] {
+  --canvas: #ded2b8;
+  --page-bg: radial-gradient(120% 90% at 12% 0%, #f4ecd9 0%, #e9dfc6 60%, #e2d6bb 100%);
+  --panel: #f2ead8;
+  --sidebar-bg: linear-gradient(#eee3cb, #e8dcc2);
+  --frame: #b9a781;
+
+  --header-bg: linear-gradient(#c9b58c, #b7a175 60%, #ab9568);
+  --header-edge: #e0d1ab;
+
+  --row-bg: #efe6d1;
+  --row-done: linear-gradient(90deg, #fbf0cf, #f3e9d4 60%);
+  --border: #d3c4a3;
+  --border-done: #c1a066;
+  --tile-border: #cbbb98;
+  --tile-border-done: #a8813f;
+
+  --text: #2c2317;
+  --body-text: #33291b;
+  --muted: #5e5343;
+  --dim: #6f6350;
+  --faint: #877a63;
+  --name-dim: #75634b;
+
+  --slot: #ded2b6;
+  --input-bg: #f8f2e2;
+  --subheader-bg: #ece1c8;
+  --footer-bg: linear-gradient(#e6dabe, #ded2b6);
+
+  --accent: #9a4b16;
+  --accent-deep: #7a3a10;
+  --accent-text: #fdf3e4;
+  --accent-border: #8a4413;
+  --glow: rgba(154, 75, 22, 0.3);
+
+  --rar-white: #5a5044;
+  --rar-blue: #3b4fd0;
+  --rar-green: #1f8a25;
+  --rar-orange: #b06a00;
+  --rar-pink: #b81b93;
+  --rar-lime: #4f8a06;
+  --rar-red: #c02020;
+
+  color-scheme: light;
 }

@@ -10,18 +10,23 @@
  * mean fabricating game data wholesale. Researched/unresearched/partial
  * state is what actually distinguishes item rows instead (see
  * `ItemRow.tsx`).
+ *
+ * Values are `--rar-*` custom property references rather than hex — each
+ * theme in `theme.css` defines its own set (see [[theme-switcher]]), so a
+ * tile's rarity color follows whichever palette is active instead of being
+ * pinned to Cavern Torch's hues.
  */
 export const RARITY_TIERS = ["white", "blue", "green", "orange", "pink", "lime", "red"] as const;
 export type RarityTier = (typeof RARITY_TIERS)[number];
 
 export const RARITY_COLORS: Record<RarityTier, string> = {
-  white: "#e9e3da",
-  blue: "#8b9dff",
-  green: "#4de04d",
-  orange: "#ffb64d",
-  pink: "#ff5cd6",
-  lime: "#b6ff3d",
-  red: "#ff4d4d",
+  white: "var(--rar-white)",
+  blue: "var(--rar-blue)",
+  green: "var(--rar-green)",
+  orange: "var(--rar-orange)",
+  pink: "var(--rar-pink)",
+  lime: "var(--rar-lime)",
+  red: "var(--rar-red)",
 };
 
 export const RARITY_LABELS: Record<RarityTier, string> = {
