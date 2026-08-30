@@ -37,7 +37,7 @@ export const ItemRow = memo(function ItemRow({
   const needed = state?.needed ?? item.needed;
   const savedStatus: ResearchStatus = state?.status ?? "missing";
   const effectiveStatus: ResearchStatus = savedStatus === "complete" ? "complete" : manuallyMarked ? "complete" : savedStatus;
-  const revealed = !showItemNames || effectiveStatus !== "missing";
+  const revealed = showItemNames || effectiveStatus !== "missing";
 
   return (
     <div className="item-row" data-status={effectiveStatus} data-ignored={ignored} role="listitem">
