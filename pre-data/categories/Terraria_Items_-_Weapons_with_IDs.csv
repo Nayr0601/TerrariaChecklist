@@ -1,0 +1,600 @@
+Image,Name,Damage,Damage type,Knockback,Critical chance,Use time,Rarity,Autoswing,HM,,ID,Internal name
+Abigail's Flower item sprite,Abigail's Flower,6,Summon,2,-,36,Orange (Rarity level: 3),✔️,❌,50,5114,AbigailsFlower
+Acorn Slingshot item sprite,Acorn Slingshot,5,-,4,-,20,Blue (Rarity level: 1),✔️,❌,20,5629,AcornSlingshot
+Adamantite Chainsaw item sprite,Adamantite Chainsaw,33,Melee,4.5,4%,15,Light Red (Rarity level: 4),❌,✔️,216,387,AdamantiteChainsaw
+Adamantite Drill item sprite,Adamantite Drill,20,Melee,0.5 (Extremely weak)  / 0 (No knockback),4%,15,Light Red (Rarity level: 4),❌,✔️,216,388,AdamantiteDrill
+Adamantite Glaive item sprite,Adamantite Glaive,49,Melee,6,4%,25,Light Red (Rarity level: 4),❌,✔️,180,406,AdamantiteGlaive
+Adamantite Pickaxe item sprite,Adamantite Pickaxe,20,Melee,5,4%,25,Light Red (Rarity level: 4),✔️,✔️,216,778,AdamantitePickaxe
+Adamantite Repeater item sprite,Adamantite Repeater,42,Ranged,2.5,4%,18,Light Red (Rarity level: 4),✔️,✔️,240,481,AdamantiteRepeater
+Adamantite Sword item sprite,Adamantite Sword,61,Melee,6,4%,21,Light Red (Rarity level: 4),✔️,✔️,276,482,AdamantiteSword
+Adamantite Waraxe item sprite,Adamantite Waraxe,43,Melee,7,4%,35,Light Red (Rarity level: 4),✔️,✔️,216,993,AdamantiteWaraxe
+Aerial Bane item sprite,Aerial Bane,38,Ranged,4.5,7%,30,Yellow (Rarity level: 8),✔️,✔️,5,3859,DD2BetsyBow
+Ale Tosser item sprite,Ale Tosser,32,Melee,4,4%,32,Green (Rarity level: 2),❌,❌,25,3821,AleThrowingGlove
+Amarok item sprite,Amarok,43,Melee,2.8,4%,25,Light Red (Rarity level: 4),❌,✔️,4,3289,Amarok
+Amazon item sprite,Amazon,18,Melee,3.75,4%,25,Orange (Rarity level: 3),❌,❌,130,3281,JungleYoyo
+Amber Staff item sprite,Amber Staff,21,Magic,4.75,4%,28,Blue (Rarity level: 1),✔️,❌,40,3377,AmberStaff
+Amethyst Staff item sprite,Amethyst Staff,15,Magic,3.25,4%,37,White (Rarity level: 0),❌,❌,4,739,AmethystStaff
+Anchor item sprite,Anchor,70,Melee,8,4%,20,Orange (Rarity level: 3),❌,✔️,1,2424,Anchor
+Aqua Scepter item sprite,Aqua Scepter,27,Magic,7,4%,16,Green (Rarity level: 2),✔️,❌,175,157,AquaScepter
+Arkhalis item sprite,Arkhalis,25,Melee,4,4%,25,Cyan (Rarity level: 9),❌,✔️,5,3368,Arkhalis
+Artery item sprite,Artery,17,Melee,4,4%,25,Blue (Rarity level: 1),❌,❌,1,3280,CrimsonYoyo
+Ash Wood Bow item sprite,Ash Wood Bow,10,Ranged,0,4%,25,White (Rarity level: 0),❌,❌,20,5282,AshWoodBow
+Ash Wood Hammer item sprite,Ash Wood Hammer,9,Melee,5.5,4%,30,White (Rarity level: 0),✔️,❌,10,5283,AshWoodHammer
+Ash Wood Sword item sprite,Ash Wood Sword,13,Melee,5,4%,17,White (Rarity level: 0),❌,❌,20,5284,AshWoodSword
+Axe of Regrowth item sprite,Axe of Regrowth,20,Melee,5,4%,24,Light Red (Rarity level: 4),✔️,❌,150,5295,AcornAxe
+Axearang item sprite,Axearang,20,Melee,5,4%,20,Light Red (Rarity level: 4),❌,❌,150,5519,Axearang
+Ball O' Hurt item sprite,Ball O' Hurt,30,Melee,5.5,4%,45,Blue (Rarity level: 1),❌,❌,150,162,BallOHurt
+Ballista Cane item sprite,Ballista Cane,74,Summon,4.7,-,30,Pink (Rarity level: 5),❌,✔️,5,3825,DD2BallistraTowerT2Popper
+Ballista Rod item sprite,Ballista Rod,30,Summon,4.7,-,30,Orange (Rarity level: 3),❌,❌,1,3824,DD2BallistraTowerT1Popper
+Ballista Staff item sprite,Ballista Staff,156,Summon,4.7,-,30,Yellow (Rarity level: 8),❌,✔️,15,3826,DD2BallistraTowerT3Popper
+Bananarang item sprite,Bananarang,45,Melee,6.5,4%,11,Pink (Rarity level: 5),✔️,✔️,12,1324,Bananarang
+Barnacle Staff item sprite,Barnacle Staff,33,Summon,7.5,-,30,Light Red (Rarity level: 4),❌,✔️,4,5463,DeadCellsBarnacleSummonItem
+Barrel Launcher item sprite,Barrel Launcher,100,Ranged,8,4%,40,Light Red (Rarity level: 4),✔️,✔️,4,5460,DeadCellsBarrelLauncher
+Bat Bat item sprite,Bat Bat,36,Melee,5.5,4%,40,Green (Rarity level: 2),❌,❌,25,5097,BatBat
+Bat Scepter item sprite,Bat Scepter,45,Magic,3,4%,12,Yellow (Rarity level: 8),✔️,✔️,10,1801,BatScepter
+Beam Sword item sprite,Beam Sword,52,Melee,6.5,4%,20,Light Red (Rarity level: 4),✔️,✔️,3,723,BeamSword
+Bee Gun item sprite,Bee Gun,9,Magic,0.25,4%,12,Green (Rarity level: 2),✔️,❌,2,1121,BeeGun
+Bee Keeper item sprite,Bee Keeper,30,Melee,5.3,4%,20,Orange (Rarity level: 3),✔️,❌,2,1123,BeeKeeper
+Beenade item sprite,Beenade,12,Ranged,1,4%,15,White (Rarity level: 0),❌,❌,5,1130,Beenade
+Betsy's Wrath item sprite,Betsy's Wrath,100,Magic,7,4%,20,Yellow (Rarity level: 8),✔️,✔️,5,3870,ApprenticeStaffT3
+Blade of Grass item sprite,Blade of Grass,18,Melee,4.5,4%,20,Orange (Rarity level: 3),❌,❌,54,190,BladeofGrass
+Blade Staff item sprite,Blade Staff,6,Summon,0,-,36,Pink (Rarity level: 5),✔️,✔️,1,4758,Smolstar
+Bladed Glove item sprite,Bladed Glove,14,Melee,4,4%,8,Green (Rarity level: 2),✔️,❌,1,1827,BladedGlove
+Bladetongue item sprite,Bladetongue,55,Melee,5.75,4%,28,Pink (Rarity level: 5),✔️,✔️,4,3211,Bladetongue
+Blizzard Staff item sprite,Blizzard Staff,58,Magic,4.5,4%,10,Yellow (Rarity level: 8),✔️,✔️,9,1931,BlizzardStaff
+Blood Butcherer item sprite,Blood Butcherer,22,Melee,5,4%,25,Blue (Rarity level: 1),❌,❌,27,795,BloodButcherer
+Blood Lust Cluster item sprite,Blood Lust Cluster,22,Melee,6,4%,32,Blue (Rarity level: 1),✔️,❌,27,799,BloodLustCluster
+Blood Rain Bow item sprite,Blood Rain Bow,14,Ranged,3,4%,19,Orange (Rarity level: 3),✔️,❌,1,4381,BloodRainBow
+Blood Thorn item sprite,Blood Thorn,34,Magic,1,4%,33,Light Red (Rarity level: 4),✔️,✔️,4,4270,SharpTears
+Blood Water item sprite,Blood Water,20,-,3,-,15,Orange (Rarity level: 3),❌,❌,20,3477,BloodWater
+Bloody Machete item sprite,Bloody Machete,20,Melee,5,4%,15,Green (Rarity level: 2),❌,❌,1,1825,BloodyMachete
+Blowgun item sprite,Blowgun,27,Ranged,4,4%,35,Orange (Rarity level: 3),✔️,❌,1,986,Blowgun
+Blowpipe item sprite,Blowpipe,9,Ranged,3.5,4%,25,White (Rarity level: 0),✔️,❌,20,281,Blowpipe
+Blue Moon item sprite,Blue Moon,54,Melee,6,4%,45,Green (Rarity level: 2),❌,❌,175,163,BlueMoon
+Blue Phaseblade item sprite,Blue Phaseblade,26,Melee,3,4%,18,Blue (Rarity level: 1),✔️,❌,54,198,BluePhaseblade
+Blue Phasesaber item sprite,Blue Phasesaber,50,Melee,3,4%,16,Light Red (Rarity level: 4),✔️,✔️,1,3764,BluePhasesaber
+Blue Rocket item sprite,Blue Rocket,-1,-,0,-,15,White (Rarity level: 0),✔️,✔️,3,972,BlueRocket
+Bomb item sprite,Bomb,100,-,8,-,25,White (Rarity level: 0),❌,❌,60,166,Bomb
+Bomb Fish item sprite,Bomb Fish,100,-,8,-,25,Blue (Rarity level: 1),❌,❌,2,3196,BombFish
+Bone item sprite,Bone,20,Ranged,2.3,4%,12,White (Rarity level: 0),❌,❌,10,154,Bone
+Bone Javelin item sprite,Bone Javelin,20,Ranged,5,4%,25,Blue (Rarity level: 1),✔️,❌,10,3378,BoneJavelin
+Bone Pickaxe item sprite,Bone Pickaxe,8,Melee,3,4%,19,Blue (Rarity level: 1),✔️,❌,30,1320,BonePickaxe
+Bone Sword item sprite,Bone Sword,19,Melee,5.5,4%,22,Orange (Rarity level: 3),❌,❌,18,1166,BoneSword
+Bone Throwing Knife item sprite,Bone Throwing Knife,14,Ranged,1.5,4%,14,Blue (Rarity level: 1),✔️,❌,10,3379,BoneDagger
+Book of Skulls item sprite,Book of Skulls,29,Magic,3.5,4%,26,Green (Rarity level: 2),✔️,❌,150,1313,BookofSkulls
+Boomstick item sprite,Boomstick,14,Ranged,5.75,4%,40,Green (Rarity level: 2),❌,❌,2,964,Boomstick
+Boreal Wood Bow item sprite,Boreal Wood Bow,6,Ranged,0,4%,29,White (Rarity level: 0),❌,❌,20,2747,BorealWoodBow
+Boreal Wood Hammer item sprite,Boreal Wood Hammer,4,Melee,5.5,4%,33,White (Rarity level: 0),✔️,❌,10,2746,BorealWoodHammer
+Boreal Wood Sword item sprite,Boreal Wood Sword,8,Melee,6,4%,20,White (Rarity level: 0),❌,❌,20,2745,BorealWoodSword
+Bouncy Bomb item sprite,Bouncy Bomb,100,-,8,-,25,White (Rarity level: 0),❌,❌,80,3115,BouncyBomb
+Bouncy Dynamite item sprite,Bouncy Dynamite,250,-,10,-,40,Blue (Rarity level: 1),❌,❌,4,3547,BouncyDynamite
+Bouncy Grenade item sprite,Bouncy Grenade,65,Ranged,8,4%,40,White (Rarity level: 0),❌,❌,20,3116,BouncyGrenade
+Brand of the Inferno item sprite,Brand of the Inferno,95,Melee,6.5,4%,20,Pink (Rarity level: 5),✔️,✔️,1,3823,DD2SquireDemonSword
+Breaker Blade item sprite,Breaker Blade,70,Melee,8,4%,35,Light Red (Rarity level: 4),❌,✔️,3,426,BreakerBlade
+Breathing Reed item sprite,Breathing Reed,10,Melee,4,4%,27,Blue (Rarity level: 1),❌,❌,20,186,BreathingReed
+Bubble Gun item sprite,Bubble Gun,70,Magic,3,4%,9,Yellow (Rarity level: 8),✔️,✔️,5,2623,BubbleGun
+Bunny Cannon item sprite,Bunny Cannon,,-,,-,15,White (Rarity level: 0),✔️,✔️,10,1337,BunnyCannon
+Butcher's Chainsaw item sprite,Butcher's Chainsaw,120,Melee,8,4%,15,Yellow (Rarity level: 8),❌,✔️,10,3098,ButchersChainsaw
+Cactus Pickaxe item sprite,Cactus Pickaxe,4,Melee,2,4%,25,White (Rarity level: 0),✔️,❌,4,882,CactusPickaxe
+Cactus Sword item sprite,Cactus Sword,10,Melee,4.5,4%,30,White (Rarity level: 0),❌,❌,360,881,CactusSword
+Candy Cane Pickaxe item sprite,Candy Cane Pickaxe,7,Melee,2.5,4%,20,White (Rarity level: 0),✔️,❌,20,1917,CnadyCanePickaxe
+Candy Cane Sword item sprite,Candy Cane Sword,19,Melee,5.3,4%,27,Blue (Rarity level: 1),❌,❌,27,1909,CandyCaneSword
+Candy Corn Rifle item sprite,Candy Corn Rifle,60,Ranged,2,10%,9,Yellow (Rarity level: 8),✔️,✔️,10,1782,CandyCornRifle
+Cannon item sprite,Cannon,,-,,-,15,Orange (Rarity level: 3),✔️,✔️,5,928,Cannon
+Cascade item sprite,Cascade,27,Melee,4.3,4%,25,Orange (Rarity level: 3),❌,❌,180,3282,Cascade
+Cattiva item sprite,Cattiva,9,Summon,2,-,15,Pink (Rarity level: 5),✔️,❌,1,5663,PalworldMinionCattiva
+Celebration item sprite,Celebration,25,Ranged,4,4%,30,Yellow (Rarity level: 8),✔️,✔️,16,3546,FireworksLauncher
+Celebration Mk2 item sprite,Celebration Mk2,50,Ranged,10,4%,6 (Insanely fast),,,,,3930,Celeb2
+(see notes for more info),Red (Rarity level: 10),✔️,✔️,10,,,,,,,,
+Chain Guillotines item sprite,Chain Guillotines,59,Melee,3.25,4%,14,Pink (Rarity level: 5),✔️,✔️,8,3012,ChainGuillotines
+Chain Gun item sprite,Chain Gun,38,Ranged,1.75,4%,4,Yellow (Rarity level: 8),✔️,✔️,9,1929,ChainGun
+Chain Knife item sprite,Chain Knife,12,Melee,3.5,4%,20,Blue (Rarity level: 1),❌,❌,25,1325,ChainKnife
+Charged Blaster Cannon item sprite,Charged Blaster Cannon,100,Magic,2,4%,20,Yellow (Rarity level: 8),❌,✔️,10,2882,ChargedBlasterCannon
+Chik item sprite,Chik,39,Melee,3.3,4%,25,Light Red (Rarity level: 4),❌,✔️,4,3283,Chik
+Chlorophyte Chainsaw item sprite,Chlorophyte Chainsaw,50,Melee,4.6,4%,15,Lime (Rarity level: 7),❌,✔️,432,1232,ChlorophyteChainsaw
+Chlorophyte Claymore item sprite,Chlorophyte Claymore,95,Melee,6,4%,26,Lime (Rarity level: 7),❌,✔️,552,1226,ChlorophyteClaymore
+Chlorophyte Drill item sprite,Chlorophyte Drill,35,Melee,1,4%,15,Lime (Rarity level: 7),❌,✔️,432,1231,ChlorophyteDrill
+Chlorophyte Greataxe item sprite,Chlorophyte Greataxe,70,Melee,7,4%,30,Lime (Rarity level: 7),✔️,✔️,432,1233,ChlorophyteGreataxe
+Chlorophyte Jackhammer item sprite,Chlorophyte Jackhammer,45,Melee,5.2,4%,15,Lime (Rarity level: 7),❌,✔️,432,1262,ChlorophyteJackhammer
+Chlorophyte Partisan item sprite,Chlorophyte Partisan,49,Melee,6.2,4%,23,Lime (Rarity level: 7),❌,✔️,360,1228,ChlorophytePartisan
+Chlorophyte Pickaxe item sprite,Chlorophyte Pickaxe,40,Melee,5,4%,25,Lime (Rarity level: 7),✔️,✔️,432,1230,ChlorophytePickaxe
+Chlorophyte Saber item sprite,Chlorophyte Saber,57,Melee,4,4%,16,Lime (Rarity level: 7),✔️,✔️,552,1227,ChlorophyteSaber
+Chlorophyte Shotbow item sprite,Chlorophyte Shotbow,34,Ranged,2.75,4%,19,Lime (Rarity level: 7),✔️,✔️,480,1229,ChlorophyteShotbow
+Chlorophyte Warhammer item sprite,Chlorophyte Warhammer,80,Melee,8,4%,35,Lime (Rarity level: 7),✔️,✔️,432,1234,ChlorophyteWarhammer
+Christmas Tree Sword item sprite,Christmas Tree Sword,86,Melee,7,4%,23,Yellow (Rarity level: 8),✔️,✔️,10,1928,ChristmasTreeSword
+Classy Cane item sprite,Classy Cane,40,Melee,3.5,4%,15,Orange (Rarity level: 3),❌,✔️,2,3351,TaxCollectorsStickOfDoom
+Clinger Staff item sprite,Clinger Staff,43,Magic,8,4%,24,Pink (Rarity level: 5),✔️,✔️,8,3014,ClingerStaff
+Clockwork Assault Rifle item sprite,Clockwork Assault Rifle,17,Ranged,0,4%,12,Light Red (Rarity level: 4),✔️,✔️,3,434,ClockworkAssaultRifle
+Cobalt Chainsaw item sprite,Cobalt Chainsaw,23,Melee,2.75,4%,15,Light Red (Rarity level: 4),❌,✔️,18,383,CobaltChainsaw
+Cobalt Drill item sprite,Cobalt Drill,10,Melee,0.5,4%,15,Light Red (Rarity level: 4),❌,✔️,18,385,CobaltDrill
+Cobalt Naginata item sprite,Cobalt Naginata,44,Melee,4,4%,28,Light Red (Rarity level: 4),❌,✔️,90,537,CobaltNaginata
+Cobalt Pickaxe item sprite,Cobalt Pickaxe,10,Melee,5,4%,25,Light Red (Rarity level: 4),✔️,✔️,18,776,CobaltPickaxe
+Cobalt Repeater item sprite,Cobalt Repeater,35,Ranged,1.5,4%,23,Light Red (Rarity level: 4),✔️,✔️,120,435,CobaltRepeater
+Cobalt Sword item sprite,Cobalt Sword,40,Melee,5,4%,19,Light Red (Rarity level: 4),✔️,✔️,138,483,CobaltSword
+Cobalt Waraxe item sprite,Cobalt Waraxe,33,Melee,5,4%,35,Light Red (Rarity level: 4),✔️,✔️,18,991,CobaltWaraxe
+Cobwhip item sprite,Cobwhip,9,Summon,0.7,-,35,Blue (Rarity level: 1),❌,❌,150,5473,CobWhip
+Code 1 item sprite,Code 1,21,Melee,3.25,4%,25,Green (Rarity level: 2),❌,❌,1,3262,Code1
+Code 2 item sprite,Code 2,54,Melee,3.8,4%,25,Pink (Rarity level: 5),❌,✔️,5,3284,Code2
+Coin Gun item sprite,Coin Gun,0,Ranged,2,4%,8,Light Purple (Rarity level: 6),✔️,✔️,6,905,CoinGun
+Combat Wrench item sprite,Combat Wrench,25,Melee,3.5,4%,15,Green (Rarity level: 2),❌,❌,50,4818,CombatWrench
+Constellation item sprite,Constellation,130,Summon,4,-,30,Red (Rarity level: 10),❌,✔️,10,5479,ConstellationWhip
+Cool Whip item sprite,Cool Whip,45,Summon,1.5,-,30,Light Red (Rarity level: 4),❌,✔️,4,4911,CoolWhip
+Copper Axe item sprite,Copper Axe,3,Melee,4.5,4%,30,White (Rarity level: 0),✔️,❌,80,3506,CopperAxe
+Copper Bow item sprite,Copper Bow,6,Ranged,0,4%,29,White (Rarity level: 0),❌,❌,70,3504,CopperBow
+Copper Broadsword item sprite,Copper Broadsword,9,Melee,5.5,4%,21,White (Rarity level: 0),❌,❌,90,3508,CopperBroadsword
+Copper Hammer item sprite,Copper Hammer,4,Melee,5.5,4%,33,White (Rarity level: 0),✔️,❌,80,3505,CopperHammer
+Copper Pickaxe item sprite,Copper Pickaxe,4,Melee,2,4%,23,White (Rarity level: 0),✔️,❌,1,3509,CopperPickaxe
+Copper Shortsword item sprite,Copper Shortsword,5,Melee,4,4%,13,White (Rarity level: 0),❌,❌,70,3507,CopperShortsword
+Crimson Rod item sprite,Crimson Rod,12,Magic,0,4%,24,Blue (Rarity level: 1),❌,❌,150,1256,CrimsonRod
+Crystal Serpent item sprite,Crystal Serpent,40,Magic,4.4,4%,29,Pink (Rarity level: 5),✔️,✔️,4,3209,CrystalSerpent
+Crystal Storm item sprite,Crystal Storm,35,Magic,5,4%,7,Light Red (Rarity level: 4),✔️,✔️,4,518,CrystalStorm
+Crystal Vile Shard item sprite,Crystal Vile Shard,25,Magic,3,4%,33,Pink (Rarity level: 5),✔️,✔️,8,3051,CrystalVileShard
+Cursed Flames item sprite,Cursed Flames,55,Magic,6.5,4%,15,Light Red (Rarity level: 4),✔️,✔️,4,519,CursedFlames
+Cutlass item sprite,Cutlass,53,Melee,4,4%,16,Light Red (Rarity level: 4),✔️,✔️,360,672,Cutlass
+Daedalus Stormbow item sprite,Daedalus Stormbow,38,Ranged,2.25,4%,19,Light Purple (Rarity level: 6),✔️,✔️,8,3029,DaedalusStormbow
+Dao of Pow item sprite,Dao of Pow,100,Melee,6,4%,45,Pink (Rarity level: 5),❌,✔️,288,389,DaoofPow
+Dark Harvest item sprite,Dark Harvest,110,Summon,3,-,27,Yellow (Rarity level: 8),❌,✔️,10,4680,ScytheWhip
+Dark Lance item sprite,Dark Lance,34,Melee,5,4%,22,Orange (Rarity level: 3),❌,❌,250,274,DarkLance
+Dart Pistol item sprite,Dart Pistol,28,Ranged,3.5,4%,22,Pink (Rarity level: 5),✔️,✔️,8,3007,DartPistol
+Dart Rifle item sprite,Dart Rifle,52,Ranged,5.5,4%,38,Pink (Rarity level: 5),✔️,✔️,8,3008,DartRifle
+Daybreak item sprite,Daybreak,150,Melee,5,4%,16,Red (Rarity level: 10),✔️,✔️,10,3543,DayBreak
+Deadly Sphere Staff item sprite,Deadly Sphere Staff,55,Summon,2,-,36,Yellow (Rarity level: 8),✔️,✔️,10,3249,DeadlySphereStaff
+Death Sickle item sprite,Death Sickle,57,Melee,5,4%,25,Light Purple (Rarity level: 6),✔️,✔️,750,1327,DeathSickle
+Deathbringer Pickaxe item sprite,Deathbringer Pickaxe,12,Melee,3.5,4%,22,Blue (Rarity level: 1),✔️,❌,36,798,DeathbringerPickaxe
+Demon Bow item sprite,Demon Bow,14,Ranged,1,4%,25,Blue (Rarity level: 1),❌,❌,36,44,DemonBow
+Demon Scythe item sprite,Demon Scythe,35,Magic,5,4%,20,Orange (Rarity level: 3),❌,❌,150,272,DemonScythe
+Desert Tiger Staff item sprite,Desert Tiger Staff,41,Summon,4,-,36,Yellow (Rarity level: 8),✔️,✔️,20,4607,StormTigerStaff
+Diamond Staff item sprite,Diamond Staff,23,Magic,5.5,4%,26,Green (Rarity level: 2),✔️,❌,60,744,DiamondStaff
+Dirt Bomb item sprite,Dirt Bomb,100,-,12,-,25,Blue (Rarity level: 1),❌,❌,1,4908,DirtBomb
+Drax item sprite,Drax,35,Melee,4.75,4%,15,Light Red (Rarity level: 4),❌,✔️,440,579,Drax
+Drippler Crippler item sprite,Drippler Crippler,110,Melee,6.5,4%,40,Light Red (Rarity level: 4),❌,✔️,4,4272,DripplerFlail
+Dry Bomb item sprite,Dry Bomb,100,-,12,-,25,Blue (Rarity level: 1),❌,❌,5,4827,DryBomb
+Durendal item sprite,Durendal,55,Summon,2,-,28,Pink (Rarity level: 5),❌,✔️,460,4678,SwordWhip
+Dynamite item sprite,Dynamite,250,-,10,-,40,Blue (Rarity level: 1),❌,❌,4,167,Dynamite
+Ebonwood Bow item sprite,Ebonwood Bow,8,Ranged,0,4%,28,White (Rarity level: 0),❌,❌,20,655,EbonwoodBow
+Ebonwood Hammer item sprite,Ebonwood Hammer,7,Melee,5.5,4%,30,White (Rarity level: 0),✔️,❌,10,654,EbonwoodHammer
+Ebonwood Sword item sprite,Ebonwood Sword,11,Melee,6,4%,19,White (Rarity level: 0),❌,❌,20,653,EbonwoodSword
+Electric Eel item sprite,Electric Eel,150,Summon,3,-,30,Yellow (Rarity level: 8),❌,✔️,5,5478,EelWhip
+Electrosphere Launcher item sprite,Electrosphere Launcher,40,Ranged,2,4%,12,Yellow (Rarity level: 8),❌,✔️,10,2796,ElectrosphereLauncher
+Elf Melter item sprite,Elf Melter,57,Ranged,0.425,4%,30,Yellow (Rarity level: 8),✔️,✔️,10,1910,ElfMelter
+Emerald Staff item sprite,Emerald Staff,19,Magic,4.25,4%,32,Blue (Rarity level: 1),✔️,❌,30,742,EmeraldStaff
+Enchanted Boomerang item sprite,Enchanted Boomerang,17,Melee,8,4%,20,Blue (Rarity level: 1),❌,❌,1,55,EnchantedBoomerang
+Enchanted Sword item sprite,Enchanted Sword,23,Melee,4.25,4%,21,Green (Rarity level: 2),✔️,❌,3,989,EnchantedSword
+Eventide item sprite,Eventide,50,Ranged,2,4%,30,Yellow (Rarity level: 8),✔️,✔️,5,4953,FairyQueenRangedItem
+Excalibur item sprite,Excalibur,72,Melee,4.5,4%,20,Pink (Rarity level: 5),✔️,✔️,460,368,Excalibur
+Exotic Scimitar item sprite,Exotic Scimitar,20,Melee,4.25,4%,18,Green (Rarity level: 2),❌,❌,50,3349,DyeTradersScimitar
+Explosive Trap Cane item sprite,Explosive Trap Cane,59,Summon,0.5,-,30,Pink (Rarity level: 5),❌,✔️,5,3833,DD2ExplosiveTrapT2Popper
+Explosive Trap Rod item sprite,Explosive Trap Rod,24,Summon,0.5,-,30,Orange (Rarity level: 3),❌,❌,1,3832,DD2ExplosiveTrapT1Popper
+Explosive Trap Staff item sprite,Explosive Trap Staff,126,Summon,0.5,-,30,Yellow (Rarity level: 8),❌,✔️,15,3834,DD2ExplosiveTrapT3Popper
+Falcon Blade item sprite,Falcon Blade,25,Melee,6,4%,20,Light Red (Rarity level: 4),✔️,❌,20,2608,FalconBlade
+Fetid Baghnakhs item sprite,Fetid Baghnakhs,60,Melee,6,4%,8,Pink (Rarity level: 5),✔️,✔️,8,3013,FetidBaghnakhs
+Finch Staff item sprite,Finch Staff,7,Summon,4,-,36,Blue (Rarity level: 1),✔️,❌,1,4281,BabyBirdStaff
+Firecracker item sprite,Firecracker,37,Summon,2,-,30,Light Red (Rarity level: 4),❌,✔️,3,4912,FireWhip
+Flairon item sprite,Flairon,132,Melee,4.5,4%,20,Yellow (Rarity level: 8),✔️,✔️,5,5526,FlaironFlail
+Flairoon item sprite,Flairoon,66,Melee,4.5,4%,20,Yellow (Rarity level: 8),✔️,✔️,5,2611,Flairon
+Flamarang item sprite,Flamarang,49,Melee,8,4%,20,Orange (Rarity level: 3),❌,❌,2,119,Flamarang
+Flameburst Cane item sprite,Flameburst Cane,42,Summon,3,-,30,Pink (Rarity level: 5),❌,✔️,5,3819,DD2FlameburstTowerT2Popper
+Flameburst Rod item sprite,Flameburst Rod,17,Summon,3,-,30,Orange (Rarity level: 3),❌,❌,1,3818,DD2FlameburstTowerT1Popper
+Flameburst Staff item sprite,Flameburst Staff,88,Summon,3,-,30,Yellow (Rarity level: 8),❌,✔️,15,3820,DD2FlameburstTowerT3Popper
+Flamelash item sprite,Flamelash,32,Magic,6.5,4%,30,Orange (Rarity level: 3),❌,❌,250,218,Flamelash
+Flamethrower item sprite,Flamethrower,35,Ranged,0.3,4%,30,Pink (Rarity level: 5),✔️,✔️,10,506,Flamethrower
+Flaming Mace item sprite,Flaming Mace,18,Melee,4.6,4%,45,Blue (Rarity level: 1),❌,❌,2,5012,FlamingMace
+Flare Gun item sprite,Flare Gun,2,-,0,-,18,Blue (Rarity level: 1),❌,❌,1,930,FlareGun
+Flesh Grinder item sprite,Flesh Grinder,23,Melee,6,4%,40,Blue (Rarity level: 1),✔️,❌,30,797,FleshGrinder
+Flint item sprite,Flint,70,Melee,5,4%,15,Light Red (Rarity level: 4),✔️,✔️,4,5462,DeadCellsFlint
+Flintlock Pistol item sprite,Flintlock Pistol,13,Ranged,1,10%,16,Blue (Rarity level: 1),❌,❌,1,95,FlintlockPistol
+Flinx Staff item sprite,Flinx Staff,8,Summon,2,-,36,Orange (Rarity level: 3),✔️,❌,50,5069,FlinxStaff
+Flower of Fire item sprite,Flower of Fire,48,Magic,5.5,4%,16,Orange (Rarity level: 3),❌,❌,250,112,FlowerofFire
+Flower of Frost item sprite,Flower of Frost,60,Magic,6.5,4%,12,Pink (Rarity level: 5),❌,✔️,5,1264,FlowerofFrost
+Flower Pow item sprite,Flower Pow,130,Melee,6.5,4%,40,Lime (Rarity level: 7),❌,✔️,6,1259,FlowerPow
+Flying Dragon item sprite,Flying Dragon,180,Melee,5.5,4%,20,Yellow (Rarity level: 8),✔️,✔️,5,3827,DD2SquireBetsySword
+Flying Knife item sprite,Flying Knife,40,Melee,4.5,4%,15,Light Purple (Rarity level: 6),❌,✔️,8,3030,FlyingKnife
+Flymeal item sprite,Flymeal,15,Melee,5,4%,17,Green (Rarity level: 2),❌,❌,35,5129,Flymeal
+Format:C item sprite,Format:C,39,Melee,3.25,4%,25,Orange (Rarity level: 3),❌,✔️,4,3315,FormatC
+Fossil Pickaxe item sprite,Fossil Pickaxe,8,Melee,4,4%,18,Blue (Rarity level: 1),✔️,❌,30,4059,FossilPickaxe
+Foxparks item sprite,Foxparks,20,Summon,3,-,15,Light Red (Rarity level: 4),✔️,❌,1,5664,PalworldMinionFoxsparks
+Freeze Bomb item sprite,Freeze Bomb,0 (to enemies),,,,,,,,,5542,FreezeBomb
+1 (to user),-,12,-,25,Blue (Rarity level: 1),❌,❌,2,,,,
+Frost Daggerfish item sprite,Frost Daggerfish,17,Ranged,3.5,4%,13,Blue (Rarity level: 1),❌,❌,16,3197,FrostDaggerfish
+Frost Staff item sprite,Frost Staff,46,Magic,5,4%,12,Pink (Rarity level: 5),✔️,✔️,4,726,FrostStaff
+Frostbrand item sprite,Frostbrand,49,Melee,4.5,4%,23,Pink (Rarity level: 5),✔️,✔️,5,676,Frostbrand
+Fruitcake Chakram item sprite,Fruitcake Chakram,19,Melee,8,4%,15,Blue (Rarity level: 1),❌,❌,1,1918,FruitcakeChakram
+Gatligator item sprite,Gatligator,21,Ranged,1.5,4%,7,Light Red (Rarity level: 4),✔️,✔️,7,2270,Gatligator
+Ghastly Glaive item sprite,Ghastly Glaive,45,Melee,7,4%,27,Pink (Rarity level: 5),❌,✔️,1,3836,MonkStaffT2
+Gladius item sprite,Gladius,15,Melee,3,4%,18,Blue (Rarity level: 1),❌,❌,30,4463,Gladius
+Gold Axe item sprite,Gold Axe,7,Melee,4.5,4%,26,White (Rarity level: 0),✔️,❌,16,3518,GoldAxe
+Gold Bow item sprite,Gold Bow,11,Ranged,0,4%,26,White (Rarity level: 0),❌,❌,14,3516,GoldBow
+Gold Broadsword item sprite,Gold Broadsword,15,Melee,6.5,4%,18,White (Rarity level: 0),❌,❌,18,3520,GoldBroadsword
+Gold Hammer item sprite,Gold Hammer,9,Melee,5.5,4%,28,White (Rarity level: 0),✔️,❌,16,3517,GoldHammer
+Gold Pickaxe item sprite,Gold Pickaxe,6,Melee,2,4%,20,White (Rarity level: 0),✔️,❌,20,3521,GoldPickaxe
+Gold Shortsword item sprite,Gold Shortsword,12,Melee,5,4%,11,White (Rarity level: 0),❌,❌,14,3519,GoldShortsword
+Golden Shower item sprite,Golden Shower,30,Magic,4,4%,18,Light Red (Rarity level: 4),✔️,✔️,4,1336,GoldenShower
+Golem Fist item sprite,Golem Fist,90,Melee,12,4%,24,Lime (Rarity level: 7),✔️,✔️,7,1297,GolemFist
+Gradient item sprite,Gradient,49,Melee,3.8,4%,25,Orange (Rarity level: 3),❌,✔️,4,3316,Gradient
+Gravedigger's Shovel item sprite,Gravedigger's Shovel,12,Melee,3.5,4%,22,Blue (Rarity level: 1),✔️,❌,10,4711,GravediggerShovel
+Gray Zapinator item sprite,Gray Zapinator,42,Magic,6,4%,36,Green (Rarity level: 2),❌,❌,340,4347,ZapinatorGray
+Green Phaseblade item sprite,Green Phaseblade,26,Melee,3,4%,18,Blue (Rarity level: 1),✔️,❌,54,200,GreenPhaseblade
+Green Phasesaber item sprite,Green Phasesaber,50,Melee,3,4%,16,Light Red (Rarity level: 4),✔️,✔️,1,3766,GreenPhasesaber
+Green Rocket item sprite,Green Rocket,-1,-,0,-,15,White (Rarity level: 0),✔️,✔️,3,971,GreenRocket
+Grenade item sprite,Grenade,60,Ranged,8,4%,45,White (Rarity level: 0),❌,❌,15,168,Grenade
+Grenade Launcher item sprite,Grenade Launcher,60,Ranged,4,4%,20,Yellow (Rarity level: 8),✔️,✔️,7,758,GrenadeLauncher
+Gungnir item sprite,Gungnir,61,Melee,6.4,4%,22,Pink (Rarity level: 5),❌,✔️,460,550,Gungnir
+Haemorrhaxe item sprite,Haemorrhaxe,30,Melee,7,4%,27,Light Red (Rarity level: 4),✔️,✔️,2,4317,BloodHamaxe
+Hallowed Jousting Lance item sprite,Hallowed Jousting Lance,90,Melee,13,4%,24,Pink (Rarity level: 5),❌,✔️,460,4790,HallowJoustingLance
+Hallowed Repeater item sprite,Hallowed Repeater,50,Ranged,2.5,4%,17,Light Red (Rarity level: 4),✔️,✔️,4,578,HallowedRepeater
+Ham Bat item sprite,Ham Bat,57,Melee,6.5,4%,20,Light Red (Rarity level: 4),✔️,✔️,1,5096,HamBat
+Hammush item sprite,Hammush,26,Melee,7.5,4%,27,Lime (Rarity level: 7),✔️,✔️,8,787,Hammush
+Handgun item sprite,Handgun,26,Ranged,3,4%,15,Green (Rarity level: 2),❌,❌,175,164,Handgun
+Happy Grenade item sprite,Happy Grenade,30,Ranged,6,4%,20,Green (Rarity level: 2),❌,❌,50,3548,PartyGirlGrenade
+Harpoon item sprite,Harpoon,25,Ranged,6,4%,30,Green (Rarity level: 2),✔️,❌,54,160,Harpoon
+Heat Ray item sprite,Heat Ray,90,Magic,3,4%,10,Lime (Rarity level: 7),✔️,✔️,7,1295,HeatRay
+Hel-Fire item sprite,Hel-Fire,39,Melee,4.5,4%,25,Light Red (Rarity level: 4),❌,✔️,4,3290,HelFire
+Hellwing Bow item sprite,Hellwing Bow,22,Ranged,5.5,4%,13,Orange (Rarity level: 3),✔️,❌,250,3019,HellwingBow
+Hive-Five item sprite,Hive-Five,24,Melee,3.75,4%,25,Orange (Rarity level: 3),❌,❌,70,5294,HiveFive
+Holy Water item sprite,Holy Water,20,-,3,-,15,Orange (Rarity level: 3),❌,✔️,40,422,HolyWater
+Honey Bomb item sprite,Honey Bomb,100,-,12,-,25,Blue (Rarity level: 1),❌,❌,5,4826,HoneyBomb
+Hornet Staff item sprite,Hornet Staff,12,Summon,2,-,22,Orange (Rarity level: 3),✔️,❌,70,2364,HornetStaff
+Houndius Shootius item sprite,Houndius Shootius,24,Summon,7.5,-,30,Green (Rarity level: 2),❌,❌,150,5119,HoundiusShootius
+Ice Blade item sprite,Ice Blade,17,Melee,4.75,6%,20,Blue (Rarity level: 1),✔️,❌,40,724,IceBlade
+Ice Boomerang item sprite,Ice Boomerang,21,Melee,8.5,6%,20,Blue (Rarity level: 1),❌,❌,1,670,IceBoomerang
+Ice Bow item sprite,Ice Bow,39,Ranged,4.5,4%,14,Pink (Rarity level: 5),✔️,✔️,5,725,IceBow
+Ice Rod item sprite,Ice Rod,28,Magic,2,4%,9,Light Red (Rarity level: 4),✔️,✔️,10,496,IceRod
+Ice Sickle item sprite,Ice Sickle,50,Melee,5.5,4%,25,Pink (Rarity level: 5),❌,✔️,5,1306,IceSickle
+Imp Staff item sprite,Imp Staff,17,Summon,2,-,36,Orange (Rarity level: 3),✔️,❌,54,2365,ImpStaff
+Inferno Fork item sprite,Inferno Fork,70,Magic,5,4%,30,Yellow (Rarity level: 8),✔️,✔️,6,1445,InfernoFork
+Influx Waver item sprite,Influx Waver,100,Melee,4.5,4%,20,Yellow (Rarity level: 8),✔️,✔️,10,2880,InfluxWaver
+Iron Axe item sprite,Iron Axe,5,Melee,4.5,4%,27,White (Rarity level: 0),✔️,❌,320,10,IronAxe
+Iron Bow item sprite,Iron Bow,8,Ranged,0,4%,28,White (Rarity level: 0),❌,❌,280,99,IronBow
+Iron Broadsword item sprite,Iron Broadsword,12,Melee,5.5,4%,20,White (Rarity level: 0),❌,❌,360,4,IronBroadsword
+Iron Hammer item sprite,Iron Hammer,7,Melee,5.5,4%,30,White (Rarity level: 0),✔️,❌,320,7,IronHammer
+Iron Pickaxe item sprite,Iron Pickaxe,5,Melee,2,4%,20,White (Rarity level: 0),✔️,❌,4,1,IronPickaxe
+Iron Shortsword item sprite,Iron Shortsword,8,Melee,4,4%,12,White (Rarity level: 0),❌,❌,280,6,IronShortsword
+Jack 'O Lantern Launcher item sprite,Jack 'O Lantern Launcher,85,Ranged,5,10%,25,Yellow (Rarity level: 8),✔️,✔️,10,1784,JackOLanternLauncher
+Javelin item sprite,Javelin,17,Ranged,4.75,4%,24,White (Rarity level: 0),❌,❌,5,3094,Javelin
+Jousting Lance item sprite,Jousting Lance,60,Melee,12,4%,24,Light Red (Rarity level: 4),❌,✔️,120,4788,JoustingLance
+Kaleidoscope item sprite,Kaleidoscope,170,Summon,4,-,30,Yellow (Rarity level: 8),❌,✔️,5,4914,RainbowWhip
+Katana item sprite,Katana,18,Melee,3.5,19%,20,Blue (Rarity level: 1),✔️,❌,1,2273,Katana
+Keybrand item sprite,Keybrand,105,Melee,6.5,20%,20,Yellow (Rarity level: 8),✔️,✔️,4,671,Keybrand
+Killing Deck item sprite,Killing Deck,22,Magic,5,4%,20,Light Red (Rarity level: 4),✔️,✔️,4,5461,DeadCellsKillingDeck
+KO Cannon item sprite,KO Cannon,40,Melee,6.5,4%,28,Light Red (Rarity level: 4),✔️,✔️,350,1314,KOCannon
+Kraken item sprite,Kraken,95,Melee,4.3,14%,25,Yellow (Rarity level: 8),❌,✔️,11,3291,Kraken
+Land Mine item sprite,Land Mine,,-,,-,15,White (Rarity level: 0),✔️,✔️,1,937,LandMine
+Laser Drill item sprite,Laser Drill,35,Melee,4.75,4%,25,Yellow (Rarity level: 8),❌,✔️,10,2798,LaserDrill
+Laser Machinegun item sprite,Laser Machinegun,60,Magic,2,4%,20,Yellow (Rarity level: 8),❌,✔️,10,2795,LaserMachinegun
+Laser Rifle item sprite,Laser Rifle,29,Magic,2.5,4%,12,Light Red (Rarity level: 4),✔️,✔️,3,514,LaserRifle
+Last Prism item sprite,Last Prism,100,Magic,0.25,4%,10,Red (Rarity level: 10),❌,✔️,10,3541,LastPrism
+Lava Bomb item sprite,Lava Bomb,100,-,12,-,25,Blue (Rarity level: 1),❌,❌,5,4825,LavaBomb
+Lead Axe item sprite,Lead Axe,6,Melee,4.5,4%,28,White (Rarity level: 0),✔️,❌,480,3494,LeadAxe
+Lead Bow item sprite,Lead Bow,9,Ranged,0,4%,27,White (Rarity level: 0),❌,❌,420,3492,LeadBow
+Lead Broadsword item sprite,Lead Broadsword,13,Melee,5.5,4%,20,White (Rarity level: 0),❌,❌,540,3496,LeadBroadsword
+Lead Hammer item sprite,Lead Hammer,8,Melee,5.5,4%,29,White (Rarity level: 0),✔️,❌,480,3493,LeadHammer
+Lead Pickaxe item sprite,Lead Pickaxe,6,Melee,2,4%,19,White (Rarity level: 0),✔️,❌,6,3497,LeadPickaxe
+Lead Shortsword item sprite,Lead Shortsword,9,Melee,4,4%,12,White (Rarity level: 0),❌,❌,420,3495,LeadShortsword
+Leaf Blower item sprite,Leaf Blower,48,Magic,4,4%,7,Lime (Rarity level: 7),✔️,✔️,6,1178,LeafBlower
+Leather Whip item sprite,Leather Whip,14,Summon,1,-,30,Blue (Rarity level: 1),❌,❌,2,4672,BlandWhip
+Life Drain item sprite,Life Drain,35,Magic,2.5,4%,12,Pink (Rarity level: 5),✔️,✔️,8,3006,SoulDrain
+Light Disc item sprite,Light Disc,60,Melee,8,4%,14,Pink (Rarity level: 5),✔️,✔️,15,561,LightDisc
+Light's Bane item sprite,Light's Bane,16,Melee,5,4%,20,Blue (Rarity level: 1),❌,❌,27,46,LightsBane
+Lightning Aura Cane item sprite,Lightning Aura Cane,11,Summon,0.25,-,30,Pink (Rarity level: 5),❌,✔️,5,3830,DD2LightningAuraT2Popper
+Lightning Aura Rod item sprite,Lightning Aura Rod,4,Summon,0.25,-,30,Orange (Rarity level: 3),❌,❌,1,3829,DD2LightningAuraT1Popper
+Lightning Aura Staff item sprite,Lightning Aura Staff,34,Summon,0.25,-,30,Yellow (Rarity level: 8),❌,✔️,15,3831,DD2LightningAuraT3Popper
+Lucy the Axe item sprite,Lucy the Axe,27,Melee,5,14%,15,Green (Rarity level: 2),✔️,❌,150,5095,LucyTheAxe
+Lunar Flare item sprite,Lunar Flare,100,Magic,4.5,4%,10,Red (Rarity level: 10),✔️,✔️,10,3570,LunarFlareBook
+Lunar Portal Staff item sprite,Lunar Portal Staff,100,Summon,7.5,-,30,Red (Rarity level: 10),❌,✔️,10,3569,MoonlordTurretStaff
+Mace item sprite,Mace,18,Melee,4.6,4%,45,Blue (Rarity level: 1),❌,❌,2,5011,Mace
+Magic Dagger item sprite,Magic Dagger,30,Magic,3.75,4%,8,Light Red (Rarity level: 4),✔️,✔️,5,517,MagicDagger
+Magic Missile item sprite,Magic Missile,35,Magic,7.5,4%,22,Green (Rarity level: 2),❌,❌,175,113,MagicMissile
+Magical Harp item sprite,Magical Harp,42,Magic,2,4%,12,Pink (Rarity level: 5),✔️,✔️,4,494,MagicalHarp
+Magnet Sphere item sprite,Magnet Sphere,48,Magic,6,4%,20,Yellow (Rarity level: 8),❌,✔️,10,1266,MagnetSphere
+Malaise item sprite,Malaise,16,Melee,4.5,4%,25,Blue (Rarity level: 1),❌,❌,1,3279,CorruptYoyo
+Mandible Blade item sprite,Mandible Blade,16,Melee,4.5,11%,15,Green (Rarity level: 2),✔️,❌,10,3772,AntlionClaw
+Marrow item sprite,Marrow,53,Ranged,4.7,9%,19,Pink (Rarity level: 5),✔️,✔️,54,682,Marrow
+Medusa Head item sprite,Medusa Head,40,Magic,2,4%,20,Light Red (Rarity level: 4),✔️,✔️,4,3269,MedusaHead
+Megashark item sprite,Megashark,25,Ranged,1,4%,7,Pink (Rarity level: 5),✔️,✔️,7,533,Megashark
+Meowmere item sprite,Meowmere,200,Melee,6.5,4%,14,Red (Rarity level: 10),✔️,✔️,20,3063,Meowmere
+Meteor Hamaxe item sprite,Meteor Hamaxe,20,Melee,7,4%,30,Blue (Rarity level: 1),✔️,❌,30,204,MeteorHamaxe
+Meteor Staff item sprite,Meteor Staff,50,Magic,4.5,4%,10,Pink (Rarity level: 5),✔️,✔️,2,2750,MeteorStaff
+Minishark item sprite,Minishark,6,Ranged,0,4%,8,Green (Rarity level: 2),✔️,❌,7,98,Minishark
+Molotov Cocktail item sprite,Molotov Cocktail,23,Ranged,7,4%,40,Blue (Rarity level: 1),❌,❌,1,2590,MolotovCocktail
+Molten Fury item sprite,Molten Fury,31,Ranged,2,4%,22,Orange (Rarity level: 3),❌,❌,54,120,MoltenFury
+Molten Hamaxe item sprite,Molten Hamaxe,20,Melee,7,4%,27,Orange (Rarity level: 3),✔️,❌,54,217,MoltenHamaxe
+Molten Pickaxe item sprite,Molten Pickaxe,12,Melee,2,4%,23,Orange (Rarity level: 3),✔️,❌,54,122,MoltenPickaxe
+Morning Star item sprite,Morning Star,160,Summon,11,-,35,Yellow (Rarity level: 8),❌,✔️,6,4679,MaceWhip
+Mud Ball item sprite,Mud Ball,8,-,5.75,-,10,White (Rarity level: 0),✔️,❌,No value,5572,MudBallPlayer
+Muramasa item sprite,Muramasa,24,Melee,3,4%,18,Green (Rarity level: 2),✔️,❌,175,155,Muramasa
+Mushroom Spear item sprite,Mushroom Spear,60,Melee,6.2,4%,40,Lime (Rarity level: 7),❌,✔️,14,756,MushroomSpear
+Mushroom Staff item sprite,Mushroom Staff,8,Summon,2,-,36,Green (Rarity level: 2),✔️,❌,30,5456,DeadCellsMushroomBoiSummonItem
+Musket item sprite,Musket,31,Ranged,5.25,12%,32,Blue (Rarity level: 1),❌,❌,150,96,Musket
+Mythril Chainsaw item sprite,Mythril Chainsaw,29,Melee,3,4%,15 (Very fast)  /,,,,,384,MythrilChainsaw
+8 (Insanely fast),Light Red (Rarity level: 4),❌,✔️,162,,,,,,,,
+Mythril Drill item sprite,Mythril Drill,15,Melee,0.5,4%,15,Light Red (Rarity level: 4),❌,✔️,162,386,MythrilDrill
+Mythril Halberd item sprite,Mythril Halberd,45,Melee,5,4%,26,Light Red (Rarity level: 4),❌,✔️,135,390,MythrilHalberd
+Mythril Pickaxe item sprite,Mythril Pickaxe,15,Melee,5,4%,25,Light Red (Rarity level: 4),✔️,✔️,162,777,MythrilPickaxe
+Mythril Repeater item sprite,Mythril Repeater,39,Ranged,2,4%,20,Light Red (Rarity level: 4),✔️,✔️,180,436,MythrilRepeater
+Mythril Sword item sprite,Mythril Sword,50,Melee,6,4%,20,Light Red (Rarity level: 4),✔️,✔️,27,484,MythrilSword
+Mythril Waraxe item sprite,Mythril Waraxe,39,Melee,6,4%,35,Light Red (Rarity level: 4),✔️,✔️,162,992,MythrilWaraxe
+Nail Gun item sprite,Nail Gun,85,Ranged,0,4%,15,Yellow (Rarity level: 8),✔️,✔️,10,3107,NailGun
+Nebula Arcanum item sprite,Nebula Arcanum,70,Magic,5,4%,30,Red (Rarity level: 10),✔️,✔️,10,3476,NebulaArcanum
+Nebula Axe item sprite,Nebula Axe,100,Melee,6,4%,25,Red (Rarity level: 10),✔️,✔️,6,2777,NebulaAxe
+Nebula Blaze item sprite,Nebula Blaze,130,Magic,3,4%,12,Red (Rarity level: 10),✔️,✔️,10,3542,NebulaBlaze
+Nebula Chainsaw item sprite,Nebula Chainsaw,80,Melee,4,4%,15,Red (Rarity level: 10),❌,✔️,6,2778,NebulaChainsaw
+Nebula Drill item sprite,Nebula Drill,50,Melee,0.5,4%,15,Red (Rarity level: 10),❌,✔️,7,2779,NebulaDrill
+Nebula Hamaxe item sprite,Nebula Hamaxe,60,Melee,7,4%,28,Red (Rarity level: 10),✔️,✔️,5,3524,LunarHamaxeNebula
+Nebula Hammer item sprite,Nebula Hammer,110,Melee,7,4%,30,Red (Rarity level: 10),✔️,✔️,8,2780,NebulaHammer
+Nebula Pickaxe item sprite,Nebula Pickaxe,80,Melee,5.5,4%,12,Red (Rarity level: 10),✔️,✔️,7,2781,NebulaPickaxe
+Nettle Burst item sprite,Nettle Burst,35,Magic,1,4%,25,Lime (Rarity level: 7),✔️,✔️,4,788,NettleBurst
+Night's Edge item sprite,Night's Edge,40,Melee,4.5,4%,25,Orange (Rarity level: 3),✔️,❌,4,273,NightsEdge
+Nightglow item sprite,Nightglow,50,Magic,2.5,4%,36,Yellow (Rarity level: 8),✔️,✔️,5,4952,FairyQueenMagicItem
+Nightmare Pickaxe item sprite,Nightmare Pickaxe,9,Melee,3,4%,20,Blue (Rarity level: 1),✔️,❌,36,103,NightmarePickaxe
+Nimbus Rod item sprite,Nimbus Rod,30,Magic,0,4%,22,Light Purple (Rarity level: 6),❌,✔️,350,1244,NimbusRod
+North Pole item sprite,North Pole,80,Melee,6.7,4%,30,Lime (Rarity level: 7),❌,✔️,9,1947,NorthPole
+Obsidian Swordfish item sprite,Obsidian Swordfish,70,Melee,6.5,24%,20,Lime (Rarity level: 7),❌,✔️,1,2331,ObsidianSwordfish
+Onyx Blaster item sprite,Onyx Blaster,24,Ranged,6.5,4%,48,Light Red (Rarity level: 4),❌,✔️,5,3788,OnyxBlaster
+Optic Staff item sprite,Optic Staff,24,Summon,2,-,36,Pink (Rarity level: 5),✔️,✔️,2,2535,OpticStaff
+Orange Phaseblade item sprite,Orange Phaseblade,26,Melee,3,4%,18,Blue (Rarity level: 1),✔️,❌,54,4258,OrangePhaseblade
+Orange Phasesaber item sprite,Orange Phasesaber,50,Melee,3,4%,16,Light Red (Rarity level: 4),✔️,✔️,1,4259,OrangePhasesaber
+Orange Zapinator item sprite,Orange Zapinator,100,Magic,6,4%,36,Pink (Rarity level: 5),❌,✔️,10,4348,ZapinatorOrange
+Orichalcum Chainsaw item sprite,Orichalcum Chainsaw,31,Melee,3.75,4%,15,Light Red (Rarity level: 4),❌,✔️,198,1197,OrichalcumChainsaw
+Orichalcum Drill item sprite,Orichalcum Drill,17,Melee,0.5,4%,15,Light Red (Rarity level: 4),❌,✔️,198,1196,OrichalcumDrill
+Orichalcum Halberd item sprite,Orichalcum Halberd,46,Melee,5.5,4%,25,Light Red (Rarity level: 4),❌,✔️,165,1193,OrichalcumHalberd
+Orichalcum Pickaxe item sprite,Orichalcum Pickaxe,17,Melee,5,4%,25,Light Red (Rarity level: 4),✔️,✔️,198,1195,OrichalcumPickaxe
+Orichalcum Repeater item sprite,Orichalcum Repeater,40,Ranged,2,4%,19,Light Red (Rarity level: 4),✔️,✔️,220,1194,OrichalcumRepeater
+Orichalcum Sword item sprite,Orichalcum Sword,59,Melee,6,4%,22,Light Red (Rarity level: 4),✔️,✔️,253,1192,OrichalcumSword
+Orichalcum Waraxe item sprite,Orichalcum Waraxe,41,Melee,6.5,4%,35,Light Red (Rarity level: 4),✔️,✔️,198,1223,OrichalcumWaraxe
+Paintball Gun item sprite,Paintball Gun,12,Ranged,1.25,11%,24,Green (Rarity level: 2),❌,❌,50,3350,PainterPaintballGun
+Paladin's Hammer item sprite,Paladin's Hammer,100,Melee,9,4%,15,Yellow (Rarity level: 8),✔️,✔️,10,1513,PaladinsHammer
+Palladium Chainsaw item sprite,Palladium Chainsaw,26,Melee,2.9,4%,15,Light Red (Rarity level: 4),❌,✔️,144,1190,PalladiumChainsaw
+Palladium Drill item sprite,Palladium Drill,12,Melee,0.5,4%,15,Light Red (Rarity level: 4),❌,✔️,144,1189,PalladiumDrill
+Palladium Pickaxe item sprite,Palladium Pickaxe,12,Melee,5,4%,25,Light Red (Rarity level: 4),✔️,✔️,144,1188,PalladiumPickaxe
+Palladium Pike item sprite,Palladium Pike,44,Melee,4.5,4%,27,Light Red (Rarity level: 4),❌,✔️,120,1186,PalladiumPike
+Palladium Repeater item sprite,Palladium Repeater,37,Ranged,1.75,4%,22,Light Red (Rarity level: 4),✔️,✔️,160,1187,PalladiumRepeater
+Palladium Sword item sprite,Palladium Sword,49,Melee,5.5,4%,22,Light Red (Rarity level: 4),✔️,✔️,184,1185,PalladiumSword
+Palladium Waraxe item sprite,Palladium Waraxe,36,Melee,5.5,4%,35,Light Red (Rarity level: 4),✔️,✔️,144,1222,PalladiumWaraxe
+Palm Wood Bow item sprite,Palm Wood Bow,6,Ranged,0,4%,29,White (Rarity level: 0),❌,❌,20,2515,PalmWoodBow
+Palm Wood Hammer item sprite,Palm Wood Hammer,4,Melee,5.5,4%,33,White (Rarity level: 0),✔️,❌,10,2516,PalmWoodHammer
+Palm Wood Sword item sprite,Palm Wood Sword,8,Melee,6,4%,19,White (Rarity level: 0),❌,❌,20,2517,PalmWoodSword
+Paper Airplane item sprite,Paper Airplane,4,Ranged,2,4%,17,White (Rarity level: 0),❌,❌,10,4343,PaperAirplaneA
+Pearlwood Bow item sprite,Pearlwood Bow,12,Ranged,0,4%,20,White (Rarity level: 0),❌,✔️,20,661,PearlwoodBow
+Pearlwood Hammer item sprite,Pearlwood Hammer,10,Melee,5.5,4%,29,White (Rarity level: 0),✔️,✔️,10,660,PearlwoodHammer
+Pearlwood Sword item sprite,Pearlwood Sword,30,Melee,7,4%,15,White (Rarity level: 0),✔️,✔️,20,659,PearlwoodSword
+Pew-matic Horn item sprite,Pew-matic Horn,20,Ranged,1,4%,15,Green (Rarity level: 2),✔️,❌,150,5117,PewMaticHorn
+Phantasm item sprite,Phantasm,50,Ranged,2,4%,12 (Very fast),,,,,3540,Phantasm
+(see notes for more info),Red (Rarity level: 10),✔️,✔️,10,,,,,,,,
+Phantom Phoenix item sprite,Phantom Phoenix,32,Ranged,2,4%,18,Pink (Rarity level: 5),✔️,✔️,1,3854,DD2PhoenixBow
+Phoenix Blaster item sprite,Phoenix Blaster,30,Ranged,2,4%,14,Orange (Rarity level: 3),❌,❌,350,219,PhoenixBlaster
+Pickaxe Axe item sprite,Pickaxe Axe,35,Melee,4.75,4%,25,Light Red (Rarity level: 4),✔️,✔️,440,990,PickaxeAxe
+Picksaw item sprite,Picksaw,34,Melee,5.5,4%,16,Lime (Rarity level: 7),✔️,✔️,432,1294,Picksaw
+Pink Phaseblade item sprite,Pink Phaseblade,26,Melee,3,4%,18,Blue (Rarity level: 1),✔️,❌,54,5535,PinkPhaseblade
+Pink Phasesaber item sprite,Pink Phasesaber,50,Melee,3,4%,16,Light Red (Rarity level: 4),✔️,✔️,1,5536,PinkPhasesaber
+Piranha Gun item sprite,Piranha Gun,40,Ranged,1,4%,30,Yellow (Rarity level: 8),❌,✔️,20,1156,PiranhaGun
+Pirate Staff item sprite,Pirate Staff,40,Summon,6,-,36,Pink (Rarity level: 5),✔️,✔️,1,2584,PirateStaff
+Platinum Axe item sprite,Platinum Axe,8,Melee,4.5,4%,25,White (Rarity level: 0),✔️,❌,24,3482,PlatinumAxe
+Platinum Bow item sprite,Platinum Bow,13,Ranged,0,4%,25,White (Rarity level: 0),❌,❌,21,3480,PlatinumBow
+Platinum Broadsword item sprite,Platinum Broadsword,16,Melee,6.5,4%,17,White (Rarity level: 0),❌,❌,27,3484,PlatinumBroadsword
+Platinum Hammer item sprite,Platinum Hammer,10,Melee,5.5,4%,27,White (Rarity level: 0),✔️,❌,24,3481,PlatinumHammer
+Platinum Pickaxe item sprite,Platinum Pickaxe,7,Melee,2,4%,19,White (Rarity level: 0),✔️,❌,30,3485,PlatinumPickaxe
+Platinum Shortsword item sprite,Platinum Shortsword,13,Melee,5,4%,10,White (Rarity level: 0),❌,❌,21,3483,PlatinumShortsword
+Poison Staff item sprite,Poison Staff,43,Magic,5.6,4%,36,Light Purple (Rarity level: 6),✔️,✔️,4,1308,PoisonStaff
+Poisoned Knife item sprite,Poisoned Knife,14,Ranged,2.4,8%,15,White (Rarity level: 0),✔️,❌,12,287,PoisonedKnife
+Possessed Hatchet item sprite,Possessed Hatchet,80,Melee,5,4%,14,Lime (Rarity level: 7),✔️,✔️,7,1122,PossessedHatchet
+Possession item sprite,Possession,110,Summon,4,-,30,Red (Rarity level: 10),❌,✔️,10,5480,MoonLordWhip
+Power Bomb item sprite,Power Bomb,200,-,9,-,40,Light Red (Rarity level: 4),❌,❌,2,5594,SuperBomb
+Pretty Mirror item sprite,Pretty Mirror,13,-,3,-,25,Blue (Rarity level: 1),❌,❌,20,5577,PrettyMirror
+Proximity Mine Launcher item sprite,Proximity Mine Launcher,80,Ranged,4,4%,50,Yellow (Rarity level: 8),✔️,✔️,7,760,ProximityMineLauncher
+Psycho Knife item sprite,Psycho Knife,85,Melee,3.5,4%,8,Yellow (Rarity level: 8),✔️,✔️,10,3106,PsychoKnife
+Pulse Bow item sprite,Pulse Bow,80,Ranged,3,11%,20,Yellow (Rarity level: 8),✔️,✔️,9,2223,PulseBow
+Purple Clubberfish item sprite,Purple Clubberfish,35,Melee,8,4%,35,Blue (Rarity level: 1),✔️,❌,1,2330,PurpleClubberfish
+Purple Phaseblade item sprite,Purple Phaseblade,26,Melee,3,4%,18,Blue (Rarity level: 1),✔️,❌,54,201,PurplePhaseblade
+Purple Phasesaber item sprite,Purple Phasesaber,50,Melee,3,4%,16,Light Red (Rarity level: 4),✔️,✔️,1,3767,PurplePhasesaber
+Pwnhammer item sprite,Pwnhammer,26,Melee,7.5,4%,27,Light Red (Rarity level: 4),✔️,✔️,78,367,Pwnhammer
+Pygmy Staff item sprite,Pygmy Staff,40,Summon,3,-,28,Lime (Rarity level: 7),✔️,✔️,7,1157,PygmyStaff
+Quad-Barrel Shotgun item sprite,Quad-Barrel Shotgun,14,Ranged,6.5,4%,55,Orange (Rarity level: 3),❌,❌,7,4703,QuadBarrelShotgun
+Queen Spider Staff item sprite,Queen Spider Staff,26,Summon,7.5,-,30,Light Red (Rarity level: 4),❌,✔️,5,2366,QueenSpiderStaff
+Rainbow Crystal Staff item sprite,Rainbow Crystal Staff,130,Summon,7.5,-,30,Red (Rarity level: 10),❌,✔️,10,3571,RainbowCrystalStaff
+Rainbow Gun item sprite,Rainbow Gun,45,Magic,2.5,4%,40,Yellow (Rarity level: 8),❌,✔️,20,1260,RainbowGun
+Rainbow Phaseblade item sprite,Rainbow Phaseblade,26,Melee,3,4%,18,Blue (Rarity level: 1),✔️,❌,54,5670,RainbowPhaseblade
+Rainbow Phasesaber item sprite,Rainbow Phasesaber,50,Melee,3,4%,16,Light Red (Rarity level: 4),✔️,✔️,1,5671,RainbowPhasesaber
+Rainbow Rod item sprite,Rainbow Rod,50,Magic,6,4%,25,Pink (Rarity level: 5),❌,✔️,4,495,RainbowRod
+Rally item sprite,Rally,14,Melee,3.5,4%,25,Blue (Rarity level: 1),❌,❌,50,3285,Rally
+Raven Staff item sprite,Raven Staff,55,Summon,3,-,28,Yellow (Rarity level: 8),✔️,✔️,10,1802,RavenStaff
+Razorblade Typhoon item sprite,Razorblade Typhoon,85,Magic,5,4%,40,Yellow (Rarity level: 8),✔️,✔️,5,2622,RazorbladeTyphoon
+Razorpine item sprite,Razorpine,48,Magic,3.25,4%,8,Yellow (Rarity level: 8),✔️,✔️,9,1930,Razorpine
+Reaver Shark item sprite,Reaver Shark,16,Melee,3,4%,22,Orange (Rarity level: 3),✔️,❌,150,2341,ReaverShark
+Red Phaseblade item sprite,Red Phaseblade,26,Melee,3,4%,18,Blue (Rarity level: 1),✔️,❌,54,199,RedPhaseblade
+Red Phasesaber item sprite,Red Phasesaber,50,Melee,3,4%,16,Light Red (Rarity level: 4),✔️,✔️,1,3765,RedPhasesaber
+Red Rocket item sprite,Red Rocket,-1,-,0,-,15,White (Rarity level: 0),✔️,✔️,3,970,RedRocket
+Red Ryder item sprite,Red Ryder,20,Ranged,3.75,4%,38,Blue (Rarity level: 1),✔️,❌,2,1870,RedRyder
+Red's Throw item sprite,Red's Throw,70,Melee,4.5,4%,25,Cyan (Rarity level: 9),❌,✔️,4,3287,RedsYoyo
+Resonance Scepter item sprite,Resonance Scepter,70,Magic,5,4%,25,Pink (Rarity level: 5),✔️,✔️,10,5065,PrincessWeapon
+Revolver item sprite,Revolver,20,Ranged,4.5,4%,22,Green (Rarity level: 2),❌,❌,3,2269,Revolver
+Rich Mahogany Bow item sprite,Rich Mahogany Bow,6,Ranged,0,4%,29,White (Rarity level: 0),❌,❌,20,658,RichMahoganyBow
+Rich Mahogany Hammer item sprite,Rich Mahogany Hammer,4,Melee,5.5,4%,33,White (Rarity level: 0),✔️,❌,10,657,RichMahoganyHammer
+Rich Mahogany Sword item sprite,Rich Mahogany Sword,8,Melee,6,4%,19,White (Rarity level: 0),❌,❌,20,656,RichMahoganySword
+Rocket Launcher item sprite,Rocket Launcher,55,Ranged,4,4%,30,Yellow (Rarity level: 8),✔️,✔️,8,759,RocketLauncher
+Rockfish item sprite,Rockfish,24,Melee,6,4%,24,Orange (Rarity level: 3),✔️,❌,150,2320,Rockfish
+Rotten Egg item sprite,Rotten Egg,13,Ranged,6.5,4%,19,White (Rarity level: 0),❌,❌,No value,1809,RottenEgg
+Ruby Staff item sprite,Ruby Staff,21,Magic,4.75,4%,28,Blue (Rarity level: 1),✔️,❌,40,743,RubyStaff
+Ruler item sprite,Ruler,12,Melee,0.5,4%,20,Blue (Rarity level: 1),✔️,❌,2,486,Ruler
+S.D.M.G. item sprite,S.D.M.G.,85,Ranged,2.5,14%,5,Red (Rarity level: 10),✔️,✔️,15,1553,SDMG
+Sandgun item sprite,Sandgun,30,Ranged,5,4%,16,Green (Rarity level: 2),✔️,❌,20,266,Sandgun
+Sanguine Staff item sprite,Sanguine Staff,35,Summon,3,-,36,Light Red (Rarity level: 4),✔️,✔️,5,4269,SanguineStaff
+Sapphire Staff item sprite,Sapphire Staff,18,Magic,4,4%,34,Blue (Rarity level: 1),✔️,❌,20,741,SapphireStaff
+Sawtooth Shark item sprite,Sawtooth Shark,13,Melee,2.25,4%,15,Orange (Rarity level: 3),❌,❌,150,2342,SawtoothShark
+Scarab Bomb item sprite,Scarab Bomb,100,-,8,-,25,Blue (Rarity level: 1),❌,❌,3,4423,ScarabBomb
+Scourge of the Corruptor item sprite,Scourge of the Corruptor,70,Melee,5,4%,20,Yellow (Rarity level: 8),✔️,✔️,20,1571,ScourgeoftheCorruptor
+Seedler item sprite,Seedler,50,Melee,6,4%,23,Pink (Rarity level: 5),✔️,✔️,10,3018,Seedler
+Sergeant United Shield item sprite,Sergeant United Shield,80,Melee,2,4%,36,Pink (Rarity level: 5),❌,✔️,7,4760,BouncingShield
+Shadewood Bow item sprite,Shadewood Bow,8,Ranged,0,4%,28,White (Rarity level: 0),❌,❌,20,923,ShadewoodBow
+Shadewood Hammer item sprite,Shadewood Hammer,7,Melee,5.5,4%,30,White (Rarity level: 0),✔️,❌,10,922,ShadewoodHammer
+Shadewood Sword item sprite,Shadewood Sword,11,Melee,6,4%,19,White (Rarity level: 0),❌,❌,20,921,ShadewoodSword
+Shadow Jousting Lance item sprite,Shadow Jousting Lance,130,Melee,14,4%,24,Yellow (Rarity level: 8),❌,✔️,10,4789,ShadowJoustingLance
+Shadowbeam Staff item sprite,Shadowbeam Staff,80,Magic,3.25,4%,15,Yellow (Rarity level: 8),✔️,✔️,6,1444,ShadowbeamStaff
+Shadowflame Bow item sprite,Shadowflame Bow,47,Ranged,4.5,7%,20,Pink (Rarity level: 5),✔️,✔️,2,3052,ShadowFlameBow
+Shadowflame Hex Doll item sprite,Shadowflame Hex Doll,32,Magic,3.75,7%,21,Pink (Rarity level: 5),✔️,✔️,2,3053,ShadowFlameHexDoll
+Shadowflame Knife item sprite,Shadowflame Knife,43,Melee,5.75,7%,12,Pink (Rarity level: 5),✔️,✔️,2,3054,ShadowFlameKnife
+Shotgun item sprite,Shotgun,24,Ranged,6.5,4%,45,Light Red (Rarity level: 4),❌,✔️,5,534,Shotgun
+Shroomerang item sprite,Shroomerang,23,Melee,7,4%,20,Blue (Rarity level: 1),❌,❌,60,4764,Shroomerang
+Shroomite Digging Claw item sprite,Shroomite Digging Claw,45,Melee,6,4%,12,Yellow (Rarity level: 8),✔️,✔️,4,2176,ShroomiteDiggingClaw
+Shuriken item sprite,Shuriken,10,Ranged,0,4%,15,White (Rarity level: 0),❌,❌,3,42,Shuriken
+Sickle item sprite,Sickle,9,Melee,2.25,4%,24,White (Rarity level: 0),✔️,❌,12,1786,Sickle
+Silver Axe item sprite,Silver Axe,6,Melee,4.5,4%,26,White (Rarity level: 0),✔️,❌,8,3512,SilverAxe
+Silver Bow item sprite,Silver Bow,9,Ranged,0,4%,27,White (Rarity level: 0),❌,❌,7,3510,SilverBow
+Silver Broadsword item sprite,Silver Broadsword,14,Melee,6,4%,20,White (Rarity level: 0),❌,❌,9,3514,SilverBroadsword
+Silver Hammer item sprite,Silver Hammer,9,Melee,5.5,4%,29,White (Rarity level: 0),✔️,❌,8,3511,SilverHammer
+Silver Pickaxe item sprite,Silver Pickaxe,6,Melee,2,4%,19,White (Rarity level: 0),✔️,❌,10,3515,SilverPickaxe
+Silver Shortsword item sprite,Silver Shortsword,9,Melee,4,4%,12,White (Rarity level: 0),❌,❌,7,3513,SilverShortsword
+Sky Dragon's Fury item sprite,Sky Dragon's Fury,140,Melee,5,4%,30,Yellow (Rarity level: 8),✔️,✔️,5,3858,MonkStaffT3
+Sky Fracture item sprite,Sky Fracture,38,Magic,6,24%,12,Light Red (Rarity level: 4),✔️,✔️,6,3787,SkyFracture
+Slap Hand item sprite,Slap Hand,55,Melee,20,19%,20,Light Red (Rarity level: 4),✔️,✔️,5,3258,SlapHand
+Sleepy Octopod item sprite,Sleepy Octopod,50,Melee,7,4%,30,Pink (Rarity level: 5),✔️,✔️,1,3835,MonkStaffT1
+Slime Spear item sprite,Slime Spear,9,Melee,6.5,4%,24,White (Rarity level: 0),❌,❌,50,5687,SlimeSpear
+Slime Staff item sprite,Slime Staff,8,Summon,2,-,28,Light Red (Rarity level: 4),✔️,❌,2,1309,SlimeStaff
+Slime Whip item sprite,Slime Whip,12,Summon,1,-,30,Blue (Rarity level: 1),❌,❌,50,5688,SlimeWhip
+Snapthorn item sprite,Snapthorn,18,Summon,1.5,-,30,Orange (Rarity level: 3),❌,❌,1,4913,ThornWhip
+Sniper Rifle item sprite,Sniper Rifle,200,Ranged,8,29%,36,Yellow (Rarity level: 8),❌,✔️,8,1254,SniperRifle
+Snowball item sprite,Snowball,8,Ranged,5.75,4%,19,White (Rarity level: 0),❌,❌,No value,949,Snowball
+Snowball Cannon item sprite,Snowball Cannon,10,Ranged,1,4%,19,Blue (Rarity level: 1),✔️,❌,2,1319,SnowballCannon
+Snowball Launcher item sprite,Snowball Launcher,,-,,-,15,Green (Rarity level: 2),✔️,❌,1,951,SnowballLauncher
+Snowman Cannon item sprite,Snowman Cannon,67,Ranged,4,4%,15,Yellow (Rarity level: 8),✔️,✔️,9,1946,SnowmanCannon
+Solar Eruption item sprite,Solar Eruption,105,Melee,2,4%,20,Red (Rarity level: 10),✔️,✔️,10,3473,SolarEruption
+Solar Flare Axe item sprite,Solar Flare Axe,100,Melee,6,4%,25,Red (Rarity level: 10),✔️,✔️,6,2782,SolarFlareAxe
+Solar Flare Chainsaw item sprite,Solar Flare Chainsaw,80,Melee,4,4%,15,Red (Rarity level: 10),❌,✔️,6,2783,SolarFlareChainsaw
+Solar Flare Drill item sprite,Solar Flare Drill,50,Melee,0.5,4%,15,Red (Rarity level: 10),❌,✔️,7,2784,SolarFlareDrill
+Solar Flare Hamaxe item sprite,Solar Flare Hamaxe,60,Melee,7,4%,28,Red (Rarity level: 10),✔️,✔️,5,3522,LunarHamaxeSolar
+Solar Flare Hammer item sprite,Solar Flare Hammer,110,Melee,7,4%,30,Red (Rarity level: 10),✔️,✔️,8,2785,SolarFlareHammer
+Solar Flare Pickaxe item sprite,Solar Flare Pickaxe,80,Melee,5.5,4%,12,Red (Rarity level: 10),✔️,✔️,7,2786,SolarFlarePickaxe
+Soulscourge item sprite,Soulscourge,17,Summon,1.35,-,30,Blue (Rarity level: 1),❌,❌,1,5474,CorruptWhip
+Space Gun item sprite,Space Gun,20,Magic,0.75,4%,17,Blue (Rarity level: 1),✔️,❌,40,127,SpaceGun
+Spear item sprite,Spear,8,Melee,6.5,4%,31,White (Rarity level: 0),❌,❌,2,280,Spear
+Spectre Hamaxe item sprite,Spectre Hamaxe,60,Melee,7,4%,28,Yellow (Rarity level: 8),✔️,✔️,432,1507,SpectreHamaxe
+Spectre Pickaxe item sprite,Spectre Pickaxe,32,Melee,5.25,4%,24,Yellow (Rarity level: 8),✔️,✔️,432,1506,SpectrePickaxe
+Spectre Staff item sprite,Spectre Staff,65,Magic,6,4%,24,Yellow (Rarity level: 8),✔️,✔️,6,1446,SpectreStaff
+Spider Staff item sprite,Spider Staff,26,Summon,3,-,36,Light Red (Rarity level: 4),✔️,✔️,1,2551,SpiderStaff
+Spiky Ball item sprite,Spiky Ball,16,Ranged,1,4%,15,White (Rarity level: 0),✔️,❌,16,161,SpikyBall
+Spinal Tap item sprite,Spinal Tap,29,Summon,2,-,30,Green (Rarity level: 2),❌,❌,150,5074,BoneWhip
+Spirit Flame item sprite,Spirit Flame,85,Magic,5,4%,22,Light Red (Rarity level: 4),✔️,✔️,1,3779,SpiritFlame
+Staff of Earth item sprite,Staff of Earth,125,Magic,7.5,24%,24,Lime (Rarity level: 7),❌,✔️,7,1296,StaffofEarth
+Staff of Regrowth item sprite,Staff of Regrowth,7,Melee,3,4%,25,Orange (Rarity level: 3),✔️,❌,50,213,StaffofRegrowth
+Staff of the Frost Hydra item sprite,Staff of the Frost Hydra,100,Summon,7.5,-,30,Yellow (Rarity level: 8),❌,✔️,20,1572,StaffoftheFrostHydra
+Stake Launcher item sprite,Stake Launcher,75,Ranged,6.5,14%,12,Yellow (Rarity level: 8),✔️,✔️,10,1835,StakeLauncher
+Star Anise item sprite,Star Anise,14,Ranged,0,4%,15,White (Rarity level: 0),❌,❌,5,1913,StarAnise
+Star Cannon item sprite,Star Cannon,55,Ranged,3,4%,12,Green (Rarity level: 2),✔️,❌,10,197,StarCannon
+Star Wrath item sprite,Star Wrath,170,Melee,6.5,4%,16,Red (Rarity level: 10),✔️,✔️,20,3065,StarWrath
+Starcrash item sprite,Starcrash,18,Summon,1.5,-,30,Green (Rarity level: 2),❌,❌,250,5476,MeteorWhip
+Stardust Axe item sprite,Stardust Axe,100,Melee,6,4%,25,Red (Rarity level: 10),✔️,✔️,6,3462,StardustAxe
+Stardust Cell Staff item sprite,Stardust Cell Staff,60,Summon,2,-,36,Red (Rarity level: 10),✔️,✔️,10,3474,StardustCellStaff
+Stardust Chainsaw item sprite,Stardust Chainsaw,80,Melee,4,4%,15,Red (Rarity level: 10),❌,✔️,6,3463,StardustChainsaw
+Stardust Dragon Staff item sprite,Stardust Dragon Staff,40,Summon,2,-,36,Red (Rarity level: 10),✔️,✔️,10,3531,StardustDragonStaff
+Stardust Drill item sprite,Stardust Drill,50,Melee,0.5,4%,15,Red (Rarity level: 10),❌,✔️,7,3464,StardustDrill
+Stardust Hamaxe item sprite,Stardust Hamaxe,60,Melee,7,4%,28,Red (Rarity level: 10),✔️,✔️,5,3525,LunarHamaxeStardust
+Stardust Hammer item sprite,Stardust Hammer,110,Melee,7,4%,30,Red (Rarity level: 10),✔️,✔️,8,3465,StardustHammer
+Stardust Pickaxe item sprite,Stardust Pickaxe,80,Melee,5.5,4%,12,Red (Rarity level: 10),✔️,✔️,7,3466,StardustPickaxe
+Starfury item sprite,Starfury,25,Melee,5,4%,20,Green (Rarity level: 2),❌,❌,1,65,Starfury
+Starlight item sprite,Starlight,80,Melee,4,14%,18,Yellow (Rarity level: 8),✔️,✔️,5,4923,PiercingStarlight
+Stellar Tune item sprite,Stellar Tune,85,Magic,1.5,24%,12,Pink (Rarity level: 5),✔️,✔️,10,4715,SparkleGuitar
+Sticky Bomb item sprite,Sticky Bomb,100,-,8,-,25,White (Rarity level: 0),❌,❌,1,235,StickyBomb
+Sticky Dirt Bomb item sprite,Sticky Dirt Bomb,100,-,12,-,25,Blue (Rarity level: 1),❌,❌,1,4909,DirtStickyBomb
+Sticky Dynamite item sprite,Sticky Dynamite,250,-,10,-,40,Blue (Rarity level: 1),❌,❌,4,2896,StickyDynamite
+Sticky Grenade item sprite,Sticky Grenade,60,Ranged,8,4%,45,White (Rarity level: 0),❌,❌,15,2586,StickyGrenade
+Sticky Power Bomb item sprite,Sticky Power Bomb,200,-,9,-,40,Light Red (Rarity level: 4),❌,❌,2,5595,SuperStickyBomb
+Storm Spear item sprite,Storm Spear,14,Melee,6,4%,28,Blue (Rarity level: 1),❌,❌,30,4061,ThunderSpear
+Stylish Scissors item sprite,Stylish Scissors,14,Melee,5,4%,13,Green (Rarity level: 2),✔️,❌,50,3352,StylistKilLaKillScissorsIWish
+Stynger item sprite,Stynger,45,Ranged,5,4%,22,Lime (Rarity level: 7),✔️,✔️,7,1258,Stynger
+Sunfury item sprite,Sunfury,64,Melee,6.75,11%,45,Orange (Rarity level: 3),❌,❌,250,220,Sunfury
+Super Star Shooter item sprite,Super Star Shooter,60,Ranged,5,4%,18,Orange (Rarity level: 3),✔️,✔️,10,4060,SuperStarCannon
+Swordfish item sprite,Swordfish,19,Melee,4.25,4%,20,Green (Rarity level: 2),❌,❌,50,2332,Swordfish
+Tactical Shotgun item sprite,Tactical Shotgun,36,Ranged,7,4%,34,Yellow (Rarity level: 8),✔️,✔️,8,679,TacticalShotgun
+Tempest Staff item sprite,Tempest Staff,50,Summon,2,-,36,Yellow (Rarity level: 8),✔️,✔️,5,2621,TempestStaff
+Tendon Bow item sprite,Tendon Bow,19,Ranged,1,4%,30,Blue (Rarity level: 1),❌,❌,36,796,TendonBow
+Tentacle Spike item sprite,Tentacle Spike,20,Melee,5.5,4%,21,Green (Rarity level: 2),❌,❌,50,5094,TentacleSpike
+Terra Blade item sprite,Terra Blade,85,Melee,6.5,4%,18,Yellow (Rarity level: 8),✔️,✔️,20,757,TerraBlade
+Terragrim item sprite,Terragrim,17,Melee,3,4%,25,Green (Rarity level: 2),❌,❌,5,4144,Terragrim
+Terraprisma item sprite,Terraprisma,90,Summon,4,-,36,Pink (Rarity level: 5),✔️,✔️,20,5005,EmpressBlade
+Terrarian item sprite,Terrarian,190,Melee,6.5,14%,25,Red (Rarity level: 10),❌,✔️,10,3389,Terrarian
+The Axe item sprite,The Axe,72,Melee,7.25,4%,23,Yellow (Rarity level: 8),✔️,✔️,10,1305,TheAxe
+The Bee's Knees item sprite,The Bee's Knees,23,Ranged,3,4%,23,Orange (Rarity level: 3),❌,❌,2,2888,BeesKnees
+The Breaker item sprite,The Breaker,24,Melee,6,4%,45,Blue (Rarity level: 1),✔️,❌,30,104,TheBreaker
+The Eye of Cthulhu item sprite,The Eye of Cthulhu,115,Melee,3.5,4%,25,Yellow (Rarity level: 8),❌,✔️,1250,3292,TheEyeOfCthulhu
+The Horseman's Blade item sprite,The Horseman's Blade,150,Melee,7.5,4%,26,Yellow (Rarity level: 8),✔️,✔️,10,1826,TheHorsemansBlade
+The Meatball item sprite,The Meatball,34,Melee,5.5,4%,45,Blue (Rarity level: 1),❌,❌,54,801,TheMeatball
+The Rotted Fork item sprite,The Rotted Fork,17,Melee,5,4%,31,Blue (Rarity level: 1),❌,❌,150,802,TheRottedFork
+The Undertaker item sprite,The Undertaker,19,Ranged,2,4%,20,Blue (Rarity level: 1),❌,❌,150,800,TheUndertaker
+Thorn Chakram item sprite,Thorn Chakram,25,Melee,8,4%,15,Orange (Rarity level: 3),❌,❌,1,191,ThornChakram
+Throwing Knife item sprite,Throwing Knife,12,Ranged,2,4%,15,White (Rarity level: 0),❌,❌,10,279,ThrowingKnife
+Thunder Zapper item sprite,Thunder Zapper,24,Magic,3,4%,17,Blue (Rarity level: 1),✔️,❌,30,4062,ThunderStaff
+Tin Axe item sprite,Tin Axe,4,Melee,4.5,4%,28,White (Rarity level: 0),✔️,❌,120,3500,TinAxe
+Tin Bow item sprite,Tin Bow,7,Ranged,0,4%,28,White (Rarity level: 0),❌,❌,15,3498,TinBow
+Tin Broadsword item sprite,Tin Broadsword,10,Melee,5.5,4%,20,White (Rarity level: 0),❌,❌,135,3502,TinBroadsword
+Tin Hammer item sprite,Tin Hammer,6,Melee,5.5,4%,31,White (Rarity level: 0),✔️,❌,120,3499,TinHammer
+Tin Pickaxe item sprite,Tin Pickaxe,5,Melee,2,4%,21,White (Rarity level: 0),✔️,❌,150,3503,TinPickaxe
+Tin Shortsword item sprite,Tin Shortsword,7,Melee,4,4%,12,White (Rarity level: 0),❌,❌,15,3501,TinShortsword
+Titanium Chainsaw item sprite,Titanium Chainsaw,34,Melee,4.6,4%,15,Light Red (Rarity level: 4),❌,✔️,252,1204,TitaniumChainsaw
+Titanium Drill item sprite,Titanium Drill,27,Melee,0.5,4%,15,Light Red (Rarity level: 4),❌,✔️,252,1203,TitaniumDrill
+Titanium Pickaxe item sprite,Titanium Pickaxe,27,Melee,5,4%,25,Light Red (Rarity level: 4),✔️,✔️,252,1202,TitaniumPickaxe
+Titanium Repeater item sprite,Titanium Repeater,43,Ranged,2.5,4%,17,Light Red (Rarity level: 4),✔️,✔️,280,1201,TitaniumRepeater
+Titanium Sword item sprite,Titanium Sword,61,Melee,6,4%,20,Light Red (Rarity level: 4),✔️,✔️,322,1199,TitaniumSword
+Titanium Trident item sprite,Titanium Trident,48,Melee,6.2,4%,23,Light Red (Rarity level: 4),❌,✔️,210,1200,TitaniumTrident
+Titanium Waraxe item sprite,Titanium Waraxe,44,Melee,7.5,4%,35,Light Red (Rarity level: 4),✔️,✔️,252,1224,TitaniumWaraxe
+Tome of Infinite Wisdom item sprite,Tome of Infinite Wisdom,36,Magic,9,4%,25,Pink (Rarity level: 5),✔️,✔️,1,3852,BookStaff
+Topaz Staff item sprite,Topaz Staff,16,Magic,3.5,4%,36,White (Rarity level: 0),❌,❌,6,740,TopazStaff
+Toxic Flask item sprite,Toxic Flask,52,Magic,4,4%,45,Yellow (Rarity level: 8),❌,✔️,10,3105,ToxicFlask
+Toxikarp item sprite,Toxikarp,43,Ranged,3,4%,10,Pink (Rarity level: 5),✔️,✔️,4,3210,Toxikarp
+Tragic Umbrella item sprite,Tragic Umbrella,15,Melee,5,4%,22,Green (Rarity level: 2),❌,❌,2,4707,TragicUmbrella
+Trident item sprite,Trident,14,Melee,6,4%,31,Blue (Rarity level: 1),❌,❌,20,277,Trident
+Trimarang item sprite,Trimarang,21,Melee,4.5,4%,20,Orange (Rarity level: 3),✔️,❌,2,5298,Trimarang
+True Copper Shortsword item sprite,True Copper Shortsword,190,Melee,6.5,14%,30,Red (Rarity level: 10),✔️,✔️,20,5669,TrueCopperShortsword
+True Excalibur item sprite,True Excalibur,72,Melee,4.5,4%,18,Yellow (Rarity level: 8),✔️,✔️,10,674,TrueExcalibur
+True Night's Edge item sprite,True Night's Edge,70,Melee,4.75,4%,32,Yellow (Rarity level: 8),✔️,✔️,10,675,TrueNightsEdge
+Tsunami item sprite,Tsunami,53,Ranged,2,4%,24,Yellow (Rarity level: 8),✔️,✔️,5,2624,Tsunami
+Tungsten Axe item sprite,Tungsten Axe,7,Melee,4.5,4%,26,White (Rarity level: 0),✔️,❌,12,3488,TungstenAxe
+Tungsten Bow item sprite,Tungsten Bow,10,Ranged,0,4%,26,White (Rarity level: 0),❌,❌,1050,3486,TungstenBow
+Tungsten Broadsword item sprite,Tungsten Broadsword,14,Melee,6,4%,19,White (Rarity level: 0),❌,❌,1350,3490,TungstenBroadsword
+Tungsten Hammer item sprite,Tungsten Hammer,9,Melee,5.5,4%,28,White (Rarity level: 0),✔️,❌,12,3487,TungstenHammer
+Tungsten Pickaxe item sprite,Tungsten Pickaxe,6,Melee,2,4%,21,White (Rarity level: 0),✔️,❌,15,3491,TungstenPickaxe
+Tungsten Shortsword item sprite,Tungsten Shortsword,10,Melee,4,4%,11,White (Rarity level: 0),❌,❌,1050,3489,TungstenShortsword
+Umbrella item sprite,Umbrella,10,Melee,5,4%,22,Blue (Rarity level: 1),❌,❌,20,946,Umbrella
+Unholy Trident item sprite,Unholy Trident,88,Magic,6.5,4%,17,Light Purple (Rarity level: 6),✔️,✔️,10,683,UnholyTrident
+Unholy Water item sprite,Unholy Water,20,-,3,-,15,Orange (Rarity level: 3),❌,❌,20,423,UnholyWater
+Uzi item sprite,Uzi,30,Ranged,3.5,4%,9,Lime (Rarity level: 7),✔️,✔️,7,1265,Uzi
+Valkyrie Yoyo item sprite,Valkyrie Yoyo,70,Melee,4.5,4%,25,Cyan (Rarity level: 9),❌,✔️,4,3288,ValkyrieYoyo
+Valor item sprite,Valor,28,Melee,3.85,4%,25,Orange (Rarity level: 3),❌,❌,175,3317,Valor
+Vampire Frog Staff item sprite,Vampire Frog Staff,11,Summon,5,-,36,Orange (Rarity level: 3),✔️,❌,1,4273,VampireFrogStaff
+Vampire Knives item sprite,Vampire Knives,29,Melee,2.75,4%,16,Yellow (Rarity level: 8),✔️,✔️,20,1569,VampireKnives
+Vasculash item sprite,Vasculash,19,Summon,1.25,-,30,Blue (Rarity level: 1),❌,❌,1,5475,CrimsonWhip
+Venom Staff item sprite,Venom Staff,44,Magic,7,4%,30,Lime (Rarity level: 7),✔️,✔️,7,2188,VenomStaff
+Venus Magnum item sprite,Venus Magnum,50,Ranged,5.5,4%,9,Lime (Rarity level: 7),✔️,✔️,5,1255,VenusMagnum
+Vilethorn item sprite,Vilethorn,10,Magic,1,4%,28,Blue (Rarity level: 1),❌,❌,150  / 20,64,Vilethorn
+Volcano item sprite,Volcano,40,Melee,6.5,4%,40,Orange (Rarity level: 3),❌,❌,54,121,FieryGreatsword
+Vortex Axe item sprite,Vortex Axe,100,Melee,6,4%,25,Red (Rarity level: 10),✔️,✔️,6,2772,VortexAxe
+Vortex Beater item sprite,Vortex Beater,50,Ranged,2,4%,20 (Very fast),,,,,3475,VortexBeater
+(see notes for more info),Red (Rarity level: 10),✔️,✔️,10,,,,,,,,
+Vortex Chainsaw item sprite,Vortex Chainsaw,80,Melee,4,4%,15,Red (Rarity level: 10),❌,✔️,6,2773,VortexChainsaw
+Vortex Drill item sprite,Vortex Drill,50,Melee,0.5,4%,15,Red (Rarity level: 10),❌,✔️,7,2774,VortexDrill
+Vortex Hamaxe item sprite,Vortex Hamaxe,60,Melee,7,4%,28,Red (Rarity level: 10),✔️,✔️,5,3523,LunarHamaxeVortex
+Vortex Hammer item sprite,Vortex Hammer,110,Melee,7,4%,30,Red (Rarity level: 10),✔️,✔️,8,2775,VortexHammer
+Vortex Pickaxe item sprite,Vortex Pickaxe,80,Melee,5.5,4%,12,Red (Rarity level: 10),✔️,✔️,7,2776,VortexPickaxe
+Vulgar Display of Flower item sprite,Vulgar Display of Flower,75,Summon,2,-,30,Lime (Rarity level: 7),❌,✔️,6,5477,FlowerWhip
+Waffle's Iron item sprite,Waffle's Iron,50,Melee,4.75,4%,23,Pink (Rarity level: 5),✔️,✔️,3,5382,WaffleIron
+Wand of Frosting item sprite,Wand of Frosting,15,Magic,0,14%,26,Blue (Rarity level: 1),❌,❌,15,5147,WandofFrosting
+Wand of Sparking item sprite,Wand of Sparking,14,Magic,0,14%,26,Blue (Rarity level: 1),❌,❌,20,3069,WandofSparking
+War Axe of the Night item sprite,War Axe of the Night,20,Melee,6,4%,30,Blue (Rarity level: 1),✔️,❌,27,45,WarAxeoftheNight
+Wasp Gun item sprite,Wasp Gun,31,Magic,0.25,4%,18,Yellow (Rarity level: 8),✔️,✔️,10,1155,WaspGun
+Water Bolt item sprite,Water Bolt,19,Magic,5,4%,17,Green (Rarity level: 2),✔️,❌,150,165,WaterBolt
+Weather Pain item sprite,Weather Pain,13,Magic,1,4%,45,Green (Rarity level: 2),❌,❌,150,5118,WeatherPain
+Wet Bomb item sprite,Wet Bomb,100,-,12,-,25,Blue (Rarity level: 1),❌,❌,5,4824,WetBomb
+White Paper Airplane item sprite,White Paper Airplane,4,Ranged,2,4%,17,White (Rarity level: 0),❌,❌,10,4344,PaperAirplaneB
+White Phaseblade item sprite,White Phaseblade,26,Melee,3,4%,18,Blue (Rarity level: 1),✔️,❌,54,202,WhitePhaseblade
+White Phasesaber item sprite,White Phasesaber,50,Melee,3,4%,16,Light Red (Rarity level: 4),✔️,✔️,1,3768,WhitePhasesaber
+Wooden Boomerang item sprite,Wooden Boomerang,10,Melee,5,4%,20,Blue (Rarity level: 1),❌,❌,20,284,WoodenBoomerang
+Wooden Bow item sprite,Wooden Bow,4,Ranged,0,4%,30,White (Rarity level: 0),❌,❌,20,39,WoodenBow
+Wooden Hammer item sprite,Wooden Hammer,2,Melee,5.5,4%,37,White (Rarity level: 0),✔️,❌,10,196,WoodenHammer
+Wooden Sword item sprite,Wooden Sword,7,Melee,5,4%,20,White (Rarity level: 0),❌,❌,20,24,WoodenSword
+Wooden Yoyo item sprite,Wooden Yoyo,9,Melee,2.5,4%,25,White (Rarity level: 0),❌,❌,1,3278,WoodYoyo
+Xeno Staff item sprite,Xeno Staff,36,Summon,2,-,36,Yellow (Rarity level: 8),✔️,✔️,10,2749,XenoStaff
+Xenopopper item sprite,Xenopopper,45,Ranged,3,4%,21,Yellow (Rarity level: 8),✔️,✔️,10,2797,Xenopopper
+Yelets item sprite,Yelets,60,Melee,3.1,4%,25,Lime (Rarity level: 7),❌,✔️,5,3286,Yelets
+Yellow Phaseblade item sprite,Yellow Phaseblade,26,Melee,3,4%,18,Blue (Rarity level: 1),✔️,❌,54,203,YellowPhaseblade
+Yellow Phasesaber item sprite,Yellow Phasesaber,50,Melee,3,4%,16,Light Red (Rarity level: 4),✔️,✔️,1,3769,YellowPhasesaber
+Yellow Rocket item sprite,Yellow Rocket,-1,-,0,-,15,White (Rarity level: 0),✔️,✔️,3,973,YellowRocket
+Zenith item sprite,Zenith,190,Melee,6.5,14%,30,Red (Rarity level: 10),✔️,✔️,20,4956,Zenith
+Zombie Arm item sprite,Zombie Arm,15,Melee,5.5,4%,22,White (Rarity level: 0),✔️,❌,4,1304,ZombieArm

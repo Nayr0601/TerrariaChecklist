@@ -1,0 +1,431 @@
+Name,Internal name,ID,Category,Set
+Skeletron Mask,SkeletronMask,1281,Boss Mask,
+Brain of Cthulhu Mask,BrainMask,2104,Boss Mask,
+Wall of Flesh Mask,FleshMask,2105,Boss Mask,
+Twins Mask,TwinMask,2106,Boss Mask,
+Skeletron Prime Mask,SkeletronPrimeMask,2107,Boss Mask,
+Queen Bee Mask,BeeMask,2108,Boss Mask,
+Plantera Mask,PlanteraMask,2109,Boss Mask,
+Golem Mask,GolemMask,2110,Boss Mask,
+Eater of Worlds Mask,EaterMask,2111,Boss Mask,
+Eye of Cthulhu Mask,EyeMask,2112,Boss Mask,
+Destroyer Mask,DestroyerMask,2113,Boss Mask,
+King Slime Mask,KingSlimeMask,2493,Boss Mask,
+Duke Fishron Mask,DukeFishronMask,2588,Boss Mask,
+Lunatic Cultist Mask,BossMaskCultist,3372,Boss Mask,
+Moon Lord Mask,BossMaskMoonlord,3373,Boss Mask,
+Betsy Mask,BossMaskBetsy,3863,Boss Mask,
+Dark Mage Mask,BossMaskDarkMage,3864,Boss Mask,
+Ogre Mask,BossMaskOgre,3865,Boss Mask,
+Empress of Light Mask,FairyQueenMask,4784,Boss Mask,
+Queen Slime Mask,QueenSlimeMask,4959,Boss Mask,
+Deerclops Mask,DeerclopsMask,5109,Boss Mask,
+Mrs. Claus Hat,MrsClauseHat,1932,Christmas Set,Mrs. Claus set
+Mrs. Claus Shirt,MrsClauseShirt,1933,Christmas Set,Mrs. Claus set
+Mrs. Claus Heels,MrsClauseHeels,1934,Christmas Set,Mrs. Claus set
+Parka Hood,ParkaHood,1935,Christmas Set,Parka set
+Parka Coat,ParkaCoat,1936,Christmas Set,Parka set
+Parka Pants,ParkaPants,1937,Christmas Set,Parka set
+Santa Hat,SantaHat,588,Christmas Set,Santa set
+Santa Shirt,SantaShirt,589,Christmas Set,Santa set
+Santa Pants,SantaPants,590,Christmas Set,Santa set
+Tree Mask,TreeMask,1940,Christmas Set,Tree set
+Tree Shirt,TreeShirt,1941,Christmas Set,Tree set
+Aaron's Helmet,AaronsHelmet,1566,Developer Set,Aaron's set
+Aaron's Breastplate,AaronsBreastplate,1567,Developer Set,Aaron's set
+Aaron's Leggings,AaronsLeggings,1568,Developer Set,Aaron's set
+Arkhalis' Hood,ArkhalisHat,3921,Developer Set,Arkhalis' set
+Arkhalis' Bodice,ArkhalisShirt,3922,Developer Set,Arkhalis' set
+Arkhalis' Tights,ArkhalisPants,3923,Developer Set,Arkhalis' set
+Arkhalis' Lightwings,ArkhalisWings,3924,Developer Set,Arkhalis' set
+Cenx's Dress,CenxsDress,1587,Developer Set,Cenx's Dress set
+Cenx's Dress Pants,CenxsDressPants,1588,Developer Set,Cenx's Dress set
+Cenx's Tiara,CenxsTiara,1554,Developer Set,Cenx's set
+Cenx's Breastplate,CenxsBreastplate,1555,Developer Set,Cenx's set
+Cenx's Leggings,CenxsLeggings,1556,Developer Set,Cenx's set
+Cenx's Wings,CenxsWings,1586,Developer Set,Cenx's set
+Chicken Bones' Vest,ChickenBonesBody,5584,Developer Set,Chicken Bones' set
+Chicken Bones' Pants,ChickenBonesLegs,5585,Developer Set,Chicken Bones' set
+Chicken Bones' Wings,ChickenBonesWings,5586,Developer Set,Chicken Bones' set
+Chicken Bones' Robe,ChickenBonesRobe,5587,Developer Set,Chicken Bones' set
+Crowno's Mask,CrownosMask,1557,Developer Set,Crowno's set
+Crowno's Breastplate,CrownosBreastplate,1558,Developer Set,Crowno's set
+Crowno's Leggings,CrownosLeggings,1559,Developer Set,Crowno's set
+Crowno's Wings,CrownosWings,1585,Developer Set,Crowno's set
+D-Town's Helmet,DTownsHelmet,1580,Developer Set,D-Town's set
+D-Town's Breastplate,DTownsBreastplate,1581,Developer Set,D-Town's set
+D-Town's Leggings,DTownsLeggings,1582,Developer Set,D-Town's set
+D-Town's Wings,DTownsWings,1583,Developer Set,D-Town's set
+FoodBarbarian's Tattered Dragon Wings,FoodBarbarianWings,4750,Developer Set,FoodBarbarian's set
+FoodBarbarian's Horned Helm,FoodBarbarianHelm,4751,Developer Set,FoodBarbarian's set
+FoodBarbarian's Wild Wolf Spaulders,FoodBarbarianArmor,4752,Developer Set,FoodBarbarian's set
+FoodBarbarian's Savage Greaves,FoodBarbarianGreaves,4753,Developer Set,FoodBarbarian's set
+Ghostar's Infinity Eight,GhostarsWings,4730,Developer Set,Ghostar's set
+Ghostar's Garb,GhostarShirt,4733,Developer Set,Ghostar's set
+Ghostar's Tights,GhostarPants,4734,Developer Set,Ghostar's set
+Grox The Great's Wings,GroxTheGreatWings,4754,Developer Set,Grox The Great's set
+Grox The Great's Horned Cowl,GroxTheGreatHelm,4755,Developer Set,Grox The Great's set
+Grox The Great's Chestplate,GroxTheGreatArmor,4756,Developer Set,Grox The Great's set
+Grox The Great's Greaves,GroxTheGreatGreaves,4757,Developer Set,Grox The Great's set
+Jim's Helmet,JimsHelmet,1563,Developer Set,Jim's set
+Jim's Breastplate,JimsBreastplate,1564,Developer Set,Jim's set
+Jim's Leggings,JimsLeggings,1565,Developer Set,Jim's set
+Jim's Wings,JimsWings,3582,Developer Set,Jim's set
+Kazzymodus' Hood,KazzymodusHood,5683,Developer Set,Kazzymodus' set
+Kazzymodus' Chestpiece,KazzymodusChestpiece,5684,Developer Set,Kazzymodus' set
+Kazzymodus' Leggings,KazzymodusLeggings,5685,Developer Set,Kazzymodus' set
+Kazzymodus' Wings,KazzymodusWings,5686,Developer Set,Kazzymodus' set
+Lazure's Valkyrie Circlet,BejeweledValkyrieHead,3226,Developer Set,Lazure's set
+Lazure's Valkyrie Cloak,BejeweledValkyrieBody,3227,Developer Set,Lazure's set
+Lazure's Barrier Platform,BejeweledValkyrieWing,3228,Developer Set,Lazure's set
+Leinfors' Hair Protector,LeinforsHat,3925,Developer Set,Leinfors' set
+Leinfors' Excessive Style,LeinforsShirt,3926,Developer Set,Leinfors' set
+Leinfors' Fancypants,LeinforsPants,3927,Developer Set,Leinfors' set
+Leinfors' Prehensile Cloak,LeinforsWings,3928,Developer Set,Leinfors' set
+Loki's Helmet,LokisHelm,3589,Developer Set,Loki's set
+Loki's Breastplate,LokisShirt,3590,Developer Set,Loki's set
+Loki's Greaves,LokisPants,3591,Developer Set,Loki's set
+Loki's Wings,LokisWings,3592,Developer Set,Loki's set
+Luna's Runic Pixie Shirt,LunasBody,6138,Developer Set,Luna's set
+Luna's Runic Pixie Pants,LunasLegs,6139,Developer Set,Luna's set
+Luna's Runic Pixie Wings,LunasWings,6140,Developer Set,Luna's set
+Red's Wings,RedsWings,665,Developer Set,Red's set
+Red's Helmet,RedsHelmet,666,Developer Set,Red's set
+Red's Breastplate,RedsBreastplate,667,Developer Set,Red's set
+Red's Leggings,RedsLeggings,668,Developer Set,Red's set
+Safeman's Blanket Cape,SafemanWings,4746,Developer Set,Safeman's set
+Safeman's Sun Dress,SafemanSunDress,4748,Developer Set,Safeman's set
+Safeman's Pink Leggings,SafemanDressLeggings,4749,Developer Set,Safeman's set
+Skiphs' Mask,SkiphsHelm,3585,Developer Set,Skiphs' set
+Skiphs' Skin,SkiphsShirt,3586,Developer Set,Skiphs' set
+Skiphs' Bear Butt,SkiphsPants,3587,Developer Set,Skiphs' set
+Skiphs' Paws,SkiphsWings,3588,Developer Set,Skiphs' set
+Will's Helmet,WillsHelmet,1560,Developer Set,Will's set
+Will's Breastplate,WillsBreastplate,1561,Developer Set,Will's set
+Will's Leggings,WillsLeggings,1562,Developer Set,Will's set
+Will's Wings,WillsWings,1584,Developer Set,Will's set
+Yoraiz0r's Uniform,Yoraiz0rShirt,3578,Developer Set,Yoraiz0r's set
+Yoraiz0r's Skirt,Yoraiz0rPants,3579,Developer Set,Yoraiz0r's set
+Yoraiz0r's Spell,Yoraiz0rWings,3580,Developer Set,Yoraiz0r's set
+Bride of Frankenstein Mask,BrideofFrankensteinMask,1777,Halloween Set,Bride of Frankenstein set
+Bride of Frankenstein Dress,BrideofFrankensteinDress,1778,Halloween Set,Bride of Frankenstein set
+Cat Mask,CatMask,1749,Halloween Set,Cat set
+Cat Shirt,CatShirt,1750,Halloween Set,Cat set
+Cat Pants,CatPants,1751,Halloween Set,Cat set
+Clothier's Jacket,ClothierJacket,3246,Halloween Set,Clothier's set
+Clothier's Pants,ClothierPants,3247,Halloween Set,Clothier's set
+Creeper Mask,CreeperMask,1746,Halloween Set,Creeper set
+Creeper Shirt,CreeperShirt,1747,Halloween Set,Creeper set
+Creeper Pants,CreeperPants,1748,Halloween Set,Creeper set
+Cyborg Helmet,CyborgHelmet,1743,Halloween Set,Cyborg set
+Cyborg Shirt,CyborgShirt,1744,Halloween Set,Cyborg set
+Cyborg Pants,CyborgPants,1745,Halloween Set,Cyborg set
+Dryad Coverings,DryadCoverings,1853,Halloween Set,Dryad set
+Dryad Loincloth,DryadLoincloth,1854,Halloween Set,Dryad set
+Dye Trader Robe,DyeTraderRobe,1741,Halloween Set,Dye Trader's set
+Dye Trader's Turban,DyeTraderTurban,3248,Halloween Set,Dye Trader's set
+Fox Mask,FoxMask,1821,Halloween Set,Fox set
+Fox Shirt,FoxShirt,1822,Halloween Set,Fox set
+Fox Pants,FoxPants,1823,Halloween Set,Fox set
+Ghost Mask,GhostMask,1752,Halloween Set,Ghost set
+Ghost Shirt,GhostShirt,1753,Halloween Set,Ghost set
+Karate Tortoise Mask,KarateTortoiseMask,1779,Halloween Set,Karate Tortoise set
+Karate Tortoise Shirt,KarateTortoiseShirt,1780,Halloween Set,Karate Tortoise set
+Karate Tortoise Pants,KarateTortoisePants,1781,Halloween Set,Karate Tortoise set
+Leprechaun Hat,LeprechaunHat,1767,Halloween Set,Leprechaun set
+Leprechaun Shirt,LeprechaunShirt,1768,Halloween Set,Leprechaun set
+Leprechaun Pants,LeprechaunPants,1769,Halloween Set,Leprechaun set
+Nurse Hat,NurseHat,1736,Halloween Set,Nurse set
+Nurse Shirt,NurseShirt,1737,Halloween Set,Nurse set
+Nurse Pants,NursePants,1738,Halloween Set,Nurse set
+Pixie Shirt,PixieShirt,1770,Halloween Set,Pixie set
+Pixie Pants,PixiePants,1771,Halloween Set,Pixie set
+Princess Dress,PrincessDress,865,Halloween Set,Princess set
+Princess Hat,PrincessHat,1772,Halloween Set,Princess set
+Pumpkin Mask,PumpkinMask,1754,Halloween Set,Pumpkin set
+Pumpkin Shirt,PumpkinShirt,1755,Halloween Set,Pumpkin set
+Pumpkin Pants,PumpkinPants,1756,Halloween Set,Pumpkin set
+Reaper Hood,ReaperHood,1819,Halloween Set,Reaper set
+Reaper Robe,ReaperRobe,1820,Halloween Set,Reaper set
+Robot Mask,RobotMask,1757,Halloween Set,Robot set
+Robot Shirt,RobotShirt,1758,Halloween Set,Robot set
+Robot Pants,RobotPants,1759,Halloween Set,Robot set
+Space Creature Mask,SpaceCreatureMask,1838,Halloween Set,Space Creature set
+Space Creature Shirt,SpaceCreatureShirt,1839,Halloween Set,Space Creature set
+Space Creature Pants,SpaceCreaturePants,1840,Halloween Set,Space Creature set
+Treasure Hunter Shirt,TreasureHunterShirt,1851,Halloween Set,Treasure Hunter set
+Treasure Hunter Pants,TreasureHunterPants,1852,Halloween Set,Treasure Hunter set
+Unicorn Mask,UnicornMask,1760,Halloween Set,Unicorn set
+Unicorn Shirt,UnicornShirt,1761,Halloween Set,Unicorn set
+Unicorn Pants,UnicornPants,1762,Halloween Set,Unicorn set
+Vampire Mask,VampireMask,1763,Halloween Set,Vampire set
+Vampire Shirt,VampireShirt,1764,Halloween Set,Vampire set
+Vampire Pants,VampirePants,1765,Halloween Set,Vampire set
+Witch Hat,WitchHat,1766,Halloween Set,Witch set
+Witch Dress,WitchDress,1775,Halloween Set,Witch set
+Wolf Mask,WolfMask,1841,Halloween Set,Wolf set
+Wolf Shirt,WolfShirt,1842,Halloween Set,Wolf set
+Wolf Pants,WolfPants,1843,Halloween Set,Wolf set
+Jungle Rose,JungleRose,208,Vanity Accessory,
+Angel Halo,AngelHalo,1987,Vanity Accessory,
+Diamond Ring,DiamondRing,2276,Vanity Accessory,
+Crimson Cloak,CrimsonCloak,2284,Vanity Accessory,
+Mysterious Cape,MysteriousCape,2285,Vanity Accessory,
+Red Cape,RedCape,2286,Vanity Accessory,
+Winter Cape,WinterCape,2287,Vanity Accessory,
+Ginger Beard,GingerBeard,2501,Vanity Accessory,
+Yoraiz0r's Scowl,Yoraiz0rDarkness,3581,Vanity Accessory,
+Bundled Party Balloons,PartyBundleOfBalloonsAccessory,3730,Vanity Accessory,
+Balloon Animal,PartyBalloonAnimal,3731,Vanity Accessory,
+Leinfors' Luxury Shampoo,LeinforsAccessory,3929,Vanity Accessory,
+Fake Unicorn Horn,UnicornHornHat,4563,Vanity Accessory,
+Hunter Cloak,HunterCloak,4744,Vanity Accessory,
+Fox Tail,FoxTail,4771,Vanity Accessory,
+Bunny Tail,BunnyTail,4775,Vanity Accessory,
+Flame Waker Boots,FlameWakerBoots,4822,Vanity Accessory,
+Royal Scepter,RoyalScepter,5076,Vanity Accessory,
+Glass Slipper,GlassSlipper,5077,Vanity Accessory,
+Prince Cape,PrinceCape,5080,Vanity Accessory,
+Gentleman's Beard,WilsonBeardShort,5104,Vanity Accessory,
+Gentleman's Long Beard,WilsonBeardLong,5105,Vanity Accessory,
+Gentleman's Magnificent Beard,WilsonBeardMagnificent,5106,Vanity Accessory,
+Welding Mask,WeldingMask,5596,Vanity Accessory,
+Sunglasses,Sunglasses,237,Vanity Piece,
+Summer Hat,SummerHat,242,Vanity Piece,
+Fish Bowl,FishBowl,250,Vanity Piece,
+Robe,Robe,262,Vanity Piece,
+Robot Hat,RobotHat,263,Vanity Piece,
+Gold Crown,GoldCrown,264,Vanity Piece,
+Mime Mask,MimeMask,322,Vanity Piece,
+Platinum Crown,PlatinumCrown,715,Vanity Piece,
+Mushroom Cap,MushroomCap,868,Vanity Piece,
+Tam O' Shanter,TamOShanter,869,Vanity Piece,
+Umbrella Hat,UmbrellaHat,1243,Vanity Piece,
+Skull,Skull,1274,Vanity Piece,
+Balla Hat,BallaHat,1275,Vanity Piece,
+Gangsta Hat,GangstaHat,1276,Vanity Piece,
+Eye Patch,EyePatch,1278,Vanity Piece,
+Beanie,Beanie,1429,Vanity Piece,
+SWAT Helmet,SWATHelmet,1514,Vanity Piece,
+Wizard's Hat,WizardsHat,1739,Vanity Piece,
+Guy Fawkes Mask,GuyFawkesMask,1740,Vanity Piece,
+Steampunk Goggles,SteampunkGoggles,1742,Vanity Piece,
+Cat Ears,CatEars,1824,Vanity Piece,
+Jack 'O Lantern Mask,JackOLanternMask,1857,Vanity Piece,
+Giant Bow,GiantBow,1906,Vanity Piece,
+Reindeer Antlers,ReindeerAntlers,1907,Vanity Piece,
+Snow Hat,SnowHat,1938,Vanity Piece,
+Ugly Sweater,UglySweater,1939,Vanity Piece,
+Fez,Fez,1988,Vanity Piece,
+Peddler's Hat,PeddlersHat,2222,Vanity Piece,
+Kimono,Kimono,2278,Vanity Piece,
+Moon Mask,MoonMask,2801,Vanity Piece,
+Sun Mask,SunMask,2802,Vanity Piece,
+HiTek Sunglasses,HiTekSunglasses,2862,Vanity Piece,
+Engineering Helmet,EngineeringHelmet,3627,Vanity Piece,
+Party Hat,PartyHat,3732,Vanity Piece,
+0x33's Aviators,AviatorSunglasses,3763,Vanity Piece,
+Gold Fish Bowl,GoldGoldfishBowl,4275,Vanity Piece,
+Demon Horns,DemonHorns,4549,Vanity Piece,
+Star Hairpin,StarHairpin,4558,Vanity Piece,
+Heart Hairpin,HeartHairpin,4559,Vanity Piece,
+Devil Horns,DevilHorns,4561,Vanity Piece,
+Fedora,Fedora,4562,Vanity Piece,
+Rock Golem Head,RockGolemHead,4761,Vanity Piece,
+Panda Ears,PandaEars,4774,Vanity Piece,
+Rabbit Perch,RabbitOrder,4955,Vanity Piece,
+Badger's Hat,BadgersHat,5004,Vanity Piece,
+Garland,GarlandHat,5099,Vanity Piece,
+Eyebrella,Eyebrella,5101,Vanity Piece,
+Vulkelf Ears,VulkelfEar,5136,Vanity Piece,
+Jim's Cap,JimsCap,5290,Vanity Piece,
+Goblorc Ears,GoblorcEar,5305,Vanity Piece,
+Dizzy's Rare Gecko Chester,DizzyHat,5385,Vanity Piece,
+Moon Lord Torso,MoonLordBody,5515,Vanity Piece,
+Red Swimsuit,RedSwimsuit,5648,Vanity Piece,
+Green Swimshorts,GreenSwimshorts,5649,Vanity Piece,
+Gray Swimshorts,GraySwimshorts,5650,Vanity Piece,
+Hallowed Crown,HallowedCrown,5660,Vanity Piece,
+Ancient Headdress,AncientArmorHat,3773,Vanity Set,Ancient set
+Ancient Garments,AncientArmorShirt,3774,Vanity Set,Ancient set
+Ancient Slacks,AncientArmorPants,3775,Vanity Set,Ancient set
+Archaeologist's Hat,ArchaeologistsHat,251,Vanity Set,Archaeologist's set
+Archaeologist's Jacket,ArchaeologistsJacket,252,Vanity Set,Archaeologist's set
+Archaeologist's Pants,ArchaeologistsPants,253,Vanity Set,Archaeologist's set
+Bee Hat,BeeHat,842,Vanity Set,Bee set
+Bee Shirt,BeeShirt,843,Vanity Set,Bee set
+Bee Pants,BeePants,844,Vanity Set,Bee set
+Black Graduation Cap,GraduationCapBlack,4996,Vanity Set,Black Graduation set
+Black Graduation Gown,GraduationGownBlack,4999,Vanity Set,Black Graduation set
+Blue Bikini Top,BlueBikiniBody,5646,Vanity Set,Blue Bikini set
+Blue Bikini Bottom,BlueBikiniLegs,5647,Vanity Set,Blue Bikini set
+Blue Graduation Cap,GraduationCapBlue,4994,Vanity Set,Blue Graduation set
+Blue Graduation Gown,GraduationGownBlue,4997,Vanity Set,Blue Graduation set
+Buccaneer Bandana,BuccaneerBandana,3263,Vanity Set,Buccaneer set
+Buccaneer Tunic,BuccaneerShirt,3264,Vanity Set,Buccaneer set
+Buccaneer Pantaloons,BuccaneerPants,3265,Vanity Set,Buccaneer set
+Bunny Hood,BunnyHood,243,Vanity Set,Bunny set
+Butcher Mask,ButcherMask,4740,Vanity Set,Butcher's set
+Butcher's Bloodstained Apron,ButcherApron,4741,Vanity Set,Butcher's set
+Butcher's Bloodstained Pants,ButcherPants,4742,Vanity Set,Butcher's set
+Capricorn Helmet,CapricornMask,5057,Vanity Set,Capricorn set
+Capricorn Chestplate,CapricornChestplate,5058,Vanity Set,Capricorn set
+Capricorn Hooves,CapricornLegs,5059,Vanity Set,Capricorn set
+Chef Hat,ChefHat,4555,Vanity Set,Chef set
+Chef Uniform,ChefShirt,4556,Vanity Set,Chef set
+Chef Pants,ChefPants,4557,Vanity Set,Chef set
+Chippy's Chestplate,ChippysBody,5625,Vanity Set,Chippy's set
+Chippy's Greaves,ChippysLegs,5626,Vanity Set,Chippy's set
+Chippy's Cloak,ChippysWings,5627,Vanity Set,Chippy's set
+Clown Hat,ClownHat,503,Vanity Set,Clown set
+Clown Shirt,ClownShirt,504,Vanity Set,Clown set
+Clown Pants,ClownPants,505,Vanity Set,Clown set
+Country Club Cap,GolfHat,4135,Vanity Set,Country Club set
+Country Club Vest,GolfShirt,4136,Vanity Set,Country Club set
+Country Club Trousers,GolfPants,4137,Vanity Set,Country Club set
+Country Club Visor,GolfVisor,4138,Vanity Set,Country Club set
+Cowboy Hat,CowboyHat,873,Vanity Set,Cowboy set
+Cowboy Jacket,CowboyJacket,874,Vanity Set,Cowboy set
+Cowboy Pants,CowboyPants,875,Vanity Set,Cowboy set
+Dog Ears,DogEars,4768,Vanity Set,Dog set
+Dog Tail,DogTail,4769,Vanity Set,Dog set
+Dr. Man Fly Mask,DrManFlyMask,4738,Vanity Set,Dr. Man Fly set
+Dr. Man Fly's Lab Coat,DrManFlyLabCoat,4739,Vanity Set,Dr. Man Fly set
+Elf Hat,ElfHat,1943,Vanity Set,Elf set
+Elf Shirt,ElfShirt,1944,Vanity Set,Elf set
+Elf Pants,ElfPants,1945,Vanity Set,Elf set
+Fallen Tuxedo Shirt,FallenTuxedoShirt,3362,Vanity Set,Fallen Tuxedo set
+Fallen Tuxedo Pants,FallenTuxedoPants,3363,Vanity Set,Fallen Tuxedo set
+Familiar Shirt,FamiliarShirt,269,Vanity Set,Familiar set
+Familiar Pants,FamiliarPants,270,Vanity Set,Familiar set
+Familiar Wig,FamiliarWig,271,Vanity Set,Familiar set
+Firestarter's Sweater,WillowShirt,5115,Vanity Set,Firestarter's set
+Firestarter's Skirt,WillowSkirt,5116,Vanity Set,Firestarter's set
+Fish Costume Mask,FishCostumeMask,2498,Vanity Set,Fish Costume set
+Fish Costume Shirt,FishCostumeShirt,2499,Vanity Set,Fish Costume set
+Fish Costume Finskirt,FishCostumeFinskirt,2500,Vanity Set,Fish Costume set
+Floret Protector Helmet,FloretProtectorHelmet,5054,Vanity Set,Floret Protector set
+Floret Protector Shirt,FloretProtectorChestplate,5055,Vanity Set,Floret Protector set
+Floret Protector Pants,FloretProtectorLegs,5056,Vanity Set,Floret Protector set
+Funeral Hat,FuneralHat,4704,Vanity Set,Funeral set
+Funeral Coat,FuneralCoat,4705,Vanity Set,Funeral set
+Funeral Pants,FuneralPants,4706,Vanity Set,Funeral set
+Gentleman's Vest,WilsonShirt,5102,Vanity Set,Gentleman's set
+Gentleman's Trousers,WilsonPants,5103,Vanity Set,Gentleman's set
+Gravedigger Hat,UndertakerHat,4685,Vanity Set,Gravedigger set
+Gravedigger Coat,UndertakerCoat,4686,Vanity Set,Gravedigger set
+Hero's Hat,HerosHat,247,Vanity Set,Hero's set
+Hero's Shirt,HerosShirt,248,Vanity Set,Hero's set
+Hero's Pants,HerosPants,249,Vanity Set,Hero's set
+Heroicis' Coat,HeroicisBody,5657,Vanity Set,Heroicis' set
+Heroicis' Pants,HeroicisLegs,5658,Vanity Set,Heroicis' set
+Heroicis' Wings,HeroicisWings,5659,Vanity Set,Heroicis' set
+Lamia Tail,LamiaPants,3784,Vanity Set,Lamia set
+Lamia Wraps,LamiaShirt,3785,Vanity Set,Lamia set
+Lamia Mask,LamiaHat,3786,Vanity Set,Lamia set
+Lilac Dusk Dress,LilacDuskBody,5681,Vanity Set,Lilac Dusk set
+Lilac Dusk Skirt,LilacDuskLegs,5682,Vanity Set,Lilac Dusk set
+Lizard Ears,LizardEars,4772,Vanity Set,Lizard set
+Lizard Tail,LizardTail,4773,Vanity Set,Lizard set
+Lunar Cultist Hood,BlueLunaticHood,2857,Vanity Set,Lunar Cultist set
+Lunar Cultist Robe,BlueLunaticRobe,2859,Vanity Set,Lunar Cultist set
+Maid Dress,MaidShirt,4129,Vanity Set,Maid set
+Maid Shoes,MaidPants,4130,Vanity Set,Maid set
+Maroon Graduation Cap,GraduationCapMaroon,4995,Vanity Set,Maroon Graduation set
+Maroon Graduation Gown,GraduationGownMaroon,4998,Vanity Set,Maroon Graduation set
+Martian Costume Mask,MartianCostumeMask,2803,Vanity Set,Martian Costume set
+Martian Costume Shirt,MartianCostumeShirt,2804,Vanity Set,Martian Costume set
+Martian Costume Pants,MartianCostumePants,2805,Vanity Set,Martian Costume set
+Martian Uniform Helmet,MartianUniformHelmet,2806,Vanity Set,Martian Uniform set
+Martian Uniform Torso,MartianUniformTorso,2807,Vanity Set,Martian Uniform set
+Martian Uniform Pants,MartianUniformPants,2808,Vanity Set,Martian Uniform set
+Master Gamer's Jacket,GameMasterShirt,4321,Vanity Set,Master Gamer's set
+Master Gamer's Pants,GameMasterPants,4322,Vanity Set,Master Gamer's set
+Seashell Hairpin,SeashellHairpin,2417,Vanity Set,Mermaid set
+Mermaid Adornment,MermaidAdornment,2418,Vanity Set,Mermaid set
+Mermaid Tail,MermaidTail,2419,Vanity Set,Mermaid set
+Mummy Mask,MummyMask,870,Vanity Set,Mummy set
+Mummy Shirt,MummyShirt,871,Vanity Set,Mummy set
+Mummy Pants,MummyPants,872,Vanity Set,Mummy set
+Mushroom Hat,MushroomHat,4779,Vanity Set,Mushroom set
+Mushroom Vest,MushroomVest,4780,Vanity Set,Mushroom set
+Mushroom Pants,MushroomPants,4781,Vanity Set,Mushroom set
+Ninja Hood,NinjaHood,256,Vanity Set,Ninja armor
+Ninja Shirt,NinjaShirt,257,Vanity Set,Ninja armor
+Ninja Pants,NinjaPants,258,Vanity Set,Ninja armor
+Pal Metal Chestplate,PalworldPalMetalArmorBody,5735,Vanity Set,Pal Metal set
+Pal Metal Leggings,PalworldPalMetalArmorLegs,5736,Vanity Set,Pal Metal set
+Pedguin's Hood,PedguinHat,3757,Vanity Set,Pedguin's set
+Pedguin's Jacket,PedguinShirt,3758,Vanity Set,Pedguin's set
+Pedguin's Trousers,PedguinPants,3759,Vanity Set,Pedguin's set
+Pharaoh's Mask,PharaohsMask,848,Vanity Set,Pharaoh's set
+Pharaoh's Robe,PharaohsRobe,866,Vanity Set,Pharaoh's set
+Pink Maid Bonnet,MaidHead2,4132,Vanity Set,Pink Maid set
+Pink Maid Dress,MaidShirt2,4133,Vanity Set,Pink Maid set
+Pink Maid Shoes,MaidPants2,4134,Vanity Set,Pink Maid set
+Pirate Hat,PirateHat,876,Vanity Set,Pirate set
+Pirate Shirt,PirateShirt,877,Vanity Set,Pirate set
+Pirate Pants,PiratePants,878,Vanity Set,Pirate set
+Plaguebringer's Skull,PlaguebringerHelmet,5045,Vanity Set,Plaguebringer's set
+Plaguebringer's Cloak,PlaguebringerChestplate,5046,Vanity Set,Plaguebringer's set
+Plaguebringer's Treads,PlaguebringerGreaves,5047,Vanity Set,Plaguebringer's set
+Plumber's Hat,PlumbersHat,244,Vanity Set,Plumber's set
+Plumber's Shirt,PlumbersShirt,245,Vanity Set,Plumber's set
+Plumber's Pants,PlumbersPants,246,Vanity Set,Plumber's set
+Pretty Pink Dress,PrettyPinkDressSkirt,4664,Vanity Set,Pretty Pink set
+Pretty Pink Stockings,PrettyPinkDressPants,4665,Vanity Set,Pretty Pink set
+Prince Uniform,PrinceUniform,5078,Vanity Set,Prince set
+Prince Pants,PrincePants,5079,Vanity Set,Prince set
+Rain Hat,RainHat,1135,Vanity Set,Rain set
+Rain Coat,RainCoat,1136,Vanity Set,Rain set
+Raynbro's Hoodie,LincolnsHoodie,5386,Vanity Set,Raynbro's set
+Raynbro's Pants,LincolnsPants,5387,Vanity Set,Raynbro's set
+Raynbro's Hood,LincolnsHood,5390,Vanity Set,Raynbro's set
+Royal Tiara,RoyalTiara,5071,Vanity Set,Royal set
+Royal Blouse,RoyalDressTop,5072,Vanity Set,Royal set
+Royal Dress,RoyalDressBottom,5073,Vanity Set,Royal set
+Rune Hat,RuneHat,754,Vanity Set,Rune set
+Rune Robe,RuneRobe,755,Vanity Set,Rune set
+Sailor Hat,SailorHat,1277,Vanity Set,Sailor set
+Sailor Shirt,SailorShirt,1279,Vanity Set,Sailor set
+Sailor Pants,SailorPants,1280,Vanity Set,Sailor set
+Scarecrow Hat,ScarecrowHat,1788,Vanity Set,Scarecrow set
+Scarecrow Shirt,ScarecrowShirt,1789,Vanity Set,Scarecrow set
+Scarecrow Pants,ScarecrowPants,1790,Vanity Set,Scarecrow set
+Silly Sunflower Petals,FlowerBoyHat,3733,Vanity Set,Silly Sunflower set
+Silly Sunflower Tops,FlowerBoyShirt,3734,Vanity Set,Silly Sunflower set
+Silly Sunflower Bottoms,FlowerBoyPants,3735,Vanity Set,Silly Sunflower set
+Solar Cultist Hood,WhiteLunaticHood,2856,Vanity Set,Solar Cultist set
+Solar Cultist Robe,WhiteLunaticRobe,2858,Vanity Set,Solar Cultist set
+Star Princess Dress,StarPrincessDress,4324,Vanity Set,Star Princess set
+Steampunk Hat,SteampunkHat,839,Vanity Set,Steampunk set
+Steampunk Shirt,SteampunkShirt,840,Vanity Set,Steampunk set
+Steampunk Pants,SteampunkPants,841,Vanity Set,Steampunk set
+Superhero Mask,SuperHeroMask,4652,Vanity Set,Superhero set
+Superhero Costume,SuperHeroCostume,4653,Vanity Set,Superhero set
+Superhero Tights,SuperHeroTights,4654,Vanity Set,Superhero set
+Video Visage,TVHeadMask,5061,Vanity Set,TV Head set
+Lazer Blazer,TVHeadSuit,5062,Vanity Set,TV Head set
+Pinstripe Pants,TVHeadPants,5063,Vanity Set,TV Head set
+Tax Collector's Hat,TaxCollectorHat,3242,Vanity Set,Tax Collector's set
+Tax Collector's Suit,TaxCollectorSuit,3243,Vanity Set,Tax Collector's set
+Tax Collector's Pants,TaxCollectorPants,3244,Vanity Set,Tax Collector's set
+The Beheaded's Head,DeadCellsBeheadedHead,5457,Vanity Set,The Beheaded's set
+The Beheaded's Cuirass,DeadCellsBeheadedBody,5458,Vanity Set,The Beheaded's set
+The Beheaded's Trousers,DeadCellsBeheadedLegs,5459,Vanity Set,The Beheaded's set
+The Doctor's Shirt,TheDoctorsShirt,325,Vanity Set,The Doctor's set
+The Doctor's Pants,TheDoctorsPants,326,Vanity Set,The Doctor's set
+Timeless Traveler's Hood,TimelessTravelerHood,5051,Vanity Set,Timeless Traveler's set
+Timeless Traveler's Cloak,TimelessTravelerRobe,5052,Vanity Set,Timeless Traveler's set
+Timeless Traveler's Footwear,TimelessTravelerBottom,5053,Vanity Set,Timeless Traveler's set
+Tuxedo Shirt,TuxedoShirt,240,Vanity Set,Tuxedo set
+Tuxedo Pants,TuxedoPants,241,Vanity Set,Tuxedo set
+Victorian Goth Hat,VictorianGothHat,4708,Vanity Set,Victorian Goth set
+Victorian Goth Dress,VictorianGothDress,4709,Vanity Set,Victorian Goth set
+Wandering Jingasa,RoninHat,5048,Vanity Set,Wandering set
+Wandering Yukata,RoninShirt,5049,Vanity Set,Wandering set
+Wandering Geta,RoninPants,5050,Vanity Set,Wandering set
+Wedding Veil,TheBrideHat,3478,Vanity Set,Wedding set
+Wedding Dress,TheBrideDress,3479,Vanity Set,Wedding set
+White Tuxedo Shirt,WhiteTuxedoShirt,1288,Vanity Set,White Tuxedo set
+White Tuxedo Pants,WhiteTuxedoPants,1289,Vanity Set,White Tuxedo set

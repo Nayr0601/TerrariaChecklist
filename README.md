@@ -91,20 +91,27 @@ The script logs a per-category breakdown so you can sanity-check the result.
 
 ## Categories
 
-Neither source CSV includes an item category, and no separate category-mapping reference was supplied with this project. Rather than fabricate per-item category assignments, categories are derived by a transparent, best-effort **lexical heuristic** over each item's display name, using Terraria's own fairly consistent naming conventions (armor pieces end in "Helmet"/"Breastplate"/"Greaves", ammo is named "... Arrow"/"... Bullet", etc).
+The app groups items into 11 categories (plus the "All Items" filter): Weapons, Armor, Vanity, Equipment, Accessories, Consumables, Tools, Blocks & Walls, Furniture, Materials, Misc.
 
-All of this logic lives in one file: [src/data/categories.ts](src/data/categories.ts). Rules are ordered most-specific-first and the first match wins; anything matching nothing lands in **"Misc"** rather than being force-fit into a wrong bucket (currently ~46% of items — mostly single-word or thematic names like "Zenith" that have no reliable textual signal). Category assignment happens once, at build time, in `scripts/generate-items.ts`, and is baked into `items.json`.
+Four of those are backed by curated ID lists in [pre-data/categories/](pre-data/categories/) — community-compiled item databases (`Terraria_Items_-_Weapons_with_IDs.csv`, `..._Armor_Expanded.csv`, `..._Consumables_with_IDs.csv`, `Terraria_Vanity_Items_Expanded.csv`), loaded at build time by [scripts/loadCategoryOverrides.ts](scripts/loadCategoryOverrides.ts). An item's ID membership in one of these lists always wins. A few IDs appear in more than one list (every explosive is listed as both a weapon and a consumable; Ninja/Rain gear as both armor and vanity) — Consumables wins over Weapons, and Armor wins over Vanity, in `categorize()`.
+
+Everything else — including "Equipment" entirely, which has no curated list — still uses the original approach: neither source CSV includes a category column, so the rest is derived by a transparent, best-effort **lexical heuristic** over each item's display name, using Terraria's own fairly consistent naming conventions (ammo is named "... Arrow"/"... Bullet", grappling hooks say "Hook", etc). Tools is checked first, even before the CSV lists, because the Weapons CSV reasonably includes pickaxes/drills/chainsaws (they have a Damage stat) but this app wants those in Tools.
+
+All of this logic lives in [src/data/categories.ts](src/data/categories.ts). Regex rules are ordered most-specific-first and the first match wins; anything matching nothing lands in **"Misc"** rather than being force-fit into a wrong bucket — that includes every item type this 11-category scheme dropped from an earlier, more granular version (Food, Banners, Paintings, Dyes, Seeds & Plants, Critters & Pets). Category assignment happens once, at build time, in `scripts/generate-items.ts`, and is baked into `items.json`.
 
 To improve accuracy:
 
-- **Easiest** — edit the regex rules / add new categories in `categories.ts`, then `npm run generate:items`.
-- **Most accurate** — replace `categorize()` with a real `internalName -> category` lookup table (e.g. sourced from the wiki or an ID-range mapping) if one becomes available. No UI or parser code depends on how the category was derived — `ItemRow`, `Sidebar`, etc. just read `item.category` as a plain string.
+- **Easiest** — edit the regex rules in `categories.ts`, then `npm run generate:items`.
+- **For the 4 CSV-backed categories** — edit the relevant file in `pre-data/categories/` (or swap in a more complete one).
+- **For Equipment specifically** — most pets and many mounts have names sharing no reliable common word (nothing links "Ivy Whip", "Web Slinger", "Slimy Saddle"), so this category is inherently the least complete; `NAME_OVERRIDES` in `categories.ts` is the escape hatch for hand-correcting specific items.
+
+No UI code depends on how a category was derived — `ItemRow`, `Sidebar`, etc. just read `item.category` as a plain string.
 
 ## Sprites
 
-Item tiles resolve a sprite by **item ID** from `src/assets/sprites/<id>.png` (e.g. `8.png` for Torch, item ID 8) via `src/data/sprites.ts`, using a single build-time `import.meta.glob` — not one network request per item. No sprite assets were supplied with this project, so today every tile falls back to a pixel-font initials tag (matching the "??"/two-letter placeholder treatment in the design reference).
+Item tiles resolve a sprite by **item ID** from `src/assets/sprites/<id>.png` (e.g. `8.png` for Torch, item ID 8) via `src/data/sprites.ts`; boss tiles in the Progression view resolve one by **entry id** from `src/assets/boss-sprites/<id>.png` (e.g. `king-slime.png`) via `src/data/bossSprites.ts`. Both use a single build-time `import.meta.glob` — not one network request per item — and both folders are `.gitignore`d rather than committed, since the art is extracted from the game's own files (© Re-Logic; see "Attribution" below), so a fresh clone falls back to the pixel-font initials placeholder until you add your own.
 
-To add sprites: drop `<itemId>.png` files into `src/assets/sprites/`. Nothing else needs to change — `getSpriteUrl(id)` will start resolving them automatically and `ItemTile` renders whichever is available, falling back to the placeholder per-item (e.g. if only some IDs have art).
+To add sprites: drop `<itemId>.png` files into `src/assets/sprites/`, or `<bossEntryId>.png` (matching the `id` in `src/data/progression.ts`, e.g. `moon-lord.png`) into `src/assets/boss-sprites/`. Nothing else needs to change — resolution happens automatically per-item/per-boss, falling back to the placeholder for anything without a matching file.
 
 ## Adding progression content
 

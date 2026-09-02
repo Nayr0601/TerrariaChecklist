@@ -19,6 +19,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseCsvRecords } from "./csv.ts";
 import { categorize } from "../src/data/categories.ts";
+import { loadCategoryOverrides } from "./loadCategoryOverrides.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
@@ -38,6 +39,7 @@ export interface GeneratedItem {
 function main() {
   const sheetRows = parseCsvRecords(readFileSync(SHEET_CSV, "utf-8"));
   const researchRows = parseCsvRecords(readFileSync(RESEARCH_CSV, "utf-8"));
+  const categoryOverrides = loadCategoryOverrides();
 
   // ID -> { displayName, internalName } from the master catalog.
   const byId = new Map<number, { displayName: string; internalName: string }>();
@@ -82,7 +84,7 @@ function main() {
       displayName,
       internalName,
       needed,
-      category: categorize(displayName),
+      category: categorize(displayName, id, categoryOverrides),
     };
   }
 

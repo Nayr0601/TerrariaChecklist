@@ -1,38 +1,45 @@
 /**
- * Item category heuristic.
+ * Item category assignment.
  *
- * IMPORTANT: neither source CSV contains a category column, and there is no
- * bundled item-ID-to-category reference to join against. Rather than invent
- * per-item category assignments (which the project brief explicitly warns
- * against), this module derives a best-effort category from lexical
- * patterns in the item's display name, using Terraria's own fairly
- * consistent naming conventions (armor pieces end in "Helmet"/"Breastplate"/
- * "Greaves", ammo is named "... Arrow"/"... Bullet", etc).
+ * Four of the 11 categories are backed by curated ID lists in
+ * `pre-data/categories/*.csv` (community-compiled item databases, loaded
+ * build-time by `scripts/loadCategoryOverrides.ts`): Weapons, Armor,
+ * Vanity, Consumables. ID membership in one of those lists always wins,
+ * checked in `categorize()` before any name pattern.
  *
- * This is intentionally transparent and conservative:
- *   - Rules are ordered most-specific-first; the first match wins.
- *   - Anything that matches nothing lands in "Misc" rather than being
- *     force-fit into a wrong bucket.
+ * Everything else still uses this module's original approach: neither
+ * source CSV has a category column and there's no bundled id-to-category
+ * reference for the rest of the catalog, so this derives a best-effort
+ * category from lexical patterns in the item's display name, using
+ * Terraria's own fairly consistent naming conventions (armor pieces end in
+ * "Helmet"/"Breastplate"/"Greaves", ammo is named "... Arrow"/"...
+ * Bullet", etc). Rules are ordered most-specific-first; first match wins;
+ * anything matching nothing lands in "Misc" rather than being force-fit
+ * into a wrong bucket — that's also where every removed legacy category
+ * (Food, Banners, Paintings, Dyes, Seeds & Plants, Critters & Pets) ends up
+ * now, since none of those made this app's 11-category list.
  *
- * This is the ONLY place category assignment happens. To improve accuracy,
- * edit the `RULES` list below (or replace `categorize()` entirely with a
- * real id -> category lookup table) — no UI or parser code needs to change.
+ * Known gap: "Equipment" (pets/light pets/mounts/minecarts/hooks, matching
+ * the game's own "Equipment" grouping) has no curated list, and most pets
+ * and many mounts have names sharing no reliable common word (nothing
+ * links "Ivy Whip", "Web Slinger", "Slimy Saddle", "Cosmic Car Key", ...),
+ * so this only catches the literally-named subset — name contains "Hook"/
+ * "Minecart"/"Mount"/"Saddle" — and the rest lands in Misc like any other
+ * unmatched name. `NAME_OVERRIDES` below corrects the one false-positive
+ * this is known to cause (Ivy Whip, a hook, would otherwise match the
+ * Weapons "Whip" pattern); add more by hand there if you find others.
+ *
  * See README.md "Categories" for more detail.
  */
 
 export const CATEGORIES = [
-  "Banners",
-  "Paintings",
-  "Dyes",
-  "Seeds & Plants",
-  "Critters & Pets",
-  "Ammo",
-  "Potions",
-  "Food",
-  "Tools",
   "Weapons",
   "Armor",
+  "Vanity",
+  "Equipment",
   "Accessories",
+  "Consumables",
+  "Tools",
   "Blocks & Walls",
   "Furniture",
   "Materials",
@@ -41,27 +48,36 @@ export const CATEGORIES = [
 
 export type Category = (typeof CATEGORIES)[number];
 
+/** Curated id -> category membership, from `loadCategoryOverrides()`. Every
+ * field is optional so `categorize()` also works with none supplied (tests,
+ * or a name-only call). */
+export interface CategoryOverrides {
+  weaponIds?: ReadonlySet<number>;
+  armorIds?: ReadonlySet<number>;
+  vanityIds?: ReadonlySet<number>;
+  consumableIds?: ReadonlySet<number>;
+}
+
 interface Rule {
   category: Category;
   pattern: RegExp;
 }
 
+// Corrects specific known false-positives from the RULES below — not a
+// general per-item category table (see module docstring "Known gap").
+const NAME_OVERRIDES: Partial<Record<string, Category>> = {
+  "Ivy Whip": "Equipment",
+};
+
+// Checked before every id override, not just before the Weapons name
+// pattern: pickaxes/axes/drills/chainsaws deal damage in-game, so the
+// community Weapons CSV reasonably lists them too — but this app wants
+// them in Tools regardless of that membership. See module docstring.
+const TOOLS_PATTERN = /\b(Pickaxe|Axe|Hamaxe|Hamdrax|Drill|Chainsaw|Fishing Pole|Fishing Rod|Bug Net|Wrench|Bucket)\b/i;
+
 const RULES: Rule[] = [
-  { category: "Banners", pattern: /\bBanner\b/i },
-  { category: "Paintings", pattern: /\bPainting\b/i },
-  { category: "Dyes", pattern: /\bDye\b/i },
-  { category: "Seeds & Plants", pattern: /\bSeeds?\b/i },
-  { category: "Critters & Pets", pattern: /\bCage\b/i },
-  { category: "Ammo", pattern: /\b(Arrow|Bullet|Rocket|Dart|Sludge)s?\b/i },
-  { category: "Potions", pattern: /\b(Potion|Elixir|Flask)s?\b/i },
-  {
-    category: "Food",
-    pattern: /\b(Pie|Cake|Soup|Stew|Burger|Fries|Taco|Sushi|Sashimi|Smoothie|Cocktail|Milkshake|Bowl)\b/i,
-  },
-  {
-    category: "Tools",
-    pattern: /\b(Pickaxe|Axe|Hamaxe|Hamdrax|Drill|Chainsaw|Fishing Pole|Fishing Rod|Bug Net|Wrench|Bucket)\b/i,
-  },
+  { category: "Equipment", pattern: /\b(Hook|Minecart|Mount|Saddle)\b/i },
+  { category: "Consumables", pattern: /\b(Arrow|Bullet|Rocket|Dart|Sludge|Potion|Elixir|Flask)s?\b/i },
   {
     category: "Weapons",
     pattern:
@@ -89,7 +105,20 @@ const RULES: Rule[] = [
   },
 ];
 
-export function categorize(displayName: string): Category {
+export function categorize(displayName: string, id?: number, overrides: CategoryOverrides = {}): Category {
+  if (TOOLS_PATTERN.test(displayName)) return "Tools";
+
+  if (id !== undefined) {
+    // Consumables before Weapons, Armor before Vanity — see module docstring.
+    if (overrides.consumableIds?.has(id)) return "Consumables";
+    if (overrides.weaponIds?.has(id)) return "Weapons";
+    if (overrides.armorIds?.has(id)) return "Armor";
+    if (overrides.vanityIds?.has(id)) return "Vanity";
+  }
+
+  const override = NAME_OVERRIDES[displayName];
+  if (override) return override;
+
   for (const rule of RULES) {
     if (rule.pattern.test(displayName)) return rule.category;
   }
